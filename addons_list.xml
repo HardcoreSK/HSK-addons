@@ -1,0 +1,1199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repositories><repository><repo_id>819143277</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.130mm.Main</repo_name><mod_root_path /><name>New 130 mm Rocket Missiles</name><description>
+  Ru
+Данная модификация меняет 130мм ракеты , изменён урон (увеличен) , изменены текстуры , изменён крафт .Добавлена возможность ракетами обстреливать соседние карты (155мм пушка может ,а ракеты нет? ).Для ракет прописал разный урон по вражеской базе .
+Осколочные ракеты - увеличено количество осколков.
+Зажигательные ракеты - получили новую начинку из белого фосфора , горит долго и ярко.
+Эми ракеты - кроме самого урона от Эми получили шоковую волну механоидов (нужны тесты - насколько теперь удобно жарить роботов )
+Ракеты с антиматерией - Был кластер, и нет кластера механоидов(Из снаряжения осады исключил , чтоб у колонии были шансы)
+4 вида ударных дрона
+1 новый вид мин
+1 пусковую установку
+Обновление добавляет катапульту для БПЛА - более точный аналог Миномёта. Учтите что БПЛА крайне опасны. Позволяет вести огонь по соседним клеткам.
+
+Добавлены патроны с белым фосфором для калибров:
+14.5x114mm
+20x102mm
+30x173mm
+.50BMG
+90mm
+120mm
+155mm
+130mm-Ракеты
+
+ENG
+This modification changes the 130mm rockets, the damage has been changed (increased), the textures have been changed, the craft has been changed. The ability to fire rockets at neighboring maps has been added (a 155mm cannon can, but not rockets?). For rockets, different damage has been prescribed for the enemy base.
+Fragmentation rockets - the number of fragments has been increased.
+Incendiary rockets - received a new filling of white phosphorus, burns long and brightly.
+Amy missiles - in addition to the damage from Amy, they received a shock wave of mechanoids (tests are needed to see how convenient it is to fry robots now)
+Antimatter missiles - There was a cluster, but there is no cluster of mechanoids (excluded from the siege equipment so that the colony had a chance)
+4 types of attack drones
+1 new type of mine
+1 launcher
+The update adds a catapult for UAVs - a more accurate analogue of the Mortar. Please note that UAVs are extremely dangerous. Allows you to fire at neighboring cells.
+
+Eng
+Added white phosphorus cartridges for calibration:
+14.5x114 mm
+20x102mm
+30x173mm
+.50BMG
+90 mm
+120 mm
+155 mm
+130mm-Rockets
+
+https://github.com/Watcher011/HSK.Watcher.content.130mm.Main
+https://ko-fi.com/watcher011#linkModal (изменено)
+
+  Version:0 «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
+  </description><preview_image>https://github.com/Watcher011/HSK.Watcher.content.130mm.Main/blob/main/About/preview.png</preview_image></repository><repository><repo_id>810505248</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content</repo_name><mod_root_path /><name>HSK Watcher Content</name><description>
+  Сборка состоит из модов :
+  
+  WatcherXI.GlowstoneLamp(добавляет светокаменные лампы и колоны)
+  WatcherXI.HSK.TrophiesAndHearts(добавляет торфеи из элитных животных и коврики из них)
+  WatcherXI.Walltextile(позволяет строить стены из кожи и ткани)
+  WatcherXI.HSK.cart(добавляет тележки как инструмент)
+  WatcherXI.HSK.Meal(добавляет рецепты новых блюд и способы приготовления)
+  WatcherXI.HSK.DorBomb(добавляет заминированную дверь)
+  WatcherXI.seaweed(добавляет сушенные водоросли , аквапонику)
+  WatcherXI.HSK.Flor(добавляет пол из янтаря и нефрита)
+  WatcherXI.HSK.Mine(переработка методики производства, и постройки мин)
+  WatcherXI.Statues(добавляет статую котика)
+  WatcherXI.HSK.alcohol(добавляет алкоголь в рецепты медицины)
+  WatcherXI.StorTox(добавляет хранилище мешков с токсичными отходами)
+  --------------------------
+ WatcherXI.GlowstoneLamp (adds glowstone lamps and columns)
+ WatcherXI.HSK.TrophiesAndHearts (adds elite animal trophies and winter mats)
+ WatcherXI.Walltextile (allows you to build walls from leather and fabric)
+ WatcherXI.HSK.cart (adds carts as a tool)
+ WatcherXI.HSK.Meal (adds recipes for new dishes and cooking methods)
+ WatcherXI.HSK.DorBomb (adds booby-trapped door)
+ WatcherXI.seaweed(adds dried seaweed, aquaponics)
+ WatcherXI.HSK.Flor(adds amber and jade flooring)
+ WatcherXI.HSK.Mine (reworking the production methods and construction of mines)
+ WatcherXI.Statues(adds a cat statue)
+ WatcherXI.HSK.alcohol (adds alcohol to medicine recipes)
+ WatcherXI.StorTox (adds toxic waste bag storage)
+  
+  Version: Eng/Ru «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
+  “If this modification accidentally damages or deletes data on your computer, shocks you, blows up your monitor in your face, sets your house on fire, kills you, replaces all the text you speak in online games with “oink”, makes everyone on the planet (and beyond) want to kill you, hack the nearest nuclear base and aim missiles at your home, change your bank balance to $0, ban you from all games, put your name on some killer's list, suck you into a computer and will play pinball with you (you as a ball), make a secret agency look for you, turn your room into a portal to Hell, gain intelligence and start killing everyone on the planet, whatever you want, don’t blame the author of this mod!( Yours sincerely, Watcher XI)" 
+  
+
+ license to use -  BSD (Berkeley Software Distribution) License.
+ 
+В сборке так же использовались текстуры мега паука из мода: Reskins_Megaspider
+Автор"PocToK"
+Ссылка на мод - https://top-mods.ru/mods/rimworld/graphics/33106-reskins-megaspider.html
+  </description><preview_image>https://github.com/Watcher011/HSK.Watcher.content/blob/main/About/preview.png</preview_image></repository><repository><repo_id>590500502</repo_id><owner>TheLoneTec</owner><repo_name>Celsius-SK</repo_name><mod_root_path /><name>Celsius</name><description>Celsius adds realistic simulation of thermodynamics to the game.
+
+Main features:
+
+- Temperature is simulated for every map cell (as opposed to vanilla's room-level abstraction). It is hot near fires and geyzers. Various building materials have different isolation properties based on their real-world counterparts. Mountains provide more stable temperature (which you can adjust) as do large bodies of water.
+
+- Water can freeze, and ice can melt. Rivers, seas and marshes may turn into icy plains in the winter and melt again in the summer. Setting up fires on glaciers can uncover water or ground underneath. Be careful, so that your pawns don't drown in deep water. 
+
+- Flammable things may spontaneously ignite when it gets extremely hot. Different materials have different ignition temperatures, and it can affect buildings, manufactured items, plants and more.
+
+- Tweaks to various related features, such as wind and wetness affecting pawns' comfortable temperature and snow melting faster under rain.
+
+Celsius opens up many new challenges and ways to play RimWorld. Forgo houses and warm colonists at campfires, melt ice sheets or unleash deadly firestorms on your enemies!
+
+Supported mods:
+- Alpha Animals
+- Insulation
+- Primitive Workbenches
+- Vanilla Furniture Extended: base mod, Architect, Medical, Security
+- Windows
+
+All DLCs are supported. Mod authors can provide patches on their side or submit PRs in Github.
+
+FAQ:
+
+- Can I install the mod in an existing save? Can I remove it?
+
+Celsius can be installed in an ongoing game. It may take a few seasons for all the temperatures to adjust.  Note that Celsius deeply changes temperature-related gameplay in RimWorld, so you will almost certainly need to adapt both your base and your play style. Removal mid-game is also theoretically possible but untested. 
+
+- How does it affect performance?
+
+I worked hard to optimize the mod, and it shouldn't seriously slow down your game. In my tests on a rather ordinary laptop I haven't noticed any impact at all. Old machines and multiple or very big maps may have a different experience, but it shouldn't brick your computer.
+
+- Any known incompatibilities?
+
+Heat Map, Proxy Heat and similar mods are not needed, because Celsius does everything these mods do (and much more). Other mods that also change temperature-related mechanics will also probably conflict.
+
+Some modded vents, coolers and the like may experience issues or be unbalanced. There have been reported problems with Vanilla Expanded reactors and Android Tiers cores overheating.
+
+In general, mods that add walls, doors and building stuff may need patches. Celsius will do its best to adapt to them, but can't magically tell what thermal properties these things should have.
+
+- How do I report issues or share feedback?
+
+The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
+
+You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
+</description><preview_image>https://github.com/TheLoneTec/Celsius-SK/blob/main/About/Preview.png</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description /><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><preview_image>https://github.com/ArpoMo6/HMC-project/blob/main/HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+(ENG)
+Version 0.47.
+this mod do:
+- add new weapons and ammo (EMP-ammo included too!);
+- add a new traits (some of them may be dangerous!);
+- add ammo-unmaking (the game won't get any easier!);
+- add new dangerous factions (be ready!);
+- and more...
+P.S. This modification can cause a some butthurt, feelings of hatred, anger, or severe depression.
+It is strongly not recommended for particularly nervous or impressionable persons. Persons who do not accept gaming inequality in any of its manifestations, as well as for childrens, pregnant persons and retirees.
+
+Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
+
+(RUS)
+Версия 0.47.
+Этот мод:
+- добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
+- добавляет новые черты характера (некоторые из них могут быть опасны!);
+- добавляет разбор боеприпасов (игра от этого легче не станет!);
+- добавляет новые опасные фракции (приготовьтесь!);
+- и ещё кое-что...
+P.S. Данная модификация может вызвать жжение в области заднего прохода, чувство ненависти, злости или вызвать сильную депрессию.
+Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
+
+Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
+	</description><preview_image>https://github.com/ArpoMo6/HMC-project/blob/main/HSK more content/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile Patch - The Windows</mod_root_path><name>The Windows</name><description>
+	    This is a fork and continuation of Open the Windows. The original mod was by jptrrs, patched to 1.3 by MangoThunder, with seamless texture edits by Yap. All three have been rolled together along with a number of optimizations, updates and balances adjustments.
+	
+		Patched for Hardcore SK by Vile Heathen.	</description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile Patch - The Windows/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile REQUISITE - SK_Fences and Floors</mod_root_path><name>VileRequisite-Fences And Floors by HSK</name><description>
+This mod adds 4 new styles of flooring and 4 fences (3 perimeter fences and a smaller defensive barrier). Fences are gathered into their own menu category and research requirements have been applied where appropriate. Plywood paneling and the simple wood fence are available from the beginning and are relatively simple to construct. Upon completing the Machining research requirement access to chainlink fencing, high security fencing, the security barrier, steel grate flooring, and metal panel flooring is made available. The last addition, sensor panel flooring, becomes constructable upon completing a new research project: "Reactive Flooring."
+
+Some additions exhibit special qualities. Steel grating has an inherent bonus to cleanliness due to most dust and detritus falling cleanly through the grate. Wood and chainlink fences can be fired through while providing a small amount of cover. The security barrier can be walked over (though with some difficulty), much like vanilla sandbags, but still provide good cover from incoming fire. Lastly, sensor panels include advanced electronics, sensors, and networking components within their design. They are expensive and difficult to construct but react to the presence of pedestrians moving overhead by optimizing their surface to the users stride resulting in a more pleasant walk.
+
+Viles notes:
+Wood fence overwrites the new vanilla fence. Also changed some values here and there to work with my other mods.</description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile REQUISITE - SK_Fences and Floors/About/Preview.PNG</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Amuse Bouche</mod_root_path><name>Vile's Amuse Bouche</name><description>
+This mod adds content for your discerning palate. No more boring generic "fine meals", and almost all ingredients have unique recipes.
+	  
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen  
+Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Soup:
+  
+Dozens of new meals to make. 
+
+Late-game high-cuisine recipes. 
+
+Completely re-engineered meal hediff system. 
+
+13 categories of foods grouped by hediffs. 
+
+New hot pepper crops, resources.
+
+New deep-fryer building.
+
+Version 1.14 - (Ideology Support) - Adds support for veg/carn versions of the vanilla analogs, with improved textures. Adds Seitan, a meat substitute made of wheat, and tofu can now be eaten by vegetarians.
+
+Version 1.13 (Forgotten Update) - Gruel added, which is made of unmilled grains and has a mood debuff. Soup is now available in neolithic era.
+			 - Added cross-mod support with The Forgotten (part 1)
+
+Version 1.12 (Hearth Update) - Open Hearth added. Works like a campfire, but expensive to build, can cook soup, and much more efficient. Not as fancy as the regular hearth.
+
+Version 1.11 - Updated for Rimworld 1.3
+
+Version 1.0
+-Updated for Research Overhaul.
+-Cornmeal added back into game.
+
+	  
+  
+</description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile's Amuse Bouche/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Biomes From The Ground Up</mod_root_path><name>Vile's Biomes: From The Ground Up</name><description>Version 0.13A - 1/25/2022 - Seasonal Weather mod doesn't seem to be working, so please disable it (If removing Seasonal Weather breaks your savegame, re-enable seasonal weather but delete everything in VP_SK_Seasonal Weather/Patches/). Patching/adjusting biome base weathers to compensate, but likely will need some balance adjustment as we test it. Savanna will alternate a lot between month-long monsoon rains and droughts. Added harvestable caribou moss and bearberries from the Tundra to make it more playable. Adjusted grow-rate of grasses for cold biomes and moved some around a bit. More balance tweaks here and there and more to come.
+
+Version 0.12A - 1/19/2022 - Remixed boreal a bit, added back in missing water terraforms, fixed yet another framerate issue (should be final this time). Keep the feedback comin'!
+Version 0.11A - 1/18/2022 - fixed issue affecting framerate during cold weather, missing textures, improves some textures.
+Version 0.1A - 1/17/2022
+	
+Dislaimer: This is a brand new mod, which means it needs some testing. By reading this, you agree to offer your soil in exchange for early access to this mod. That is to say, please send me feedback on discord if anything seems weird or buggy, or if something just looks off. And before you ask, yes, you'll have to start a new game, or at least move your colony to a new tile so the biome can regenerate. I also recommend using the patched Seasonal Weather mod with this.
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish. 
+http://patreon.com/vileheathen  
+Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Bog Water:
+
+Biomes: From The Groud Up overhauls biomes... from the ground up. Here's the dirt:
+	
+1. Retextures nearly every plant and tree and adds many new ones. Some are harvestable, some are purely aesthetic.
+2. Repopulates biomes to be more realistic, but more importantly, more distinct from one another.	
+3. Retextures (moved from Hardcore Renovation) and revises terrains, and adds several new ones to further give the biomes more distinction.
+4. Terrain generation is revised to form more unique landmasses in some biomes.
+5. Trees more likely to grow in groves (moved from Wood You Please).
+6. Terraforming revised to be (hopefully) more streamlined - it's a balancing work in progress.
+7. Scatterables removed from ice and sand (those ugly blotches that are always there)
+8. Adds a few new foods to go with the new plants (bog cranberries, wetland cattails, desert prickly pears, and brought back blueberries which grow in taiga and boreal)
+9. Biomes have seasonal weather (requires supporting mod), some have wet and dry seasons, wildfire seaons, hurricane seasons, etc. 	
+	
+Now for what's new and different:
+
+___SOILS!___
+New and revised soils are based off of US Soil Taxonomy (which isn't really important unless you're a nerd). They're listed in order of fertility:
+
+Rich Soil - Alluvium - typically only found around ponds and in small patches.
+Grassland Soil - Mollisol - Found in the savanna.
+Fertile Soil - Alfisol - Found in termperate forests, equivalent of vanilla "soil"
+Volcanic Soil - Andisol - Currently only found in small patches in rainforests, but can be terraformed with ash.
+Red Clay Soil - Ultisol - Found in rainforests. It turns out rainforests don't have great soil.
+Marshy Soil - Mineral Hydric Soil - Found in wetlands
+Leached Soil - Oxisol - Found in rainforests.
+Mossy Soil - Spododsol - Found is boreal forests and tundra in smaller amounts.
+Arid Soil - Aridisol - Found in deserts.
+Muck - Sapric Histosol - Found in Tropical Swamps. Contains moderate amounds of peat and organic matter.
+Cracked Clay - Vertisol - Found in deserts. Nutrients and be extracted via terraforming.
+Weak Soil - Inseptisol - Young soils found in boreal forests.
+Mucky Peat - Hemist Histosol - Found in temperate swamps. Contains a fair amount of peat and some organic matter.
+Turbulent Soil - Gelisol (Turbels) - Rocky tundra soil. 
+Peat Soil - Fabrist Histosol - Found in Bogs. Contains high amounts of peat.
+Undeveloped Soil - Entisol - Found near rock forms and gravel.
+Coarse Sand - Found in beaches and deserts with barely any nutrient value.
+Desert Sand - Dune sand found in extreme deserts. Nothing can grow here and it's hard to walk on.
+Gravel - Relatively unchanged apart from new texture.
+Desert Pavement - A strange formation sometimes found in deserts.
+Bog Water - Highly acidic water found in bogs.
+Swamp Water - Found in temperate swamps.
+Black Water - Found in tropical swamps.
+Ice - Good ol' ice. 
+Clear Ice - Smooth ice which is very hard to traverse.
+Frozen Snow - Easier to walk on than ice.
+
+___NEW PLANTS!___
+There are lots of new plants. Here are a few:
+
+TREES and SHRUBS:
+Kapok Tree: Gigantic trees found in the rainforest (experimental two-layer texture).
+Spruce Tree: Found in bogs and cold regions.
+Acacia Tree: Found in savannas and deserts.
+Juniper: Coniferous shrub found in colder regions.
+
+EDIBLE:
+Blueberry.
+Cranberries: Only found in bogs.
+Prickly pear: Found in savannas and deserts.
+Cattail: Found in wetlands.
+
+GRASSES and MOSSES:
+Sedge
+Rush
+Swampgrass (grows in water)
+Lawn Grass
+Peat Moss: Can be harvested for fertilizer
+Bearberry: Decorative tundra groundcover
+Caribou Moss
+
+___NOTES___
+
+Cattail and swampgrass currently have this thing where they appear in places they should when you first generate the map, but will disappear immediately. It shouldn't affect gameplay.
+
+Some pretty drastic changes were made to some of the biome generation. It's impossible for me to test every possible iteration, so please send feedback if you find anything weird.
+
+
+
+</description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile's Biomes From The Ground Up/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Hardcore Renovation</mod_root_path><name>Vile's Hardcore Renovations</name><description>
+Adds lots of floors and hand-drawn walls, doors, and more. Requires Vile's Wood You Please mod, which integrates different wood types from tree species. For instance, oak hardwood floors are different than pine hardwood floors. 
+
+Special thanks to TheLoneTec for his coding/development contributions. 
+	
+Update 4.1 (Biomes FTGU support) - 1/17/2022
+	Natural terrain textures are removed and are now part of Biomes: From The Ground Up, which overhauls and retextures biomes.
+	
+  </description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile's Hardcore Renovation/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Hell Bent for Leather Tanning</mod_root_path><name>Vile's Hell Bent for Leather Tanning</name><description>
+=====================================
+VILE'S HELL BENT FOR LEATHER Tanning 
+V.0.3
+AUG.16.2022
+=====================================
+
+Hell Bent for Leather Tanning is another supplement to Vile's overhaul system which adds, uhhhh, leather tanning. 
+
+This is currently in early alpha, and I have very limited time for testing so I'm humbly relying on help for feedback and bug reports. So, um, take that as both a disclaimer and a plead. I will try to make updates daily. Thanks in advance!
+
+Some feedback I would appreciate:
+	- Missing/wrong textures (note that the leather colors will likelye change)
+	- Missing or broken recipes
+	- Balance issues with recipes and materials
+	- Elements that just don't seem "fun"
+	- Content you want to see
+	- Any other bugs or things that don't seem right
+	
+Notes for fellow modders and patchers at the end of this doc!
+
+=====================================
+QUICK GUIDE / WHAT'S NEW
+=====================================
+
+Hides and Skins: When you butcher an animal, you now get hides, skins and furs instead of leather. This makes the production chain more challenging, but it also gives you options and new materials and colors to play with. 
+
+Once you get going, you'll have a choice once you're ready to tan your hides. You can produce full-grain leathers, which uses the entire thickness, showing the true grain of the skin. It's the superior option. Because blemishes of the hide's surface must be cut off, there is wasted product in the form of strips, which can later be made into poor-quality bonded leather. Your other option is to split the hide. This will give you an unfinished "top-grain" leather where the blemishes are sanded off so you get more leather for your dollar. That's not all - you also get the split leather, or the flesh-side of the leather. This is suede. It kinda sucks but it breathes nicely and can made into "genuine leather". The top-grains leathers can also be dyed and processed into embossed finished leather, nubuck, and upholstry leather. There are also ways to produce ultra-grade leathers using products harvested from Feenix, Kirins, Thrumbos and similar animals.
+
+ROTTING AND CURING: Raw skins and hides will eventually rot unless you cure them or freeze them. There are two ways to cure hides:
+
+- Drying Rack: Small skins can be air dried, but thicker hides must be cured with salt or ash. Takes over a day.
+
+- Brining Station: Soak skins and	 hides in brine. Uses salt as fuel, and can be done quiclkly be a colonist.
+
+- Freezing: Just throw it in a freezer.
+
+LEATHER TANNING: Hides and skins must be tanned to become useable leather.
+
+- Brain Tanning: A traditional method using animal innards and smoking at a campfire. Produces only buckskin. Neolithic Tech.
+
+- Vegetable Tanning: A method that uses tannins from tree bark to tan the hide. Can take over a day.
+
+- tree bark is now produced when cutting wood.
+
+- Chrome Tanning: A method of tanning that uses chromium. Fast and done in large batches, but long exposure to the tanning drum can cause serious heath effects.
+
+=====================================
+LLEATHER GRADES (and their bet uses)
+=====================================
+FULL-GRAIN LEATHER - Premium leather. Uses the whole hide, with wasted strips leftover.
+	Breathable Leather 
+	Exotic Leather
+	Heavy Leather 
+	Durable Leather	
+	Stock Leather	
+	Light Leather
+	Soft Leather
+	Sterile Leather
+	Warm Fur
+	Rugged Fur
+	Heavy Fur
+	Fine Fur
+	
+TOP-GRAIN LEATHERS - Instead of using the full grain, the leather can be split. The top part can be processed later into more useful leathers and dyed various colors.
+	Unfinished Leather	
+	Finished Leather
+	Nubuck
+	Upholstry Leather
+	
+SPLIT LEATHERS et al - The flesh side of the split. Not as good quality as the top grain.
+	Suede 
+	Genuine Leather
+	Bonded Leather(made from leftover leather strips)
+	
+ULTRA-GRADE LEATHER - Large beasts like Feenix and Thrumbo drop resources when butchered that can be mixed with leathers to produce superior leathers.
+	Ventan Leather (compare to Feenix Leather)
+	Thermatan Leather (compare to Kirin leather)
+	Armatan Leather (best for armor)
+	Hygieiatan Leather (best for hospitals)
+	
+Hard Leather Materials: New and revised materials that can be used in place of metal in certain armor recipes and clothing.
+	Rawhide
+	Cuir Bouilli (aka boiled leather)
+	Chitin
+	Dragon Scales (from wyvern, kirin, feenix)
+
+=====================================
+MODDING / PATCHING NOTES:
+=====================================
+Hide defs are new, most leather defs are patched from existing defs. So if you add another mod which adds new pawns, you will need to change the "leatherType" to one of the new hide defs. Furthermore, you'll want to reduce the "leatherAmount" by 1/5th since tanning multiplies the ingredients by 5-ish. 
+
+</description><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Materials Science</mod_root_path><name>Vile's Materials Science</name><description>Version 0.1
+This is the final major part of the Vile's series of overhaul mods for Hardcore SK. It finishes what Metallurgy and Pre-Industrial Overhaul started, namely, adding realism, complixity, and streamlines and rebalances materials while making it a bit more intuitive. Unlike Metallurgy though, it doesn't add a lot more steps in the production chain. Here's a rundown of the overhaul:
+        
+    CHANGES and ADDITIONS:
+    - New Ore Refining system. "Iron Ore", "Tin Ore" replaced with "Magnetite" and "Cassiterite" etc. These are refined to their base elements at the Metal Extraction Plant. Inspired by Angel's Factorio mod.
+        - With improved techology and the Electrolytic Refinery, more and new base metals can be extracted from the ores at the expense of work speed and electrical power.
+    - Labels and descriptions are improved to make finding materials and knowing which ones to use easier.
+    - Most materials revised, with many added ones, including alloys, plastics, textiles, etc.
+    - A revised materials tier system: Tiers are divided by tech level, but each material within each tier does something it excels at over the others. Suggested uses are easily laid out in the descriptions.
+    - Revised recipes for items and buildings, to utilize the new materials and add realism.
+    - Rimefeller overhaul, with an expanded polymer industry. 
+        - Petrochemical byproducts include ethylene, benzene, petroleum coke, etc. 
+        - Instead of only "plastic" you have PVC, polycarbonate, fiberglass, aerographene, and more.
+    - A few intermediate materials are replaced with things that make more sense. No more "compound paste" and "paraffins". Now we have "epoxy resin" and "teflon".
+    - Added a new "chemistry station" for new chemicals such as lye, chlorine, etc.
+    - Plant wax replaces paraffins as a fuel for candles.
+    - Coin minting added. Refining galena ore gives you "pure silver".
+    - IMPORTANT! The electrylytic refinery must be linked (near) to the metal extraction plant to refine ores, and the chemistry station must be linked to the loom to make advanced textiles. Note that these recipes don't appear in the wikirim. Looking into it.
+    - And of course, tons of new and revised textures.
+
+    ROADMAP:
+    - Cool spreasheets and stuff because those are fun.
+    - Nucleosynthesis Converter recipes.
+    - Make stuff masks for some MS building textures.
+    - Add 2 new concrete types.
+    - Update mineral/rock textures.
+    - Insulation Support for Celcius mod.
+    - New refinery building textures.
+    - Integrate new glass types with Windows.
+    - Revamp late-game power generation. Perhaps add geothermal drilling.
+    - Rimatomics defense materials.
+    - Various buildings and recipes as I come across them, or are brought to my attention.
+    - HSK currently doens't work well with the “heat” damage type. This will improve as we go into 1.4.
+    
+    Many of my other mods are updated to work with this, so make sure to get the latest of those.
+    
+	Requires Community framework. A copy is included, but also available on steam workshop or github https://github.com/ISOR3X/communityframework.
+
+	I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+	http://patreon.com/vileheathen  
+	Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage.
+    
+	</description><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Metallurgy</mod_root_path><name>Vile's Metallurgy</name><description>
+Welcome to the foundry! Please report bugs and feedback to Vile Heathen on the HSK discord. Much appreciated!	
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+
+Update A0.3
+-Updated for 1.3
+-Lead smelting now produces 15 instead of 10. Quick fix until the upcoming Ores and Minerals update. For now, set up a mining camp if your map lacks lead.
+-Added mod dependencies. Consider using Realistic Terraforming to get peat, clay, etc quicker. I've not tested this without it.
+-Making Rimatomics a dependancy. There's an assembly in there that allows the water wheel to use any large water body, not just rivers.
+-Fixed some typos etc.
+	
+INTRODUCTION	
+This could also be called 'Pre-Industrial Part II: Metallurgical Overhaul'. It's part of an ongoing project of mine to add some more complex mechanics to HSK that are both realistic and historically accurate, but in a manner that makes it fun, immersive, and hopefully intuitive.
+
+That said, this is the first part of a materials overhaul, with focus on early-game metallurgy and steel-making. Below is a quick summary of how it works. There is more detailed information in the descriptions of the buildings and resources, and a wiki/guide is underway.
+	
+NEOLITHIC
+A new fire pit is added which separates non-food recipes from the campfire, and adds a few more, mainly for dealing with smelting metals of antiquity such as bronze and silver.
+	
+CERAMIC KILN
+The kiln now acts like the fermenter buildings in that you load it with stuff, and then wait several days or hours instead of standing there watching it. It's in the "processing" submenu and you'll make things such as:
+		Bricks
+		Charcoal
+		Coke (metallurgical coal that is further processed)
+		Flux powder (used in ceramics and metallurgy)
+		Wootz Steel
+		Clay pots
+	
+WOOTZ STEEL
+Commonly referred to as "Damascus Steel" because a lot of wootz steel was imported to Damascus, it's a fragile, but ultra-hard steel best used for cutlery and sharp weapons.
+
+POTTERY STATION
+There is a new pottery station for making clay pots for food storage. They can be glazed with a variety of materals to increase beauty and make it seal better for improved food preservation. Vanilla pots can still be made out of metal, but they're more expensive and inferior to glazed pottery. Clay pots must be fired in the kiln, and then used as an ingredient much like how a crate is used to make a turret.
+
+BLOOMERY and WROUGHT IRON / FORGED STEEL
+The earlist technology for smelting iron. Ore is smelted into an "iron bloom", which then must be hammered into wrought iron at smithy forge (or finery forge). It's a long process with low payout, but you'll eventually run out of tin or copper for producing bronze so you'll want to start making wrought iron. Like you learned in history class. The wrought iron can further be carburized into weld-forged steel, your first type of proper steel. Contrary to popular belief, however, wrought iron can still be used to make effective weapons and armor — in this mod it is considered that these wrought iron implements are "case hardened", or tempered to strengthen the outer surface of the iron into a thin layer of steel.
+
+BOG IRON from PEAT
+Small pellets of iron can often be found in peat bogs. You can extract bog iron from peat at machining tables for a never-ending supply of iron. Mining is still the most efficient way to getting it though.
+
+BLAST FURNACE AND PIG IRON
+The blast furnace replaces the vanilla furnace. It makes iron ore into pig iron instead (a crude high-carbon form of iron which is worthless on its own). The pig must be processed at a finery into wrought iron and is much faster and more efficient than processing bloom. Pig iron can also be refined into cast iron at a foundry.
+
+FINERY FORGE / WATER WHEEL
+The finery forge is like a smithy forge except it has a heavy mechanical trip-hammer required for smashing the carbon out of pig iron to turn it into wrought iron (or welded steel). It can be operated by hand, but it's best powered by a water wheel. It's smart to build by a FLOWING RIVER if you can, otherwise you may want to rush the foundry and puddling tech.
+
+STAMP MILL / WATER WHEEL
+Another way to take advantage of the water wheel is with the stamp mill. It can be used for smashing grain, but also making gunpowder and crushing stone into rubble or sand.
+
+FOUNDRY, CASTING
+The foundry is dual purpose: It can be used for casting, which is a method of producing items quickly and in large batches. It's limited to certain types of tools, components and ammunition, and the castable metals are also very limited. It can also be used for processing certain metals and alloys, notably cast iron, and turning pig iron into wrought iron through what is called "puddling" - a method which is much more efficient than through the finery. It can also be used to produce crucible steel. More on that next.
+
+CEMENTATION FURNACE and BLISTER STEEL / CRUCIBLE STEEL
+This building works much like the kiln. Fill it with wrought iron and a source of carbon and wait several days. The iron becomes what's known as "blister steel", which is not homogenous and is useless on its own. It can be processed at a smithy or finery to produce "sheer steel", which resembles forge-welded steel, and for purposes of simplification, we'll just call it that. The ultimate, purest form of steel produced before the second industrial revolution, however is *Crucible Steel*. This is made by simply melting down the blister steel at the foundry once the tech is unlocked. It requires both coke and flux. 
+
+STEAM ENGINE
+The blowing engine is an automated bellows which speeds up the blast furnace and foundry operation.
+
+PIPES
+Water pipes are now divided into two types: aqueducts and, well, pipes. The former are made like how you're used to making them, and the latter require "plumbing components", which can be made at a forge or cast at the foundry. They're much stronger and easier to install.
+
+WEAPONS AND TOOLS
+A new CHEF KNIFE is added. Unlike the dagger and regular knife, the material used to make them can imply further bonuses. The *ULFBERT* and RIMASCUS SCIMITAR are two new swords that require wootz steel to make. An armor-piercing LUCERNE HAMMER replaces the royalty warhammer, and the royalty axe is removed and replaced with a QUARTERSTAFF, which is good for takedowns and less-lethal stick fighting.
+		
+Previous Updates: 
+
+A0.2
+-Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
+-Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
+-Fixed some textures
+-Improved labels for processing recipes	
+		
+
+</description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile's Metallurgy/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Mountains and Meadows</mod_root_path><name>Vile's Mountains and Meadows</name><description>
+Adds three biomes: 
+Prairie (a temperate grassland)
+Montane Forest (a boreal forest variation, less dense, may contain lakes)
+Montane Birch Grasslands (a cold grassland)
+Adds back Cloudberries, and a new flower, bluebells.
+
+
+Uses Odeum's Biomes Kit (details below) 
+
+BiomesKit is a framework for the placement of biomes on the world map at worldgen. Previously, modders needed to utilize C# to add new biomes to rimworld. With BiomesKit, placement of a biome can be controlled with XML tags in the BiomeDef itself.
+
+With BiomesKit as a dependency, you too can make your own biomes mod with minimal hassle! Features of BiomesKit includes but are not limited to:
+* Spawning biomes based on factors like elevation, rainfall, hilliness and more!
+* Restricting your biome to spawn only on specific vanilla biomes, or even biomes from other mods!
+* Changing the hilliness of a tile to a specific level, or even randomizing it!
+* Custom world map tile graphics for your biome!
+  </description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile's Mountains and Meadows/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Tweaks</mod_root_path><name>Vile's Tweaks</name><description>
+This is where I keep minor tweaks for my own personal use. I'll try to keep the file names descriptive so you can delete files and tailor it to your liking.
+
+Changes:
+1. Variations of badge textures, added some new ones to cover more skills and military roles.
+2. Increased asexual/bisexual/gay commonalities make it more realistic.
+3. Inreases likelyhood of a cold snap in winter.
+</description><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Wood You Please</mod_root_path><name>Vile's Wood You Please</name><description>
+Update 1.2 - 1/20/2020 - Added acacia wood.  
+Update 1.1: No major changes, but the new mod Biomes: From The Ground Up, is meant to pair well with this mod.	  
+	  
+HEY! You want some planks? Planks come from trees. There's lots of different kinds of trees. Planks can be made into all sorts of cool things. Can you? Didn't think so. This is hardcore SK. It's hardcore, like the heartwood of a tree. Show these trees the respect they deserve. Now stop complaining and drink your maple syrup.
+	    
+I've started a blog and patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+		
+Version A0.1  
+This is super flipping early alpha. It's a huge overhaul of logs and planks, so I'm not entirely sure how it will affect all other parts of the game or other mods yet. If anything seems weird, recipes broken, etc, please let me know on the HSK Discord.
+
+What does this mod change?
+Logs and planks are unique to their tree species and have color and specs rebalanced for realism and a more distinctive gameplay based on biome. 
+I highly recommend using this with the my new Hardcore Renovations mod which fully takes advantage of these new wood types in floors and walls.
+
+Basic info:  
+
+Felled trees now produce larger, but fewer logs (with Bamboo as the exception. It's not a tree anyway.), and can't be used as fuel except in advanced furnaces (TBD). A new woodsplitting spot (much like the butcher spot) allows colonists to split the logs into firewood which can be used for crafting redimentary things like arrows, clapboard floors and walls, as fuel, or can be further split into kindling for fueling torches, etc.
+
+I. Wood is now divided into three categories (in order of the janka scale of hardness):
+
+Softwoods:
+	  Cecropia
+	  Pine
+	  Willow
+	  Redwood
+	  Cypress
+	  Poplar
+Hardwoods:
+	  Maple
+	  Teak
+	  Birch
+	  Oak
+      Acacia
+	  Bamboo
+Ultra-hard:
+	  Drago
+	  Mangrove
+
+Softer woods tend to offer less HP, but are often easier to work with and the trees are easier to cut. Technically, some of the softwoods are actually hardwoods, but I'm basing this off their actual hardness, not official designations.
+Harder woods also produce more firewood since they can be chopped into smaller pieces.  
+	  
+II. Tree generation has changed.
+	  1. Growing time and harvest amount has been adjusted for realism and balance. 
+	  2. Most trees are now more likely to grow in groves. This means if you want to harvest a particular type of wood, you can target specific parts of the map to do so. Use the magnifying glass feature on the minimap or the Object Seeker to help find the groves.	  
+
+III. New Woodsplitting Spot is an ingredientless building for splitting logs into firewood and kindling early game. Obviously slower than the workbench.
+
+IV. Anywhere there was a vanilla wood log, there is now "firewood". Anywhere there was vanilla wood planks, there is now plywood. Plywood can be made out of scraps of logs or planks, much how patch leather is made. 
+	  
+Feedback is appreciated. Thanks!
+
+Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe work. Also, you can now build the woodcutting table out of planks if you wish, for increased workspeed.	  
+
+</description><preview_image>https://github.com/xenomacabre/VilesMods/blob/main/Vile's Wood You Please/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Work Tab for Big Fonts</mod_root_path><name>Vile's Visible</name><description>
+=====================================
+VILE'S Work Tab for Big Fonts        
+=====================================
+This mod is a minor accessibility mod meant to make the microscopic work tab information easier to see. It is meant to work with the new Vile RimThemes.
+
+- Changes the labels of jobs in the work tab, so instead of Craft: "Do Bills at Neolithic Craft" (which appears as "Do Bills at Ne..." in larger fonts), it's shortened to just "Neolithic".
+- Work Types are now ALL CAPS so that they stand apart more from the work defs when you open the worktype to see the subjobs. 
+- Some things are moved around. If you don't want that, delete the "reorganized" folder in Patches, and "WorkTypes.xml" in Defs. 
+
+New WorkTypes:
+MISC - This is mostly unusued junk. Stuff that may be required by other mods to exist, but typically aren't used in modded HSK.
+PROCESSING - This is for mosly hauling jobs that are a bit more on the crafting side. Universal Fermenter jobs are moved here, which includes things like the drying rack, tanning vats, kiln, and cementation furnace.
+BIOTECH HAULING - Simply moves some stuff out of hauling into a new work type.
+
+Some other notable changes:
+- Refill Water and Refuel Refuelable Buildings (now called "Refuel") are moved to the BASIC worktype.
+- Neolithic Crafting is moved to the SMITHING worktype
+
+</description><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>VileCoreTextureReplacementR2</mod_root_path><name>Core Texture Replacement</name><description>
+
+
+</description><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>VilesExtraFlavor</mod_root_path><name>Vile's Extra Flavor</name><description>
+This is a simple mod that adds new versions of existing apparel, currently just medieval. The stats are identical, but the names are slightly different, such as "bonnet" and "bonnet, brimmed", and the textures are alterled slightly for flavor.
+
+"Why?" you ask. 
+
+Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
+
+That's all.</description><preview_image>N/A</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals_SK</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld.
+
+&lt;size=24&gt;Features&lt;/size&gt;
+
+Adds 100+ new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+
+These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all! The Alpha Biomes is a companion mod that adds several new alien biomes to house these weird creatures.
+
+Bear in mind that spawn probabilities have been calculated with no other animal mods installed. If you have, for example, Vanilla Animals Expanded, less animals from this mod will appear, obviously.
+
+The mod will also add new insects in a new faction, the Black Hive. Raids from that faction can be disabled via Mod Options.
+
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+There shouldn't be any. Balance is obviously always a concern, although it has been playtested. Feel free to tell me if you think something is too wacky.
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+Obviously, more animals!
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+Compatible with A Dog Said... 
+Compatible with the implants from Vanilla Genetics Expanded
+Compatible with Alpha Biomes (duh)
+Compatible with Advanced Biomes
+Compatible with Rainbeau Realistic Planets
+Compatible with Lords of the Rims - Elves (mallorn biome)
+
+&lt;size=24&gt;Credit&lt;/size&gt;
+Original creature graphics: A_Friend, aka SentientLine
+Original implementation and programming: milon, Skullywag and kaptain_kavern 
+Some sounds by Mike Koenig at http://soundbible.com
+Some sounds by PsychoBird at http://soundbible.com
+Some sounds by Stephan Schutze at http://soundbible.com
+Some animal sounds by LiamG_SFX, wisslgisse, M4D3R0 and roubignolle at https://freesound.org
+Ritual loop sounds by THXRTX  https://www.instagram.com/thxrtx/?hl=en
+Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
+
+Based on 11/01/23 version
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+v4.1: The six animals from Forsakens: Fauna are now part of Alpha Animals (13/10/22)
+v4.0: Updated to RW 1.4
+v3.9: Added Vanilla Psycasts Expanded compatibility (07/09/22)
+v3.8: Added 5 new animals (01/11/21)
+v3.7: Added 4 new animals (08/08/21)
+v3.6: Added new Ideology, 8 new animals (22/07/21)
+v3.4: RimWorld 1.3 update. (05/07/21)
+Full changelog on GitHub</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Alpha Animals/Alpha Animals_SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld.
+
+&lt;size=24&gt;Features&lt;/size&gt;
+
+Adds 12 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
+
+- The Mycotic Jungle: a warm and humid biome filled with HUGE mushrooms. Home to the Wildpod and some weird mushroom varieties of usual creatures.
+- The Gallatross Graveyard: an arid temperate biome, littered with the skeletal remains of ancient beasts.
+- The Feralisk Infested Jungle: a warm, wet biome with incredibly dense vegetation, filled to the brink with extremely dangerous predatory spiders.
+- The Ocular Forest: a weird transdimensional realm intruding upon our Universe. Home to strange new flora and fauna.
+- The Gelatinous Superorganism: a swampy biome that is actually the upper surface of an extraordinarily large mold-like creature. No rocks to be found, but plenty of food.
+- The Mechanoid Intrusion: a desolate temperate biome with mechanical ruins. Apparently an ancient mechanoid attempt at turning the planet into a megastructure.
+- The Propane Lakes: a frozen wasteland, colder than the most inhospitable Sea Ice, but teaming with aberrant flora and fauna.
+- The Forsaken Crags: permanently clouded by a preternatural darkness, light is the most valuable commodity in this desertic landscape. Inspired by (and compatible with) the Forsakens mod.
+- The Tar Pits: an arid biome rich in vegetation, filled with treacherous tar pits that make movement quite difficult. Beware the Bumbledrone hives! 
+- The Pyroclastic Conflagration: a volcanic expanse of unrelenting and brutal nature. Fire and lava are both your worst enemy and your best friend in this biome.
+- The Idyllic Meadows: a lush meadow of giant flowers. A super easy biome that provides tons of resources and few predators.
+- The Miasmic Mangrove: a dangerous tropical biome full of debilitating diseases.
+
+
+The biomes have been tweaked so they don't take too much space in the world map, and you might have to generate a planet again if some biome is not appearing, since they have different temperature and humidity characteristics.
+
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+Balance is obviously always a concern, although it has been playtested. Feel free to tell me if you think something is too wacky.
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+
+Maybe more biomes, who knows!
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+
+Compatible with any other biome mod 
+Compatible with Alpha Animals (obviously)
+Compatible with Magical Menagerie
+Compatible with Dinosauria
+Compatible with Megafauna
+Compatible with Animal Collab Project
+Compatible with Vanilla Animals Expanded
+Compatible with Rim of Madness - Bones
+Compatible with Vanilla Fishing Expanded (adds 19 new fish)
+Compatible with Fish Industry
+Compatible with Forsakens
+Compatible with Camouflage and Stealth
+Compatible with Fertile Fields
+
+Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
+
+&lt;size=24&gt;Credit&lt;/size&gt;
+Bone planet: Hyptosis https://opengameart.org/content/bone-planet 
+Some sounds by Mike Koenig at http://soundbible.com
+Alien planet sound modified from Speedenza: https://freesound.org/people/Speedenza/sounds/198532/
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+Current version tag: v3.07
+
+
+	</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
+Convertion of Oskar Potockis / Mlie mod for HSK
+https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
+https://steamcommunity.com/sharedfiles/filedetails/?id=2567847051
+
+
+[img]https://i.imgur.com/iLkd0uO.png][/img]
+
+1.0.0 (28/05/2022): HSK v1.3 Release
+1.0.1 (14/01/2023): HSK v1.4 Release
+
+[img]https://i.imgur.com/4z7INVX.png][/img]
+
+Apex: Rimworld Legends is a NON vanilla-friendly weapon expansion adding over 20 new weapons to the game, all based on Apex: Legends weapons. The graphics, sounds and statistics of these weapons are meant to represent unmodded Rimworld, with no weapon being overpowered or 'Out of character' [NO MORE :^)]. Get ready for battle.
+
+Apex: Rimworld Legends - это НЕ ванильное расширение для оружия, добавляющее в игру более 20 новых видов оружия, основанных на оружии Apex: Legends. Графика, звуки и показатели этого оружия призваны представить немодифицированный Rimworld, при этом ни одно оружие не будет чрезмерно мощным или "выходящим из образа" [БОЛЬШЕ НЕТ :^)]. Приготовьтесь к битве.
+
+[img]https://i.imgur.com/ffHXvuS.png][/img]
+
+
+Following weapons have been added to the game. Bear in mind that the statistics of these weapons will be constantly tweaked according to players’ feedback.
+В игру были добавлены следующие виды оружия. Имейте в виду, что показатели оружия будет постоянно корректироваться в соответствии с отзывами игроков.
+
+[img]https://i.imgur.com/d9tcOKx.png][/img]
+
+[img]https://i.imgur.com/xCwGTD4.png][/img]
+
+[img]https://i.imgur.com/TjZ0yqN.png][/img]
+
+
+[img]https://i.imgur.com/oZM1i9z.png][/img]
+
+Q: For which version of the HSK?
+A: 1.3 and 1.4.
+Q: Для какой версии ХСК?
+A: 1.3 и 1.4.
+#-------------------------------------------------------------#
+Q: Do the Apex: Rimworld Legends weapons spawn randomly on pawns?
+A: Yes, they should be added to the available item pool when spawning raids.
+Q: Появляется ли случайно оружие Apex: Rimworld Legends на пешках?
+A: Да, они должны быть добавлены в список доступных предметов в рейдах.
+#-------------------------------------------------------------#
+Q: Do the Apex: Rimworld Legends weapons can be crafted?
+A: Grenades only.
+Q: Можно ли создать оружие в Apex: Rimworld Legends?
+A: Только гранаты.
+#-------------------------------------------------------------#
+Q: Is this mod compatibile with Combat Extended?
+A: This is HSK convertion man, of course.
+Q: Совместимо с Combat Extended?
+A: Чел, это конвертация под ХСК, естественно.
+#-------------------------------------------------------------#
+Q: Is this mod save game compatible?
+A: Yes, you can add it and remove it whenever you like.
+Q: Совместимо с идущей игрой?
+A: Да, вы можете добавлять и удалять его когда захотите.
+#-------------------------------------------------------------#
+Q: DISBALANCE!
+A: Perhaps.
+Q: ИМБА!
+A: Возможно.
+
+[img]https://i.imgur.com/suv8HZw.png][/img]
+
+
+Apex weapons and logo are property of Respawn Studio. Go check out their awesome new battle royale!
+Graphics are created by me, inspired by weapons in Apex: Legends and Titanfall.
+Rimworld is owned by Tynan Sylvester. Obviously.
+Pelador for help with advanced coding. Check out his mods!
+Andross for doing a CE Patch from scratch. Guy's a legend.
+Pacas (me) for doing a HSK convertion.
+ 
+    </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Apex Rimworld Legends/Rimworld Legends/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Better Bridges Pack/Better Bridges Pack</mod_root_path><name>Better Bridges Pack</name><description>Idea from Lanilors mod - https://steamcommunity.com/sharedfiles/filedetails/?id=1420241138 \n + Mlie continued version - https://steamcommunity.com/sharedfiles/filedetails/?id=2012484790 \n + Railing from - https://steamcommunity.com/sharedfiles/filedetails/?id=932124891 \n\nAnd you can paint them all!\nBetter Bridges Pack - now with fishing bucket!</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Better Bridges Pack/Better Bridges Pack/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Code Valkyrie/Code Valkyrie</mod_root_path><name>Code: Valkyrie - HSK Version</name><description>This mod adds a winged mechanoid with ability to jump on top of enemies. It comes in a melee and a ranged variant.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Code Valkyrie/Code Valkyrie/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Dinosauria/Dinosauria SK</mod_root_path><name>Dinosauria</name><description>Version: 2.0
+
+&lt;size=20&gt;Description&lt;/size&gt;
+What if we were to finally discover dinosaur DNA sequences, despite being incomplete, and fill the blanks with various genome sequences spliced from left and right, with a little bit of imagination to help guide us?
+
+Wonder no more! A group of Glitterworld scientists, having long abandoned the ideals to terraform the rimworlds with a purpose, went out of their ways to answer just that. With the mechanoids long having gone haywire with their terraforming projects, the dinosaurs created in labs were slowly introduced into fauna that should otherwise have resembled a 21st Century Earth, with little to no care as to their compatibility with existing wildlife and the forsaken rimworld colonists, the latter of which nobody seems to care about anyway.
+
+&lt;size=20&gt;Dinosaurs&lt;/size&gt;
+32 new species of dinosaurs are introduced through this mod, all of which spawn in various different biomes:
+- Ankylosaurus,
+- Brachiosaurus,
+- Brontosaurus,
+- Utahraptor,
+- Gallimimus,
+- Iguanodon,
+- Pachycephalosaurus,
+- Parasaur,
+- Spinosaurus,
+- Stegosaurus,
+- Triceratops,
+- Tyrannosaurus Rex,
+- Velociraptor,
+- Carnotaurus,
+- Protoceratops,
+- Yutyrannus,
+- Corythosaurus,
+- Diplodocus,
+- Dryosaurus,
+- Baryonyx,
+- Dilophosaurus,
+- Compsognathus,
+- Therizinosaurus,
+- Minmi,
+- Gigantoraptor,
+- Dakotaraptor,
+- Deinocheirus,
+- Pteranodon,
+- Stygimoloch,
+- Quetzalcoatlus,
+- Magyarosaurus,
+- Allosaurus.
+
+---
+
+Have a comment on balance, on the sprites, or have a bug to report? Make sure to deliver your request nicely, and you shall be heard. Don't forget that nobody is entitled to anything, and us modders do these for the community and we enjoy giving. If you wish to use any part of this mod and make your work public, please just drop me a line out of courtesy. So, just be nice, play nice.
+
+Happy colonizing!
+
+</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Dinosauria/Dinosauria SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls</mod_root_path><name>Eaves, Rafters and Mad Walls</name><description>Adds a self-destructing wall, burrowing wall, eaves, and rafters.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Edge of Descension Monoblades/Edge of Descension - Monoblades</mod_root_path><name>Edge of Descension - Monoblades</name><description>Descent into madness, crave violence and avenge yourself from your past mistakes.
+
+Slice opponents into bits of minced flesh with the monoblades provided in this mod.
+Superior than the monoswords in every aspects except damage, these blades are sharp with high penetration and slice fast, resulting in a lethal combination when used by a competent wielder.
+</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Edge of Descension Monoblades/Edge of Descension - Monoblades/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Faction Void/Faction Void</mod_root_path><name>Faction: V.O.I.D. - HSK Edition</name><description>Re-evaluate for a moment. Under what circumstances should you install this mod? None whatsoever.
+
+Featuring the most beloved organization in the outer RimWorld. Always helping people find greener pastures. Ready to take on the world!
+
+Adventure awaits. We at V.O.I.D. promise to look after you and your children because nobody else can. Always promoting a brighter tomorrow and a better world. You may be the next person selected to join our ranks!
+
+Not feeling like being assimilated? Okay, how about becoming one of our honorary research subjects? Wherever you are, whatever you do, we will find you.
+
+Credits to:
+Mehni - C# Coding
+Dninemfive - C# Coding
+Taranchuk - C# Coding
+Jecrell - C# Coding
+Morphium - .xml
+Fiendakko - Textures
+Tittymcswaggy - Textures
+Odz - Textures
+JangoD'Soul - Textures
+AOBA - Textures
+Neil Yates - Dead Frontier
+Greg Taylor - Original Dead Frontier artist
+Clayton - Dead Frontier artist
+V.O.I.D. - Major Anderson
+Cube instrumental - Karl Casey @ White Bat Audio
+
+SFX from:
+Scott Cawthon
+Valve
+Techland
+Creaky Corpse Ltd
+
+Ko-Fi supporters, special thanks to these individuals for helping this mod leave beta:
+Alex
+TL
+Anonymous (Ko-fi supporter)
+Anonymous (Ko-fi supporter)
+The Last Eternal
+getodog
+BlueBottle
+</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Faction Void/Faction Void/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Fireflies/Fireflies SK</mod_root_path><name>Fireflies</name><description>
+Discord: Steve o.O#1151
+steam: Scurvyez
+
+A simple, yet... heart warming, mod that adds fireflies to the Rim.
+
+See the workshop page and the wiki for more. :)
+Credit for all c# goes to Maxim! Thanks again man!
+
+  </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Fireflies/Fireflies SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Frontier Developement Shields/Frontier Developement Shields HSK 1.3</mod_root_path><name>Shield Generators by Frontier Developments SK</name><description>Build shields. Stop bullets, rockets, explosions, drop pods, meteorites, super space lasers, and more!</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Frontier Developement Shields/Frontier Developement Shields HSK 1.3/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Frontline Bunkers/Frontline - Bunkers</mod_root_path><name>Frontline - Bunkers</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Wuergers mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1545794905
+with permission.
+If you like the mod, show the original author your appreciation here: 
+[url=https://ko-fi.com/wuergerking][img]https://i.imgur.com/gmaqOA3.png[/img][/url]
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/FrontlineBunkers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+
+This mod provides an additional way to fortify your Frontline with new bunker structures:
+
+[u]General[/u]:
+
+- You need to do research in order to get these structures.
+- The bunkerroof is not a real roof as of terms of game mechanics, you still will have to build a room like in vanilla 
+
+[u]Structures[/u]:
+
+[i]Bunker wall:[/i]
+Slope walls are the foundation of your bunker. Needs A LOT of resources to build but can withstand even the hardest bombardement. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
+
+[i]Bunker embrasure:[/i]
+Waist high walls grant your pawns a spot to use their own arms in combat and also provides some cover (70%) . Also in contrast to the ordinary sanbags, enemys can't climp over these structures. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
+
+[i]Bunker door:[/i]
+A heavy door granting passage inside the bunker. It can only be opened manually. Holds of fire for a long time, but costs a lot of resources. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
+
+[i]Bunkerroof:[/i]
+A semi transparent roofing. Comes in the sizes 5x5 and 3x3. [i][notification: More sizes MIGHT come on demand, maybe start a discussion here.][/i]  Does not hold a roof by itself, it needs surroundings. Takes a lot of time to be set up.
+
+
+Feel free to leave a comment and please report back any occuring bugs. And finally: Have Fun.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+    </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Frontline Bunkers/Frontline - Bunkers/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Gloomy Decor Pack/Gloomy Decor Pack</mod_root_path><name>Gloomy Decor Pack</name><description>
+        Gloomy Furniture
+            and
+        Gloomy Deco
+            and
+        Gloomy Deco PCP
+            with
+        LWM DS for Gloomy Furniture and Deco
+
+        FOR HSK!!!
+    </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Gloomy Decor Pack/Gloomy Decor Pack/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Harvest Post Mortem/HarvestPostMortemSK</mod_root_path><name>Harvest Organs Post Mortem SK</name><description>This mod allow organ harvest on dead bodies. This a new version which allows the player to harvest pawn-spesific organs. Happy harvest!</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Harvest Post Mortem/HarvestPostMortemSK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Maelstroms Metals/Maelstroms Metals SK</mod_root_path><name>Maelstrom's Metals SK</name><description>Adds a large number of metal alloys ranging from earlygame to specialized, incredibly powerful and expensive endgame materials.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Maelstroms Metals/Maelstroms Metals SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Megafauna/Megafauna SK</mod_root_path><name>Megafauna</name><description>Version: 1.5
+
+---
+
+&lt;size=20&gt;Description&lt;/size&gt;
+Thanks to the wonders of today's technology, the small group of scientists that was previously known for bringing the Megatherium-
+Uh, I mean, the Megasloth back to life, was able to make the Megafauna Project a reality! 
+This time around, they were able to recreate 38 different species of animals that used to inhabit planet Earth thousands to millions years ago. 
+...Was that a wise move? Who cares! Now we all can feast our eyes on those glorious beasts as they will slowly inevitably turn all the ecosystems we know upside-down!
+
+&lt;size=20&gt;Features&lt;/size&gt;
+38 new species of animals, all able to spawn naturally in different biomes:
+- Arthropleura,
+- Doedicurus,
+- Daeodon,
+- Gigantopithecus,
+- Paraceratherium,
+- Titanis,
+- Titanoboa,
+- Woolly Mammoth,
+- Elasmotherium,
+- Smilodon,
+- Chalicotherium,
+- Megaloceros,
+- Procoptodon,
+- Megalania,
+- Gomphotaria,
+- Diprotodon,
+- Short-faced Bear,
+- Dinocrocuta,
+- Sivatherium,
+- Andrewsarchus,
+- Dinornis,
+- Macrauchenia,
+- Quinkana,
+- Deinotherium,
+- Aurochs,
+- Megalochelys,
+- Palaeeudyptes,
+- Josephoartigasia,
+- Gigantophis,
+- Meganeura,
+- Zygolophodon,
+- Platybelodon,
+- Purussaurus,
+- Uintatherium,
+- Pulmonoscorpius,
+- Dinopithecus,
+- Castoroides,
+- Enhydriodon.
+
+These animals are quite rare, and should be a good challenge to either tame or slay. 
+A lot of them can also be used as pack animals for a caravan (with paraceratherium being your new best caravan buddy!).
+Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleura, titanis, titanoboa, megalania, dinornis, quinkana, megalochelys, palaeeudyptes, gigantophis, meganeura, and purussaurus do lay eggs. Sivatherium, macrauchenia, aurochs cows, and uintatherium are milkable - sivatherium's milk is very nutritious and quite valuable!
+
+Megafauna will automatically detect and patch both A Dog Said... by SpoonShortage and Giddy-up! by Roolo, so make sure to make it load after those mods.
+
+&lt;size=20&gt;Languages&lt;/size&gt;
+English, Polish,
+
+&lt;size=20&gt;Credits&lt;/size&gt;
+Roolo - for great help with making Megafauna compatible with his Giddy-up mod.
+Nightinggale - for his immensely useful ModCheck.
+
+&lt;size=20&gt;Changelog&lt;/size&gt;
+10.10.2020 - Update #8:
+			- updated to be compatible with Rimworld 1.2.
+			
+23.03.2020 - Update #7.5:
+			- brought back A Dog Said... compatibility,
+			- hopefully fixed a bunch of errors people were getting.
+
+22.03.2020 - Update #7:
+			- updated to be compatible with Rimworld 1.1.
+			
+03.11.2018 - Update #6:
+			- changed the name of the "ScorpionLike" body type to fix compatibility issues with AnimalCollabProject,
+			- changed the intelligence level of smilodon and dinocrocuta to advanced, to match the change made to vanilla's cougar and panther,
+			- changed the intelligence level of pulmonoscorpius to advanced.
+			
+01.11.2018 - Update #5:
+			- updated to be compatible with Rimworld 1.0,
+			- all animals now have unique dessicated sprites,
+			- a lot of small changes intended to help with the balance, like lower hunger rates for predators or sizes of groups some of the animals can spawn in,
+			- added 15 (!) more animals.
+			
+06.04.2018 - Update #4:
+			- there is a simple official megafauna wiki now: http://megafaunarimworld.wikia.com!
+			- actually made all the animals less rare - turns out that the last time I made the spawn chances about 5-8 times lower than I intended, oops,
+			- minor changes to some of the animals' stats,
+			- woolly mammoth's name is no longer misspelled.
+			
+20.12.2017 - Update #3:
+			- updated to be compatible with Rimworld Beta 18,
+			- no longer requires an additional patch to be compatible with A Dog Said..., it will now automatically detect it and patch all the necessary stuff in,
+			- also comes with a built-in patch for Giddy-up!,
+			- daeodon, titanis, titanoboa, smilodon, procoptodon, gomphotaria, short-faced bear, and dinocrocuta are no longer pack animals (can't be used to carry stuff in caravans),
+			- very minor tweaks to a few animals in regards to their body size and meat/leather yield,
+			- some of the animals can now spawn in the new swamp-type biomes (titanoboa's no longer exclusive to the tropical rainforest!),
+			- some of the older animals such as arthropleura and doedicurus now have their own body types instead of using unfitting vanilla ones,
+			- some of the older animals won't be sold by traders anymore, in order to make obtaining them feel more special, those being: paraceratherium, titanoboa, elasmotherium, megalania, gomphotaria, and short-faced bear.
+			- added 4 more animals.
+			
+22.08.2017 - Update #2:
+			- fixed problems with breeding arthropleura (hopefully...?),
+			- reduced meat/leather yield of almost all the animals,
+			- finally added the max body sizes of prey the predators will hunt,
+			- slight changes as to what biomes the animals can spawn in,
+			- changed entelodont's name to daeodon as it is more specific and therefore more fitting.
+			- added 5 more animals.
+	
+01.08.2017 - Update #1:
+			- dropped support for A Dog Said... Easy Patcher (now requires a separate compatibility patch for A Dog Said..., which adds the feature of healing old wounds on animals)
+			- reduced spawn rates of the creatures,
+			- reduced meat/leather yield of paraceratherium/titanoboa,
+			- slightly reduced size of giganthopithecus/titanoboa,
+			- fixed problems with selling items to traders,
+			- fixed some herbivores not being able to eat live plants,
+			- removed unfertilized eggs of arthropleura/titanis/titanoboa,
+			- increased size of baby animals,
+			- increased market value of the mammoth wool,
+			- all the leathers now have different stats as well as market value,
+			- added 6 more animals.
+
+</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Megafauna/Megafauna SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Minerals Ancient Stones/Minerals Ancient Stones</mod_root_path><name>Minerals Ancient Stones</name><description>Hand-made ancient stones are 300$.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Minerals Ancient Stones/Minerals Ancient Stones/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>More Tools/More Tools</mod_root_path><name>More Tools</name><description>Add more useful tools for pawns.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/More Tools/More Tools/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK</mod_root_path><name>Nerve and Gas Shells</name><description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Paniel the Automata/Paniel the Automata</mod_root_path><name>Paniel the Automata</name><description>
+Paniel the Automata
+
+Humanoid alien race mod
+
+[Created by]
+
+Demi : planning, management, xml, etc.
+gguake : assemblies
+어리연 : pawn textures, apparel textures
+Nemonian : building textures, weapon textures, item textures
+Latki : thumbnail illustration
+
+[Special Thanks]
+
+erdelf : make Humanoid Alien Races 2.0 mod.
+goudaquiche : make MoHAR framework.
+Roo : helped a lot in making this mod.
+NukaFrog : provides useful assemblies.
+SutSutMan : provides useful assembly.
+ChJees : this mod inspired by Androids mod.
+Madeline, Gloomylynx, Farmradish, horsefry, Space_Engineer, SR0752, 며루치, 곤약쟁이(sinnamon).
+
+and Rimworld Korea Discord members.
+	</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Paniel the Automata/Paniel the Automata/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Primitive Storage/Primitive Storage</mod_root_path><name>Primitive Storage</name><description>An addition to LWM's Deep Storage. Primitive Storage adds several new structures for keeping your goods.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Primitive Storage/Primitive Storage/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Rabbie Race/Rabbie SK</mod_root_path><name>Rabbie The Moonrabbit race</name><description>
+
+    Rabbie The MoonRabbit Race
+
+    As you can see in the night sky, the moon exists in the Rimworld. And there are residents in the moon.
+    Rabbbies are races that migrate from moon to moon beyond the universe.
+    With a brilliant brain and close to Glitterworlds technology, they are prospering all universe by building a giant arcology, the moon city.
+
+     +Rabbie is smart and smart, and stands out in intellectual activities like research + 
+     -But they're mentally unstable, so they have higher mentalbreak threshhold - 
+     -and are more severely affected by Psychic waves - 
+     +Due to the long history of war, combat skills have been developed, allowing fast shooting and more accuracy + 
+     +They have also developed the ability to safely treat and operate on injured people and to synth drugs + 
+     -However, because of their weak body structure, they are very vulnerable to melee combat. - 
+     -they have lower carrying capacity and the lower speed of mining - 
+
+      Planetarium  
+
+    Long ago, the ancestors of Rabbie who were migrating were captured by Transcendent Planet and genetically manipulated throughout the Spaceship, they got excellent intellectual abilities, but in the absence of a special substance called Planetarium, they became lunatic.
+
+    The only places where Rabbitish empires can migrate are rare planets that can harvest planetarium. It is mostly because of the Planetarium that the soldiers of the empire and the Dept.Energysupply staffs come down to the planet and cause friction with Planet's natives or civilizations.
+    Rabbies are also enjoying this material, commonly called  'Spice' . A refined Planetarium can also be consumed, but it will give you a richer scent when you drink it with tea or cocktails and keep your more mental clearer.
+    Rabbie, who has consumed planetarium for a long time, is said to have the ability to see a blurry but short future and have an amazing shooting ability.
+
+    You can also replenish Planetarium, at least in part, by ingesting Braincrystal-the nervous system in which planetarium is crystallized-which can be found when you open the head of a deceased Rabbie. It's a scary story.
+    Wherever Rabbies are, saving planetarium will be a top priority. Otherwise, you may have a terrible ending.
+
+      New faction, Rabbitish Empire  
+    The Rabbitish empire migrates to the moons of several planets for a long time to build a city, but because of its long distance, it cuts off from the empires of the previous universe and elects a new empress of the universe.
+    The Rabbitish empire's policy on the planet depends on Empress's thinking and the development of the moon city.
+    Rabbitish Soldiers and scientists on the planet are in duty of the enormous energy and planetarium needs of the moon city and its citizens.
+    They may be exclusive or hostile at first, but they will usually be indifferent if they feel not threatening to their work or if you are cooperative.
+
+    Make hostile impressions on them, or do not let your forces feel threats to them.
+    If your settlement is both, be careful! The Rabbitish Empire is a country with a lot of war experience. They have been at war with the inhabitants of various planets, and victory against many of civilizations. If they think you threaten the empire, you'll be attacked with advanced technology.
+    do not recommend shooting against them like line-infantry. because it's the beneficial combat of the Rabbitish Empire. They will be relatively weak before melee.
+    Their army consists of a field army of Rabbie citizens and a regular army descending in space with power armor.
+
+      Two Storytellers  
+    Cele Jackrabbit - Cele Jackrabbit is a senior officer in the Rabbitish Empire. Drink spice tea together in her flagship, and carefully listen to the War of the Rabbitish Empire and the history of blood (most events are replaced by raids, increasing in difficulty and preparing for war. )
+
+    Luna Jackrabbit - (Coming soon) Cele's sister, Luna, is Scientist of Dept.energysupply. She is working to cure the mental problems that Rabbie race has brought down from now on. she say quiet and clearly, but you will be listens to increasingly confusing and scary stories.
+
+      etc  
+     Various Pawn Customizing 
+     Various ability-enhancing clothing 
+     Over 120 backstories 
+
+    Rabbie race mod allows you to customize your pawn by combining different pretty outfits and colors.
+    Give your pawns a unique personality by mixing different face, ear shapes and hairstyles.
+    All Rabbie apparel also fit perfectly with vanilla outfits, with proper in-game balancing.
+
+    Rabbie race mod seeks to enrich the enjoyment of vanilla play.
+    Rabbie's equipment is expensive and requires a long time to craft, and you will still need vanilla weapons and equipment to survive.
+    Also, other clothing and equipment mods can be used naturally.
+
+  </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Rabbie Race/Rabbie SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Revia Race/Revia Race HSK</mod_root_path><name>Revia Race</name><description>
+    A race mod for bloodthirsty foxgirls in RimWorld.
+    
+    Revia are near-humans with vulpine traits. Feared in the sector of the galaxy that they exist in for their warlike natures, it is said that Revia accept only one absolute law in their society: the strong live and prosper, and the weak serve the strong in whatever way they are able.
+    Their society worships bloodshed in the name of a certain deity that sits upon a throne of bleached skulls, and will stop at nothing to slake his thirst.
+    
+    Features:
+    - A foxgirl race with guaranteed Bloodlust trait.
+    - A mechanic which allows them to grow extra tails as they offer more sacrifices to their blood god. They become stronger in melee, take less damage, and have more hitpoints as they gain more tails. Caps out at 9.
+    - A faction of their kind which acts hostile, and whose raiders will never retreat. Blood is blood, no matter whose side spills it!
+    - Some weapons that fit with their bloodthirsty nature. Their weapons have lower armor penetration than standard ones, however they inflict significantly greater bleed damage.
+    - No racial clothes limitations! No hair limitations! These foxgirls are very much humanlike. Pick and choose your favourite cosmetic mods and roll with it!
+    
+    Suggested mods to go with this one:
+    - Some form of hat-hiding mod. Hats for humans clash badly with fox ears.
+    - A Rimworld of Magic
+	
+	Credits:
+	- Erdelf, for his absolutely necessary Humanoid Alien Races mod.
+	- Marnador, for the fan-made RimWorld font used for the preview
+	- Lolidrop, for the awesome hair in the preview 
+    - Pacas (me), for HSK convertion
+    </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Revia Race/Revia Race HSK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Rimfeller EasyMod/Rimfeller Easy Version addon</mod_root_path><name>Rimefeller Easy Addon</name><description>If you want, then why not?</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Rimfeller EasyMod/Rimfeller Easy Version addon/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Core</mod_root_path><name>SRTS Expanded - HSK Edition</name><description>These are flying caravans, meant to load people and cargo and bring it somewhere else -- potentially a very long distance, and back again. These act like drop pods, but are not one use -- when you bring it back home you choose where to land and disembark.
+
+Great for hauling cargo, trading with factions, assaulting points of interest on your world map, and so much more. Acts as both a caravan and a drop pod.
+
+A few additional role-specific short range transport shuttles (or SRTS) so you really can fly across the whole world and back again. All ships require their own research project, and they're not cheap. All passengers heal, rest, and eat while on board all transport shuttles, but some shuttles are easier than others to rest in.
+
+Conflicts
+- Multiplayer mod: You will not be able to actually load anything into the ship. It won't work. Sorry.
+    </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/SRTS Expanded plus addons/SRTS Expanded - Core/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Helicopters</mod_root_path><name>SRTS Expanded - Helicopters</name><description>Ever wanted to fly through Rimworld with style and practicality? Well helicopters are here to bring you just that, helicopters have always been the king when it comes to aeronautical utility, the ability for helicopters to land without a runway is incredibly useful, especially when secure spaces are of a premium due to pesky raiders trying to steal your tables, it also allows you to launch attack operations without needing an entire airfield to land on, which is great for retaliation and retaking your stolen tables.
+	</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet</mod_root_path><name>SRTS Expanded - The Crimson Fleet - HSK Edition</name><description>An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose. Thats... pretty much it.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Seven Seraph Weapons/Seventh Seraph Weapons</mod_root_path><name>Seventh Seraph Weapons SK</name><description>This mod adds seventh seraph weapons from Destiny 2.</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Seven Seraph Weapons/Seventh Seraph Weapons/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Tesla Coil/Tesla Coil</mod_root_path><name>Tesla Coil</name><description>
+Special turret for your special prison :^)
+
+Based on BoeDankless mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2086426386
+and Mlie update
+https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
+</description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>
+Adds several types of utility column.
+All columns hold up the roof, beware of possible roof collapse when moving.
+    </description><preview_image>https://github.com/pacas/Pacas-HSK-Patches/blob/main/Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository></repositories>
