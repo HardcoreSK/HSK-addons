@@ -79,7 +79,7 @@ def find_preview_image(repo, about_folder_path):
         contents = repo.get_contents(about_folder_path)
         for content in contents:
             if content.type == 'file' and re.match(r'^preview.*\.(png|jpeg)$', content.name.lower()):
-                return f"{get_repo_url(repo.owner.login, repo.name)}/blob/main/{content.path}"
+                return f"{content.path}"
     except Exception as e:
         logger.error(f"Error finding preview image in {about_folder_path}: {e}")
     return 'N/A'
