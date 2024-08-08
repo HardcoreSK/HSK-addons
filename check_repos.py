@@ -5,6 +5,7 @@ import re
 from github import Github
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
+import hashlib
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -94,7 +95,7 @@ def find_about_xml(repo, about_folder_path):
         logger.error(f"Error finding about.xml in {about_folder_path}: {e}")
     return None
 
-def write_paths_to_xml(info_list):
+def generate_xml_string(info_list):
     root = ET.Element('repositories')
 
     for repo_id, owner, repo_name, mod_root_path, name, description, preview_image in info_list:
@@ -107,14 +108,25 @@ def write_paths_to_xml(info_list):
         ET.SubElement(repo_element, 'description').text = description
         ET.SubElement(repo_element, 'preview_image').text = preview_image
 
-    tree = ET.ElementTree(root)
-    xml_str = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+    return ET.tostring(root, encoding='utf-8', xml_declaration=True)
+
+def write_paths_to_xml(info_list):
+    xml_str = generate_xml_string(info_list)
+    new_hash = hashlib.md5(xml_str).hexdigest()
+
     try:
         existing_file = repo.get_contents(OUTPUT_FILE_PATH)
-        repo.update_file(existing_file.path, "Update about folders paths", xml_str.decode('utf-8'), existing_file.sha)
+        existing_content = existing_file.decoded_content
+        existing_hash = hashlib.md5(existing_content).hexdigest()
+
+        if new_hash != existing_hash:
+            repo.update_file(existing_file.path, "Update about folders paths", xml_str.decode('utf-8'), existing_file.sha)
+            logger.info(f"Updated {OUTPUT_FILE_PATH} with new changes.")
+        else:
+            logger.info(f"No changes detected in {OUTPUT_FILE_PATH}. No update necessary.")
     except Exception as e:
         repo.create_file(OUTPUT_FILE_PATH, "Create about folders paths", xml_str.decode('utf-8'))
-    logger.info(f"Results written to {OUTPUT_FILE_PATH}")
+        logger.info(f"Created {OUTPUT_FILE_PATH} with new content.")
 
 def find_about_info_parallel(repos):
     all_about_info = []
