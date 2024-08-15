@@ -133,7 +133,7 @@ In general, mods that add walls, doors and building stuff may need patches. Cels
 The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
 
 You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
-</description><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description /><preview_image>N/A</preview_image></repository><repository><repo_id>842202112</repo_id><owner>AndreiAvinov</owner><repo_name>test-mod</repo_name><mod_root_path>test1</mod_root_path><name>Celsius</name><description>Celsius adds realistic simulation of thermodynamics to the game.
+</description><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>842202112</repo_id><owner>AndreiAvinov</owner><repo_name>test-mod</repo_name><mod_root_path>test1</mod_root_path><name>Celsius</name><description>Celsius adds realistic simulation of thermodynamics to the game.
 
 Main features:
 
@@ -179,7 +179,7 @@ In general, mods that add walls, doors and building stuff may need patches. Cels
 The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
 
 You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
-</description><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+</description><preview_image>N/A</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description /><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
 (ENG)
 Version 0.47.
 this mod do:
