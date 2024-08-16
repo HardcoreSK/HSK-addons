@@ -133,53 +133,8 @@ In general, mods that add walls, doors and building stuff may need patches. Cels
 The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
 
 You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
-</description><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>842202112</repo_id><owner>AndreiAvinov</owner><repo_name>test-mod</repo_name><mod_root_path>test1</mod_root_path><name>Celsius</name><description>Celsius adds realistic simulation of thermodynamics to the game.
-
-Main features:
-
-- Temperature is simulated for every map cell (as opposed to vanilla's room-level abstraction). It is hot near fires and geyzers. Various building materials have different isolation properties based on their real-world counterparts. Mountains provide more stable temperature (which you can adjust) as do large bodies of water.
-
-- Water can freeze, and ice can melt. Rivers, seas and marshes may turn into icy plains in the winter and melt again in the summer. Setting up fires on glaciers can uncover water or ground underneath. Be careful, so that your pawns don't drown in deep water. 
-
-- Flammable things may spontaneously ignite when it gets extremely hot. Different materials have different ignition temperatures, and it can affect buildings, manufactured items, plants and more.
-
-- Tweaks to various related features, such as wind and wetness affecting pawns' comfortable temperature and snow melting faster under rain.
-
-Celsius opens up many new challenges and ways to play RimWorld. Forgo houses and warm colonists at campfires, melt ice sheets or unleash deadly firestorms on your enemies!
-
-Supported mods:
-- Alpha Animals
-- Insulation
-- Primitive Workbenches
-- Vanilla Furniture Extended: base mod, Architect, Medical, Security
-- Windows
-
-All DLCs are supported. Mod authors can provide patches on their side or submit PRs in Github.
-
-FAQ:
-
-- Can I install the mod in an existing save? Can I remove it?
-
-Celsius can be installed in an ongoing game. It may take a few seasons for all the temperatures to adjust.  Note that Celsius deeply changes temperature-related gameplay in RimWorld, so you will almost certainly need to adapt both your base and your play style. Removal mid-game is also theoretically possible but untested. 
-
-- How does it affect performance?
-
-I worked hard to optimize the mod, and it shouldn't seriously slow down your game. In my tests on a rather ordinary laptop I haven't noticed any impact at all. Old machines and multiple or very big maps may have a different experience, but it shouldn't brick your computer.
-
-- Any known incompatibilities?
-
-Heat Map, Proxy Heat and similar mods are not needed, because Celsius does everything these mods do (and much more). Other mods that also change temperature-related mechanics will also probably conflict.
-
-Some modded vents, coolers and the like may experience issues or be unbalanced. There have been reported problems with Vanilla Expanded reactors and Android Tiers cores overheating.
-
-In general, mods that add walls, doors and building stuff may need patches. Celsius will do its best to adapt to them, but can't magically tell what thermal properties these things should have.
-
-- How do I report issues or share feedback?
-
-The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
-
-You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
-</description><preview_image>N/A</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description /><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+</description><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>842202112</repo_id><owner>AndreiAvinov</owner><repo_name>test-mod</repo_name><mod_root_path>test1</mod_root_path><name>Celsius</name><description>ehehehehehehehehehe
+</description><preview_image>test1/About/preview.png</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description /><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
 (ENG)
 Version 0.47.
 this mod do:
