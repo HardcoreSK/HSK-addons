@@ -1,0 +1,32 @@
+name: Check GitHub API Usage
+
+on:
+  schedule:
+    - cron: '50 * * * *'  # Every hour
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  check_usage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests influxdb3-python
+
+      - name: Run API usage check and send to InfluxDB
+        env:
+          TOKENS: ${{ secrets.TOKENS}}
+          INFLUXDB_ORG: ${{ secrets.INFLUXDB_ORG }}
+          INFLUXDB_BUCKET: ${{ secrets.INFLUXDB_BUCKET }}
+          INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
+          INFLUXDB_URL: ${{ secrets.INFLUXDB_URL }}
+        run: python github_rate_limit_exporter.py
