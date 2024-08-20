@@ -51,12 +51,12 @@ def search_about_folder_and_extract_info(repo, owner, repo_name, path='/', level
                     about_xml_path = find_about_xml(repo, about_folder_path)
                     if about_xml_path:
                         file_content = repo.get_contents(about_xml_path).decoded_content.decode()
-                        name, description = extract_info_from_xml(file_content)
+                        name, description, package_id, supported_versions = extract_info_from_xml(file_content)
                     else:
-                        name, description = 'N/A', 'N/A'
+                        name, description, package_id, supported_versions = 'N/A', 'N/A', 'N/A', 'N/A'
                     preview_image = find_preview_image(repo, about_folder_path)
                     mod_root_path = '/'.join(about_folder_path.split('/')[:-1])
-                    about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, preview_image))
+                    about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image))
                 # Recursively search in subdirectories
                 subdir_about_info = search_about_folder_and_extract_info(repo, owner, repo_name, content.path, level + 1)
                 if subdir_about_info:
@@ -70,10 +70,12 @@ def extract_info_from_xml(content):
         root = ET.fromstring(content)
         name = root.find('name').text if root.find('name') is not None else 'N/A'
         description = root.find('description').text if root.find('description') is not None else 'N/A'
-        return name, description
+        package_id = root.find('packageId').text if root.find('packageId') is not None else 'N/A'
+        supported_versions = [li.text for li in root.findall('supportedVersions/li')] if root.find('supportedVersions') is not None else []
+        return name, description, package_id, supported_versions
     except ET.ParseError as e:
         logger.error(f"Error parsing XML content: {e}")
-        return 'N/A', 'N/A'
+        return 'N/A', 'N/A', 'N/A', []
 
 def find_preview_image(repo, about_folder_path):
     try:
@@ -98,7 +100,7 @@ def find_about_xml(repo, about_folder_path):
 def generate_xml_string(info_list):
     root = ET.Element('repositories')
 
-    for repo_id, owner, repo_name, mod_root_path, name, description, preview_image in info_list:
+    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image in info_list:
         repo_element = ET.SubElement(root, 'repository')
         ET.SubElement(repo_element, 'repo_id').text = str(repo_id)
         ET.SubElement(repo_element, 'owner').text = owner
@@ -106,6 +108,10 @@ def generate_xml_string(info_list):
         ET.SubElement(repo_element, 'mod_root_path').text = mod_root_path
         ET.SubElement(repo_element, 'name').text = name
         ET.SubElement(repo_element, 'description').text = description
+        ET.SubElement(repo_element, 'package_id').text = package_id
+        supported_versions_element = ET.SubElement(repo_element, 'supported_versions')
+        for version in supported_versions:
+            ET.SubElement(supported_versions_element, 'version').text = version
         ET.SubElement(repo_element, 'preview_image').text = preview_image
 
     return ET.tostring(root, encoding='utf-8', xml_declaration=True)
