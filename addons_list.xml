@@ -691,17 +691,7 @@ This is a simple mod that adds new versions of existing apparel, currently just 
 
 Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
 
-That's all.</description><package_id>vitech.extraflavor</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
-
-Mod version 1.3.0
-
-&lt;size=24&gt;Description&lt;/size&gt;
-
-This mod is an expansion of the "Minerals" Mod that adds more mineral diversity.
-
-See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
-
-  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
+That's all.</description><package_id>vitech.extraflavor</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
 
 For RimWorld Hardcore SK v1
 
@@ -716,7 +706,17 @@ It also adds resource minerals like obsidian and flint needed to build these wea
 
 See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
 
-  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
+
+Mod version 1.3.0
+
+&lt;size=24&gt;Description&lt;/size&gt;
+
+This mod is an expansion of the "Minerals" Mod that adds more mineral diversity.
+
+See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
+
+  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
 (ENG)
 Version 0.47.
 this mod do:
