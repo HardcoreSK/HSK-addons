@@ -818,65 +818,7 @@ v3.8: Added 5 new animals (01/11/21)
 v3.7: Added 4 new animals (08/08/21)
 v3.6: Added new Ideology, 8 new animals (22/07/21)
 v3.4: RimWorld 1.3 update. (05/07/21)
-Full changelog on GitHub</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Alpha Animals/Alpha Animals_SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld.
-
-&lt;size=24&gt;Features&lt;/size&gt;
-
-Adds 12 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
-
-- The Mycotic Jungle: a warm and humid biome filled with HUGE mushrooms. Home to the Wildpod and some weird mushroom varieties of usual creatures.
-- The Gallatross Graveyard: an arid temperate biome, littered with the skeletal remains of ancient beasts.
-- The Feralisk Infested Jungle: a warm, wet biome with incredibly dense vegetation, filled to the brink with extremely dangerous predatory spiders.
-- The Ocular Forest: a weird transdimensional realm intruding upon our Universe. Home to strange new flora and fauna.
-- The Gelatinous Superorganism: a swampy biome that is actually the upper surface of an extraordinarily large mold-like creature. No rocks to be found, but plenty of food.
-- The Mechanoid Intrusion: a desolate temperate biome with mechanical ruins. Apparently an ancient mechanoid attempt at turning the planet into a megastructure.
-- The Propane Lakes: a frozen wasteland, colder than the most inhospitable Sea Ice, but teaming with aberrant flora and fauna.
-- The Forsaken Crags: permanently clouded by a preternatural darkness, light is the most valuable commodity in this desertic landscape. Inspired by (and compatible with) the Forsakens mod.
-- The Tar Pits: an arid biome rich in vegetation, filled with treacherous tar pits that make movement quite difficult. Beware the Bumbledrone hives! 
-- The Pyroclastic Conflagration: a volcanic expanse of unrelenting and brutal nature. Fire and lava are both your worst enemy and your best friend in this biome.
-- The Idyllic Meadows: a lush meadow of giant flowers. A super easy biome that provides tons of resources and few predators.
-- The Miasmic Mangrove: a dangerous tropical biome full of debilitating diseases.
-
-
-The biomes have been tweaked so they don't take too much space in the world map, and you might have to generate a planet again if some biome is not appearing, since they have different temperature and humidity characteristics.
-
-&lt;size=24&gt;Issues&lt;/size&gt;
-
-Balance is obviously always a concern, although it has been playtested. Feel free to tell me if you think something is too wacky.
-
-&lt;size=24&gt;Plans for the future&lt;/size&gt;
-
-Maybe more biomes, who knows!
-
-&lt;size=24&gt;Compatibility&lt;/size&gt;
-
-Compatible with any other biome mod 
-Compatible with Alpha Animals (obviously)
-Compatible with Magical Menagerie
-Compatible with Dinosauria
-Compatible with Megafauna
-Compatible with Animal Collab Project
-Compatible with Vanilla Animals Expanded
-Compatible with Rim of Madness - Bones
-Compatible with Vanilla Fishing Expanded (adds 19 new fish)
-Compatible with Fish Industry
-Compatible with Forsakens
-Compatible with Camouflage and Stealth
-Compatible with Fertile Fields
-
-Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
-
-&lt;size=24&gt;Credit&lt;/size&gt;
-Bone planet: Hyptosis https://opengameart.org/content/bone-planet 
-Some sounds by Mike Koenig at http://soundbible.com
-Alien planet sound modified from Speedenza: https://freesound.org/people/Speedenza/sounds/198532/
-
-&lt;size=24&gt;Changelog&lt;/size&gt;
-
-Current version tag: v3.07
-
-
-	</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
+Full changelog on GitHub</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Alpha Animals/Alpha Animals_SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
 Convertion of Oskar Potockis / Mlie mod for HSK
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 https://steamcommunity.com/sharedfiles/filedetails/?id=2567847051
@@ -948,14 +890,12 @@ Pelador for help with advanced coding. Check out his mods!
 Andross for doing a CE Patch from scratch. Guy's a legend.
 Pacas (me) for doing a HSK convertion.
  
-    </description><package_id>Mlie.ApexRimworldLegends.SK</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Apex Rimworld Legends/Rimworld Legends/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Better Bridges Pack/Better Bridges Pack</mod_root_path><name>Better Bridges Pack</name><description>Idea from Lanilors mod - https://steamcommunity.com/sharedfiles/filedetails/?id=1420241138 \n + Mlie continued version - https://steamcommunity.com/sharedfiles/filedetails/?id=2012484790 \n + Railing from - https://steamcommunity.com/sharedfiles/filedetails/?id=932124891 \n\nAnd you can paint them all!\nBetter Bridges Pack - now with fishing bucket!</description><package_id>Pacas.BetterBridgesPack</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Better Bridges Pack/Better Bridges Pack/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Code Valkyrie/Code Valkyrie</mod_root_path><name>Code: Valkyrie - HSK Version</name><description>This mod adds a winged mechanoid with ability to jump on top of enemies. It comes in a melee and a ranged variant.</description><package_id>MetalocifAndDetVisor.ValkyrieMech.SK</package_id><supported_versions><version>1.3</version></supported_versions><preview_image>Code Valkyrie/Code Valkyrie/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Dinosauria/Dinosauria SK</mod_root_path><name>Dinosauria</name><description>Version: 2.0
-
-&lt;size=20&gt;Description&lt;/size&gt;
+    </description><package_id>Mlie.ApexRimworldLegends.SK</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Apex Rimworld Legends/Rimworld Legends/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Better Bridges Pack/Better Bridges Pack</mod_root_path><name>Better Bridges Pack</name><description>Idea from Lanilors mod - https://steamcommunity.com/sharedfiles/filedetails/?id=1420241138 \n + Mlie continued version - https://steamcommunity.com/sharedfiles/filedetails/?id=2012484790 \n + Railing from - https://steamcommunity.com/sharedfiles/filedetails/?id=932124891 \n\nAnd you can paint them all!\nBetter Bridges Pack - now with fishing bucket!</description><package_id>Pacas.BetterBridgesPack</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Better Bridges Pack/Better Bridges Pack/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Code Valkyrie/Code Valkyrie</mod_root_path><name>Code: Valkyrie - HSK Version</name><description>This mod adds a winged mechanoid with ability to jump on top of enemies. It comes in a melee and a ranged variant.</description><package_id>MetalocifAndDetVisor.ValkyrieMech.SK</package_id><supported_versions><version>1.3</version></supported_versions><preview_image>Code Valkyrie/Code Valkyrie/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Dinosauria/Dinosauria SK</mod_root_path><name>Dinosauria</name><description>Description
 What if we were to finally discover dinosaur DNA sequences, despite being incomplete, and fill the blanks with various genome sequences spliced from left and right, with a little bit of imagination to help guide us?
 
 Wonder no more! A group of Glitterworld scientists, having long abandoned the ideals to terraform the rimworlds with a purpose, went out of their ways to answer just that. With the mechanoids long having gone haywire with their terraforming projects, the dinosaurs created in labs were slowly introduced into fauna that should otherwise have resembled a 21st Century Earth, with little to no care as to their compatibility with existing wildlife and the forsaken rimworld colonists, the latter of which nobody seems to care about anyway.
 
-&lt;size=20&gt;Dinosaurs&lt;/size&gt;
+Dinosaurs
 32 new species of dinosaurs are introduced through this mod, all of which spawn in various different biomes:
 - Ankylosaurus,
 - Brachiosaurus,
@@ -995,12 +935,11 @@ Wonder no more! A group of Glitterworld scientists, having long abandoned the id
 Have a comment on balance, on the sprites, or have a bug to report? Make sure to deliver your request nicely, and you shall be heard. Don't forget that nobody is entitled to anything, and us modders do these for the community and we enjoy giving. If you wish to use any part of this mod and make your work public, please just drop me a line out of courtesy. So, just be nice, play nice.
 
 Happy colonizing!
-
-</description><package_id>spincrus.dinosauria</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Dinosauria/Dinosauria SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls</mod_root_path><name>Eaves, Rafters and Mad Walls</name><description>Adds a self-destructing wall, burrowing wall, eaves, and rafters.</description><package_id>pacas.wallsandrafters.sk</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Edge of Descension Monoblades/Edge of Descension - Monoblades</mod_root_path><name>Edge of Descension - Monoblades</name><description>Descent into madness, crave violence and avenge yourself from your past mistakes.
+</description><package_id>spincrus.dinosauria</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Dinosauria/Dinosauria SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls</mod_root_path><name>Eaves, Rafters and Mad Walls</name><description>Adds a self-destructing wall, burrowing wall, eaves, and rafters.</description><package_id>pacas.wallsandrafters.sk</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Edge of Descension Monoblades/Edge of Descension - Monoblades</mod_root_path><name>Edge of Descension - Monoblades</name><description>Descent into madness, crave violence and avenge yourself from your past mistakes.
 
 Slice opponents into bits of minced flesh with the monoblades provided in this mod.
 Superior than the monoswords in every aspects except damage, these blades are sharp with high penetration and slice fast, resulting in a lethal combination when used by a competent wielder.
-</description><package_id>Rabbit.EdgeOfDescension</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Edge of Descension Monoblades/Edge of Descension - Monoblades/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Faction Void/Faction Void</mod_root_path><name>Faction: V.O.I.D. - HSK Edition</name><description>Re-evaluate for a moment. Under what circumstances should you install this mod? None whatsoever.
+</description><package_id>Rabbit.EdgeOfDescension</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Edge of Descension Monoblades/Edge of Descension - Monoblades/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Faction Void/Faction Void</mod_root_path><name>Faction: V.O.I.D. - HSK Edition</name><description>Re-evaluate for a moment. Under what circumstances should you install this mod? None whatsoever.
 
 Featuring the most beloved organization in the outer RimWorld. Always helping people find greener pastures. Ready to take on the world!
 
@@ -1039,7 +978,7 @@ Anonymous (Ko-fi supporter)
 The Last Eternal
 getodog
 BlueBottle
-</description><package_id>RH2.Faction.VOID</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Faction Void/Faction Void/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Fireflies/Fireflies SK</mod_root_path><name>Fireflies</name><description>
+</description><package_id>RH2.Faction.VOID</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Faction Void/Faction Void/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Fireflies/Fireflies SK</mod_root_path><name>Fireflies</name><description>
 Discord: Steve o.O#1151
 steam: Scurvyez
 
@@ -1048,58 +987,27 @@ A simple, yet... heart warming, mod that adds fireflies to the Rim.
 See the workshop page and the wiki for more. :)
 Credit for all c# goes to Maxim! Thanks again man!
 
-  </description><package_id>Scurvyez.Fireflies</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Fireflies/Fireflies SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Frontier Developement Shields/Frontier Developement Shields HSK 1.3</mod_root_path><name>Shield Generators by Frontier Developments SK</name><description>Build shields. Stop bullets, rockets, explosions, drop pods, meteorites, super space lasers, and more!</description><package_id>frontierdevelopments.shields.sk</package_id><supported_versions><version>1.3</version></supported_versions><preview_image>Frontier Developement Shields/Frontier Developement Shields HSK 1.3/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Frontline Bunkers/Frontline - Bunkers</mod_root_path><name>Frontline - Bunkers</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
-Update of Wuergers mod
-https://steamcommunity.com/sharedfiles/filedetails/?id=1545794905
-with permission.
-If you like the mod, show the original author your appreciation here: 
-[url=https://ko-fi.com/wuergerking][img]https://i.imgur.com/gmaqOA3.png[/img][/url]
-
-[img]https://i.imgur.com/pufA0kM.png[/img]
-
-[table]
-    [tr]
-        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/FrontlineBunkers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-    [/tr]
-[/table]
-	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
-
+  </description><package_id>Scurvyez.Fireflies</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Fireflies/Fireflies SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Frontier Developement Shields/Frontier Developement Shields HSK 1.3</mod_root_path><name>Shield Generators by Frontier Developments SK</name><description>Build shields. Stop bullets, rockets, explosions, drop pods, meteorites, super space lasers, and more!</description><package_id>frontierdevelopments.shields.sk</package_id><supported_versions><version>1.3</version></supported_versions><preview_image>Frontier Developement Shields/Frontier Developement Shields HSK 1.3/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Frontline Bunkers/Frontline - Bunkers</mod_root_path><name>Frontline - Bunkers</name><description>
 This mod provides an additional way to fortify your Frontline with new bunker structures:
-
-[u]General[/u]:
-
+General:
 - You need to do research in order to get these structures.
 - The bunkerroof is not a real roof as of terms of game mechanics, you still will have to build a room like in vanilla 
 
-[u]Structures[/u]:
-
-[i]Bunker wall:[/i]
+Structures:
+Bunker wall:
 Slope walls are the foundation of your bunker. Needs A LOT of resources to build but can withstand even the hardest bombardement. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
 
-[i]Bunker embrasure:[/i]
+Bunker embrasure:
 Waist high walls grant your pawns a spot to use their own arms in combat and also provides some cover (70%) . Also in contrast to the ordinary sanbags, enemys can't climp over these structures. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
 
-[i]Bunker door:[/i]
+Bunker door:
 A heavy door granting passage inside the bunker. It can only be opened manually. Holds of fire for a long time, but costs a lot of resources. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
 
-[i]Bunkerroof:[/i]
+Bunkerroof:
 A semi transparent roofing. Comes in the sizes 5x5 and 3x3. [i][notification: More sizes MIGHT come on demand, maybe start a discussion here.][/i]  Does not hold a roof by itself, it needs surroundings. Takes a lot of time to be set up.
 
-
 Feel free to leave a comment and please report back any occuring bugs. And finally: Have Fun.
-
-[img]https://i.imgur.com/PwoNOj4.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]
-    </description><package_id>Mlie.FrontlineBunkers.SK</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Frontline Bunkers/Frontline - Bunkers/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Gloomy Decor Pack/Gloomy Decor Pack</mod_root_path><name>Gloomy Decor Pack</name><description>
+    </description><package_id>Mlie.FrontlineBunkers.SK</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Frontline Bunkers/Frontline - Bunkers/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Gloomy Decor Pack/Gloomy Decor Pack</mod_root_path><name>Gloomy Decor Pack</name><description>
         Gloomy Furniture
             and
         Gloomy Deco
@@ -1109,17 +1017,13 @@ Feel free to leave a comment and please report back any occuring bugs. And final
         LWM DS for Gloomy Furniture and Deco
 
         FOR HSK!!!
-    </description><package_id>Gloomy.DecorPack.SK</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Gloomy Decor Pack/Gloomy Decor Pack/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Harvest Post Mortem/HarvestPostMortemSK</mod_root_path><name>Harvest Organs Post Mortem SK</name><description>This mod allow organ harvest on dead bodies. This a new version which allows the player to harvest pawn-spesific organs. Happy harvest!</description><package_id>Smuffle.HarvestOrgansPostMortem</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Harvest Post Mortem/HarvestPostMortemSK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Maelstroms Metals/Maelstroms Metals SK</mod_root_path><name>Maelstrom's Metals SK</name><description>Adds a large number of metal alloys ranging from earlygame to specialized, incredibly powerful and expensive endgame materials.</description><package_id>Soul.MaelstromsMetals.sk</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Maelstroms Metals/Maelstroms Metals SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Megafauna/Megafauna SK</mod_root_path><name>Megafauna</name><description>Version: 1.5
-
----
-
-&lt;size=20&gt;Description&lt;/size&gt;
+    </description><package_id>Gloomy.DecorPack.SK</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Gloomy Decor Pack/Gloomy Decor Pack/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Harvest Post Mortem/HarvestPostMortemSK</mod_root_path><name>Harvest Organs Post Mortem SK</name><description>This mod allow organ harvest on dead bodies. This a new version which allows the player to harvest pawn-spesific organs. Happy harvest!</description><package_id>Smuffle.HarvestOrgansPostMortem</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Harvest Post Mortem/HarvestPostMortemSK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Maelstroms Metals/Maelstroms Metals SK</mod_root_path><name>Maelstrom's Metals SK</name><description>Adds a large number of metal alloys ranging from earlygame to specialized, incredibly powerful and expensive endgame materials.</description><package_id>Soul.MaelstromsMetals.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Maelstroms Metals/Maelstroms Metals SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Megafauna/Megafauna SK</mod_root_path><name>Megafauna</name><description>Description
 Thanks to the wonders of today's technology, the small group of scientists that was previously known for bringing the Megatherium-
 Uh, I mean, the Megasloth back to life, was able to make the Megafauna Project a reality! 
 This time around, they were able to recreate 38 different species of animals that used to inhabit planet Earth thousands to millions years ago. 
 ...Was that a wise move? Who cares! Now we all can feast our eyes on those glorious beasts as they will slowly inevitably turn all the ecosystems we know upside-down!
 
-&lt;size=20&gt;Features&lt;/size&gt;
+Features
 38 new species of animals, all able to spawn naturally in different biomes:
 - Arthropleura,
 - Doedicurus,
@@ -1163,77 +1067,7 @@ This time around, they were able to recreate 38 different species of animals tha
 These animals are quite rare, and should be a good challenge to either tame or slay. 
 A lot of them can also be used as pack animals for a caravan (with paraceratherium being your new best caravan buddy!).
 Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleura, titanis, titanoboa, megalania, dinornis, quinkana, megalochelys, palaeeudyptes, gigantophis, meganeura, and purussaurus do lay eggs. Sivatherium, macrauchenia, aurochs cows, and uintatherium are milkable - sivatherium's milk is very nutritious and quite valuable!
-
-Megafauna will automatically detect and patch both A Dog Said... by SpoonShortage and Giddy-up! by Roolo, so make sure to make it load after those mods.
-
-&lt;size=20&gt;Languages&lt;/size&gt;
-English, Polish,
-
-&lt;size=20&gt;Credits&lt;/size&gt;
-Roolo - for great help with making Megafauna compatible with his Giddy-up mod.
-Nightinggale - for his immensely useful ModCheck.
-
-&lt;size=20&gt;Changelog&lt;/size&gt;
-10.10.2020 - Update #8:
-			- updated to be compatible with Rimworld 1.2.
-			
-23.03.2020 - Update #7.5:
-			- brought back A Dog Said... compatibility,
-			- hopefully fixed a bunch of errors people were getting.
-
-22.03.2020 - Update #7:
-			- updated to be compatible with Rimworld 1.1.
-			
-03.11.2018 - Update #6:
-			- changed the name of the "ScorpionLike" body type to fix compatibility issues with AnimalCollabProject,
-			- changed the intelligence level of smilodon and dinocrocuta to advanced, to match the change made to vanilla's cougar and panther,
-			- changed the intelligence level of pulmonoscorpius to advanced.
-			
-01.11.2018 - Update #5:
-			- updated to be compatible with Rimworld 1.0,
-			- all animals now have unique dessicated sprites,
-			- a lot of small changes intended to help with the balance, like lower hunger rates for predators or sizes of groups some of the animals can spawn in,
-			- added 15 (!) more animals.
-			
-06.04.2018 - Update #4:
-			- there is a simple official megafauna wiki now: http://megafaunarimworld.wikia.com!
-			- actually made all the animals less rare - turns out that the last time I made the spawn chances about 5-8 times lower than I intended, oops,
-			- minor changes to some of the animals' stats,
-			- woolly mammoth's name is no longer misspelled.
-			
-20.12.2017 - Update #3:
-			- updated to be compatible with Rimworld Beta 18,
-			- no longer requires an additional patch to be compatible with A Dog Said..., it will now automatically detect it and patch all the necessary stuff in,
-			- also comes with a built-in patch for Giddy-up!,
-			- daeodon, titanis, titanoboa, smilodon, procoptodon, gomphotaria, short-faced bear, and dinocrocuta are no longer pack animals (can't be used to carry stuff in caravans),
-			- very minor tweaks to a few animals in regards to their body size and meat/leather yield,
-			- some of the animals can now spawn in the new swamp-type biomes (titanoboa's no longer exclusive to the tropical rainforest!),
-			- some of the older animals such as arthropleura and doedicurus now have their own body types instead of using unfitting vanilla ones,
-			- some of the older animals won't be sold by traders anymore, in order to make obtaining them feel more special, those being: paraceratherium, titanoboa, elasmotherium, megalania, gomphotaria, and short-faced bear.
-			- added 4 more animals.
-			
-22.08.2017 - Update #2:
-			- fixed problems with breeding arthropleura (hopefully...?),
-			- reduced meat/leather yield of almost all the animals,
-			- finally added the max body sizes of prey the predators will hunt,
-			- slight changes as to what biomes the animals can spawn in,
-			- changed entelodont's name to daeodon as it is more specific and therefore more fitting.
-			- added 5 more animals.
-	
-01.08.2017 - Update #1:
-			- dropped support for A Dog Said... Easy Patcher (now requires a separate compatibility patch for A Dog Said..., which adds the feature of healing old wounds on animals)
-			- reduced spawn rates of the creatures,
-			- reduced meat/leather yield of paraceratherium/titanoboa,
-			- slightly reduced size of giganthopithecus/titanoboa,
-			- fixed problems with selling items to traders,
-			- fixed some herbivores not being able to eat live plants,
-			- removed unfertilized eggs of arthropleura/titanis/titanoboa,
-			- increased size of baby animals,
-			- increased market value of the mammoth wool,
-			- all the leathers now have different stats as well as market value,
-			- added 6 more animals.
-
-</description><package_id>Spino.Megafauna</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Megafauna/Megafauna SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Minerals Ancient Stones/Minerals Ancient Stones</mod_root_path><name>Minerals Ancient Stones</name><description>Hand-made ancient stones are 300$.</description><package_id>pacas.minerals.stones</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Minerals Ancient Stones/Minerals Ancient Stones/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>More Tools/More Tools</mod_root_path><name>More Tools</name><description>Add more useful tools for pawns.</description><package_id>HSK.More.Tools.Continued</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>More Tools/More Tools/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK</mod_root_path><name>Nerve and Gas Shells</name><description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description><package_id>BIGWIK.NerveGasShells.sk</package_id><supported_versions><version>1.3</version></supported_versions><preview_image>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Paniel the Automata/Paniel the Automata</mod_root_path><name>Paniel the Automata</name><description>
+</description><package_id>Spino.Megafauna</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Megafauna/Megafauna SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Minerals Ancient Stones/Minerals Ancient Stones</mod_root_path><name>Minerals Ancient Stones</name><description>Hand-made ancient stones are 300$.</description><package_id>pacas.minerals.stones</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Minerals Ancient Stones/Minerals Ancient Stones/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>More Tools/More Tools</mod_root_path><name>More Tools</name><description>Add more useful tools for pawns.</description><package_id>HSK.More.Tools.Continued</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>More Tools/More Tools/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK</mod_root_path><name>Nerve and Gas Shells</name><description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description><package_id>BIGWIK.NerveGasShells.sk</package_id><supported_versions><version>1.3</version></supported_versions><preview_image>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Paniel the Automata/Paniel the Automata</mod_root_path><name>Paniel the Automata</name><description>
 Paniel the Automata
 
 Humanoid alien race mod
@@ -1257,7 +1091,7 @@ ChJees : this mod inspired by Androids mod.
 Madeline, Gloomylynx, Farmradish, horsefry, Space_Engineer, SR0752, 며루치, 곤약쟁이(sinnamon).
 
 and Rimworld Korea Discord members.
-	</description><package_id>AhnDemi.PanieltheAutomata.sk</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Paniel the Automata/Paniel the Automata/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Primitive Storage/Primitive Storage</mod_root_path><name>Primitive Storage</name><description>An addition to LWM's Deep Storage. Primitive Storage adds several new structures for keeping your goods.</description><package_id>PrimitiveStorage.velcroboy333</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Primitive Storage/Primitive Storage/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Rabbie Race/Rabbie SK</mod_root_path><name>Rabbie The Moonrabbit race</name><description>
+	</description><package_id>AhnDemi.PanieltheAutomata.sk</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Paniel the Automata/Paniel the Automata/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Primitive Storage/Primitive Storage</mod_root_path><name>Primitive Storage</name><description>An addition to LWM's Deep Storage. Primitive Storage adds several new structures for keeping your goods.</description><package_id>PrimitiveStorage.velcroboy333</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Primitive Storage/Primitive Storage/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Rabbie Race/Rabbie SK</mod_root_path><name>Rabbie The Moonrabbit race</name><description>
 
     Rabbie The MoonRabbit Race
 
@@ -1335,7 +1169,7 @@ and Rimworld Korea Discord members.
 	- Marnador, for the fan-made RimWorld font used for the preview
 	- Lolidrop, for the awesome hair in the preview 
     - Pacas (me), for HSK convertion
-    </description><package_id>FS.ReviaRace</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Revia Race/Revia Race HSK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Rimfeller EasyMod/Rimfeller Easy Version addon</mod_root_path><name>Rimefeller Easy Addon</name><description>If you want, then why not?</description><package_id>Dubwise.Rimefeller.EasyMod</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Rimfeller EasyMod/Rimfeller Easy Version addon/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Core</mod_root_path><name>SRTS Expanded - HSK Edition</name><description>These are flying caravans, meant to load people and cargo and bring it somewhere else -- potentially a very long distance, and back again. These act like drop pods, but are not one use -- when you bring it back home you choose where to land and disembark.
+    </description><package_id>FS.ReviaRace</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Revia Race/Revia Race HSK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Rimfeller EasyMod/Rimfeller Easy Version addon</mod_root_path><name>Rimefeller Easy Addon</name><description>Yes, its not really an easy mode, just pure oil =&gt; plastic/resin process.</description><package_id>Dubwise.Rimefeller.EasyMod</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Rimfeller EasyMod/Rimfeller Easy Version addon/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Core</mod_root_path><name>SRTS Expanded - HSK Edition</name><description>These are flying caravans, meant to load people and cargo and bring it somewhere else -- potentially a very long distance, and back again. These act like drop pods, but are not one use -- when you bring it back home you choose where to land and disembark.
 
 Great for hauling cargo, trading with factions, assaulting points of interest on your world map, and so much more. Acts as both a caravan and a drop pod.
 
@@ -1344,17 +1178,14 @@ A few additional role-specific short range transport shuttles (or SRTS) so you r
 Conflicts
 - Multiplayer mod: You will not be able to actually load anything into the ship. It won't work. Sorry.
     </description><package_id>smashphil.srtsexpanded</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>SRTS Expanded plus addons/SRTS Expanded - Core/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Helicopters</mod_root_path><name>SRTS Expanded - Helicopters</name><description>Ever wanted to fly through Rimworld with style and practicality? Well helicopters are here to bring you just that, helicopters have always been the king when it comes to aeronautical utility, the ability for helicopters to land without a runway is incredibly useful, especially when secure spaces are of a premium due to pesky raiders trying to steal your tables, it also allows you to launch attack operations without needing an entire airfield to land on, which is great for retaliation and retaking your stolen tables.
-	</description><package_id>ELIF.SRTS.Helicopters</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet</mod_root_path><name>SRTS Expanded - The Crimson Fleet - HSK Edition</name><description>An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose. Thats... pretty much it.</description><package_id>Ravvy.SRTS.TCF.HSK</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Seven Seraph Weapons/Seventh Seraph Weapons</mod_root_path><name>Seventh Seraph Weapons SK</name><description>This mod adds seventh seraph weapons from Destiny 2.</description><package_id>Seventh.Seraph.Weapons.SK</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Seven Seraph Weapons/Seventh Seraph Weapons/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Tesla Coil/Tesla Coil</mod_root_path><name>Tesla Coil</name><description>
+	</description><package_id>ELIF.SRTS.Helicopters</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet</mod_root_path><name>SRTS Expanded - The Crimson Fleet - HSK Edition</name><description>An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose. Thats... pretty much it.</description><package_id>Ravvy.SRTS.TCF.HSK</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Seven Seraph Weapons/Seventh Seraph Weapons</mod_root_path><name>Seventh Seraph Weapons SK</name><description>This mod adds seventh seraph weapons from Destiny 2.</description><package_id>Seventh.Seraph.Weapons.SK</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Seven Seraph Weapons/Seventh Seraph Weapons/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Tesla Coil/Tesla Coil</mod_root_path><name>Tesla Coil</name><description>
 Special turret for your special prison :^)
 
 Based on BoeDankless mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2086426386
 and Mlie update
 https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
-</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>
-Adds several types of utility column.
-All columns hold up the roof, beware of possible roof collapse when moving.
-    </description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
 (ENG)
 Version 0.48.
 this mod do:
