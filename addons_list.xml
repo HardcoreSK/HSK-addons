@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<repositories><repository><repo_id>599304238</repo_id><owner>pacas</owner><repo_name>Pacas-Patches-Compilation</repo_name><mod_root_path>Pacas Patches Compilation</mod_root_path><name>Pacas Patches Compilation</name><description>
-		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
-	</description><package_id>pacas.patchescompilation.v1</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Pacas Patches Compilation/About/Preview.png</preview_image></repository><repository><repo_id>819143277</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.130mm.Main</repo_name><mod_root_path /><name>New 130 mm Rocket Missiles</name><description>
+<repositories><repository><repo_id>819143277</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.130mm.Main</repo_name><mod_root_path /><name>New 130 mm Rocket Missiles</name><description>
   Ru
 Данная модификация меняет 130мм ракеты , изменён урон (увеличен) , изменены текстуры , изменён крафт .Добавлена возможность ракетами обстреливать соседние карты (155мм пушка может ,а ракеты нет? ).Для ракет прописал разный урон по вражеской базе .
 Осколочные ракеты - увеличено количество осколков.
@@ -49,7 +47,9 @@ https://github.com/Watcher011/HSK.Watcher.content.130mm.Main
 https://ko-fi.com/watcher011#linkModal (изменено)
 
   Version:0 «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
-  </description><package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version><version>1.1</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>810505248</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content</repo_name><mod_root_path /><name>HSK Watcher Content</name><description>
+  </description><package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version><version>1.1</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>599304238</repo_id><owner>pacas</owner><repo_name>Pacas-Patches-Compilation</repo_name><mod_root_path>Pacas Patches Compilation</mod_root_path><name>Pacas Patches Compilation</name><description>
+		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
+	</description><package_id>pacas.patchescompilation.v1</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Pacas Patches Compilation/About/Preview.png</preview_image></repository><repository><repo_id>810505248</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content</repo_name><mod_root_path /><name>HSK Watcher Content</name><description>
   Сборка состоит из модов :
   
   WatcherXI.GlowstoneLamp(добавляет светокаменные лампы и колоны)
@@ -91,13 +91,9 @@ https://ko-fi.com/watcher011#linkModal (изменено)
 В сборке так же использовались текстуры мега паука из мода: Reskins_Megaspider
 Автор"PocToK"
 Ссылка на мод - https://top-mods.ru/mods/rimworld/graphics/33106-reskins-megaspider.html
-  </description><package_id>HSK.WatcherContent</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>826999035</repo_id><owner>pacas</owner><repo_name>Pacas-Even-More-Content</repo_name><mod_root_path>Pacas Even More Content</mod_root_path><name>Pacas Even More Content</name><description>Even more random fun stuff, prepare to craft edition.</description><package_id>hmc.pacas.evenmorecontent</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Pacas Even More Content/About/Preview.png</preview_image></repository><repository><repo_id>850506841</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.Fallout</repo_name><mod_root_path /><name>HSK Watcher Fallout</name><description>Добавляет: фракцию Волт-тек . Добавляет ксенотип Гули - устойчивы к токсичной среде , жрут что найдут , уродливы и туповаты. Автомат с ядер Колой - после изучения можно создавать 3 вкуса с разными бафами .Добавлена крышко мина , можно использовать как гранату , или как мину .Добавлен Стимпанк - в трудную минуту позволит продолжать бой , но имеет длительные побочные эффекты.Из разных модов натаскал текстуры Монстров и заселил ими пустоши (токсичные теретории).Добавлен робот Мистер Помощник - незаменимый дроид в колонии.
-	Текстурки гулей взяты с мода «Fallout Races: Playable Ghoul (Continued)» https://top-mods.ru/mods/rimworld/factions/8047-fallout-races-playable-ghoul-compatible.html
-	Текстурки животных взяты с мода «Vanilla Animals Expanded — Waste Animals» https://steamcommunity.com/sharedfiles/filedetails/?id=2962126499
-	Огромная благодарность Дон Чипотль за предоставление Dll файлы https://www.youtube.com/@don_chipotle.
-	</description><package_id>HSK.Watcher.content.Fallout</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>554877010</repo_id><owner>pacas</owner><repo_name>HMC-Nobility-Expanded</repo_name><mod_root_path>HMC Nobility Expanded</mod_root_path><name>HMC Nobility Expanded</name><description>Full rework of the empire system. New titles, new privileges, new mechanics and surely better Empire path to the endgame!
+  </description><package_id>HSK.WatcherContent</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>826999035</repo_id><owner>pacas</owner><repo_name>Pacas-Even-More-Content</repo_name><mod_root_path>Pacas Even More Content</mod_root_path><name>Pacas Even More Content</name><description>Even more random fun stuff, prepare to craft edition.</description><package_id>hmc.pacas.evenmorecontent</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Pacas Even More Content/About/Preview.png</preview_image></repository><repository><repo_id>554877010</repo_id><owner>pacas</owner><repo_name>HMC-Nobility-Expanded</repo_name><mod_root_path>HMC Nobility Expanded</mod_root_path><name>HMC Nobility Expanded</name><description>Full rework of the empire system. New titles, new privileges, new mechanics and surely better Empire path to the endgame!
     Last 1.3 version - https://github.com/pacas/HMC-Nobility-Expanded/releases/tag/v0.15
-    </description><package_id>pacas.nobility.expanded</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Nobility Expanded/About/Preview.png</preview_image></repository><repository><repo_id>564706988</repo_id><owner>pacas</owner><repo_name>RW-HSK-Facial-Animations-Patches</repo_name><mod_root_path>Facial Animation HSK Patch</mod_root_path><name>Facial Animation HSK Patch</name><description>Smile! Full supported race list can be found on github. Also use mod https://steamcommunity.com/sharedfiles/filedetails/?id=2950353635 if you have Biotech installed.</description><package_id>pacas.faceanim.hsk</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>777858707</repo_id><owner>pacas</owner><repo_name>HSK-SAR-Patch</repo_name><mod_root_path /><name>HSK-SAR Uncensored Patch</name><description>HSK sized apparel patches</description><package_id>OTYOTY.SizedApparel.hsk</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>746897825</repo_id><owner>pacas</owner><repo_name>RW-HSK-Upscaled-Textures</repo_name><mod_root_path>Pacas Upscaled Textures Lite</mod_root_path><name>Pacas Upscaled Textures</name><description>Upscale for everyone!</description><package_id>pacas.textures.upscale.v2</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Pacas Upscaled Textures Lite/About/Preview.png</preview_image></repository><repository><repo_id>590500502</repo_id><owner>TheLoneTec</owner><repo_name>Celsius-SK</repo_name><mod_root_path /><name>Celsius</name><description>Celsius adds realistic simulation of thermodynamics to the game.
+    </description><package_id>pacas.nobility.expanded</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Nobility Expanded/About/Preview.png</preview_image></repository><repository><repo_id>777858707</repo_id><owner>pacas</owner><repo_name>HSK-SAR-Patch</repo_name><mod_root_path /><name>HSK-SAR Uncensored Patch</name><description>HSK sized apparel patches</description><package_id>OTYOTY.SizedApparel.hsk</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>746897825</repo_id><owner>pacas</owner><repo_name>RW-HSK-Upscaled-Textures</repo_name><mod_root_path>Pacas Upscaled Textures Lite</mod_root_path><name>Pacas Upscaled Textures</name><description>Upscale for everyone!</description><package_id>pacas.textures.upscale.v2</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Pacas Upscaled Textures Lite/About/Preview.png</preview_image></repository><repository><repo_id>564706988</repo_id><owner>pacas</owner><repo_name>RW-HSK-Facial-Animations-Patches</repo_name><mod_root_path>Facial Animation HSK Patch</mod_root_path><name>Facial Animation HSK Patch</name><description>Smile! Full supported race list can be found on github. Also use mod https://steamcommunity.com/sharedfiles/filedetails/?id=2950353635 if you have Biotech installed.</description><package_id>pacas.faceanim.hsk</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>590500502</repo_id><owner>TheLoneTec</owner><repo_name>Celsius-SK</repo_name><mod_root_path /><name>Celsius</name><description>Celsius adds realistic simulation of thermodynamics to the game.
 
 Main features:
 
@@ -143,7 +139,11 @@ In general, mods that add walls, doors and building stuff may need patches. Cels
 The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
 
 You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
-</description><package_id>Garwel.Celsius.SK</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description>My own patch collection.
+</description><package_id>Garwel.Celsius.SK</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>850506841</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.Fallout</repo_name><mod_root_path /><name>HSK Watcher Fallout</name><description>Добавляет: фракцию Волт-тек . Добавляет ксенотип Гули - устойчивы к токсичной среде , жрут что найдут , уродливы и туповаты. Автомат с ядер Колой - после изучения можно создавать 3 вкуса с разными бафами .Добавлена крышко мина , можно использовать как гранату , или как мину .Добавлен Стимпанк - в трудную минуту позволит продолжать бой , но имеет длительные побочные эффекты.Из разных модов натаскал текстуры Монстров и заселил ими пустоши (токсичные теретории).Добавлен робот Мистер Помощник - незаменимый дроид в колонии.
+	Текстурки гулей взяты с мода «Fallout Races: Playable Ghoul (Continued)» https://top-mods.ru/mods/rimworld/factions/8047-fallout-races-playable-ghoul-compatible.html
+	Текстурки животных взяты с мода «Vanilla Animals Expanded — Waste Animals» https://steamcommunity.com/sharedfiles/filedetails/?id=2962126499
+	Огромная благодарность Дон Чипотль за предоставление Dll файлы https://www.youtube.com/@don_chipotle.
+	</description><package_id>HSK.Watcher.content.Fallout</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>610143261</repo_id><owner>masakitenchi</owner><repo_name>Masakis-HSK-Patch</repo_name><mod_root_path /><name>Masakis HSK Patch</name><description>My own patch collection.
 		Main Features:
 		- SOS2 support (1.4, 1.5) (up to V99, so expect bugs in 1.5 right now)
 		- Vanilla Nutrient Paste Expanded Support (feat. @Matt-MentTao)
@@ -159,13 +159,13 @@ You may also leave comments on the Steam page. If you are reporting a bug, make 
 	Patches to make HSK races conform to Compatible Body 2 and use Paper Pattern for apparel. \nRecommend [NL] Custom Coordinate Offsets https://steamcommunity.com/sharedfiles/filedetails/?id=1909870211. \nRecommend UnderWhere https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563. \nRecommend USE Set Apparel Draw Order https://steamcommunity.com/sharedfiles/filedetails/?id=2828788563
 	</description><package_id>TheLoneTec.PaperP.CB2.HSK</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>599305260</repo_id><owner>TheLoneTec</owner><repo_name>Arcane-Technology-SK</repo_name><mod_root_path /><name>[D] Arcane Technology</name><description>Restrict weapon and armor usage until the technology has been researched.</description><package_id>dame.arcanetechnology</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>593637385</repo_id><owner>TheLoneTec</owner><repo_name>Rimputers-SK</repo_name><mod_root_path /><name>Rimputers</name><description>Research is all about processing data now connect those research benches to computers throughout history and crunch those numbers.</description><package_id>joeyjoejoeshabidoo.Rimputers</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>506828360</repo_id><owner>TheLoneTec</owner><repo_name>Tecs-Assorted-Patches</repo_name><mod_root_path /><name>Tec's Assorted Patches</name><description>
 	A lot of HSK patches
-	</description><package_id>TheLoneTec.TSAP</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>506815741</repo_id><owner>TheLoneTec</owner><repo_name>Soft-Warm-Beds-HSK</repo_name><mod_root_path /><name>[JPT] Soft Warm Beds HSK</name><description>
+	</description><package_id>TheLoneTec.TSAP</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>556229360</repo_id><owner>TheLoneTec</owner><repo_name>Water-Freezes</repo_name><mod_root_path /><name>Water Freezes</name><description>
+Water freezes and turns to ice with different depths, if you use Soil Relocation Framework you can dig it up and use it to cool rooms, too!
+  </description><package_id>UdderlyEvelyn.WaterFreezes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>506815741</repo_id><owner>TheLoneTec</owner><repo_name>Soft-Warm-Beds-HSK</repo_name><mod_root_path /><name>[JPT] Soft Warm Beds HSK</name><description>
 Have you ever wondered why is it that we just need stone blocks or steel to build a bed, while wool and fur pile up on the warehouse, unused? Do you get a feeling it would be way more comfortable to lay down on something soft? And what if that cozy bed could also help with the freezing cold? Well, that's what this mod is all about!
 Now your beds will only provide full comfort if you add some mattress, pillows and a blanket - or a bedding set, to simplify - which can be made at your regular tailor bench or crafting spot. More than that: depending on what these are made of, your beds can get even more comfortable than the regular ones, affecting their effectiveness in providing rest as well. Also, the material insulation properties carries over to the bed, helping keep your pawns warm.
 But blankets, of course, can't help with the heat. For those playing on tropical climates, we included a tropical alternative to beds: hammocks! How come nobody thought of that before? These cheap hanging rigs may not be as comfortable as a full bed, but they do help cooling off. And being cheap and light, they can also be used as travel beds, just like bedrolls!
-  </description><package_id>JPT.SoftWarmBedsHSK</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>556229360</repo_id><owner>TheLoneTec</owner><repo_name>Water-Freezes</repo_name><mod_root_path /><name>Water Freezes</name><description>
-Water freezes and turns to ice with different depths, if you use Soil Relocation Framework you can dig it up and use it to cool rooms, too!
-  </description><package_id>UdderlyEvelyn.WaterFreezes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>710623550</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-Combined-Arms</repo_name><mod_root_path>Parabellum Combined Arms</mod_root_path><name>Parabellum Combined Arms</name><description>
+  </description><package_id>JPT.SoftWarmBedsHSK</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>710623550</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-Combined-Arms</repo_name><mod_root_path>Parabellum Combined Arms</mod_root_path><name>Parabellum Combined Arms</name><description>
 
 		Si vis pacem, para bellum - If you want peace, prepare for war
 
@@ -202,514 +202,7 @@ Moved the changelog to separated text file
 
 Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
 
-	</description><package_id>XxNelsonxX.ParabellumCA</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Parabellum Combined Arms/About/Preview.png</preview_image></repository><repository><repo_id>385012822</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum</repo_name><mod_root_path>Parabellum</mod_root_path><name>Parabellum</name><description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-+New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
-
-The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
-
-Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
-
-Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
-
-Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
-
-Moved the changelog to separated text file
-
-
-[RUS - переводчик]
-
-		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
-
-		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
-		
-
-+ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
-
-Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
-
-Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
-
-Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
-
-О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
-
-
-Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
-
-	</description><package_id>XxNelsonxX.Parabellum</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Parabellum/About/Preview.png</preview_image></repository><repository><repo_id>469523213</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-War-Trophy</repo_name><mod_root_path>Parabellum War Trophy</mod_root_path><name>Parabellum War Trophy</name><description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-This is an extension of Parabellum Mod, the mod add any military hardware that I find fun/interesting to play with, can be something to explore CE limits or something that add challenge and variety for HSK combat.
-
-[RUS - переводчик]
-
-		Si vis Pacem, para bellum - Хочешь мира, готовься к войне
-
-Это расширение мода Parabellum, мод добавляет любую военную технику, с которой мне весело/интересно играть, может быть чем-то, чтобы исследовать ограничения CE или что-то, что добавляет сложности и разнообразия в бою HSK.
-
-Этот перевод не очень точен, извините
-
-	</description><package_id>XxNelsonxX.ParabellumWT</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile Patch - The Windows</mod_root_path><name>The Windows</name><description>
-	    This is a fork and continuation of Open the Windows. The original mod was by jptrrs, patched to 1.3 by MangoThunder, with seamless texture edits by Yap. All three have been rolled together along with a number of optimizations, updates and balances adjustments.
-	
-		Patched for Hardcore SK by Vile Heathen.	</description><package_id>thewindows.sk.jptrrs.owlchemist.vile</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile Patch - The Windows/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile REQUISITE - SK_Fences and Floors</mod_root_path><name>VileRequisite-Fences And Floors by HSK</name><description>
-This mod adds 4 new styles of flooring and 4 fences (3 perimeter fences and a smaller defensive barrier). Fences are gathered into their own menu category and research requirements have been applied where appropriate. Plywood paneling and the simple wood fence are available from the beginning and are relatively simple to construct. Upon completing the Machining research requirement access to chainlink fencing, high security fencing, the security barrier, steel grate flooring, and metal panel flooring is made available. The last addition, sensor panel flooring, becomes constructable upon completing a new research project: "Reactive Flooring."
-
-Some additions exhibit special qualities. Steel grating has an inherent bonus to cleanliness due to most dust and detritus falling cleanly through the grate. Wood and chainlink fences can be fired through while providing a small amount of cover. The security barrier can be walked over (though with some difficulty), much like vanilla sandbags, but still provide good cover from incoming fire. Lastly, sensor panels include advanced electronics, sensors, and networking components within their design. They are expensive and difficult to construct but react to the presence of pedestrians moving overhead by optimizing their surface to the users stride resulting in a more pleasant walk.
-
-Viles notes:
-Wood fence overwrites the new vanilla fence. Also changed some values here and there to work with my other mods.</description><package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile REQUISITE - SK_Fences and Floors/About/Preview.PNG</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Amuse Bouche</mod_root_path><name>Vile's Amuse Bouche</name><description>
-This mod adds content for your discerning palate. No more boring generic "fine meals", and almost all ingredients have unique recipes.
-	  
-I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
-http://patreon.com/vileheathen  
-Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Soup:
-  
-Dozens of new meals to make. 
-
-Late-game high-cuisine recipes. 
-
-Completely re-engineered meal hediff system. 
-
-13 categories of foods grouped by hediffs. 
-
-New hot pepper crops, resources.
-
-New deep-fryer building.
-
-Version 1.14 - (Ideology Support) - Adds support for veg/carn versions of the vanilla analogs, with improved textures. Adds Seitan, a meat substitute made of wheat, and tofu can now be eaten by vegetarians.
-
-Version 1.13 (Forgotten Update) - Gruel added, which is made of unmilled grains and has a mood debuff. Soup is now available in neolithic era.
-			 - Added cross-mod support with The Forgotten (part 1)
-
-Version 1.12 (Hearth Update) - Open Hearth added. Works like a campfire, but expensive to build, can cook soup, and much more efficient. Not as fancy as the regular hearth.
-
-Version 1.11 - Updated for Rimworld 1.3
-
-Version 1.0
--Updated for Research Overhaul.
--Cornmeal added back into game.
-
-	  
-  
-</description><package_id>ViTech.HCSKamusebouche</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile's Amuse Bouche/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Biomes From The Ground Up</mod_root_path><name>Vile's Biomes: From The Ground Up</name><description>Version 0.13A - 1/25/2022 - Seasonal Weather mod doesn't seem to be working, so please disable it (If removing Seasonal Weather breaks your savegame, re-enable seasonal weather but delete everything in VP_SK_Seasonal Weather/Patches/). Patching/adjusting biome base weathers to compensate, but likely will need some balance adjustment as we test it. Savanna will alternate a lot between month-long monsoon rains and droughts. Added harvestable caribou moss and bearberries from the Tundra to make it more playable. Adjusted grow-rate of grasses for cold biomes and moved some around a bit. More balance tweaks here and there and more to come.
-
-Version 0.12A - 1/19/2022 - Remixed boreal a bit, added back in missing water terraforms, fixed yet another framerate issue (should be final this time). Keep the feedback comin'!
-Version 0.11A - 1/18/2022 - fixed issue affecting framerate during cold weather, missing textures, improves some textures.
-Version 0.1A - 1/17/2022
-	
-Dislaimer: This is a brand new mod, which means it needs some testing. By reading this, you agree to offer your soil in exchange for early access to this mod. That is to say, please send me feedback on discord if anything seems weird or buggy, or if something just looks off. And before you ask, yes, you'll have to start a new game, or at least move your colony to a new tile so the biome can regenerate. I also recommend using the patched Seasonal Weather mod with this.
-
-I've started a blog and Patreon for my mods! Check it out, and support me if you wish. 
-http://patreon.com/vileheathen  
-Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Bog Water:
-
-Biomes: From The Groud Up overhauls biomes... from the ground up. Here's the dirt:
-	
-1. Retextures nearly every plant and tree and adds many new ones. Some are harvestable, some are purely aesthetic.
-2. Repopulates biomes to be more realistic, but more importantly, more distinct from one another.	
-3. Retextures (moved from Hardcore Renovation) and revises terrains, and adds several new ones to further give the biomes more distinction.
-4. Terrain generation is revised to form more unique landmasses in some biomes.
-5. Trees more likely to grow in groves (moved from Wood You Please).
-6. Terraforming revised to be (hopefully) more streamlined - it's a balancing work in progress.
-7. Scatterables removed from ice and sand (those ugly blotches that are always there)
-8. Adds a few new foods to go with the new plants (bog cranberries, wetland cattails, desert prickly pears, and brought back blueberries which grow in taiga and boreal)
-9. Biomes have seasonal weather (requires supporting mod), some have wet and dry seasons, wildfire seaons, hurricane seasons, etc. 	
-	
-Now for what's new and different:
-
-___SOILS!___
-New and revised soils are based off of US Soil Taxonomy (which isn't really important unless you're a nerd). They're listed in order of fertility:
-
-Rich Soil - Alluvium - typically only found around ponds and in small patches.
-Grassland Soil - Mollisol - Found in the savanna.
-Fertile Soil - Alfisol - Found in termperate forests, equivalent of vanilla "soil"
-Volcanic Soil - Andisol - Currently only found in small patches in rainforests, but can be terraformed with ash.
-Red Clay Soil - Ultisol - Found in rainforests. It turns out rainforests don't have great soil.
-Marshy Soil - Mineral Hydric Soil - Found in wetlands
-Leached Soil - Oxisol - Found in rainforests.
-Mossy Soil - Spododsol - Found is boreal forests and tundra in smaller amounts.
-Arid Soil - Aridisol - Found in deserts.
-Muck - Sapric Histosol - Found in Tropical Swamps. Contains moderate amounds of peat and organic matter.
-Cracked Clay - Vertisol - Found in deserts. Nutrients and be extracted via terraforming.
-Weak Soil - Inseptisol - Young soils found in boreal forests.
-Mucky Peat - Hemist Histosol - Found in temperate swamps. Contains a fair amount of peat and some organic matter.
-Turbulent Soil - Gelisol (Turbels) - Rocky tundra soil. 
-Peat Soil - Fabrist Histosol - Found in Bogs. Contains high amounts of peat.
-Undeveloped Soil - Entisol - Found near rock forms and gravel.
-Coarse Sand - Found in beaches and deserts with barely any nutrient value.
-Desert Sand - Dune sand found in extreme deserts. Nothing can grow here and it's hard to walk on.
-Gravel - Relatively unchanged apart from new texture.
-Desert Pavement - A strange formation sometimes found in deserts.
-Bog Water - Highly acidic water found in bogs.
-Swamp Water - Found in temperate swamps.
-Black Water - Found in tropical swamps.
-Ice - Good ol' ice. 
-Clear Ice - Smooth ice which is very hard to traverse.
-Frozen Snow - Easier to walk on than ice.
-
-___NEW PLANTS!___
-There are lots of new plants. Here are a few:
-
-TREES and SHRUBS:
-Kapok Tree: Gigantic trees found in the rainforest (experimental two-layer texture).
-Spruce Tree: Found in bogs and cold regions.
-Acacia Tree: Found in savannas and deserts.
-Juniper: Coniferous shrub found in colder regions.
-
-EDIBLE:
-Blueberry.
-Cranberries: Only found in bogs.
-Prickly pear: Found in savannas and deserts.
-Cattail: Found in wetlands.
-
-GRASSES and MOSSES:
-Sedge
-Rush
-Swampgrass (grows in water)
-Lawn Grass
-Peat Moss: Can be harvested for fertilizer
-Bearberry: Decorative tundra groundcover
-Caribou Moss
-
-___NOTES___
-
-Cattail and swampgrass currently have this thing where they appear in places they should when you first generate the map, but will disappear immediately. It shouldn't affect gameplay.
-
-Some pretty drastic changes were made to some of the biome generation. It's impossible for me to test every possible iteration, so please send feedback if you find anything weird.
-
-
-
-</description><package_id>xenomacabre.HSKBiomes</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile's Biomes From The Ground Up/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Hardcore Renovation</mod_root_path><name>Vile's Hardcore Renovations</name><description>
-Adds lots of floors and hand-drawn walls, doors, and more. Requires Vile's Wood You Please mod, which integrates different wood types from tree species. For instance, oak hardwood floors are different than pine hardwood floors. 
-
-Special thanks to TheLoneTec for his coding/development contributions. 
-	
-Update 4.1 (Biomes FTGU support) - 1/17/2022
-	Natural terrain textures are removed and are now part of Biomes: From The Ground Up, which overhauls and retextures biomes.
-	
-  </description><package_id>xenomacabre.HCSKwallsandfloorsreduxeno</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile's Hardcore Renovation/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Hell Bent for Leather Tanning</mod_root_path><name>Vile's Hell Bent for Leather Tanning</name><description>
-=====================================
-VILE'S HELL BENT FOR LEATHER Tanning 
-V.0.3
-AUG.16.2022
-=====================================
-
-Hell Bent for Leather Tanning is another supplement to Vile's overhaul system which adds, uhhhh, leather tanning. 
-
-This is currently in early alpha, and I have very limited time for testing so I'm humbly relying on help for feedback and bug reports. So, um, take that as both a disclaimer and a plead. I will try to make updates daily. Thanks in advance!
-
-Some feedback I would appreciate:
-	- Missing/wrong textures (note that the leather colors will likelye change)
-	- Missing or broken recipes
-	- Balance issues with recipes and materials
-	- Elements that just don't seem "fun"
-	- Content you want to see
-	- Any other bugs or things that don't seem right
-	
-Notes for fellow modders and patchers at the end of this doc!
-
-=====================================
-QUICK GUIDE / WHAT'S NEW
-=====================================
-
-Hides and Skins: When you butcher an animal, you now get hides, skins and furs instead of leather. This makes the production chain more challenging, but it also gives you options and new materials and colors to play with. 
-
-Once you get going, you'll have a choice once you're ready to tan your hides. You can produce full-grain leathers, which uses the entire thickness, showing the true grain of the skin. It's the superior option. Because blemishes of the hide's surface must be cut off, there is wasted product in the form of strips, which can later be made into poor-quality bonded leather. Your other option is to split the hide. This will give you an unfinished "top-grain" leather where the blemishes are sanded off so you get more leather for your dollar. That's not all - you also get the split leather, or the flesh-side of the leather. This is suede. It kinda sucks but it breathes nicely and can made into "genuine leather". The top-grains leathers can also be dyed and processed into embossed finished leather, nubuck, and upholstry leather. There are also ways to produce ultra-grade leathers using products harvested from Feenix, Kirins, Thrumbos and similar animals.
-
-ROTTING AND CURING: Raw skins and hides will eventually rot unless you cure them or freeze them. There are two ways to cure hides:
-
-- Drying Rack: Small skins can be air dried, but thicker hides must be cured with salt or ash. Takes over a day.
-
-- Brining Station: Soak skins and	 hides in brine. Uses salt as fuel, and can be done quiclkly be a colonist.
-
-- Freezing: Just throw it in a freezer.
-
-LEATHER TANNING: Hides and skins must be tanned to become useable leather.
-
-- Brain Tanning: A traditional method using animal innards and smoking at a campfire. Produces only buckskin. Neolithic Tech.
-
-- Vegetable Tanning: A method that uses tannins from tree bark to tan the hide. Can take over a day.
-
-- tree bark is now produced when cutting wood.
-
-- Chrome Tanning: A method of tanning that uses chromium. Fast and done in large batches, but long exposure to the tanning drum can cause serious heath effects.
-
-=====================================
-LLEATHER GRADES (and their bet uses)
-=====================================
-FULL-GRAIN LEATHER - Premium leather. Uses the whole hide, with wasted strips leftover.
-	Breathable Leather 
-	Exotic Leather
-	Heavy Leather 
-	Durable Leather	
-	Stock Leather	
-	Light Leather
-	Soft Leather
-	Sterile Leather
-	Warm Fur
-	Rugged Fur
-	Heavy Fur
-	Fine Fur
-	
-TOP-GRAIN LEATHERS - Instead of using the full grain, the leather can be split. The top part can be processed later into more useful leathers and dyed various colors.
-	Unfinished Leather	
-	Finished Leather
-	Nubuck
-	Upholstry Leather
-	
-SPLIT LEATHERS et al - The flesh side of the split. Not as good quality as the top grain.
-	Suede 
-	Genuine Leather
-	Bonded Leather(made from leftover leather strips)
-	
-ULTRA-GRADE LEATHER - Large beasts like Feenix and Thrumbo drop resources when butchered that can be mixed with leathers to produce superior leathers.
-	Ventan Leather (compare to Feenix Leather)
-	Thermatan Leather (compare to Kirin leather)
-	Armatan Leather (best for armor)
-	Hygieiatan Leather (best for hospitals)
-	
-Hard Leather Materials: New and revised materials that can be used in place of metal in certain armor recipes and clothing.
-	Rawhide
-	Cuir Bouilli (aka boiled leather)
-	Chitin
-	Dragon Scales (from wyvern, kirin, feenix)
-
-=====================================
-MODDING / PATCHING NOTES:
-=====================================
-Hide defs are new, most leather defs are patched from existing defs. So if you add another mod which adds new pawns, you will need to change the "leatherType" to one of the new hide defs. Furthermore, you'll want to reduce the "leatherAmount" by 1/5th since tanning multiplies the ingredients by 5-ish. 
-
-</description><package_id>vitech.leathertanning</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Materials Science</mod_root_path><name>Vile's Materials Science</name><description>Version 0.1
-This is the final major part of the Vile's series of overhaul mods for Hardcore SK. It finishes what Metallurgy and Pre-Industrial Overhaul started, namely, adding realism, complixity, and streamlines and rebalances materials while making it a bit more intuitive. Unlike Metallurgy though, it doesn't add a lot more steps in the production chain. Here's a rundown of the overhaul:
-        
-    CHANGES and ADDITIONS:
-    - New Ore Refining system. "Iron Ore", "Tin Ore" replaced with "Magnetite" and "Cassiterite" etc. These are refined to their base elements at the Metal Extraction Plant. Inspired by Angel's Factorio mod.
-        - With improved techology and the Electrolytic Refinery, more and new base metals can be extracted from the ores at the expense of work speed and electrical power.
-    - Labels and descriptions are improved to make finding materials and knowing which ones to use easier.
-    - Most materials revised, with many added ones, including alloys, plastics, textiles, etc.
-    - A revised materials tier system: Tiers are divided by tech level, but each material within each tier does something it excels at over the others. Suggested uses are easily laid out in the descriptions.
-    - Revised recipes for items and buildings, to utilize the new materials and add realism.
-    - Rimefeller overhaul, with an expanded polymer industry. 
-        - Petrochemical byproducts include ethylene, benzene, petroleum coke, etc. 
-        - Instead of only "plastic" you have PVC, polycarbonate, fiberglass, aerographene, and more.
-    - A few intermediate materials are replaced with things that make more sense. No more "compound paste" and "paraffins". Now we have "epoxy resin" and "teflon".
-    - Added a new "chemistry station" for new chemicals such as lye, chlorine, etc.
-    - Plant wax replaces paraffins as a fuel for candles.
-    - Coin minting added. Refining galena ore gives you "pure silver".
-    - IMPORTANT! The electrylytic refinery must be linked (near) to the metal extraction plant to refine ores, and the chemistry station must be linked to the loom to make advanced textiles. Note that these recipes don't appear in the wikirim. Looking into it.
-    - And of course, tons of new and revised textures.
-
-    ROADMAP:
-    - Cool spreasheets and stuff because those are fun.
-    - Nucleosynthesis Converter recipes.
-    - Make stuff masks for some MS building textures.
-    - Add 2 new concrete types.
-    - Update mineral/rock textures.
-    - Insulation Support for Celcius mod.
-    - New refinery building textures.
-    - Integrate new glass types with Windows.
-    - Revamp late-game power generation. Perhaps add geothermal drilling.
-    - Rimatomics defense materials.
-    - Various buildings and recipes as I come across them, or are brought to my attention.
-    - HSK currently doens't work well with the “heat” damage type. This will improve as we go into 1.4.
-    
-    Many of my other mods are updated to work with this, so make sure to get the latest of those.
-    
-	Requires Community framework. A copy is included, but also available on steam workshop or github https://github.com/ISOR3X/communityframework.
-
-	I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
-	http://patreon.com/vileheathen  
-	Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage.
-    
-	</description><package_id>vitech.materialsscience</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Metallurgy</mod_root_path><name>Vile's Metallurgy</name><description>
-Welcome to the foundry! Please report bugs and feedback to Vile Heathen on the HSK discord. Much appreciated!	
-
-I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
-http://patreon.com/vileheathen
-
-Update A0.3
--Updated for 1.3
--Lead smelting now produces 15 instead of 10. Quick fix until the upcoming Ores and Minerals update. For now, set up a mining camp if your map lacks lead.
--Added mod dependencies. Consider using Realistic Terraforming to get peat, clay, etc quicker. I've not tested this without it.
--Making Rimatomics a dependancy. There's an assembly in there that allows the water wheel to use any large water body, not just rivers.
--Fixed some typos etc.
-	
-INTRODUCTION	
-This could also be called 'Pre-Industrial Part II: Metallurgical Overhaul'. It's part of an ongoing project of mine to add some more complex mechanics to HSK that are both realistic and historically accurate, but in a manner that makes it fun, immersive, and hopefully intuitive.
-
-That said, this is the first part of a materials overhaul, with focus on early-game metallurgy and steel-making. Below is a quick summary of how it works. There is more detailed information in the descriptions of the buildings and resources, and a wiki/guide is underway.
-	
-NEOLITHIC
-A new fire pit is added which separates non-food recipes from the campfire, and adds a few more, mainly for dealing with smelting metals of antiquity such as bronze and silver.
-	
-CERAMIC KILN
-The kiln now acts like the fermenter buildings in that you load it with stuff, and then wait several days or hours instead of standing there watching it. It's in the "processing" submenu and you'll make things such as:
-		Bricks
-		Charcoal
-		Coke (metallurgical coal that is further processed)
-		Flux powder (used in ceramics and metallurgy)
-		Wootz Steel
-		Clay pots
-	
-WOOTZ STEEL
-Commonly referred to as "Damascus Steel" because a lot of wootz steel was imported to Damascus, it's a fragile, but ultra-hard steel best used for cutlery and sharp weapons.
-
-POTTERY STATION
-There is a new pottery station for making clay pots for food storage. They can be glazed with a variety of materals to increase beauty and make it seal better for improved food preservation. Vanilla pots can still be made out of metal, but they're more expensive and inferior to glazed pottery. Clay pots must be fired in the kiln, and then used as an ingredient much like how a crate is used to make a turret.
-
-BLOOMERY and WROUGHT IRON / FORGED STEEL
-The earlist technology for smelting iron. Ore is smelted into an "iron bloom", which then must be hammered into wrought iron at smithy forge (or finery forge). It's a long process with low payout, but you'll eventually run out of tin or copper for producing bronze so you'll want to start making wrought iron. Like you learned in history class. The wrought iron can further be carburized into weld-forged steel, your first type of proper steel. Contrary to popular belief, however, wrought iron can still be used to make effective weapons and armor — in this mod it is considered that these wrought iron implements are "case hardened", or tempered to strengthen the outer surface of the iron into a thin layer of steel.
-
-BOG IRON from PEAT
-Small pellets of iron can often be found in peat bogs. You can extract bog iron from peat at machining tables for a never-ending supply of iron. Mining is still the most efficient way to getting it though.
-
-BLAST FURNACE AND PIG IRON
-The blast furnace replaces the vanilla furnace. It makes iron ore into pig iron instead (a crude high-carbon form of iron which is worthless on its own). The pig must be processed at a finery into wrought iron and is much faster and more efficient than processing bloom. Pig iron can also be refined into cast iron at a foundry.
-
-FINERY FORGE / WATER WHEEL
-The finery forge is like a smithy forge except it has a heavy mechanical trip-hammer required for smashing the carbon out of pig iron to turn it into wrought iron (or welded steel). It can be operated by hand, but it's best powered by a water wheel. It's smart to build by a FLOWING RIVER if you can, otherwise you may want to rush the foundry and puddling tech.
-
-STAMP MILL / WATER WHEEL
-Another way to take advantage of the water wheel is with the stamp mill. It can be used for smashing grain, but also making gunpowder and crushing stone into rubble or sand.
-
-FOUNDRY, CASTING
-The foundry is dual purpose: It can be used for casting, which is a method of producing items quickly and in large batches. It's limited to certain types of tools, components and ammunition, and the castable metals are also very limited. It can also be used for processing certain metals and alloys, notably cast iron, and turning pig iron into wrought iron through what is called "puddling" - a method which is much more efficient than through the finery. It can also be used to produce crucible steel. More on that next.
-
-CEMENTATION FURNACE and BLISTER STEEL / CRUCIBLE STEEL
-This building works much like the kiln. Fill it with wrought iron and a source of carbon and wait several days. The iron becomes what's known as "blister steel", which is not homogenous and is useless on its own. It can be processed at a smithy or finery to produce "sheer steel", which resembles forge-welded steel, and for purposes of simplification, we'll just call it that. The ultimate, purest form of steel produced before the second industrial revolution, however is *Crucible Steel*. This is made by simply melting down the blister steel at the foundry once the tech is unlocked. It requires both coke and flux. 
-
-STEAM ENGINE
-The blowing engine is an automated bellows which speeds up the blast furnace and foundry operation.
-
-PIPES
-Water pipes are now divided into two types: aqueducts and, well, pipes. The former are made like how you're used to making them, and the latter require "plumbing components", which can be made at a forge or cast at the foundry. They're much stronger and easier to install.
-
-WEAPONS AND TOOLS
-A new CHEF KNIFE is added. Unlike the dagger and regular knife, the material used to make them can imply further bonuses. The *ULFBERT* and RIMASCUS SCIMITAR are two new swords that require wootz steel to make. An armor-piercing LUCERNE HAMMER replaces the royalty warhammer, and the royalty axe is removed and replaced with a QUARTERSTAFF, which is good for takedowns and less-lethal stick fighting.
-		
-Previous Updates: 
-
-A0.2
--Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
--Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
--Fixed some textures
--Improved labels for processing recipes	
-		
-
-</description><package_id>vitech.metallurgy</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile's Metallurgy/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Mountains and Meadows</mod_root_path><name>Vile's Mountains and Meadows</name><description>
-Adds three biomes: 
-Prairie (a temperate grassland)
-Montane Forest (a boreal forest variation, less dense, may contain lakes)
-Montane Birch Grasslands (a cold grassland)
-Adds back Cloudberries, and a new flower, bluebells.
-
-
-Uses Odeum's Biomes Kit (details below) 
-
-BiomesKit is a framework for the placement of biomes on the world map at worldgen. Previously, modders needed to utilize C# to add new biomes to rimworld. With BiomesKit, placement of a biome can be controlled with XML tags in the BiomeDef itself.
-
-With BiomesKit as a dependency, you too can make your own biomes mod with minimal hassle! Features of BiomesKit includes but are not limited to:
-* Spawning biomes based on factors like elevation, rainfall, hilliness and more!
-* Restricting your biome to spawn only on specific vanilla biomes, or even biomes from other mods!
-* Changing the hilliness of a tile to a specific level, or even randomizing it!
-* Custom world map tile graphics for your biome!
-  </description><package_id>vileheathen.mountainsmeadows</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile's Mountains and Meadows/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Tweaks</mod_root_path><name>Vile's Tweaks</name><description>
-This is where I keep minor tweaks for my own personal use. I'll try to keep the file names descriptive so you can delete files and tailor it to your liking.
-
-Changes:
-1. Variations of badge textures, added some new ones to cover more skills and military roles.
-2. Increased asexual/bisexual/gay commonalities make it more realistic.
-3. Inreases likelyhood of a cold snap in winter.
-</description><package_id>vitech.tweaks</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Wood You Please</mod_root_path><name>Vile's Wood You Please</name><description>
-Update 1.2 - 1/20/2020 - Added acacia wood.  
-Update 1.1: No major changes, but the new mod Biomes: From The Ground Up, is meant to pair well with this mod.	  
-	  
-HEY! You want some planks? Planks come from trees. There's lots of different kinds of trees. Planks can be made into all sorts of cool things. Can you? Didn't think so. This is hardcore SK. It's hardcore, like the heartwood of a tree. Show these trees the respect they deserve. Now stop complaining and drink your maple syrup.
-	    
-I've started a blog and patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
-http://patreon.com/vileheathen
-		
-Version A0.1  
-This is super flipping early alpha. It's a huge overhaul of logs and planks, so I'm not entirely sure how it will affect all other parts of the game or other mods yet. If anything seems weird, recipes broken, etc, please let me know on the HSK Discord.
-
-What does this mod change?
-Logs and planks are unique to their tree species and have color and specs rebalanced for realism and a more distinctive gameplay based on biome. 
-I highly recommend using this with the my new Hardcore Renovations mod which fully takes advantage of these new wood types in floors and walls.
-
-Basic info:  
-
-Felled trees now produce larger, but fewer logs (with Bamboo as the exception. It's not a tree anyway.), and can't be used as fuel except in advanced furnaces (TBD). A new woodsplitting spot (much like the butcher spot) allows colonists to split the logs into firewood which can be used for crafting redimentary things like arrows, clapboard floors and walls, as fuel, or can be further split into kindling for fueling torches, etc.
-
-I. Wood is now divided into three categories (in order of the janka scale of hardness):
-
-Softwoods:
-	  Cecropia
-	  Pine
-	  Willow
-	  Redwood
-	  Cypress
-	  Poplar
-Hardwoods:
-	  Maple
-	  Teak
-	  Birch
-	  Oak
-      Acacia
-	  Bamboo
-Ultra-hard:
-	  Drago
-	  Mangrove
-
-Softer woods tend to offer less HP, but are often easier to work with and the trees are easier to cut. Technically, some of the softwoods are actually hardwoods, but I'm basing this off their actual hardness, not official designations.
-Harder woods also produce more firewood since they can be chopped into smaller pieces.  
-	  
-II. Tree generation has changed.
-	  1. Growing time and harvest amount has been adjusted for realism and balance. 
-	  2. Most trees are now more likely to grow in groves. This means if you want to harvest a particular type of wood, you can target specific parts of the map to do so. Use the magnifying glass feature on the minimap or the Object Seeker to help find the groves.	  
-
-III. New Woodsplitting Spot is an ingredientless building for splitting logs into firewood and kindling early game. Obviously slower than the workbench.
-
-IV. Anywhere there was a vanilla wood log, there is now "firewood". Anywhere there was vanilla wood planks, there is now plywood. Plywood can be made out of scraps of logs or planks, much how patch leather is made. 
-	  
-Feedback is appreciated. Thanks!
-
-Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe work. Also, you can now build the woodcutting table out of planks if you wish, for increased workspeed.	  
-
-</description><package_id>ViTech.HCSKWood</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>Vile's Wood You Please/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Work Tab for Big Fonts</mod_root_path><name>Vile's Visible</name><description>
-=====================================
-VILE'S Work Tab for Big Fonts        
-=====================================
-This mod is a minor accessibility mod meant to make the microscopic work tab information easier to see. It is meant to work with the new Vile RimThemes.
-
-- Changes the labels of jobs in the work tab, so instead of Craft: "Do Bills at Neolithic Craft" (which appears as "Do Bills at Ne..." in larger fonts), it's shortened to just "Neolithic".
-- Work Types are now ALL CAPS so that they stand apart more from the work defs when you open the worktype to see the subjobs. 
-- Some things are moved around. If you don't want that, delete the "reorganized" folder in Patches, and "WorkTypes.xml" in Defs. 
-
-New WorkTypes:
-MISC - This is mostly unusued junk. Stuff that may be required by other mods to exist, but typically aren't used in modded HSK.
-PROCESSING - This is for mosly hauling jobs that are a bit more on the crafting side. Universal Fermenter jobs are moved here, which includes things like the drying rack, tanning vats, kiln, and cementation furnace.
-BIOTECH HAULING - Simply moves some stuff out of hauling into a new work type.
-
-Some other notable changes:
-- Refill Water and Refuel Refuelable Buildings (now called "Refuel") are moved to the BASIC worktype.
-- Neolithic Crafting is moved to the SMITHING worktype
-
-</description><package_id>vitech.visible</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>VileCoreTextureReplacementR2</mod_root_path><name>Core Texture Replacement</name><description>
-
-
-</description><package_id>vitech.coretexturereplacement</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>VilesExtraFlavor</mod_root_path><name>Vile's Extra Flavor</name><description>
-This is a simple mod that adds new versions of existing apparel, currently just medieval. The stats are identical, but the names are slightly different, such as "bonnet" and "bonnet, brimmed", and the textures are alterled slightly for flavor.
-
-"Why?" you ask. 
-
-Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
-
-That's all.</description><package_id>vitech.extraflavor</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><package_id>dninemfive.advancedshieldbelts.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><package_id>akreedz346.antiairartillerycontinued.sk</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
+	</description><package_id>XxNelsonxX.ParabellumCA</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Parabellum Combined Arms/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><package_id>dninemfive.advancedshieldbelts.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><package_id>akreedz346.antiairartillerycontinued.sk</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
 Convertion of Oskar Potockis / Mlie mod for HSK
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 https://steamcommunity.com/sharedfiles/filedetails/?id=2567847051
@@ -1035,7 +528,68 @@ Based on BoeDankless mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2086426386
 and Mlie update
 https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
-</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
+</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>385012822</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum</repo_name><mod_root_path>Parabellum</mod_root_path><name>Parabellum</name><description>
+
+		Si vis pacem, para bellum - If you want peace, prepare for war
+
++New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
+
+The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
+
+Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
+
+Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
+
+Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
+
+Moved the changelog to separated text file
+
+
+[RUS - переводчик]
+
+		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
+
+		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
+		
+
++ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
+
+Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
+
+Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
+
+Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
+
+О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
+
+
+Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
+
+	</description><package_id>XxNelsonxX.Parabellum</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Parabellum/About/Preview.png</preview_image></repository><repository><repo_id>469523213</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-War-Trophy</repo_name><mod_root_path>Parabellum War Trophy</mod_root_path><name>Parabellum War Trophy</name><description>
+
+		Si vis pacem, para bellum - If you want peace, prepare for war
+
+This is an extension of Parabellum Mod, the mod add any military hardware that I find fun/interesting to play with, can be something to explore CE limits or something that add challenge and variety for HSK combat.
+
+[RUS - переводчик]
+
+		Si vis Pacem, para bellum - Хочешь мира, готовься к войне
+
+Это расширение мода Parabellum, мод добавляет любую военную технику, с которой мне весело/интересно играть, может быть чем-то, чтобы исследовать ограничения CE или что-то, что добавляет сложности и разнообразия в бою HSK.
+
+Этот перевод не очень точен, извините
+
+	</description><package_id>XxNelsonxX.ParabellumWT</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
+
+Mod version 1.3.0
+
+&lt;size=24&gt;Description&lt;/size&gt;
+
+This mod is an expansion of the "Minerals" Mod that adds more mineral diversity.
+
+See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
+
+  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
 
 For RimWorld Hardcore SK v1
 
@@ -1050,17 +604,13 @@ It also adds resource minerals like obsidian and flint needed to build these wea
 
 See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
 
-  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
+  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>610478383</repo_id><owner>Relvl</owner><repo_name>Rimworld_BestApparel</repo_name><mod_root_path /><name>BestApparel</name><description>
+        
+A mod that will help you find the best apparel for your pawns!
+The mod adds an interface that allows you to find the apparel by the specified layers, slots and stats.
+Allows you to sort the found apparel by a more accurate list of comparisons.
 
-Mod version 1.3.0
-
-&lt;size=24&gt;Description&lt;/size&gt;
-
-This mod is an expansion of the "Minerals" Mod that adds more mineral diversity.
-
-See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
-
-  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>643584152</repo_id><owner>Elldar112</owner><repo_name>Craftable-Mech-Serum</repo_name><mod_root_path /><name>Craftable Serum HSK</name><description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description><package_id>Elldar.CraftableSerum</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+    </description><package_id>io.github.Relvl.Rimworld.BestApparel</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
 (ENG)
 Version 0.48.
 this mod do:
@@ -1086,14 +636,872 @@ P.S. Данная модификация может вызвать жжение 
 Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
 
 Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
-	</description><package_id>arpomo6.hmc.project</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HSK more content/About/preview.png</preview_image></repository><repository><repo_id>610478383</repo_id><owner>Relvl</owner><repo_name>Rimworld_BestApparel</repo_name><mod_root_path /><name>BestApparel</name><description>
-        
-A mod that will help you find the best apparel for your pawns!
-The mod adds an interface that allows you to find the apparel by the specified layers, slots and stats.
-Allows you to sort the found apparel by a more accurate list of comparisons.
-
-    </description><package_id>io.github.Relvl.Rimworld.BestApparel</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>698599038</repo_id><owner>Relvl</owner><repo_name>Rimworld-DigitalStorageUnit</repo_name><mod_root_path /><name>Digital Storage Unit</name><description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description><package_id>Relvl.DigitalStorageUnit</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>845795050</repo_id><owner>Mixail200525</owner><repo_name>Vanilla-Vehicles-Expanded-HSK-Version</repo_name><mod_root_path /><name>Vanilla Vehicles Expanded</name><description>Vanilla Vehicles Expanded is a long awaited mod utilising Smash Phil’s Vehicles framework. The main purpose of the mod is to add realistic and engaging mechanics surrounding vehicles of all kinds into the game. Not just the cars, but boats and airplanes too, this mod comes packed full of content and new production chains to allow players to dive deep into the vehicle production.
+	</description><package_id>arpomo6.hmc.project</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HSK more content/About/preview.png</preview_image></repository><repository><repo_id>643584152</repo_id><owner>Elldar112</owner><repo_name>Craftable-Mech-Serum</repo_name><mod_root_path /><name>Craftable Serum HSK</name><description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description><package_id>Elldar.CraftableSerum</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>845795050</repo_id><owner>Mixail200525</owner><repo_name>Vanilla-Vehicles-Expanded-HSK-Version</repo_name><mod_root_path /><name>Vanilla Vehicles Expanded</name><description>Vanilla Vehicles Expanded is a long awaited mod utilising Smash Phil’s Vehicles framework. The main purpose of the mod is to add realistic and engaging mechanics surrounding vehicles of all kinds into the game. Not just the cars, but boats and airplanes too, this mod comes packed full of content and new production chains to allow players to dive deep into the vehicle production.
 	
 Vehicles come separated into many different categories and tiers, contributing to the overall progression. You won’t simply be making a car and driving it around - you will keep checking out other vehicles and options this mod brings to the table. Every car, boat and aircraft will have a particular purpose and thanks to the tier system, it will be easy to understand the differences between various vehicles.
 
-This mod utilises the paint job system added in Vehicles framework, allowing you to fully customize the pattern and colors of each of your vehicles. Whether you want a camouflaged armored division, or a pink bomber wing, this mod has it all. This mod is a fan adaptation of VEE for HSK. All rights belong to the authors of the mod.</description><package_id>OskarPotocki.VanillaVehiclesExpanded</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository></repositories>
+This mod utilises the paint job system added in Vehicles framework, allowing you to fully customize the pattern and colors of each of your vehicles. Whether you want a camouflaged armored division, or a pink bomber wing, this mod has it all. This mod is a fan adaptation of VEE for HSK. All rights belong to the authors of the mod.</description><package_id>OskarPotocki.VanillaVehiclesExpanded</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>HMC Vile's Pre-Industrial</mod_root_path><name>HMC Vile's Pre-Industrial Overhaul</name><description>
+Overhauls weapons, artillery, apparel, and armor, up until Industrial Tech.		
+Please let me know if you find bugs or have feedback!
+
+Discord: Vile Heathen#4792
+Patreon/Blog: http://patreon.com/vileheathen
+
+CHANGE LOG 4.7 - January 22, 2022 - Retextured cheval de frise and added "Sudes" which are components used to build cheval de frise, but more importantly Ancient Roman-style stake walls and hadgehog defenses. They are essentally modular and be broken down without losing their parts so they can be rebuild elsewhere. You'll start with several sudes with the new Legionary scenario, as well as several tents to build your marching camp. Sudes are made from logs at the woodcutting bench.
+
+CHANGE LOG 4.6 - January 16, 2022 - Added new Legion scenario.
+
+CHANGE LOG 4.5 - September 6, 2021
+	-Updated for 3.1 - Because 3.1 renders pawns differently, apparel texures now look like butt if you're zoomed in too much. I recommend setting zoom no lower than 3% in Camera+ settings for now.
+	-Added new research prerequisites so you can't breeze through musket techs.
+	-Updated some recipe names to include quantity
+CHANGE LOG 4.4 - July 5, 2021
+	-Updated for the research overhaul. 
+	-Added neolithic wicker "pack basket" apparel, and the medieval backpack is called "rucksack" and uses the tribal backpack texture.
+	-Retextured the blazer and renamed it "dinner jacket", which is now available in industrial tech. Wear it over a nice shirt. 	
+	-Renamed the ammo for the arbalest MkII "quarrels" to avoid confusion with the light crossbow bolts, and rebalanced said ammo with a broadhead quarrel for hunting and a bodkin-head quarrel for armor piercing, and removed poison ammo (which is still available for light crossbows)	
+	-New hand mending workbench added for repairing pre-industrial apparel and melee weapons.
+	-Fixed poncho texture.
+	-Nerfed Tsar Cannon shots slightly to decrease chances of friendly fire. Increased loading time, decreased aiming time.
+		
+CHANGE LOG 4.2 - May 31, 2021	
+	-Fixed bug where some blueprints weren't shoing up.		
+	-Recipe changes and other fixes
+		
+CHANGE LOG Quickfix 4.1 - April 20, 2021		
+	-Work Tunic was onSkin layer - was supposed to be middle. You might get an apparel layer error when loading a save, but other than that, shouldn't be a problem. CannonParts texture path fixed. Deleted some unnecessary files.
+CHANGE LOG Update 4.0 - April 19, 2021
+	-Lots of broken and unbalanced recipes fixed (straw cape is now made of straw, Scutum shield is now actually buildable etc)
+	-Recipes are moved around to different workbenches now. Most black powder weapons, ammunition and crates are made at the assembly table. Melee weapons and armor are still at the smithy and tailoring benches.	
+	-Cannon crates now require the new "cannon component" as an ingredient
+	-Gunpowder is required instead of FSX for ammo. Realized the vanilla hsk recipe is actually for "black powder" gunpowder, so I'll be adding nitrocellulose later on for modern ammo recipes.
+	-You can make gunpowder at the *MILLING STONE* now.	
+	-Grapeshot ammo can be made at stonecutting tables.
+	-Research requirements for many guns and cannons. Smithing, Throwing Weapons, and Technology are the important ones.
+	-The new Metallurgy update is coming soon. Just waiting on some incoming core HSK changes, and that will completely overhaul steelmaking as well as adding a new casting mechanic.	
+		
+CHANGE LOG Update 3.2 - March 16, 2021 - Oops, fixed ammo recipes so you can make them at the smithy.
+CHANGE LOG Update 3.1 - Raised pistolet price so tribes will stop spawning with them.
+CHANGE LOG Update 3 - apparel update
+	-Patches some pawnkinds defs so now raider factions and starting neolithic colonists will wear clothes and armor that makes sense.
+	-Updated apparel tags, for better searching
+	-Added New categories and apparel sets for outfit-making.
+	
+	Again, save games still work, though you may see some weird stuff, for instance you might have a pawn wearing a piece of clothing with higher HP than its max HP, but I don't believe this will cause any problems.	
+		
+CHANGE LOG  Update 2
+		
+	NeoLithic Era / Bronze age:
+	-Armors and apparel overhaul: Wicker and wood slat armor, straw cape, hide coat, bronze helm etc. 
+	-Bows reimagined: Easy-to use flat blow and more advanced longbow.
+		
+	Medieval Era:
+	-Reimagined apparel (many new textures, some are just cleaned-up and lightened for now)
+	-Third bow type is the recurve bow, which is only effective in the hands of experts. 
+	-Three crowssbows include the Light Crossbow, the slow, heavy Arbalest, and the inaccurate Nu Gong repeating crossbow. -
+	-Crossbows are easy to use for unskilled fighters, but shorter range than a recurve or longbow. 
+	-New Light Crossbow Bolts for the light crossbow and Nu Gong. Metallic and poison only.
+	-Tsar Cannon: immobile giant bombard artillery which launches stone grapeshot over a wide area.
+	-New Scutum shield	
+		
+	Early Modern Era
+	-Black Powder muskets: Brown Bess, Charleville M1777, Jezail sniper musket, Pistolet. Easy-to-use and extremely deadly, but very inaccurate and slow-loading.
+	-Round shot and buck shot in .69-in
+	-Turret: 38mm swivel gun, available with grapeshot and round shot. 
+	-New cannon/gun sounds
+	-Some muskets come equipped with bayonets which turn them into formidable melee weapons	
+	
+	Industrial Revolution era
+	-Black Powder Rifles: Springfield M1861, Sharps Carbine, Winchester 1866 lever-action, Colt Peacemaker
+	-Turret: Gatling Gun
+	-Field Cannon: 3-in Ordinance Rifle (with shotgun-like canister shot, and explosive shells)
+	-Siege Cannon: 200-Pounder (with explosive shells and Greek Fire incendiary shells)
+	-New cannon/gun sounds
+		
+	-New weapons and armors have detailed descriptions on how they're best used.	
+		
+	PLANS FOR NEXT UPDATE
+	-Foundary building for casting tools, components, and cannon barrels, Bloomery building for producing cast iron and wrought iron, Possibly a water-powered trip hammer for producing weapons and tools.	
+	-New production building for producing black powder firearms
+	-New black powder ingredient.	
+				
+	KNOWN ISSUES / BUGS
+	-Currently most of this exists in the medieval tech era, which makes everything avaialable all at once.
+	-I have not yet updated the pawnkinds defs which means you may see a neolith NPC wearing a medieval sallet or something weird like that.
+	-Save games should work, but you may suddenly have pawns wearing weird clothes/armor.
+	-There may be balance issues, or random bugs. Please report any feedback to me! Thx!
+		
+Vile Heathen#4792 on Discord for comments/feedback
+	
+		
+CHANGE LOG  Update 1
+
+	-Retextured every single armor.
+	-Some textures are masked, mainly plate armors, so they can have material colors without looking dull. 
+	-Bonuses/Penalties are more what you would expect
+	-Better balanced – no more useless armors
+	-Armor stats are more diverse - each one has something it's good at which is noted in descriptions.
+	-Layer system streamlined with more options (eg. Gambeson + Hauberk + Plate), but there are still two-layer armors.
+	-New Mail Coif which can be worn under most helmets and matches chainmail hauberk.
+	-Armors more realistic / historically accurate
+	-Defs listed in organized order so recipes are grouped together nicely in production buildings
+	-New Pavise shield, which is a portable stationary defense for archers/crossbowmen to carry with them.
+
+	-New thematic armors that can mix-and-match or work as sets: 
+		-Horde (warlord) armors have a Golden Horde / Genghis Khan feel.
+		-Legion armors in a Roman legionnary style
+		-Tatami+Kabuto Samurai-style armor
+		-Rennaisance style set which fare a bit better against firearms.
+		-Feral Plate armors now have post-apocalyptic / Mad Max sorta feel
+
+	NOTES / ROADMAP / DISCLAIMERS
+	-You may get "duplicate def" errors, but it should without problems work nonetheless. If you want to remove the errors, delete (and backup) the CoreSK / Defs / ThingDefs_Apparel folder. 	
+
+	-This is essentially in alpha, but should be fairly balanced. All armors have been tested to fit the colonists, but I haven't tested every combination. Please let me know if you find that some armor setups look awkward.		
+
+	-All armors are craftable, so HMC-AllArmorsCraftable shoudln't be needed.
+
+	-Mail Coif uses a CombatExtended body layer that only shows up in list view, which is pointed out in the item's description. So go to list view in the gear tab to unequip. I'm not sure how to fix that mod or if it's an easy fix.
+
+	-Will be redoing a few non-armor apparel items and primitive items, but that is “Part Two”, which I'm working on now. Also planning to retexture some Royalty apparel in the future. Planning a small weapons retexture and also add matchlock guns in a later update to go with the Renaissance armors. 
+
+	-Disclaimer: This is hardcore, so some recipes are slightly more complex. Many use metal components or patch leather. Feral armors use things from salvaged wrecks.
+
+	-Still need to retexture shields. Pavise needs north/east textures added. Will be in next update.
+
+	-Masks add considerably more PNG files (probably less than 1 MB). 
+
+	-May need translation help once this comes out of alpha.	
+
+
+
+
+
+
+</description><package_id>ViTech.MedievalOverhaul</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Vile's Pre-Industrial/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile REQUISITE - SK_Fences and Floors</mod_root_path><name>VileRequisite-Fences And Floors by HSK</name><description>
+This mod adds 4 new styles of flooring and 4 fences (3 perimeter fences and a smaller defensive barrier). Fences are gathered into their own menu category and research requirements have been applied where appropriate. Plywood paneling and the simple wood fence are available from the beginning and are relatively simple to construct. Upon completing the Machining research requirement access to chainlink fencing, high security fencing, the security barrier, steel grate flooring, and metal panel flooring is made available. The last addition, sensor panel flooring, becomes constructable upon completing a new research project: "Reactive Flooring."
+
+Some additions exhibit special qualities. Steel grating has an inherent bonus to cleanliness due to most dust and detritus falling cleanly through the grate. Wood and chainlink fences can be fired through while providing a small amount of cover. The security barrier can be walked over (though with some difficulty), much like vanilla sandbags, but still provide good cover from incoming fire. Lastly, sensor panels include advanced electronics, sensors, and networking components within their design. They are expensive and difficult to construct but react to the presence of pedestrians moving overhead by optimizing their surface to the users stride resulting in a more pleasant walk.
+
+Viles notes:
+Wood fence overwrites the new vanilla fence. Also changed some values here and there to work with my other mods.</description><package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Vile REQUISITE - SK_Fences and Floors/About/Preview.PNG</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile Version - Doors Extended</mod_root_path><name>Doors Expanded</name><description>1.5.0.0 (04-20-2024)
+
+Adds new types and sizes of doors to RimWorld and an extensible framework for other mods to add such doors.
+
+Currently included:
+* Doors (2x1, 3x1) - Double/triple sized vanilla doors.
+* Curtains (Tribal) (1x1, 2x1, 3x1) - Fragile, flammable, and made of fabric, these curtains provide fast movement through buildings.
+* Jail Door (1x1) - Stronger door to keep prisoners inside.
+* Gates (2x1) - Stylized doors perfect for meeting pre-industrial needs.
+* Remote Doors (1x1, 2x1, 3x1) - Garage-style doors that can be opened by remote buttons or levers.
+* Blast Doors (2x1, 3x2) - Incredibly large and secure doors used to keep greater threats at bay. Also can be opened by remote buttons or levers.
+* Autodoors (2x1, 3x2) - Double/triple sized autodoors. All autodoors (including vanilla 1x1 autodoor) also can be opened by remote buttons or levers.
+
+Commissioned by CMDR Toss Antilles.
+
+
+Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
+
+These are the most excellent rim dwellers who support me: 
+
+
+========================
+Changelog
+========================
+1.5.0.0 (04-20-2024)
+========================
+Updated for RimWorld 1.5 to use the new MultiTileDoor class instead of invisible doors. Saves from 1.4 to 1.5 will need to rebuild their doors in the new 1.5 version.
+
+1.4.1.1 (10-21-2022)
+========================
+Initial update for RimWorld 1.4 for Doors Expanded
+
+1.4.1.0 (10-11-2022)
+========================
+Updates DoorsExpanded to support 1.4.3514 Unstable
+
+1.4.0.1 (09-10-2021)
+========================
+Fix crash due to infinite recursion in RW 1.3.3116+
+Fix blueprints and frames of our doors not having proper labels
+Fix CompProperties_PostProcessText not being removed after processing if not in dev mode (minor optimization)
+Update PlaceWorker_OnTopOfWalls to consider smoothed buildings as walls (note: if JecsTools is loaded before Doors Expanded, this fix won't apply for the time being)
+
+1.4.0.0 (08-08-2021)
+========================
+Note: Starting from this version, changes only apply to RimWorld 1.3+.
+RimWorld 1.3 compatibility
+Add Chinese Simplified translation (thanks Juijote!) - applies to all RW versions
+Various fixes and updates from a new audit of relevant parts of current RW codebase
+More debug info, including new drawDoorTempEqualization debug view
+Misc minor optimizations and cleanup
+
+1.3.3.2 (07-18-2021)
+========================
+Actually fix "invis door has different faction" errors (and remove previous workaround)
+Add Spanish translation (thanks Crusader!)
+Add/update machine-translations for new blast doors where applicable, and some other translation cleanup
+
+1.3.3.1 (05-09-2021)
+========================
+Workaround "invis door has different faction" errors (yet unknown cause) by only logging them if in dev mode or if mod's log option is debug/stacktrace
+
+1.3.3.0 (05-06-2021)
+========================
+Add 1x1 blast door (thanks Jiopaba/InsanityPrelude!)
+Add French translation (thanks qux!)
+Attempt to fix potential errors (like NullReferenceException) due to stale linked doors (removed/unspawned outside of this mod's control)
+Allow patches (or future changes) to change building's thingClass from Building_DoorExpanded to another class (like Building_Door) without breaking saves
+Rebuild to latest RW version
+Mod option for log level (for debugging)
+
+1.3.2.1 (08-13-2020)
+========================
+Fix regressions in RW 1.1 version by compiling separate assemblies for RW 1.1 and RW 1.2 to account for different enum/constant values in RW assemblies
+Internal: Migrate to SDK-style csproj, assembly name/version attributes align with actual name/version
+
+1.3.2.0 (08-11-2020)
+========================
+Note: Starting from this version, changes only apply to RimWorld 1.1+.
+RimWorld 1.2 compatibility
+New doors:
+- 2x1 and 3x1 autodoors
+- 3x1 remote garage-style doors
+- 2x1 and 3x1 tribal curtains
+Improved compatibility with:
+- Minify Everything (note: existing broken doors may not be fixed, but new doors should be fine)
+- Home Mover
+Remote door changes:
+- Fix blast doors not being remotely securable - blast doors now require power like autodoors
+- Autodoors, including the vanilla 1x1 autodoor, are remote controllable
+- Blast doors and remote garage-style doors can now breakdown like autodoors, but only at half the normal frequency
+- Remote doors rebalanced such that they open more slowly than autodoors but cost less and use less power (and breakdown less frequently)
+- Tweak all the various costs of blast doors and remote garage-style doors such that: blast doors &gt; autodoors &gt; remote doors &gt; vanilla doors
+- Remove superfluous remote button/lever linking/unlinking messages
+Show east/west door frames above buildings (fixes blast door frames showing below walls)
+Door open time (in seconds) stats are now displayed instead of door open speed stat
+Modders: DoorExpandedDef deprecated in favor of new CompProperties_DoorExpanded (see Heron_Doors.xml for examples):
+- Misleading DoorExpandedDef.doorOpenSpeedRate deprecated in favor of statBase for vanilla DoorOpenSpeed (backcompat default to 1.0/doorOpenSpeedRate)
+- Misleading DoorExpandedDef.tempLeakRate deprecated in favor of CompProperties_DoorExpanded.tempEqualizeRate (backcompat default to 375.0/tempLeakRate)
+- All other DoorExpandedDef fields can be copied as-is to CompProperties_DoorExpanded
+- Non-abstract door defs have had their Name attributes (used for XML inheritance) removed,
+  since fields of comp properties (such as CompProperties_DoorExpanded) can't be overwritten in a derived def.
+  Specifically, "HeronDoor", "HeronDoorRemote", "HeronDoorDoubleRemote" Name attributes have been removed.
+Replace Pawn_PathFollower.TryEnterNextPathCell transpiler with Building_Door.StartManualOpenBy prefix patch (to avoid misleading report in Dubs Performance Analyzer)
+Improve debug logging, add more logging when the "Verbose logging" setting is enabled, add full path cost in "write path costs"
+Misc label &amp; description tweaks and XML &amp; texture cleanup
+
+1.3.1.0 (05-06-2020)
+========================
+Blast doors can be remote controlled now. Additional rebalancing and cleanup. Patch by lbmaian.
+- More robust patching in case other mods are broken (should no longer fail if another mod has an invalid assembly reference).
+- Blast doors can be remote controlled now (remote control tech still required to build remote buttons/levers).
+- Blast doors now have half flammability (so half the flammability of the material they're made of).
+- Tribal curtains cost halved to 25 fabric or leather as part of RimWorld 1.0/1.1 rebalance.
+- Remove obsolete Manifest.xml loadBefore/loadAfter and migrate vanilla door mass patch to code to prevent some warnings.
+
+1.3.0.1 (03-14-2020)
+========================
+Improves compatibility with other mods, including recovering from game-breaking errors that can somehow happen. Engineered by lbmaian.
+
+1.3.0.0 (03-07-2020)
+========================
+A 1.1 compatible version of Doors Expanded, rewritten and recreated by lbmaian to be even better than before.
+
+1.22.1.2 (03-06-2020)
+========================
+Fix potential NRE and room unfogging in edge cases involving large doors, and fix more potential subtle issues related to Fillage. Engineered by lbmaian.
+Scale WorkToBuild linearly like most of vanilla, rebalance thick gate and blast door costs
+
+1.22.1.1 (03-04-2020)
+========================
+Backport tweaks and fixes to RimWorld 1.0 version. Engineered by lbmaian.
+"JT_PlaceWorker_OnTopOfWalls" is now translated if JecsTools isn't loaded.
+
+1.22.1.0 (02-29-2020)
+========================
+Balance pass based on ~b18~r1.1 changes and consistency. Engineered by lbmaian.
+- All doors (except blast doors and curtains) MaxHitPoints were reduced, typically by about a quarter to match the B19 change to vanilla doors.
+- All doors (except curtains) Mass have reduced, with the assumption that vanilla doors have 20 mass (only relevant if a mod like MinifyEverything is installed).
+- Related 1-wide vs 2-wide vs 3-wide door stats and costs have been rescaled for consistency.
+- Blast doors have same terrain affordance as walls, and same construction skill requirement as autodoors.
+- Prisoner containment research requires medieval tech level.
+- Blast door research requires hi-tech research bench.
+Also add dependency to the Harmony mod.
+
+1.22.0.0 (02-28-2020)
+========================
+RimWorld 1.1 compatibility (RimWorld 1.0 still works). Engineered by lbmaian.
+No longer requires JecsTools in either RimWorld 1.0 or 1.1.
+Also revamp door remote button/lever job so that it consistently respects whether door remote button/lever is enabled throughout the job, and fixes related pathing issues.
+
+1.21.0.0 (01-31-2020)
+========================
+Rewrite and fully rebase code onto 1.0 RimWorld, fixing several bugs. Engineered by lbmaian.
+- fixes pathing issues, including enemies warping through large doors
+- forbid/unforbid has immediate effect (instead of having to wait a tick)
+- fixes behavior inconsistent with vanilla doors, including default door opening/closing speeds, previously held open door closing behavior, whether enemies set fire to doors, heat transfer rates through open/closed doors
+- allow &lt;1.0 fillPercent doors with correct cover/snow/etc. calculations
+- doors are non-minifiable (non-uninstallable) by default
+- doors block light by default
+- door opening speed stat now appears in door expanded doors' info dialog (note: def.doorOpenSpeedRate value currently isn't reflected in this)
+- remote doors default to non-remotely secured
+- remote hold open state now linked to remote button/lever, with latter's state initialized to first linked remote door
+- remote hold open state no longer clobbers native hold open state (in case door is unlinked)
+- secured remotely doors ignore native hold open state (and disables hold open gizmo)
+- custom remote door gizmos now appear right after hold open gizmo
+- more consistent messages on button connect/disconnect
+- remote button/lever no longer appears above pawns
+- fixed Stretch and StretchVertical and non-2-width DoubleSwing door type animations
+- Stretch/StretchVertical defs have new custom parameters, with the only functional difference between Stretch and StretchVertical being defaults
+- ghost (pre-placement) and blueprint door graphics now always match actual door graphics
+- ghost graphics for def.rotatesSouth=false now skip south rotation, and fix subtle bugs when spawning def.rotatesSouth=false doors
+- ghost graphics now appear above existing buildings as in vanilla
+- 1x1 non-manually-rotatable doors, including blueprints, auto-rotate like vanilla doors (and all such 1x1 doors in this mod are updated accordingly)
+- dev mode inspector has new toggles (write temperature, write edifice grid, write doors), more path info, more precise mouse position, and patch call registry for debugging
+
+Add German translation by Erdnussbrot.
+Update Japanese translation by Proxyer.
+
+1.20.0.7 (06-03-2019)
+========================
+Fixes explosion slowdowns that occur while playing the CE mod coupled with Doors Expanded. The fix was engineered by JonnyNova.
+
+1.20.0.6 (06-02-2019)
+========================
+Remote doors can be secured and locked properly. Also pathing fixes.
+
+1.20.0.5 (04-11-2019)
+========================
+Adds research for remote buttons and doors as well. Updates Japanese translation.
+
+1.20.0.4 (04-09-2019)
+========================
+Adds remote doors, buttons, and levers to Doors Expanded.
+
+1.20.0.3 (04-07-2019)
+========================
+Added remote doors, buttons, and levers
+
+1.20.0.2 (02-10-2019)
+========================
+Crossing through blast doors should be faster now.
+
+1.20.0.1 (10-27-2018)
+========================
+This should fix the issue where animals do not want to walk through the doors for whatever reason.
+
+1.20.0.0 (10-18-2018)
+========================
+Initial release for RimWorld 1.0
+
+</description><package_id>jecrell.doorsexpanded</package_id><supported_versions><version>1.0</version><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Vile Version - Doors Extended/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile Version - Seasonal Weather</mod_root_path><name>Seasonal Weather (Continued)</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
+Updated by Vile Heathen for Hardcore SK. Note: Description of each biome's seasonal weather patterns can be found on the world map.  
+  
+Update of AaronCRobinsons mod
+https://github.com/AaronCRobinson/SeasonalWeather
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/SeasonalWeather][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+
+
+SeasonalWeather
+Extends weather to change based on season. Please comment and let me know any feedback about seasonal settings or potential related features.
+
+Features
+Each season has different weather commonalities for each weather type
+All biomes have weather adapted a bit to fit each season. More to come.
+Most biomes are less clear now and I think Jungles in particular will go more in this direction.
+New weather types are added: Dust, Dry Duststorm, Foggy Snow, Cloudy, and Windy
+New weather disasters are added: Wildfire, and Earthquake
+Disasters can be disabled/enabled in mod settings
+Growth rates are increased for plants by 20% during rainfall
+Weather Drone has been added (maybe needs a better name). Weather can affect mood in rare cases (like a psychic drone).
+Added Double Rainbow. Rarely after a weather event which contained rain, a double rainbow appears and improves moods.
+Wildfires
+Intvention will shorten the length of this event
+Min length if fire is surpressed is about half a day
+Min length without intervention is 5 days
+Max length a quadrum
+Translations
+English
+Turkish (by Slevilex)
+Acknowledgements
+HammerheadCow/IgnisGlacies for Windy, Cloudy, and FogSnow weather.
+
+Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2045114229][img]https://img.shields.io/github/v/release/emipa606/SeasonalWeather?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description><package_id>Mlie.SeasonalWeather</package_id><supported_versions><version>1.0</version><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Vile Version - Seasonal Weather/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile Version - The Windows</mod_root_path><name>The Windows</name><description>
+	    This is a fork and continuation of Open the Windows. The original mod was by jptrrs, patched to 1.3 by MangoThunder, with seamless texture edits by Yap. All three have been rolled together along with a number of optimizations, updates and balances adjustments.
+	
+		Patched for Hardcore SK and with original textures by Vile Heathen.	</description><package_id>thewindows.sk.jptrrs.owlchemist.vile</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Vile Version - The Windows/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Amuse Bouche</mod_root_path><name>Vile's Amuse Bouche</name><description>
+This mod adds content for your discerning palate. No more boring generic "fine meals", and almost all ingredients have unique recipes.
+	  
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen  
+Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Soup:
+  
+Dozens of new meals to make. 
+
+Late-game high-cuisine recipes. 
+
+Completely re-engineered meal hediff system. 
+
+13 categories of foods grouped by hediffs. 
+
+New hot pepper crops, resources.
+
+New deep-fryer building.
+
+Version 1.14 - (Ideology Support) - Adds support for veg/carn versions of the vanilla analogs, with improved textures. Adds Seitan, a meat substitute made of wheat, and tofu can now be eaten by vegetarians.
+
+Version 1.13 (Forgotten Update) - Gruel added, which is made of unmilled grains and has a mood debuff. Soup is now available in neolithic era.
+			 - Added cross-mod support with The Forgotten (part 1)
+
+Version 1.12 (Hearth Update) - Open Hearth added. Works like a campfire, but expensive to build, can cook soup, and much more efficient. Not as fancy as the regular hearth.
+
+Version 1.11 - Updated for Rimworld 1.3
+
+Version 1.0
+-Updated for Research Overhaul.
+-Cornmeal added back into game.
+
+	  
+  
+</description><package_id>ViTech.HCSKamusebouche</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>Vile's Amuse Bouche/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Biomes From The Ground Up</mod_root_path><name>Vile's Biomes: From The Ground Up</name><description>Version 0.13A - 1/25/2022 - Seasonal Weather mod doesn't seem to be working, so please disable it (If removing Seasonal Weather breaks your savegame, re-enable seasonal weather but delete everything in VP_SK_Seasonal Weather/Patches/). Patching/adjusting biome base weathers to compensate, but likely will need some balance adjustment as we test it. Savanna will alternate a lot between month-long monsoon rains and droughts. Added harvestable caribou moss and bearberries from the Tundra to make it more playable. Adjusted grow-rate of grasses for cold biomes and moved some around a bit. More balance tweaks here and there and more to come.
+
+Version 0.12A - 1/19/2022 - Remixed boreal a bit, added back in missing water terraforms, fixed yet another framerate issue (should be final this time). Keep the feedback comin'!
+Version 0.11A - 1/18/2022 - fixed issue affecting framerate during cold weather, missing textures, improves some textures.
+Version 0.1A - 1/17/2022
+	
+Dislaimer: This is a brand new mod, which means it needs some testing. By reading this, you agree to offer your soil in exchange for early access to this mod. That is to say, please send me feedback on discord if anything seems weird or buggy, or if something just looks off. And before you ask, yes, you'll have to start a new game, or at least move your colony to a new tile so the biome can regenerate. I also recommend using the patched Seasonal Weather mod with this.
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish. 
+http://patreon.com/vileheathen  
+Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Bog Water:
+
+Biomes: From The Groud Up overhauls biomes... from the ground up. Here's the dirt:
+	
+1. Retextures nearly every plant and tree and adds many new ones. Some are harvestable, some are purely aesthetic.
+2. Repopulates biomes to be more realistic, but more importantly, more distinct from one another.	
+3. Retextures (moved from Hardcore Renovation) and revises terrains, and adds several new ones to further give the biomes more distinction.
+4. Terrain generation is revised to form more unique landmasses in some biomes.
+5. Trees more likely to grow in groves (moved from Wood You Please).
+6. Terraforming revised to be (hopefully) more streamlined - it's a balancing work in progress.
+7. Scatterables removed from ice and sand (those ugly blotches that are always there)
+8. Adds a few new foods to go with the new plants (bog cranberries, wetland cattails, desert prickly pears, and brought back blueberries which grow in taiga and boreal)
+9. Biomes have seasonal weather (requires supporting mod), some have wet and dry seasons, wildfire seaons, hurricane seasons, etc. 	
+	
+Now for what's new and different:
+
+___SOILS!___
+New and revised soils are based off of US Soil Taxonomy (which isn't really important unless you're a nerd). They're listed in order of fertility:
+
+Rich Soil - Alluvium - typically only found around ponds and in small patches.
+Grassland Soil - Mollisol - Found in the savanna.
+Fertile Soil - Alfisol - Found in termperate forests, equivalent of vanilla "soil"
+Volcanic Soil - Andisol - Currently only found in small patches in rainforests, but can be terraformed with ash.
+Red Clay Soil - Ultisol - Found in rainforests. It turns out rainforests don't have great soil.
+Marshy Soil - Mineral Hydric Soil - Found in wetlands
+Leached Soil - Oxisol - Found in rainforests.
+Mossy Soil - Spododsol - Found is boreal forests and tundra in smaller amounts.
+Arid Soil - Aridisol - Found in deserts.
+Muck - Sapric Histosol - Found in Tropical Swamps. Contains moderate amounds of peat and organic matter.
+Cracked Clay - Vertisol - Found in deserts. Nutrients and be extracted via terraforming.
+Weak Soil - Inseptisol - Young soils found in boreak forests.
+Mucky Peat - Hemist Histosol - Found in temperate swamps. Contains a fair amount of peat and some organic matter.
+Turbulent Soil - Gelisol (Turbels) - Rocky tundra soil. 
+Peat Soil - Fabrist Histosol - Found in Bogs. Contains high amounts of peat.
+Undeveloped Soil - Entisol - Found near rock forms and gravel.
+Coarse Sand - Found in beaches and deserts with barely any nutrient value.
+Desert Sand - Dune sand found in extreme deserts. Nothing can grow here and it's hard to walk on.
+Gravel - Relatively unchanged apart from new texture.
+Desert Pavement - A strange formation sometimes found in deserts.
+Bog Water - Highly acidic water found in bogs.
+Swamp Water - Found in temperate swamps.
+Black Water - Found in tropical swamps.
+Ice - Good ol' ice. 
+Clear Ice - Smooth ice which is very hard to traverse.
+Frozen Snow - Easier to walk on than ice.
+
+___NEW PLANTS!___
+There are lots of new plants. Here are a few:
+
+TREES and SHRUBS:
+Kapok Tree: Gigantic trees found in the rainforest (experimental two-layer texture).
+Spruce Tree: Found in bogs and cold regions.
+Acacia Tree: Found in savannas and deserts.
+Juniper: Coniferous shrub found in colder regions.
+
+EDIBLE:
+Blueberry.
+Cranberries: Only found in bogs.
+Prickly pear: Found in savannas and deserts.
+Cattail: Found in wetlands.
+
+GRASSES and MOSSES:
+Sedge
+Rush
+Swampgrass (grows in water)
+Lawn Grass
+Peat Moss: Can be harvested for fertilizer
+Bearberry: Decorative tundra groundcover
+Caribou Moss
+
+___NOTES___
+
+Cattail and swampgrass currently have this thing where they appear in places they should when you first generate the map, but will disappear immediately. It shouldn't affect gameplay.
+
+Some pretty drastic changes were made to some of the biome generation. It's impossible for me to test every possible iteration, so please send feedback if you find anything weird.
+
+
+
+</description><package_id>xenomacabre.HSKBiomes</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>Vile's Biomes From The Ground Up/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Hardcore Renovation</mod_root_path><name>Vile's Hardcore Renovations</name><description>
+Adds lots of floors and hand-drawn walls, doors, and more. Requires Vile's Wood You Please mod, which integrates different wood types from tree species. For instance, oak hardwood floors are different than pine hardwood floors. 
+
+Special thanks to TheLoneTec for his coding/development contributions. 
+	
+Update 4.1 (Biomes FTGU support) - 1/17/2022
+	Natural terrain textures are removed and are now part of Biomes: From The Ground Up, which overhauls and retextures biomes.
+	
+  </description><package_id>xenomacabre.HCSKwallsandfloorsreduxeno</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>Vile's Hardcore Renovation/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Hell Bent for Leather Tanning</mod_root_path><name>Vile's Hell Bent for Leather Tanning</name><description>
+=====================================
+VILE'S HELL BENT FOR LEATHER Tanning 
+V.0.3
+AUG.16.2022
+=====================================
+
+Hell Bent for Leather Tanning is another supplement to Vile's overhaul system which adds, uhhhh, leather tanning. 
+
+This is currently in early alpha, and I have very limited time for testing so I'm humbly relying on help for feedback and bug reports. So, um, take that as both a disclaimer and a plead. I will try to make updates daily. Thanks in advance!
+
+Some feedback I would appreciate:
+	- Missing/wrong textures (note that the leather colors will likelye change)
+	- Missing or broken recipes
+	- Balance issues with recipes and materials
+	- Elements that just don't seem "fun"
+	- Content you want to see
+	- Any other bugs or things that don't seem right
+	
+Notes for fellow modders and patchers at the end of this doc!
+
+=====================================
+QUICK GUIDE / WHAT'S NEW
+=====================================
+
+Hides and Skins: When you butcher an animal, you now get hides, skins and furs instead of leather. This makes the production chain more challenging, but it also gives you options and new materials and colors to play with. 
+
+Once you get going, you'll have a choice once you're ready to tan your hides. You can produce full-grain leathers, which uses the entire thickness, showing the true grain of the skin. It's the superior option. Because blemishes of the hide's surface must be cut off, there is wasted product in the form of strips, which can later be made into poor-quality bonded leather. Your other option is to split the hide. This will give you an unfinished "top-grain" leather where the blemishes are sanded off so you get more leather for your dollar. That's not all - you also get the split leather, or the flesh-side of the leather. This is suede. It kinda sucks but it breathes nicely and can made into "genuine leather". The top-grains leathers can also be dyed and processed into embossed finished leather, nubuck, and upholstry leather. There are also ways to produce ultra-grade leathers using products harvested from Feenix, Kirins, Thrumbos and similar animals.
+
+ROTTING AND CURING: Raw skins and hides will eventually rot unless you cure them or freeze them. There are two ways to cure hides:
+
+- Drying Rack: Small skins can be air dried, but thicker hides must be cured with salt or ash. Takes over a day.
+
+- Brining Station: Soak skins and	 hides in brine. Uses salt as fuel, and can be done quiclkly be a colonist.
+
+- Freezing: Just throw it in a freezer.
+
+LEATHER TANNING: Hides and skins must be tanned to become useable leather.
+
+- Brain Tanning: A traditional method using animal innards and smoking at a campfire. Produces only buckskin. Neolithic Tech.
+
+- Vegetable Tanning: A method that uses tannins from tree bark to tan the hide. Can take over a day.
+
+- tree bark is now produced when cutting wood.
+
+- Chrome Tanning: A method of tanning that uses chromium. Fast and done in large batches, but long exposure to the tanning drum can cause serious heath effects.
+
+=====================================
+LLEATHER GRADES (and their bet uses)
+=====================================
+FULL-GRAIN LEATHER - Premium leather. Uses the whole hide, with wasted strips leftover.
+	Breathable Leather 
+	Exotic Leather
+	Heavy Leather 
+	Durable Leather	
+	Stock Leather	
+	Light Leather
+	Soft Leather
+	Sterile Leather
+	Warm Fur
+	Rugged Fur
+	Heavy Fur
+	Fine Fur
+	
+TOP-GRAIN LEATHERS - Instead of using the full grain, the leather can be split. The top part can be processed later into more useful leathers and dyed various colors.
+	Unfinished Leather	
+	Finished Leather
+	Nubuck
+	Upholstry Leather
+	
+SPLIT LEATHERS et al - The flesh side of the split. Not as good quality as the top grain.
+	Suede 
+	Genuine Leather
+	Bonded Leather(made from leftover leather strips)
+	
+ULTRA-GRADE LEATHER - Large beasts like Feenix and Thrumbo drop resources when butchered that can be mixed with leathers to produce superior leathers.
+	Ventan Leather (compare to Feenix Leather)
+	Thermatan Leather (compare to Kirin leather)
+	Armatan Leather (best for armor)
+	Hygieiatan Leather (best for hospitals)
+	
+Hard Leather Materials: New and revised materials that can be used in place of metal in certain armor recipes and clothing.
+	Rawhide
+	Cuir Bouilli (aka boiled leather)
+	Chitin
+	Dragon Scales (from wyvern, kirin, feenix)
+
+=====================================
+MODDING / PATCHING NOTES:
+=====================================
+Hide defs are new, most leather defs are patched from existing defs. So if you add another mod which adds new pawns, you will need to change the "leatherType" to one of the new hide defs. Furthermore, you'll want to reduce the "leatherAmount" by 1/5th since tanning multiplies the ingredients by 5-ish. 
+
+</description><package_id>vitech.leathertanning</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Materials Science</mod_root_path><name>Vile's Materials Science</name><description>Version 0.1
+This is the final major part of the Vile's series of overhaul mods for Hardcore SK. It finishes what Metallurgy and Pre-Industrial Overhaul started, namely, adding realism, complixity, and streamlines and rebalances materials while making it a bit more intuitive. Unlike Metallurgy though, it doesn't add a lot more steps in the production chain. Here's a rundown of the overhaul:
+        
+    CHANGES and ADDITIONS:
+    - New Ore Refining system. "Iron Ore", "Tin Ore" replaced with "Magnetite" and "Cassiterite" etc. These are refined to their base elements at the Metal Extraction Plant. Inspired by Angel's Factorio mod.
+        - With improved techology and the Electrolytic Refinery, more and new base metals can be extracted from the ores at the expense of work speed and electrical power.
+    - Labels and descriptions are improved to make finding materials and knowing which ones to use easier.
+    - Most materials revised, with many added ones, including alloys, plastics, textiles, etc.
+    - A revised materials tier system: Tiers are divided by tech level, but each material within each tier does something it excels at over the others. Suggested uses are easily laid out in the descriptions.
+    - Revised recipes for items and buildings, to utilize the new materials and add realism.
+    - Rimefeller overhaul, with an expanded polymer industry. 
+        - Petrochemical byproducts include ethylene, benzene, petroleum coke, etc. 
+        - Instead of only "plastic" you have PVC, polycarbonate, fiberglass, aerographene, and more.
+    - A few intermediate materials are replaced with things that make more sense. No more "compound paste" and "paraffins". Now we have "epoxy resin" and "teflon".
+    - Added a new "chemistry station" for new chemicals such as lye, chlorine, etc.
+    - Plant wax replaces paraffins as a fuel for candles.
+    - Coin minting added. Refining galena ore gives you "pure silver".
+    - IMPORTANT! The electrylytic refinery must be linked (near) to the metal extraction plant to refine ores, and the chemistry station must be linked to the loom to make advanced textiles. Note that these recipes don't appear in the wikirim. Looking into it.
+    - And of course, tons of new and revised textures.
+
+    ROADMAP:
+    - Cool spreasheets and stuff because those are fun.
+    - Nucleosynthesis Converter recipes.
+    - Make stuff masks for some MS building textures.
+    - Add 2 new concrete types.
+    - Update mineral/rock textures.
+    - Insulation Support for Celcius mod.
+    - New refinery building textures.
+    - Integrate new glass types with Windows.
+    - Revamp late-game power generation. Perhaps add geothermal drilling.
+    - Rimatomics defense materials.
+    - Various buildings and recipes as I come across them, or are brought to my attention.
+    - HSK currently doens't work well with the “heat” damage type. This will improve as we go into 1.4.
+    
+    Many of my other mods are updated to work with this, so make sure to get the latest of those.
+    
+	Requires Community framework. A copy is included, but also available on steam workshop or github https://github.com/ISOR3X/communityframework.
+
+	I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+	http://patreon.com/vileheathen  
+	Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage.
+    
+	</description><package_id>vitech.materialsscience</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Metallurgy</mod_root_path><name>Vile's Metallurgy</name><description>
+Welcome to the foundry! Please report bugs and feedback to Vile Heathen on the HSK discord. Much appreciated!	
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+
+Update A0.3
+-Updated for 1.3
+-Lead smelting now produces 15 instead of 10. Quick fix until the upcoming Ores and Minerals update. For now, set up a mining camp if your map lacks lead.
+-Added mod dependencies. Consider using Realistic Terraforming to get peat, clay, etc quicker. I've not tested this without it.
+-Making Rimatomics a dependancy. There's an assembly in there that allows the water wheel to use any large water body, not just rivers.
+-Fixed some typos etc.
+	
+INTRODUCTION	
+This could also be called 'Pre-Industrial Part II: Metallurgical Overhaul'. It's part of an ongoing project of mine to add some more complex mechanics to HSK that are both realistic and historically accurate, but in a manner that makes it fun, immersive, and hopefully intuitive.
+
+That said, this is the first part of a materials overhaul, with focus on early-game metallurgy and steel-making. Below is a quick summary of how it works. There is more detailed information in the descriptions of the buildings and resources, and a wiki/guide is underway.
+	
+NEOLITHIC
+A new fire pit is added which separates non-food recipes from the campfire, and adds a few more, mainly for dealing with smelting metals of antiquity such as bronze and silver.
+	
+CERAMIC KILN
+The kiln now acts like the fermenter buildings in that you load it with stuff, and then wait several days or hours instead of standing there watching it. It's in the "processing" submenu and you'll make things such as:
+		Bricks
+		Charcoal
+		Coke (metallurgical coal that is further processed)
+		Flux powder (used in ceramics and metallurgy)
+		Wootz Steel
+		Clay pots
+	
+WOOTZ STEEL
+Commonly referred to as "Damascus Steel" because a lot of wootz steel was imported to Damascus, it's a fragile, but ultra-hard steel best used for cutlery and sharp weapons.
+
+POTTERY STATION
+There is a new pottery station for making clay pots for food storage. They can be glazed with a variety of materals to increase beauty and make it seal better for improved food preservation. Vanilla pots can still be made out of metal, but they're more expensive and inferior to glazed pottery. Clay pots must be fired in the kiln, and then used as an ingredient much like how a crate is used to make a turret.
+
+BLOOMERY and WROUGHT IRON / FORGED STEEL
+The earlist technology for smelting iron. Ore is smelted into an "iron bloom", which then must be hammered into wrought iron at smithy forge (or finery forge). It's a long process with low payout, but you'll eventually run out of tin or copper for producing bronze so you'll want to start making wrought iron. Like you learned in history class. The wrought iron can further be carburized into weld-forged steel, your first type of proper steel. Contrary to popular belief, however, wrought iron can still be used to make effective weapons and armor — in this mod it is considered that these wrought iron implements are "case hardened", or tempered to strengthen the outer surface of the iron into a thin layer of steel.
+
+BOG IRON from PEAT
+Small pellets of iron can often be found in peat bogs. You can extract bog iron from peat at machining tables for a never-ending supply of iron. Mining is still the most efficient way to getting it though.
+
+BLAST FURNACE AND PIG IRON
+The blast furnace replaces the vanilla furnace. It makes iron ore into pig iron instead (a crude high-carbon form of iron which is worthless on its own). The pig must be processed at a finery into wrought iron and is much faster and more efficient than processing bloom. Pig iron can also be refined into cast iron at a foundry.
+
+FINERY FORGE / WATER WHEEL
+The finery forge is like a smithy forge except it has a heavy mechanical trip-hammer required for smashing the carbon out of pig iron to turn it into wrought iron (or welded steel). It can be operated by hand, but it's best powered by a water wheel. It's smart to build by a FLOWING RIVER if you can, otherwise you may want to rush the foundry and puddling tech.
+
+STAMP MILL / WATER WHEEL
+Another way to take advantage of the water wheel is with the stamp mill. It can be used for smashing grain, but also making gunpowder and crushing stone into rubble or sand.
+
+FOUNDRY, CASTING
+The foundry is dual purpose: It can be used for casting, which is a method of producing items quickly and in large batches. It's limited to certain types of tools, components and ammunition, and the castable metals are also very limited. It can also be used for processing certain metals and alloys, notably cast iron, and turning pig iron into wrought iron through what is called "puddling" - a method which is much more efficient than through the finery. It can also be used to produce crucible steel. More on that next.
+
+CEMENTATION FURNACE and BLISTER STEEL / CRUCIBLE STEEL
+This building works much like the kiln. Fill it with wrought iron and a source of carbon and wait several days. The iron becomes what's known as "blister steel", which is not homogenous and is useless on its own. It can be processed at a smithy or finery to produce "sheer steel", which resembles forge-welded steel, and for purposes of simplification, we'll just call it that. The ultimate, purest form of steel produced before the second industrial revolution, however is *Crucible Steel*. This is made by simply melting down the blister steel at the foundry once the tech is unlocked. It requires both coke and flux. 
+
+STEAM ENGINE
+The blowing engine is an automated bellows which speeds up the blast furnace and foundry operation.
+
+PIPES
+Water pipes are now divided into two types: aqueducts and, well, pipes. The former are made like how you're used to making them, and the latter require "plumbing components", which can be made at a forge or cast at the foundry. They're much stronger and easier to install.
+
+WEAPONS AND TOOLS
+A new CHEF KNIFE is added. Unlike the dagger and regular knife, the material used to make them can imply further bonuses. The *ULFBERT* and RIMASCUS SCIMITAR are two new swords that require wootz steel to make. An armor-piercing LUCERNE HAMMER replaces the royalty warhammer, and the royalty axe is removed and replaced with a QUARTERSTAFF, which is good for takedowns and less-lethal stick fighting.
+		
+Previous Updates: 
+
+A0.2
+-Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
+-Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
+-Fixed some textures
+-Improved labels for processing recipes	
+		
+
+</description><package_id>vitech.metallurgy</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>Vile's Metallurgy/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Mountains and Meadows</mod_root_path><name>Vile's Mountains and Meadows</name><description>
+Adds three biomes: 
+Prairie (a temperate grassland)
+Montane Forest (a boreal forest variation, less dense, may contain lakes)
+Montane Birch Grasslands (a cold grassland)
+Adds back Cloudberries, and a new flower, bluebells.
+
+
+Uses Odeum's Biomes Kit (details below) 
+
+BiomesKit is a framework for the placement of biomes on the world map at worldgen. Previously, modders needed to utilize C# to add new biomes to rimworld. With BiomesKit, placement of a biome can be controlled with XML tags in the BiomeDef itself.
+
+With BiomesKit as a dependency, you too can make your own biomes mod with minimal hassle! Features of BiomesKit includes but are not limited to:
+* Spawning biomes based on factors like elevation, rainfall, hilliness and more!
+* Restricting your biome to spawn only on specific vanilla biomes, or even biomes from other mods!
+* Changing the hilliness of a tile to a specific level, or even randomizing it!
+* Custom world map tile graphics for your biome!
+  </description><package_id>vileheathen.mountainsmeadows</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>Vile's Mountains and Meadows/About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Testing Ground</mod_root_path><name>Vile's Tweaks</name><description>
+This is where I keep minor tweaks for my own personal use. I'll try to keep the file names descriptive so you can delete files and tailor it to your liking.
+
+Changes:
+1. Variations of badge textures, added some new ones to cover more skills and military roles.
+2. Increased asexual/bisexual/gay commonalities make it more realistic.
+3. Inreases likelyhood of a cold snap in winter.
+</description><package_id>vitech.tweaks</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Wood You Please</mod_root_path><name>Vile's Wood You Please</name><description>
+Update 1.2 - 1/20/2020 - Added acacia wood.  
+Update 1.1: No major changes, but the new mod Biomes: From The Ground Up, is meant to pair well with this mod.	  
+	  
+HEY! You want some planks? Planks come from trees. There's lots of different kinds of trees. Planks can be made into all sorts of cool things. Can you? Didn't think so. This is hardcore SK. It's hardcore, like the heartwood of a tree. Show these trees the respect they deserve. Now stop complaining and drink your maple syrup.
+	    
+I've started a blog and patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+		
+Version A0.1  
+This is super flipping early alpha. It's a huge overhaul of logs and planks, so I'm not entirely sure how it will affect all other parts of the game or other mods yet. If anything seems weird, recipes broken, etc, please let me know on the HSK Discord.
+
+What does this mod change?
+Logs and planks are unique to their tree species and have color and specs rebalanced for realism and a more distinctive gameplay based on biome. 
+I highly recommend using this with the my new Hardcore Renovations mod which fully takes advantage of these new wood types in floors and walls.
+
+Basic info:  
+
+Felled trees now produce larger, but fewer logs (with Bamboo as the exception. It's not a tree anyway.), and can't be used as fuel except in advanced furnaces (TBD). A new woodsplitting spot (much like the butcher spot) allows colonists to split the logs into firewood which can be used for crafting redimentary things like arrows, clapboard floors and walls, as fuel, or can be further split into kindling for fueling torches, etc.
+
+I. Wood is now divided into three categories (in order of the janka scale of hardness):
+
+Softwoods:
+	  Cecropia
+	  Pine
+	  Willow
+	  Redwood
+	  Cypress
+	  Poplar
+Hardwoods:
+	  Maple
+	  Teak
+	  Birch
+	  Oak
+      Acacia
+	  Bamboo
+Ultra-hard:
+	  Drago
+	  Mangrove
+
+Softer woods tend to offer less HP, but are often easier to work with and the trees are easier to cut. Technically, some of the softwoods are actually hardwoods, but I'm basing this off their actual hardness, not official designations.
+Harder woods also produce more firewood since they can be chopped into smaller pieces.  
+	  
+II. Tree generation has changed.
+	  1. Growing time and harvest amount has been adjusted for realism and balance. 
+	  2. Most trees are now more likely to grow in groves. This means if you want to harvest a particular type of wood, you can target specific parts of the map to do so. Use the magnifying glass feature on the minimap or the Object Seeker to help find the groves.	  
+
+III. New Woodsplitting Spot is an ingredientless building for splitting logs into firewood and kindling early game. Obviously slower than the workbench.
+
+IV. Anywhere there was a vanilla wood log, there is now "firewood". Anywhere there was vanilla wood planks, there is now plywood. Plywood can be made out of scraps of logs or planks, much how patch leather is made. 
+	  
+Feedback is appreciated. Thanks!
+
+Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe work. Also, you can now build the woodcutting table out of planks if you wish, for increased workspeed.	  
+
+</description><package_id>ViTech.HCSKWood</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>Vile's Wood You Please/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>Vile's Work Tab for Big Fonts</mod_root_path><name>Vile's Visible</name><description>
+=====================================
+VILE'S Work Tab for Big Fonts        
+=====================================
+This mod is a minor accessibility mod meant to make the microscopic work tab information easier to see. It is meant to work with the new Vile RimThemes.
+
+- Changes the labels of jobs in the work tab, so instead of Craft: "Do Bills at Neolithic Craft" (which appears as "Do Bills at Ne..." in larger fonts), it's shortened to just "Neolithic".
+- Work Types are now ALL CAPS so that they stand apart more from the work defs when you open the worktype to see the subjobs. 
+- Some things are moved around. If you don't want that, delete the "reorganized" folder in Patches, and "WorkTypes.xml" in Defs. 
+
+New WorkTypes:
+MISC - This is mostly unusued junk. Stuff that may be required by other mods to exist, but typically aren't used in modded HSK.
+PROCESSING - This is for mosly hauling jobs that are a bit more on the crafting side. Universal Fermenter jobs are moved here, which includes things like the drying rack, tanning vats, kiln, and cementation furnace.
+BIOTECH HAULING - Simply moves some stuff out of hauling into a new work type.
+
+Some other notable changes:
+- Refill Water and Refuel Refuelable Buildings (now called "Refuel") are moved to the BASIC worktype.
+- Neolithic Crafting is moved to the SMITHING worktype
+
+</description><package_id>vitech.visible</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>VileCoreTextureReplacementR2</mod_root_path><name>Vile's Core Texture Replacement</name><description>
+A halfway house for textures.
+
+</description><package_id>vitech.coretexturereplacement</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>VilesExtraFlavor</mod_root_path><name>Vile's Extra Flavor</name><description>
+This is a simple mod that adds new versions of existing apparel, currently just medieval. The stats are identical, but the names are slightly different, such as "bonnet" and "bonnet, brimmed", and the textures are alterled slightly for flavor.
+
+"Why?" you ask. 
+
+Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
+
+That's all.</description><package_id>vitech.extraflavor</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>698599038</repo_id><owner>Relvl</owner><repo_name>Rimworld-DigitalStorageUnit</repo_name><mod_root_path /><name>Digital Storage Unit</name><description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description><package_id>Relvl.DigitalStorageUnit</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository></repositories>
