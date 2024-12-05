@@ -584,7 +584,48 @@ This is an extension of Parabellum Mod, the mod add any military hardware that I
 
 Этот перевод не очень точен, извините
 
-	</description><package_id>XxNelsonxX.ParabellumWT</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>869109338</repo_id><owner>TheLoneTec</owner><repo_name>Medical-Supplements-SK</repo_name><mod_root_path /><name>Medical Supplements (Continued)</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
+	</description><package_id>XxNelsonxX.ParabellumWT</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
+
+For RimWorld Hardcore SK v1
+
+mod version 1.2
+
+&lt;size=24&gt;Description&lt;/size&gt;
+
+Must come after Minerals_SK in the loading order.
+
+This mod adds some weapons that use resources from the Minerals_SK Mod.
+It also adds resource minerals like obsidian and flint needed to build these weapons.
+
+See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
+
+  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+(ENG)
+Version 0.48.
+this mod do:
+- add new weapons and ammo (EMP-ammo included too!);
+- add a new traits (some of them may be dangerous!);
+- add ammo-unmaking (the game won't get any easier!);
+- add new dangerous factions (be ready!);
+- and more...
+P.S. This modification can cause a some butthurt, feelings of hatred, anger, or severe depression.
+It is strongly not recommended for particularly nervous or impressionable persons. Persons who do not accept gaming inequality in any of its manifestations, as well as for childrens, pregnant persons and retirees.
+
+Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
+
+(RUS)
+Версия 0.48.
+Этот мод:
+- добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
+- добавляет новые черты характера (некоторые из них могут быть опасны!);
+- добавляет разбор боеприпасов (игра от этого легче не станет!);
+- добавляет новые опасные фракции (приготовьтесь!);
+- и ещё кое-что...
+P.S. Данная модификация может вызвать жжение в области заднего прохода, чувство ненависти, злости или вызвать сильную депрессию.
+Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
+
+Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
+	</description><package_id>arpomo6.hmc.project</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HSK more content/About/preview.png</preview_image></repository><repository><repo_id>869109338</repo_id><owner>TheLoneTec</owner><repo_name>Medical-Supplements-SK</repo_name><mod_root_path /><name>Medical Supplements (Continued)</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2004944243
 
@@ -756,22 +797,7 @@ Erdnussbrot - German translation.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195037369]Last updated 2022-12-14[/url]</description><package_id>Mlie.MedicalSupplements</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
-
-For RimWorld Hardcore SK v1
-
-mod version 1.2
-
-&lt;size=24&gt;Description&lt;/size&gt;
-
-Must come after Minerals_SK in the loading order.
-
-This mod adds some weapons that use resources from the Minerals_SK Mod.
-It also adds resource minerals like obsidian and flint needed to build these weapons.
-
-See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
-
-  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195037369]Last updated 2022-12-14[/url]</description><package_id>Mlie.MedicalSupplements</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
 
 Mod version 1.3.0
 
@@ -781,37 +807,7 @@ This mod is an expansion of the "Minerals" Mod that adds more mineral diversity.
 
 See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
 
-  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
-(ENG)
-Version 0.48.
-this mod do:
-- add new weapons and ammo (EMP-ammo included too!);
-- add a new traits (some of them may be dangerous!);
-- add ammo-unmaking (the game won't get any easier!);
-- add new dangerous factions (be ready!);
-- and more...
-P.S. This modification can cause a some butthurt, feelings of hatred, anger, or severe depression.
-It is strongly not recommended for particularly nervous or impressionable persons. Persons who do not accept gaming inequality in any of its manifestations, as well as for childrens, pregnant persons and retirees.
-
-Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
-
-(RUS)
-Версия 0.48.
-Этот мод:
-- добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
-- добавляет новые черты характера (некоторые из них могут быть опасны!);
-- добавляет разбор боеприпасов (игра от этого легче не станет!);
-- добавляет новые опасные фракции (приготовьтесь!);
-- и ещё кое-что...
-P.S. Данная модификация может вызвать жжение в области заднего прохода, чувство ненависти, злости или вызвать сильную депрессию.
-Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
-
-Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
-	</description><package_id>arpomo6.hmc.project</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HSK more content/About/preview.png</preview_image></repository><repository><repo_id>643584152</repo_id><owner>Elldar112</owner><repo_name>Craftable-Mech-Serum</repo_name><mod_root_path /><name>Craftable Serum HSK</name><description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description><package_id>Elldar.CraftableSerum</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>845795050</repo_id><owner>Mixail200525</owner><repo_name>Vanilla-Vehicles-Expanded-HSK-Version</repo_name><mod_root_path /><name>Vanilla Vehicles Expanded</name><description>Vanilla Vehicles Expanded is a long awaited mod utilising Smash Phil’s Vehicles framework. The main purpose of the mod is to add realistic and engaging mechanics surrounding vehicles of all kinds into the game. Not just the cars, but boats and airplanes too, this mod comes packed full of content and new production chains to allow players to dive deep into the vehicle production.
-	
-Vehicles come separated into many different categories and tiers, contributing to the overall progression. You won’t simply be making a car and driving it around - you will keep checking out other vehicles and options this mod brings to the table. Every car, boat and aircraft will have a particular purpose and thanks to the tier system, it will be easy to understand the differences between various vehicles.
-
-This mod utilises the paint job system added in Vehicles framework, allowing you to fully customize the pattern and colors of each of your vehicles. Whether you want a camouflaged armored division, or a pink bomber wing, this mod has it all. This mod is a fan adaptation of VEE for HSK. All rights belong to the authors of the mod.</description><package_id>OskarPotocki.VanillaVehiclesExpanded</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>HMC Vile's Pre-Industrial</mod_root_path><name>HMC Vile's Pre-Industrial Overhaul</name><description>
+  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>643584152</repo_id><owner>Elldar112</owner><repo_name>Craftable-Mech-Serum</repo_name><mod_root_path /><name>Craftable Serum HSK</name><description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description><package_id>Elldar.CraftableSerum</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>HMC Vile's Pre-Industrial</mod_root_path><name>HMC Vile's Pre-Industrial Overhaul</name><description>
 Overhauls weapons, artillery, apparel, and armor, up until Industrial Tech.		
 Please let me know if you find bugs or have feedback!
 
@@ -1675,7 +1671,11 @@ This is a simple mod that adds new versions of existing apparel, currently just 
 
 Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
 
-That's all.</description><package_id>vitech.extraflavor</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>698599038</repo_id><owner>Relvl</owner><repo_name>Rimworld-DigitalStorageUnit</repo_name><mod_root_path /><name>Digital Storage Unit</name><description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description><package_id>Relvl.DigitalStorageUnit</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>610478383</repo_id><owner>Relvl</owner><repo_name>Rimworld_BestApparel</repo_name><mod_root_path /><name>BestApparel</name><description>
+That's all.</description><package_id>vitech.extraflavor</package_id><supported_versions><version>1.5</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>845795050</repo_id><owner>Mixail200525</owner><repo_name>Vanilla-Vehicles-Expanded-HSK-Version</repo_name><mod_root_path /><name>Vanilla Vehicles Expanded</name><description>Vanilla Vehicles Expanded is a long awaited mod utilising Smash Phil’s Vehicles framework. The main purpose of the mod is to add realistic and engaging mechanics surrounding vehicles of all kinds into the game. Not just the cars, but boats and airplanes too, this mod comes packed full of content and new production chains to allow players to dive deep into the vehicle production.
+	
+Vehicles come separated into many different categories and tiers, contributing to the overall progression. You won’t simply be making a car and driving it around - you will keep checking out other vehicles and options this mod brings to the table. Every car, boat and aircraft will have a particular purpose and thanks to the tier system, it will be easy to understand the differences between various vehicles.
+
+This mod utilises the paint job system added in Vehicles framework, allowing you to fully customize the pattern and colors of each of your vehicles. Whether you want a camouflaged armored division, or a pink bomber wing, this mod has it all. This mod is a fan adaptation of VEE for HSK. All rights belong to the authors of the mod.</description><package_id>OskarPotocki.VanillaVehiclesExpanded</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>698599038</repo_id><owner>Relvl</owner><repo_name>Rimworld-DigitalStorageUnit</repo_name><mod_root_path /><name>Digital Storage Unit</name><description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description><package_id>Relvl.DigitalStorageUnit</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>610478383</repo_id><owner>Relvl</owner><repo_name>Rimworld_BestApparel</repo_name><mod_root_path /><name>BestApparel</name><description>
         
 A mod that will help you find the best apparel for your pawns!
 The mod adds an interface that allows you to find the apparel by the specified layers, slots and stats.
