@@ -180,7 +180,44 @@ this mod do:
 
 Этот мод:
 - добавляет разбор боеприпасов, оружейных компонентов и турельных деталей для существующих одноименных верстаков.
-	</description><package_id>arpomo6.hmc.adr</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Ammunitions disassemble and recycling/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><package_id>dninemfive.advancedshieldbelts.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><package_id>akreedz346.antiairartillerycontinued.sk</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
+	</description><package_id>arpomo6.hmc.adr</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Ammunitions disassemble and recycling/About/preview.png</preview_image></repository><repository><repo_id>385012822</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum</repo_name><mod_root_path>Parabellum</mod_root_path><name>Parabellum</name><description>
+
+		Si vis pacem, para bellum - If you want peace, prepare for war
+
++New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
+
+The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
+
+Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
+
+Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
+
+Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
+
+Moved the changelog to separated text file
+
+
+[RUS - переводчик]
+
+		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
+
+		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
+		
+
++ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
+
+Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
+
+Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
+
+Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
+
+О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
+
+
+Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
+
+	</description><package_id>XxNelsonxX.Parabellum</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Parabellum/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><package_id>dninemfive.advancedshieldbelts.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><package_id>akreedz346.antiairartillerycontinued.sk</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
 Convertion of Oskar Potockis / Mlie mod for HSK
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 https://steamcommunity.com/sharedfiles/filedetails/?id=2567847051
@@ -506,44 +543,7 @@ Based on BoeDankless mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2086426386
 and Mlie update
 https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
-</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>385012822</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum</repo_name><mod_root_path>Parabellum</mod_root_path><name>Parabellum</name><description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-+New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
-
-The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
-
-Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
-
-Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
-
-Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
-
-Moved the changelog to separated text file
-
-
-[RUS - переводчик]
-
-		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
-
-		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
-		
-
-+ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
-
-Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
-
-Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
-
-Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
-
-О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
-
-
-Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
-
-	</description><package_id>XxNelsonxX.Parabellum</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Parabellum/About/Preview.png</preview_image></repository><repository><repo_id>710623550</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-Combined-Arms</repo_name><mod_root_path>Parabellum Combined Arms</mod_root_path><name>Parabellum Combined Arms</name><description>
+</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>710623550</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-Combined-Arms</repo_name><mod_root_path>Parabellum Combined Arms</mod_root_path><name>Parabellum Combined Arms</name><description>
 
 		Si vis pacem, para bellum - If you want peace, prepare for war
 
@@ -1691,7 +1691,7 @@ A mod that will help you find the best apparel for your pawns!
 The mod adds an interface that allows you to find the apparel by the specified layers, slots and stats.
 Allows you to sort the found apparel by a more accurate list of comparisons.
 
-    </description><package_id>io.github.Relvl.Rimworld.BestApparel</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>698599038</repo_id><owner>Relvl</owner><repo_name>Rimworld-DigitalStorageUnit</repo_name><mod_root_path /><name>Digital Storage Unit</name><description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description><package_id>Relvl.DigitalStorageUnit</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>452043257</repo_id><owner>Elldar112</owner><repo_name>Simple-Storage-HSK</repo_name><mod_root_path /><name>[JDS] Simple Storage HSK</name><description>
+    </description><package_id>io.github.Relvl.Rimworld.BestApparel</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>452043257</repo_id><owner>Elldar112</owner><repo_name>Simple-Storage-HSK</repo_name><mod_root_path /><name>[JDS] Simple Storage HSK</name><description>
 Hate how your stockpile is overflowing of useless thing or just the fact it just a sore eye. I have a simply solutions by using my "Simply Storage"
 a compact way to storage all of your useless Junk that you don't need into my Storage contains, no more of that over size stockpile take away space 
 that you can use for more important things. Now you can have a compack base, Call 1-800-Simply-Storage.
@@ -1703,4 +1703,4 @@ Important: Due to Deep Storage and Architect Sense conflict, You have to disable
 - JangoD'soul for the original Simple Storage mod
 
 Remake for HSK by Elldar
-		</description><package_id>JangoDsoul.SimpleStorage</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository></repositories>
+		</description><package_id>JangoDsoul.SimpleStorage</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>698599038</repo_id><owner>Relvl</owner><repo_name>Rimworld-DigitalStorageUnit</repo_name><mod_root_path /><name>Digital Storage Unit</name><description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description><package_id>Relvl.DigitalStorageUnit</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository></repositories>
