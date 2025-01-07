@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<repositories><repository><repo_id>819143277</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.130mm.Main</repo_name><mod_root_path /><name>New 130 mm Rocket Missiles</name><description>
+<repositories><repository><repo_id>599304238</repo_id><owner>pacas</owner><repo_name>Pacas-Patches-Compilation</repo_name><mod_root_path>Pacas Patches Compilation</mod_root_path><name>Pacas Patches Compilation</name><description>
+		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
+	</description><package_id>pacas.patchescompilation.v1</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Pacas Patches Compilation/About/Preview.png</preview_image></repository><repository><repo_id>819143277</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content.130mm.Main</repo_name><mod_root_path /><name>New 130 mm Rocket Missiles</name><description>
   Ru
 Данная модификация меняет 130мм ракеты , изменён урон (увеличен) , изменены текстуры , изменён крафт .Добавлена возможность ракетами обстреливать соседние карты (155мм пушка может ,а ракеты нет? ).Для ракет прописал разный урон по вражеской базе .
 Осколочные ракеты - увеличено количество осколков.
@@ -47,9 +49,7 @@ https://github.com/Watcher011/HSK.Watcher.content.130mm.Main
 https://ko-fi.com/watcher011#linkModal (изменено)
 
   Version:0 «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
-  </description><package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version><version>1.1</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>599304238</repo_id><owner>pacas</owner><repo_name>Pacas-Patches-Compilation</repo_name><mod_root_path>Pacas Patches Compilation</mod_root_path><name>Pacas Patches Compilation</name><description>
-		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
-	</description><package_id>pacas.patchescompilation.v1</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Pacas Patches Compilation/About/Preview.png</preview_image></repository><repository><repo_id>810505248</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content</repo_name><mod_root_path /><name>HSK Watcher Content</name><description>
+  </description><package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version><version>1.1</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>810505248</repo_id><owner>Watcher011</owner><repo_name>HSK.Watcher.content</repo_name><mod_root_path /><name>HSK Watcher Content</name><description>
   Сборка состоит из модов :
   
   WatcherXI.GlowstoneLamp(добавляет светокаменные лампы и колоны)
@@ -159,13 +159,40 @@ You may also leave comments on the Steam page. If you are reporting a bug, make 
 	Patches to make HSK races conform to Compatible Body 2 and use Paper Pattern for apparel. \nRecommend [NL] Custom Coordinate Offsets https://steamcommunity.com/sharedfiles/filedetails/?id=1909870211. \nRecommend UnderWhere https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563. \nRecommend USE Set Apparel Draw Order https://steamcommunity.com/sharedfiles/filedetails/?id=2828788563
 	</description><package_id>TheLoneTec.PaperP.CB2.HSK</package_id><supported_versions><version>1.3</version><version>1.4</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>599305260</repo_id><owner>TheLoneTec</owner><repo_name>Arcane-Technology-SK</repo_name><mod_root_path /><name>[D] Arcane Technology</name><description>Restrict weapon and armor usage until the technology has been researched.</description><package_id>dame.arcanetechnology</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>506828360</repo_id><owner>TheLoneTec</owner><repo_name>Tecs-Assorted-Patches</repo_name><mod_root_path /><name>Tec's Assorted Patches</name><description>
 	A lot of HSK patches
-	</description><package_id>TheLoneTec.TSAP</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>593637385</repo_id><owner>TheLoneTec</owner><repo_name>Rimputers-SK</repo_name><mod_root_path /><name>Rimputers</name><description>Research is all about processing data now connect those research benches to computers throughout history and crunch those numbers.</description><package_id>joeyjoejoeshabidoo.Rimputers</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>506815741</repo_id><owner>TheLoneTec</owner><repo_name>Soft-Warm-Beds-HSK</repo_name><mod_root_path /><name>[JPT] Soft Warm Beds HSK</name><description>
+	</description><package_id>TheLoneTec.TSAP</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>506815741</repo_id><owner>TheLoneTec</owner><repo_name>Soft-Warm-Beds-HSK</repo_name><mod_root_path /><name>[JPT] Soft Warm Beds HSK</name><description>
 Have you ever wondered why is it that we just need stone blocks or steel to build a bed, while wool and fur pile up on the warehouse, unused? Do you get a feeling it would be way more comfortable to lay down on something soft? And what if that cozy bed could also help with the freezing cold? Well, that's what this mod is all about!
 Now your beds will only provide full comfort if you add some mattress, pillows and a blanket - or a bedding set, to simplify - which can be made at your regular tailor bench or crafting spot. More than that: depending on what these are made of, your beds can get even more comfortable than the regular ones, affecting their effectiveness in providing rest as well. Also, the material insulation properties carries over to the bed, helping keep your pawns warm.
 But blankets, of course, can't help with the heat. For those playing on tropical climates, we included a tropical alternative to beds: hammocks! How come nobody thought of that before? These cheap hanging rigs may not be as comfortable as a full bed, but they do help cooling off. And being cheap and light, they can also be used as travel beds, just like bedrolls!
-  </description><package_id>JPT.SoftWarmBedsHSK</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>556229360</repo_id><owner>TheLoneTec</owner><repo_name>Water-Freezes</repo_name><mod_root_path /><name>Water Freezes</name><description>
+  </description><package_id>JPT.SoftWarmBedsHSK</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>593637385</repo_id><owner>TheLoneTec</owner><repo_name>Rimputers-SK</repo_name><mod_root_path /><name>Rimputers</name><description>Research is all about processing data now connect those research benches to computers throughout history and crunch those numbers.</description><package_id>joeyjoejoeshabidoo.Rimputers</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>556229360</repo_id><owner>TheLoneTec</owner><repo_name>Water-Freezes</repo_name><mod_root_path /><name>Water Freezes</name><description>
 Water freezes and turns to ice with different depths, if you use Soil Relocation Framework you can dig it up and use it to cool rooms, too!
-  </description><package_id>UdderlyEvelyn.WaterFreezes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><package_id>dninemfive.advancedshieldbelts.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><package_id>akreedz346.antiairartillerycontinued.sk</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
+  </description><package_id>UdderlyEvelyn.WaterFreezes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>890452752</repo_id><owner>TheLoneTec</owner><repo_name>Ignorance-is-Bliss-SK</repo_name><mod_root_path /><name>Ignorance Is Bliss 1.5</name><description>
+Grants control over the tech level of factions that will visit you (whether via raid or other event).
+
+Changes From Original:
+- Added Option to restrict [RH] V.O.I.D events to be Ultratech rather than always available regardless of tech level
+	</description><package_id>dame.ignorance</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>903699729</repo_id><owner>ArpoMo6</owner><repo_name>HMC-Ammunitions-disassemble-and-recycling</repo_name><mod_root_path>HMC Ammunitions disassemble and recycling</mod_root_path><name>HMC Ammunitions disassemble and recycling</name><description>
+(ENG)
+
+this mod do:
+- adds disassembly of ammunition, weapon components and turret crates to existing workbenches of the same name.
+
+(RUS)
+
+Этот мод:
+- добавляет разбор боеприпасов, оружейных компонентов и турельных деталей для существующих одноименных верстаков.
+	</description><package_id>arpomo6.hmc.adr</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Ammunitions disassemble and recycling/About/preview.png</preview_image></repository><repository><repo_id>908197639</repo_id><owner>ArpoMo6</owner><repo_name>Housekeeper-Assistance-Cat-HSK</repo_name><mod_root_path>Housekeeper Assistance Cat HSK</mod_root_path><name>HousekeeperAssistanceCat</name><description>
+Unofficial update for HousekeeperAssistanceCat mod by Edge Crescent. While using the same assets, background logic for cleaning tasks is fully reworked. Their ability to reproduce is disabled, so you can only tame or buy them (you can edit the mod's LifeStages.xml to re-enable it).
+
+This mod adds a new kind of animal - Housekeeper Cat. When Obedience is trained, they are able to do cleaning tasks. They are also eligible for hauling training. As a bonus, they can produce small amounts of quality wool.
+
+Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color generation (white, black, gray, red and brown).
+
+Неофициальное обновление мода HousekeeperAssistanceCat mod (автор Edge Crescent). Здесь должно быть описание, связанное с переделкой логики уборки, но качественно перевести я это не сумел. Возможность размножения выключена ориг. автором, поэтому котиков можно получить только купив или приручив их (размножение можно включить в папке с модом в файле LifeStages.xml).
+
+Этот мод добавляет новый вид животных – Housekeeper Cat. После обучения преданности, они получают возможность уборки. Они также могут быть обучены переноске (имейте в виду, что переноска имеет более высокий приоритет, чем уборка) и производят небольшое количество качественной шерсти в качестве маленького бонуса.
+
+Неофициальная адаптация модификации под сборку HardCore SK (автор ArpoMo6) с добавлением генерации окраски (белый, чёрный, серый, рыжий и бурый).
+	</description><package_id>Oblitus.HousekeeperAssistanceCat</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Advanced Shield Belts/Advanced Shield Belts SK</mod_root_path><name>Advanced Shield Belts SK</name><description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description><package_id>dninemfive.advancedshieldbelts.sk</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Advanced Shield Belts/Advanced Shield Belts SK/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path><name>Air Defense Systems SK</name><description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description><package_id>akreedz346.antiairartillerycontinued.sk</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Animals/Alpha Animals</mod_root_path><name>Alpha Animals</name><description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description><package_id>sarg.alphaanimals</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path><name>Alpha Biomes</name><description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description><package_id>sarg.alphabiomes</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Apex Rimworld Legends/Rimworld Legends</mod_root_path><name>Apex Rimworld Legends for HSK</name><description>
 Convertion of Oskar Potockis / Mlie mod for HSK
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 https://steamcommunity.com/sharedfiles/filedetails/?id=2567847051
@@ -491,34 +518,95 @@ Based on BoeDankless mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2086426386
 and Mlie update
 https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
-</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>890452752</repo_id><owner>TheLoneTec</owner><repo_name>Ignorance-is-Bliss-SK</repo_name><mod_root_path /><name>Ignorance Is Bliss 1.5</name><description>
-Grants control over the tech level of factions that will visit you (whether via raid or other event).
+</description><package_id>pacas.teslacoil</package_id><supported_versions><version>1.2</version><version>1.3</version></supported_versions><preview_image>Tesla Coil/Tesla Coil/About/Preview.png</preview_image></repository><repository><repo_id>511907965</repo_id><owner>pacas</owner><repo_name>Pacas-HSK-Patches</repo_name><mod_root_path>Utility Columns/Utility Columns SK</mod_root_path><name>Utility Columns SK</name><description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description><package_id>nephlite.orbitaltradecolumn</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image></repository><repository><repo_id>710623550</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-Combined-Arms</repo_name><mod_root_path>Parabellum Combined Arms</mod_root_path><name>Parabellum Combined Arms</name><description>
 
-Changes From Original:
-- Added Option to restrict [RH] V.O.I.D events to be Ultratech rather than always available regardless of tech level
-	</description><package_id>dame.ignorance</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>903699729</repo_id><owner>ArpoMo6</owner><repo_name>HMC-Ammunitions-disassemble-and-recycling</repo_name><mod_root_path>HMC Ammunitions disassemble and recycling</mod_root_path><name>HMC Ammunitions disassemble and recycling</name><description>
-(ENG)
+		Si vis pacem, para bellum - If you want peace, prepare for war
 
-this mod do:
-- adds disassembly of ammunition, weapon components and turret crates to existing workbenches of the same name.
++New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
 
-(RUS)
+The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
 
-Этот мод:
-- добавляет разбор боеприпасов, оружейных компонентов и турельных деталей для существующих одноименных верстаков.
-	</description><package_id>arpomo6.hmc.adr</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>HMC Ammunitions disassemble and recycling/About/preview.png</preview_image></repository><repository><repo_id>908197639</repo_id><owner>ArpoMo6</owner><repo_name>Housekeeper-Assistance-Cat-HSK</repo_name><mod_root_path>Housekeeper Assistance Cat HSK</mod_root_path><name>HousekeeperAssistanceCat</name><description>
-Unofficial update for HousekeeperAssistanceCat mod by Edge Crescent. While using the same assets, background logic for cleaning tasks is fully reworked. Their ability to reproduce is disabled, so you can only tame or buy them (you can edit the mod's LifeStages.xml to re-enable it).
+Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
 
-This mod adds a new kind of animal - Housekeeper Cat. When Obedience is trained, they are able to do cleaning tasks. They are also eligible for hauling training. As a bonus, they can produce small amounts of quality wool.
+Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
 
-Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color generation (white, black, gray, red and brown).
+Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
 
-Неофициальное обновление мода HousekeeperAssistanceCat mod (автор Edge Crescent). Здесь должно быть описание, связанное с переделкой логики уборки, но качественно перевести я это не сумел. Возможность размножения выключена ориг. автором, поэтому котиков можно получить только купив или приручив их (размножение можно включить в папке с модом в файле LifeStages.xml).
+Moved the changelog to separated text file
 
-Этот мод добавляет новый вид животных – Housekeeper Cat. После обучения преданности, они получают возможность уборки. Они также могут быть обучены переноске (имейте в виду, что переноска имеет более высокий приоритет, чем уборка) и производят небольшое количество качественной шерсти в качестве маленького бонуса.
 
-Неофициальная адаптация модификации под сборку HardCore SK (автор ArpoMo6) с добавлением генерации окраски (белый, чёрный, серый, рыжий и бурый).
-	</description><package_id>Oblitus.HousekeeperAssistanceCat</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image></repository><repository><repo_id>869109338</repo_id><owner>TheLoneTec</owner><repo_name>Medical-Supplements-SK</repo_name><mod_root_path /><name>Medical Supplements (Continued)</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
+[RUS - переводчик]
+
+		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
+
+		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
+		
+
++ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
+
+Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
+
+Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
+
+Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
+
+О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
+
+
+Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
+
+	</description><package_id>XxNelsonxX.ParabellumCA</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Parabellum Combined Arms/About/Preview.png</preview_image></repository><repository><repo_id>385012822</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum</repo_name><mod_root_path>Parabellum</mod_root_path><name>Parabellum</name><description>
+
+		Si vis pacem, para bellum - If you want peace, prepare for war
+
++New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
+
+The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
+
+Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
+
+Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
+
+Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
+
+Moved the changelog to separated text file
+
+
+[RUS - переводчик]
+
+		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
+
+		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
+		
+
++ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
+
+Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
+
+Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
+
+Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
+
+О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
+
+
+Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
+
+	</description><package_id>XxNelsonxX.Parabellum</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Parabellum/About/Preview.png</preview_image></repository><repository><repo_id>469523213</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-War-Trophy</repo_name><mod_root_path>Parabellum War Trophy</mod_root_path><name>Parabellum War Trophy</name><description>
+
+		Si vis pacem, para bellum - If you want peace, prepare for war
+
+This is an extension of Parabellum Mod, the mod add any military hardware that I find fun/interesting to play with, can be something to explore CE limits or something that add challenge and variety for HSK combat.
+
+[RUS - переводчик]
+
+		Si vis Pacem, para bellum - Хочешь мира, готовься к войне
+
+Это расширение мода Parabellum, мод добавляет любую военную технику, с которой мне весело/интересно играть, может быть чем-то, чтобы исследовать ограничения CE или что-то, что добавляет сложности и разнообразия в бою HSK.
+
+Этот перевод не очень точен, извините
+
+	</description><package_id>XxNelsonxX.ParabellumWT</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>869109338</repo_id><owner>TheLoneTec</owner><repo_name>Medical-Supplements-SK</repo_name><mod_root_path /><name>Medical Supplements (Continued)</name><description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2004944243
 
@@ -690,95 +778,7 @@ Erdnussbrot - German translation.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195037369]Last updated 2022-12-14[/url]</description><package_id>Mlie.MedicalSupplements</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>385012822</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum</repo_name><mod_root_path>Parabellum</mod_root_path><name>Parabellum</name><description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-+New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
-
-The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
-
-Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
-
-Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
-
-Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
-
-Moved the changelog to separated text file
-
-
-[RUS - переводчик]
-
-		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
-
-		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
-		
-
-+ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
-
-Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
-
-Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
-
-Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
-
-О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
-
-
-Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
-
-	</description><package_id>XxNelsonxX.Parabellum</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>Parabellum/About/Preview.png</preview_image></repository><repository><repo_id>710623550</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-Combined-Arms</repo_name><mod_root_path>Parabellum Combined Arms</mod_root_path><name>Parabellum Combined Arms</name><description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-+New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
-
-The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
-
-Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
-
-Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
-
-Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
-
-Moved the changelog to separated text file
-
-
-[RUS - переводчик]
-
-		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
-
-		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
-		
-
-+ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
-
-Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
-
-Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
-
-Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
-
-О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
-
-
-Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
-
-	</description><package_id>XxNelsonxX.ParabellumCA</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>Parabellum Combined Arms/About/Preview.png</preview_image></repository><repository><repo_id>469523213</repo_id><owner>Xx-Nelson-xX</owner><repo_name>Parabellum-War-Trophy</repo_name><mod_root_path>Parabellum War Trophy</mod_root_path><name>Parabellum War Trophy</name><description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-This is an extension of Parabellum Mod, the mod add any military hardware that I find fun/interesting to play with, can be something to explore CE limits or something that add challenge and variety for HSK combat.
-
-[RUS - переводчик]
-
-		Si vis Pacem, para bellum - Хочешь мира, готовься к войне
-
-Это расширение мода Parabellum, мод добавляет любую военную технику, с которой мне весело/интересно играть, может быть чем-то, чтобы исследовать ограничения CE или что-то, что добавляет сложности и разнообразия в бою HSK.
-
-Этот перевод не очень точен, извините
-
-	</description><package_id>XxNelsonxX.ParabellumWT</package_id><supported_versions><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195037369]Last updated 2022-12-14[/url]</description><package_id>Mlie.MedicalSupplements</package_id><supported_versions><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/Preview.png</preview_image></repository><repository><repo_id>139093449</repo_id><owner>zachary-foster</owner><repo_name>MineralsExtra</repo_name><mod_root_path /><name>MineralsExtra</name><description>
 
 Mod version 1.3.0
 
@@ -788,7 +788,22 @@ This mod is an expansion of the "Minerals" Mod that adds more mineral diversity.
 
 See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
 
-  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
+  </description><package_id>zacharyfoster.mineralsextra</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
+
+For RimWorld Hardcore SK v1
+
+mod version 1.2
+
+&lt;size=24&gt;Description&lt;/size&gt;
+
+Must come after Minerals_SK in the loading order.
+
+This mod adds some weapons that use resources from the Minerals_SK Mod.
+It also adds resource minerals like obsidian and flint needed to build these weapons.
+
+See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
+
+  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>643584152</repo_id><owner>Elldar112</owner><repo_name>Craftable-Mech-Serum</repo_name><mod_root_path /><name>Craftable Serum HSK</name><description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description><package_id>Elldar.CraftableSerum</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HMC bizarre materials</mod_root_path><name>HMC bizarre materials</name><description>Version 0.20. Added few new materials and recipes.</description><package_id>ArpoMo6.HMC.bizmat</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HMC bizarre materials/About/preview.png</preview_image></repository><repository><repo_id>314622204</repo_id><owner>ArpoMo6</owner><repo_name>HMC-project</repo_name><mod_root_path>HSK more content</mod_root_path><name>HSK more content</name><description>
 (ENG)
 Version 0.48.
 this mod do:
@@ -814,22 +829,7 @@ P.S. Данная модификация может вызвать жжение 
 Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
 
 Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
-	</description><package_id>arpomo6.hmc.project</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HSK more content/About/preview.png</preview_image></repository><repository><repo_id>162787000</repo_id><owner>zachary-foster</owner><repo_name>MineralsCraft_SK</repo_name><mod_root_path /><name>MineralsCraft_SK</name><description>
-
-For RimWorld Hardcore SK v1
-
-mod version 1.2
-
-&lt;size=24&gt;Description&lt;/size&gt;
-
-Must come after Minerals_SK in the loading order.
-
-This mod adds some weapons that use resources from the Minerals_SK Mod.
-It also adds resource minerals like obsidian and flint needed to build these weapons.
-
-See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
-
-  </description><package_id>zacharyfoster.mineralscraft</package_id><supported_versions><version>1.1</version><version>1.2</version><version>1.3</version><version>1.4</version></supported_versions><preview_image>N/A</preview_image></repository><repository><repo_id>643584152</repo_id><owner>Elldar112</owner><repo_name>Craftable-Mech-Serum</repo_name><mod_root_path /><name>Craftable Serum HSK</name><description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description><package_id>Elldar.CraftableSerum</package_id><supported_versions><version>1.3</version><version>1.4</version><version>1.5</version></supported_versions><preview_image>About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>HMC Vile's Pre-Industrial</mod_root_path><name>HMC Vile's Pre-Industrial Overhaul</name><description>
+	</description><package_id>arpomo6.hmc.project</package_id><supported_versions><version>1.4</version></supported_versions><preview_image>HSK more content/About/preview.png</preview_image></repository><repository><repo_id>406405970</repo_id><owner>xenomacabre</owner><repo_name>VilesMods</repo_name><mod_root_path>HMC Vile's Pre-Industrial</mod_root_path><name>HMC Vile's Pre-Industrial Overhaul</name><description>
 Overhauls weapons, artillery, apparel, and armor, up until Industrial Tech.		
 Please let me know if you find bugs or have feedback!
 
