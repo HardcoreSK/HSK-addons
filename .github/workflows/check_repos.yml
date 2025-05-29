@@ -22,7 +22,7 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-          pip install PyGitHub
+          pip install PyGitHub requests
 
       - name: Run script
         run: |

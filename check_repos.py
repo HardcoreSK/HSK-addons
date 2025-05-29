@@ -6,6 +6,8 @@ from github import Github
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 import hashlib
+import requests
+from xml.dom import minidom
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -16,6 +18,11 @@ GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 REPO_NAME = 'HardcoreSK/HSK-addons'  # Format: 'owner/repo'
 REPOS_FILE_PATH = 'repos'
 OUTPUT_FILE_PATH = 'addons_list.xml'
+DATA_BRANCH = 'data'
+
+if not GITHUB_TOKEN:
+    logger.error("GITHUB_TOKEN environment variable not set.")
+    exit(1)
 
 # Initialize GitHub client and repository
 g = Github(GITHUB_TOKEN)
@@ -34,33 +41,38 @@ def get_repositories_from_file():
         logger.error(f"Error fetching {REPOS_FILE_PATH}: {e}")
         return []
 
-def get_repo_url(owner, repo_name):
-    return f"https://github.com/{owner}/{repo_name}"
 
-def search_about_folder_and_extract_info(repo, owner, repo_name, path='/', level=0):
-    if level > 3:
-        return None
+# --- Optimized: Use Git Trees API to find all about.xml files in one request ---
+def search_about_folder_and_extract_info(repo, owner, repo_name):
     about_info = []
     try:
-        contents = repo.get_contents(path)
-        for content in contents:
-            if content.type == 'dir':
-                # Check for 'about' folder case-insensitively
-                if content.name.lower() == 'about':
-                    about_folder_path = content.path
-                    about_xml_path = find_about_xml(repo, about_folder_path)
-                    if about_xml_path:
-                        file_content = repo.get_contents(about_xml_path).decoded_content.decode()
-                        name, description, package_id, supported_versions = extract_info_from_xml(file_content)
-                    else:
-                        name, description, package_id, supported_versions = 'N/A', 'N/A', 'N/A', 'N/A'
-                    preview_image = find_preview_image(repo, about_folder_path)
-                    mod_root_path = '/'.join(about_folder_path.split('/')[:-1])
-                    about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image))
-                # Recursively search in subdirectories
-                subdir_about_info = search_about_folder_and_extract_info(repo, owner, repo_name, content.path, level + 1)
-                if subdir_about_info:
-                    about_info.extend(subdir_about_info)
+        # Get default branch
+        default_branch = repo.default_branch
+        # Get branch SHA
+        branch = repo.get_branch(default_branch)
+        sha = branch.commit.sha
+        # Use Git Trees API
+        api_url = f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/{sha}?recursive=1"
+        headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+        response = requests.get(api_url, headers=headers)
+        response.raise_for_status()
+        tree = response.json().get('tree', [])
+        # Find all about.xml files
+        about_xml_paths = [item['path'] for item in tree if item['type'] == 'blob' and item['path'].lower().endswith('about.xml')]
+        for about_xml_path in about_xml_paths:
+            # About folder is the parent directory
+            about_folder_path = '/'.join(about_xml_path.split('/')[:-1])
+            mod_root_path = '/'.join(about_folder_path.split('/')[:-1])
+            # Get about.xml content
+            try:
+                file_content = repo.get_contents(about_xml_path).decoded_content.decode()
+                name, description, package_id, supported_versions = extract_info_from_xml(file_content)
+            except Exception as e:
+                logger.error(f"Error reading/parsing {about_xml_path} in {repo.full_name}: {e}")
+                name, description, package_id, supported_versions = 'N/A', 'N/A', 'N/A', []
+            # Find preview image in about folder
+            preview_image = find_preview_image(repo, about_folder_path)
+            about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image))
     except Exception as e:
         logger.error(f"Error accessing repository {repo.full_name}: {e}")
     return about_info
@@ -81,7 +93,7 @@ def find_preview_image(repo, about_folder_path):
     try:
         contents = repo.get_contents(about_folder_path)
         for content in contents:
-            if content.type == 'file' and re.match(r'^preview.*\.(png|jpeg)$', content.name.lower()):
+            if content.type == 'file' and re.match(r'^preview.*\.(png|jpe?g)$', content.name.lower()):
                 return f"{content.path}"
     except Exception as e:
         logger.error(f"Error finding preview image in {about_folder_path}: {e}")
@@ -98,9 +110,14 @@ def find_about_xml(repo, about_folder_path):
     return None
 
 def generate_xml_string(info_list):
+    # Sort by owner, repo_name, mod_root_path for stable output
+    sorted_info = sorted(
+        info_list,
+        key=lambda x: (x[1].lower(), x[2].lower(), x[3].lower())
+    )
     root = ET.Element('repositories')
 
-    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image in info_list:
+    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image in sorted_info:
         repo_element = ET.SubElement(root, 'repository')
         ET.SubElement(repo_element, 'repo_id').text = str(repo_id)
         ET.SubElement(repo_element, 'owner').text = owner
@@ -113,26 +130,38 @@ def generate_xml_string(info_list):
         for version in supported_versions:
             ET.SubElement(supported_versions_element, 'version').text = version
         ET.SubElement(repo_element, 'preview_image').text = preview_image
-
-    return ET.tostring(root, encoding='utf-8', xml_declaration=True)
+        
+    rough_string = ET.tostring(root, encoding='utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ", encoding='utf-8')
 
 def write_paths_to_xml(info_list):
     xml_str = generate_xml_string(info_list)
     new_hash = hashlib.md5(xml_str).hexdigest()
 
+    # Get the ref for the data branch
     try:
-        existing_file = repo.get_contents(OUTPUT_FILE_PATH)
-        existing_content = existing_file.decoded_content
-        existing_hash = hashlib.md5(existing_content).hexdigest()
+        ref = repo.get_git_ref(f'heads/{DATA_BRANCH}')
+    except Exception:
+        # Branch does not exist, create it from default branch
+        default_branch = repo.default_branch
+        default_branch_ref = repo.get_git_ref(f'heads/{default_branch}')
+        repo.create_git_ref(ref=f'refs/heads/{DATA_BRANCH}', sha=default_branch_ref.object.sha)
+        ref = repo.get_git_ref(f'heads/{DATA_BRANCH}')
 
+    # Try to get the file from the data branch
+    try:
+        contents = repo.get_contents(OUTPUT_FILE_PATH, ref=DATA_BRANCH)
+        existing_hash = hashlib.md5(contents.decoded_content).hexdigest()
         if new_hash != existing_hash:
-            repo.update_file(existing_file.path, "Update about folders paths", xml_str.decode('utf-8'), existing_file.sha)
-            logger.info(f"Updated {OUTPUT_FILE_PATH} with new changes.")
+            repo.update_file(contents.path, "Update about folders paths", xml_str.decode('utf-8'), contents.sha, branch=DATA_BRANCH)
+            logger.info(f"Updated {OUTPUT_FILE_PATH} in {DATA_BRANCH} branch with new changes.")
         else:
-            logger.info(f"No changes detected in {OUTPUT_FILE_PATH}. No update necessary.")
-    except Exception as e:
-        repo.create_file(OUTPUT_FILE_PATH, "Create about folders paths", xml_str.decode('utf-8'))
-        logger.info(f"Created {OUTPUT_FILE_PATH} with new content.")
+            logger.info(f"No changes detected in {OUTPUT_FILE_PATH} in {DATA_BRANCH} branch. No update necessary.")
+    except Exception:
+        # File does not exist, create it
+        repo.create_file(OUTPUT_FILE_PATH, "Create about folders paths", xml_str.decode('utf-8'), branch=DATA_BRANCH)
+        logger.info(f"Created {OUTPUT_FILE_PATH} in {DATA_BRANCH} branch with new content.")
 
 def find_about_info_parallel(repos):
     all_about_info = []
