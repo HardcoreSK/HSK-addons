@@ -415,21 +415,6 @@ Pacas (me) for doing a HSK convertion.
     <repo_id>511907965</repo_id>
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
-    <mod_root_path>Better Bridges Pack/Better Bridges Pack</mod_root_path>
-    <name>Better Bridges Pack</name>
-    <description>Idea from Lanilors mod - https://steamcommunity.com/sharedfiles/filedetails/?id=1420241138 \n + Mlie continued version - https://steamcommunity.com/sharedfiles/filedetails/?id=2012484790 \n + Railing from - https://steamcommunity.com/sharedfiles/filedetails/?id=932124891 \n\nAnd you can paint them all!\nBetter Bridges Pack - now with fishing bucket!</description>
-    <package_id>Pacas.BetterBridgesPack</package_id>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>Better Bridges Pack/Better Bridges Pack/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>511907965</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Dinosauria/Dinosauria SK</mod_root_path>
     <name>Dinosauria</name>
     <description>Description
@@ -727,21 +712,6 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <repo_id>511907965</repo_id>
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
-    <mod_root_path>Minerals Ancient Stones/Minerals Ancient Stones</mod_root_path>
-    <name>Minerals Ancient Stones</name>
-    <description>Hand-made ancient stones are 300$.</description>
-    <package_id>pacas.minerals.stones</package_id>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>Minerals Ancient Stones/Minerals Ancient Stones/About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>511907965</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>More Tools/More Tools</mod_root_path>
     <name>More Tools</name>
     <description>Add more useful tools for pawns.</description>
@@ -926,21 +896,6 @@ and Rimworld Korea Discord members.
       <version>1.5</version>
     </supported_versions>
     <preview_image>Revia Race/Revia Race HSK/About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>511907965</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-HSK-Patches</repo_name>
-    <mod_root_path>Rimfeller EasyMod/Rimfeller Easy Version addon</mod_root_path>
-    <name>Rimefeller Easy Addon</name>
-    <description>Yes, its not really an easy mode, just pure oil =&gt; plastic/resin process.</description>
-    <package_id>Dubwise.Rimefeller.EasyMod</package_id>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>Rimfeller EasyMod/Rimfeller Easy Version addon/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>511907965</repo_id>
