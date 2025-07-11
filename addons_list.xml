@@ -1067,6 +1067,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
+      <version>1.6</version>
     </supported_versions>
     <preview_image>About/Preview.png</preview_image>
   </repository>
@@ -1087,6 +1088,7 @@ Allows you to sort the found apparel by a more accurate list of comparisons.
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
+      <version>1.6</version>
     </supported_versions>
     <preview_image>About/Preview.png</preview_image>
   </repository>
