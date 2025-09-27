@@ -128,7 +128,7 @@ def generate_xml_string(info_list):
     )
     root = ET.Element('repositories')
 
-    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image in sorted_info:
+    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image, mod_dependencies in sorted_info:
         repo_element = ET.SubElement(root, 'repository')
         ET.SubElement(repo_element, 'repo_id').text = str(repo_id)
         ET.SubElement(repo_element, 'owner').text = owner
