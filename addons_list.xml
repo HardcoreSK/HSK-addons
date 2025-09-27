@@ -115,6 +115,13 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Core SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -148,6 +155,13 @@ Lucky - Joined the team to work on the textures for a period of time.</descripti
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -203,6 +217,18 @@ Remake for HSK by Elldar
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Core_SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
@@ -219,6 +245,18 @@ Remake for HSK by Elldar
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HMC Nobility Expanded/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -232,6 +270,28 @@ Remake for HSK by Elldar
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>otyoty.sizedapparel</package_id>
+        <display_name>Sized Apparel for RJW (SAR version)</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>rim.job.world</package_id>
+        <display_name>RimJobWorld</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>asmr.rjw.racesupport</package_id>
+        <display_name>RJW Race Support</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -265,6 +325,33 @@ Remake for HSK by Elldar
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ratys.rtfuse</package_id>
+        <display_name>RT Fuse SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Ideology</package_id>
+        <display_name>Ideology</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>Biotech</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Pacas Even More Content/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -293,6 +380,18 @@ Remake for HSK by Elldar
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>UnlimitedHugs.HugsLib</package_id>
+        <display_name>HugsLib</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/818773962</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -307,6 +406,18 @@ Remake for HSK by Elldar
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Alpha Animals/Alpha Animals/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -322,6 +433,18 @@ Remake for HSK by Elldar
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -503,6 +626,13 @@ Superior than the monoswords in every aspects except damage, these blades are sh
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Edge of Descension Monoblades/Edge of Descension - Monoblades/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -524,6 +654,18 @@ Not feeling like being assimilated? Okay, how about becoming one of our honorary
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Faction Void/Faction Void/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -539,6 +681,13 @@ Not feeling like being assimilated? Okay, how about becoming one of our honorary
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Fireflies/Fireflies SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -552,6 +701,13 @@ Not feeling like being assimilated? Okay, how about becoming one of our honorary
     <supported_versions>
       <version>1.3</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Frontier Developement Shields/Frontier Developement Shields HSK 1.3/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -611,6 +767,18 @@ Feel free to leave a comment and please report back any occuring bugs. And final
       <version>1.2</version>
       <version>1.3</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>TheLoneTec.TSAP</package_id>
+        <display_name>Tec's Assorted Patched</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Gloomy Decor Pack/Gloomy Decor Pack/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -626,6 +794,13 @@ Feel free to leave a comment and please report back any occuring bugs. And final
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>UnlimitedHugs.HugsLib</package_id>
+        <display_name>HugsLib</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/818773962</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Harvest Post Mortem/HarvestPostMortemSK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -772,6 +947,23 @@ and Rimworld Korea Discord members.
       <version>1.3</version>
       <version>1.4</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races 2.0</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>goudaquiche.MoharFramework</package_id>
+        <display_name>MoHAR framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Paniel the Automata/Paniel the Automata/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -858,6 +1050,13 @@ and Rimworld Korea Discord members.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races 2.0</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Rabbie Race/Rabbie SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -895,6 +1094,13 @@ and Rimworld Korea Discord members.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races 2.0</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Revia Race/Revia Race HSK/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -932,6 +1138,18 @@ Conflicts
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Dubwise.Rimatomics</package_id>
+        <display_name>Rimatomics</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/1127530465</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - Core/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -947,6 +1165,13 @@ Conflicts
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>smashphil.srtsexpanded</package_id>
+        <display_name>SRTS Expanded</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2878587061</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -961,6 +1186,13 @@ Conflicts
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>smashphil.srtsexpanded</package_id>
+        <display_name>SRTS Expanded</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2878587061</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1012,6 +1244,13 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Pacas Patches Compilation/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1025,6 +1264,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Torann.ARimworldOfMagic</package_id>
+        <display_name>A RimWorld of Magic</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2958124086</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Pacas Patches Compilation/Mods/Races_Xenotypes/Skavens/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1039,6 +1290,23 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races 2.0</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Nals.FacialAnimation</package_id>
+        <display_name>[NL] Facial Animation - WIP</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=1635901197</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>nals.facialanimationexperimentals</package_id>
+        <display_name>[NL] Facial Animation - Experimentals</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2581693737</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
@@ -1069,6 +1337,13 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
       <version>1.5</version>
       <version>1.6</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1104,6 +1379,13 @@ Allows you to sort the found apparel by a more accurate list of comparisons.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1165,6 +1447,18 @@ You may also leave comments on the Steam page. If you are reporting a bug, make 
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>imranfish.xmlextensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1210,6 +1504,13 @@ Changes From Original:
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1396,6 +1697,13 @@ Erdnussbrot - German translation.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1428,6 +1736,13 @@ See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentati
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>zacharyfoster.minerals</package_id>
+        <display_name>Minerals</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.jpg</preview_image>
   </repository>
   <repository>
@@ -1455,6 +1770,13 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>zacharyfoster.minerals</package_id>
+        <display_name>Minerals</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.jpg</preview_image>
   </repository>
   <repository>
@@ -1471,6 +1793,43 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
       <version>1.3</version>
       <version>1.4</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>nalsnoir.ApparelPaperPattern</package_id>
+        <display_name>[NL] Apparel Paper Pattern</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2480887589</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>WRK.APPBodyTypeOverrider</package_id>
+        <display_name>APP BodyType Overrider Extension</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2839443438</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Nals.CompatibleBody2</package_id>
+        <display_name>[NL] Compatible Body 2</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=1906148376</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>XeoNovaDan.VisiblePants</package_id>
+        <display_name>[XND] Visible Pants</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2264108215</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>WRK.THIGAPPE</package_id>
+        <display_name>The Holy Invention - Grand Apparel Paper Pattern Extension</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2839518933</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1500,6 +1859,18 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2196278117</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Dubwise.DubsBadHygiene</package_id>
+        <display_name>Dubs Bad Hygiene</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=836308268</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1520,6 +1891,13 @@ But blankets, of course, can't help with the heat. For those playing on tropical
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>UnlimitedHugs.HugsLib</package_id>
+        <display_name>HugsLib</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/818773962</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1537,6 +1915,18 @@ But blankets, of course, can't help with the heat. For those playing on tropical
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1609,6 +1999,23 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Anomaly</package_id>
+        <display_name>Anomaly</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/2380740</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1689,6 +2096,23 @@ https://ko-fi.com/watcher011#linkModal (изменено)
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Anomaly</package_id>
+        <display_name>Anomaly</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/2380740</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>EBSG.Framework</package_id>
+        <display_name>EBSG Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=3112549163</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1937,6 +2361,23 @@ Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>xenomacabre.HSKBiomes</package_id>
+        <display_name>Vile's Biomes: From The Ground Up</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vileheathen.mountainsmeadows</package_id>
+        <display_name>Vile's Mountains and Meadows</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile Version - Seasonal Weather/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1955,6 +2396,18 @@ Patched for Hardcore SK 1.5 by TheLoneTec and Vile Heathen with original texture
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vitech.materialsscience</package_id>
+        <display_name>Vile's Materials Science</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile Version - The Windows/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -2002,6 +2455,13 @@ Version 1.0
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Amuse Bouche/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2022,6 +2482,13 @@ This mod is still in the early stages and there may be some typos and balancing 
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>vitech.materialsscience</package_id>
+        <display_name>Vile's Materials Science</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
@@ -2144,6 +2611,23 @@ Update 4.1 (Biomes FTGU support) - 1/17/2022
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+        <display_name>HSK Fences and Floors: Vile's Patch</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Hardcore Renovation/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2304,6 +2788,58 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>zacharyfoster.minerals</package_id>
+        <display_name>Minerals</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.dubsbadhygiene</package_id>
+        <display_name>Dubs' Bad Hygiene</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.survivaltoolslite</package_id>
+        <display_name>Survival Tools Lite</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.rimatomics</package_id>
+        <display_name>Rimatomics</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vitech.metallurgy</package_id>
+        <display_name>Vile's Metallurgy</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vitech.leathertanning</package_id>
+        <display_name>Vile's Hell Bent for Leather Tanning</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Dubwise.Rimefeller</package_id>
+        <display_name>Rimefeller</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Core SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Materials Science/About/Preview.jpg</preview_image>
   </repository>
   <repository>
@@ -2389,6 +2925,43 @@ A0.2
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>ViTech.MedievalOverhaul</package_id>
+        <display_name>HMC Vile's Pre-Industrial</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>zacharyfoster.minerals</package_id>
+        <display_name>Minerals</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.dubsbadhygiene</package_id>
+        <display_name>Dubs' Bad Hygiene</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.survivaltoolslite</package_id>
+        <display_name>Survival Tools Lite</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.rimatomics</package_id>
+        <display_name>Rimatomics</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Metallurgy/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2419,6 +2992,18 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>xenomacabre.HSKBiomes</package_id>
+        <display_name>Vile's Biomes: From The Ground Up</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Mountains and Meadows/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2500,6 +3085,13 @@ Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Wood You Please/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -2605,6 +3197,13 @@ Moved the changelog to separated text file
       <version>1.4</version>
       <version>1.5</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Parabellum/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2655,6 +3254,23 @@ Moved the changelog to separated text file
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>SmashPhil.VehicleFramework</package_id>
+        <display_name>Vehicle Framework</display_name>
+        <steam_workshop_url/>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>XxNelsonxX.Parabellum</package_id>
+        <display_name>Parabellum</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Parabellum Combined Arms/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2684,6 +3300,18 @@ This is an extension of Parabellum Mod, the mod add any military hardware that I
       <version>1.3</version>
       <version>1.4</version>
     </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>XxNelsonxX.Parabellum</package_id>
+        <display_name>Parabellum</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Parabellum War Trophy/About/Preview.jpg</preview_image>
   </repository>
 </repositories>
