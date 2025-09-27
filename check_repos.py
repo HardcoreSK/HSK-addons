@@ -65,14 +65,14 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
             mod_root_path = '/'.join(about_folder_path.split('/')[:-1])
             # Get about.xml content
             try:
-                file_content = repo.get_contents(about_xml_path).decoded_content.decode()
-                name, description, package_id, supported_versions = extract_info_from_xml(file_content)
+                file_content = fetch_file_raw(owner, repo_name, default_branch, about_xml_path)
+                name, description, package_id, supported_versions, mod_dependencies = extract_info_from_xml(file_content)
             except Exception as e:
                 logger.error(f"Error reading/parsing {about_xml_path} in {repo.full_name}: {e}")
                 name, description, package_id, supported_versions = 'N/A', 'N/A', 'N/A', []
             # Find preview image in about folder
             preview_image = find_preview_image(repo, about_folder_path)
-            about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image))
+            about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image, mod_dependencies))
     except Exception as e:
         logger.error(f"Error accessing repository {repo.full_name}: {e}")
     return about_info
@@ -84,7 +84,18 @@ def extract_info_from_xml(content):
         description = root.find('description').text if root.find('description') is not None else 'N/A'
         package_id = root.find('packageId').text if root.find('packageId') is not None else 'N/A'
         supported_versions = [li.text for li in root.findall('supportedVersions/li')] if root.find('supportedVersions') is not None else []
-        return name, description, package_id, supported_versions
+        mod_dependencies = []
+        mod_deps_root = root.find('modDependencies')
+        if mod_deps_root is not None:
+            for li in mod_deps_root.findall('li'):
+                dep = {
+                    "packageId": li.find('packageId').text if li.find('packageId') is not None else 'N/A',
+                    "displayName": li.find('displayName').text if li.find('displayName') is not None else 'N/A',
+                    "steamWorkshopUrl": li.find('steamWorkshopUrl').text if li.find('steamWorkshopUrl') is not None else 'N/A',
+                }
+                mod_dependencies.append(dep)
+
+        return name, description, package_id, supported_versions, mod_dependencies
     except ET.ParseError as e:
         logger.error(f"Error parsing XML content: {e}")
         return 'N/A', 'N/A', 'N/A', []
@@ -117,7 +128,7 @@ def generate_xml_string(info_list):
     )
     root = ET.Element('repositories')
 
-    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image in sorted_info:
+    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image, mod_dependencies in sorted_info:
         repo_element = ET.SubElement(root, 'repository')
         ET.SubElement(repo_element, 'repo_id').text = str(repo_id)
         ET.SubElement(repo_element, 'owner').text = owner
@@ -129,6 +140,14 @@ def generate_xml_string(info_list):
         supported_versions_element = ET.SubElement(repo_element, 'supported_versions')
         for version in supported_versions:
             ET.SubElement(supported_versions_element, 'version').text = version
+        if mod_dependencies:
+            deps_element = ET.SubElement(repo_element, 'mod_dependencies')
+            for dep in mod_dependencies:
+                dep_element = ET.SubElement(deps_element, 'dependency')
+                ET.SubElement(dep_element, 'package_id').text = dep["packageId"]
+                ET.SubElement(dep_element, 'display_name').text = dep["displayName"]
+                ET.SubElement(dep_element, 'steam_workshop_url').text = dep["steamWorkshopUrl"]
+
         ET.SubElement(repo_element, 'preview_image').text = preview_image
         
     rough_string = ET.tostring(root, encoding='utf-8')
@@ -165,7 +184,7 @@ def write_paths_to_xml(info_list):
 
 def find_about_info_parallel(repos):
     all_about_info = []
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         future_to_repo = {executor.submit(search_about_folder_and_extract_info, g.get_repo(f"{owner}/{repo_name}"), owner, repo_name): (owner, repo_name) for owner, repo_name in repos}
         for future in as_completed(future_to_repo):
             owner, repo_name = future_to_repo[future]
@@ -176,6 +195,12 @@ def find_about_info_parallel(repos):
             except Exception as e:
                 logger.error(f"Error processing repository {owner}/{repo_name}: {e}")
     return all_about_info
+    
+def fetch_file_raw(owner, repo_name, branch, path):
+    url = f"https://raw.githubusercontent.com/{owner}/{repo_name}/{branch}/{path}"
+    resp = requests.get(url)
+    resp.raise_for_status()
+    return resp.text
 
 def main():
     repos = get_repositories_from_file()

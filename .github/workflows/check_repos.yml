@@ -2,8 +2,10 @@ name: Check Repositories for about.xml
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
-  push: # Runs on every commit
+    - cron: '0 * * * *' # Runs every hour
+  push:
+    branches:
+      - main   # Only trigger when pushing to main branch
   workflow_dispatch: # Allows manual trigger
 
 jobs:
