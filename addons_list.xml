@@ -193,6 +193,32 @@ Remake for HSK by Elldar
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1060363443</repo_id>
+    <owner>kasirii</owner>
+    <repo_name>VanillaStorytellersExpanded-WinstonWave-HSK</repo_name>
+    <mod_root_path/>
+    <name>Vanilla Storytellers Expanded - Winston Waves - HSK</name>
+    <description>Vanilla Storytellers Expanded - Winston Waves is a unique type of storyteller that introduces a brand new game mode called Wave Survival. Unlike Igor, and other raid-spawning storytellers, Winston Waves has a complex system of threat and reward that scales the more waves the player has survived.
+
+Push back the enemies to receive rewards. Expand your base using regular RimWorld mechanics, but be prepared that your actual game flow will be tested by constant raids that can only get harder! 
+
+Winston is a battle-hardened combat expert, and he believes that through combat, one can find themselves for who they really are. Every day you will be attacked by enemy waves increasing in size, but you will be rewarded for each victory.
+  
+  HSK conversion made by Kasiri.</description>
+    <package_id>VanillaStorytellersExpanded.WinstonWaveHSK</package_id>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>610143261</repo_id>
     <owner>masakitenchi</owner>
     <repo_name>Masakis-HSK-Patch</repo_name>
