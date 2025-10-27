@@ -326,7 +326,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <repo_name>Pacas-Even-More-Content</repo_name>
     <mod_root_path>Pacas Even More Content</mod_root_path>
     <name>Pacas Even More Content</name>
-    <description>Even more content, mostly focused on elemental crafting.
+    <description>Even more content, mostly focused on random ideas.
         This mod adds:
         - Kirin and Feenix hearts processing
         - Elemental and bio weapons
@@ -335,6 +335,10 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
         - Reinforced bridges
         - New oil refiners
         - Crafting fossils and crystals
+        - New rituals
+        - More tools
+        - More apparel
+        - Stupid jokes in descriptions
 
         Больше контента, больше!
         Этот мод добавляет:
@@ -345,6 +349,10 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
         - Усиленные мосты
         - Новые переработчики нефти
         - Крафт окаменелостей и кристаллов
+        - Новые ритуалы
+        - Больше инструментов
+        - Больше одежды
+        - Глупые шутки в описаниях
     </description>
     <package_id>hmc.pacas.evenmorecontent</package_id>
     <supported_versions>
