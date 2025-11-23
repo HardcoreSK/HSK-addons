@@ -2151,66 +2151,18 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
-    <repo_id>819143277</repo_id>
+    <repo_id>896584757</repo_id>
     <owner>Watcher011</owner>
-    <repo_name>HSK.Watcher.content.130mm.Main</repo_name>
+    <repo_name>HSK.Watcher.content.130mm.Main-main</repo_name>
     <mod_root_path/>
     <name>New 130 mm Rocket Missiles</name>
     <description>
-  Ru
-Данная модификация меняет 130мм ракеты , изменён урон (увеличен) , изменены текстуры , изменён крафт .Добавлена возможность ракетами обстреливать соседние карты (155мм пушка может ,а ракеты нет? ).Для ракет прописал разный урон по вражеской базе .
-Осколочные ракеты - увеличено количество осколков.
-Зажигательные ракеты - получили новую начинку из белого фосфора , горит долго и ярко.
-Эми ракеты - кроме самого урона от Эми получили шоковую волну механоидов (нужны тесты - насколько теперь удобно жарить роботов )
-Ракеты с антиматерией - Был кластер, и нет кластера механоидов(Из снаряжения осады исключил , чтоб у колонии были шансы)
-4 вида ударных дрона
-1 новый вид мин
-1 пусковую установку
-Обновление добавляет катапульту для БПЛА - более точный аналог Миномёта. Учтите что БПЛА крайне опасны. Позволяет вести огонь по соседним клеткам.
-
-Добавлены патроны с белым фосфором для калибров:
-14.5x114mm
-20x102mm
-30x173mm
-.50BMG
-90mm
-120mm
-155mm
-130mm-Ракеты
-
-ENG
-This modification changes the 130mm rockets, the damage has been changed (increased), the textures have been changed, the craft has been changed. The ability to fire rockets at neighboring maps has been added (a 155mm cannon can, but not rockets?). For rockets, different damage has been prescribed for the enemy base.
-Fragmentation rockets - the number of fragments has been increased.
-Incendiary rockets - received a new filling of white phosphorus, burns long and brightly.
-Amy missiles - in addition to the damage from Amy, they received a shock wave of mechanoids (tests are needed to see how convenient it is to fry robots now)
-Antimatter missiles - There was a cluster, but there is no cluster of mechanoids (excluded from the siege equipment so that the colony had a chance)
-4 types of attack drones
-1 new type of mine
-1 launcher
-The update adds a catapult for UAVs - a more accurate analogue of the Mortar. Please note that UAVs are extremely dangerous. Allows you to fire at neighboring cells.
-
-Eng
-Added white phosphorus cartridges for calibration:
-14.5x114 mm
-20x102mm
-30x173mm
-.50BMG
-90 mm
-120 mm
-155 mm
-130mm-Rockets
-
-https://github.com/Watcher011/HSK.Watcher.content.130mm.Main
-https://ko-fi.com/watcher011#linkModal (изменено)
-
   Version:0 «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
   </description>
     <package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id>
     <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
       <version>1.5</version>
+      <version>1.4</version>
       <version>1.1</version>
     </supported_versions>
     <preview_image>About/preview.png</preview_image>
