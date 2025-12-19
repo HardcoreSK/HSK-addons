@@ -2161,6 +2161,7 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
   </description>
     <package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id>
     <supported_versions>
+      <version>1.6</version>
       <version>1.5</version>
       <version>1.4</version>
       <version>1.1</version>
