@@ -219,45 +219,6 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
-    <repo_id>610143261</repo_id>
-    <owner>masakitenchi</owner>
-    <repo_name>Masakis-HSK-Patch</repo_name>
-    <mod_root_path/>
-    <name>Masakis HSK Patch</name>
-    <description>My own patch collection.
-		Main Features:
-		- SOS2 support (1.4, 1.5) (up to V99, so expect bugs in 1.5 right now)
-		- Vanilla Nutrient Paste Expanded Support (feat. @Matt-MentTao)
-		- Repeatable Research (WIP)
-		QoL Features:
-		- Auto forbid rotted meat &amp; rotten mush outside home area;
-		- Set threshold for Deep Drill resources;
-		- Remove monument quest completely;
-		- ... and more!
-		Cross-mod Features:
-		- Seed please: show skill &amp; tech requirement on seed info tab;
-	</description>
-    <package_id>regex.SKP</package_id>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Core_SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>N/A</preview_image>
-  </repository>
-  <repository>
     <repo_id>554877010</repo_id>
     <owner>pacas</owner>
     <repo_name>HMC-Nobility-Expanded</repo_name>
