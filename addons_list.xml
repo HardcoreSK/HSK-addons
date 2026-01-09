@@ -921,21 +921,6 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <repo_id>511907965</repo_id>
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
-    <mod_root_path>More Tools/More Tools</mod_root_path>
-    <name>More Tools</name>
-    <description>Add more useful tools for pawns.</description>
-    <package_id>HSK.More.Tools.Continued</package_id>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>More Tools/More Tools/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>511907965</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK</mod_root_path>
     <name>Nerve and Gas Shells</name>
     <description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description>
