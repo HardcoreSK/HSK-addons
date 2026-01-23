@@ -125,6 +125,77 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1138535497</repo_id>
+    <owner>Elldar112</owner>
+    <repo_name>Eccentric-Tech-Series-HSK</repo_name>
+    <mod_root_path>Eccentric Tech Series/Eccentric Tech - Advanced Shields SK</mod_root_path>
+    <name>Eccentric Tech - Advanced Shields HSK</name>
+    <description>Allows the creation of advanced shield belts. HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.AdvancedShields</package_id>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Aelanna.EccentricTech.Core</package_id>
+        <display_name>Eccentric Tech - Core</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>Eccentric Tech Series/Eccentric Tech - Advanced Shields SK/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1138535497</repo_id>
+    <owner>Elldar112</owner>
+    <repo_name>Eccentric-Tech-Series-HSK</repo_name>
+    <mod_root_path>Eccentric Tech Series/Eccentric Tech - Core SK</mod_root_path>
+    <name>Eccentric Tech - Core HSK</name>
+    <description>Core mod for Eccentric Tech. Adds research, buildings, and materials required to produce advanced weapons, apparel, and gear.  HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.Core</package_id>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <preview_image>Eccentric Tech Series/Eccentric Tech - Core SK/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1138535497</repo_id>
+    <owner>Elldar112</owner>
+    <repo_name>Eccentric-Tech-Series-HSK</repo_name>
+    <mod_root_path>Eccentric Tech Series/Eccentric Tech - Defense Grid SK</mod_root_path>
+    <name>Eccentric Tech - Defense Grid HSK</name>
+    <description>Adds networked shield generators, laser-designated missile artillery batteries, and remote turret controllers for high-tech colony defense options.  HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.DefenseGrid</package_id>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Aelanna.EccentricTech.Core</package_id>
+        <display_name>Eccentric Tech - Core</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>Eccentric Tech Series/Eccentric Tech - Defense Grid SK/About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>910775288</repo_id>
     <owner>Elldar112</owner>
     <repo_name>Oni-of-the-Rim-SK</repo_name>
