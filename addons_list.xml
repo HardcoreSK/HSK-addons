@@ -18,6 +18,7 @@ this mod do:
 - добавляет разбор боеприпасов, оружейных компонентов и турельных деталей для существующих одноименных верстаков.
 	</description>
     <package_id>arpomo6.hmc.adr</package_id>
+    <last_commit_time>2024-12-15T10:31:10+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -32,6 +33,7 @@ this mod do:
     <name>HMC bizarre materials</name>
     <description>Version 0.21. Added few new materials and recipes.</description>
     <package_id>arpomo6.hmc.bizmat</package_id>
+    <last_commit_time>2026-01-28T08:08:42+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -71,6 +73,7 @@ P.S. Данная модификация может вызвать жжение 
 Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons, Wons hair и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
 	</description>
     <package_id>arpomo6.hmc.project</package_id>
+    <last_commit_time>2026-01-28T08:08:42+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -96,6 +99,7 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
 Неофициальная адаптация модификации под сборку HardCore SK (автор ArpoMo6) с добавлением генерации окраски (белый, чёрный, серый, рыжий и бурый).
 	</description>
     <package_id>Oblitus.HousekeeperAssistanceCat</package_id>
+    <last_commit_time>2024-12-25T12:22:00+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -110,6 +114,7 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <name>Craftable Serum HSK</name>
     <description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description>
     <package_id>Elldar.CraftableSerum</package_id>
+    <last_commit_time>2024-10-29T12:09:19+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -132,6 +137,7 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <name>Eccentric Tech - Advanced Shields HSK</name>
     <description>Allows the creation of advanced shield belts. HSK Conversion by Elldar.</description>
     <package_id>Aelanna.EccentricTech.AdvancedShields</package_id>
+    <last_commit_time>2026-01-23T19:49:42+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -155,6 +161,7 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <name>Eccentric Tech - Core HSK</name>
     <description>Core mod for Eccentric Tech. Adds research, buildings, and materials required to produce advanced weapons, apparel, and gear.  HSK Conversion by Elldar.</description>
     <package_id>Aelanna.EccentricTech.Core</package_id>
+    <last_commit_time>2026-01-23T19:49:42+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -171,6 +178,7 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <name>Eccentric Tech - Defense Grid HSK</name>
     <description>Adds networked shield generators, laser-designated missile artillery batteries, and remote turret controllers for high-tech colony defense options.  HSK Conversion by Elldar.</description>
     <package_id>Aelanna.EccentricTech.DefenseGrid</package_id>
+    <last_commit_time>2026-01-23T19:49:42+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -218,6 +226,7 @@ Ameiro - Original artist, concept and author of the animal mod "oni".
 MoriShep - Original author to convert the animal mod into a alien race mod.
 Lucky - Joined the team to work on the textures for a period of time.</description>
     <package_id>morishep.tarojun.onioftherimlite</package_id>
+    <last_commit_time>2025-02-26T12:42:47+00:00</last_commit_time>
     <supported_versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -255,6 +264,7 @@ Important: Due to Deep Storage and Architect Sense conflict, You have to disable
 Remake for HSK by Elldar
 		</description>
     <package_id>JangoDsoul.SimpleStorage</package_id>
+    <last_commit_time>2025-04-17T15:14:06+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -277,6 +287,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
   
   HSK conversion made by Kasiri.</description>
     <package_id>VanillaStorytellersExpanded.WinstonWaveHSK</package_id>
+    <last_commit_time>2026-01-30T12:38:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -309,6 +320,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
 		- Seed please: show skill &amp; tech requirement on seed info tab;
 	</description>
     <package_id>regex.SKP</package_id>
+    <last_commit_time>2024-09-17T11:52:17+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -338,6 +350,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     Last 1.3 version - https://github.com/pacas/HMC-Nobility-Expanded/releases/tag/v0.15
     </description>
     <package_id>pacas.nobility.expanded</package_id>
+    <last_commit_time>2025-11-25T16:57:02+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -364,6 +377,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>HSK-SAR Uncensored Patch</name>
     <description>HSK patches for SAR Zero. Do not use with SAR Alien Textures.</description>
     <package_id>OTYOTY.SizedApparel.hsk</package_id>
+    <last_commit_time>2025-04-22T14:43:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -426,6 +440,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
         - Глупые шутки в описаниях
     </description>
     <package_id>hmc.pacas.evenmorecontent</package_id>
+    <last_commit_time>2025-10-27T15:15:53+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -467,6 +482,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>Advanced Shield Belts SK</name>
     <description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description>
     <package_id>dninemfive.advancedshieldbelts.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -482,6 +498,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>Air Defense Systems SK</name>
     <description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description>
     <package_id>akreedz346.antiairartillerycontinued.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
@@ -507,6 +524,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>Alpha Animals</name>
     <description>Adds multiple unique new animals to Rimworld. Based on version 13.09.2024.</description>
     <package_id>sarg.alphaanimals</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -533,6 +551,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>Alpha Biomes</name>
     <description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description>
     <package_id>sarg.alphabiomes</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -632,6 +651,7 @@ Pacas (me) for doing a HSK convertion.
  
     </description>
     <package_id>Mlie.ApexRimworldLegends.SK</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -692,6 +712,7 @@ Have a comment on balance, on the sprites, or have a bug to report? Make sure to
 Happy colonizing!
 </description>
     <package_id>spincrus.dinosauria</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -707,6 +728,7 @@ Happy colonizing!
     <name>Eaves, Rafters and Mad Walls</name>
     <description>Adds a self-destructing wall, burrowing wall, eaves, and rafters.</description>
     <package_id>pacas.wallsandrafters.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -726,6 +748,7 @@ Slice opponents into bits of minced flesh with the monoblades provided in this m
 Superior than the monoswords in every aspects except damage, these blades are sharp with high penetration and slice fast, resulting in a lethal combination when used by a competent wielder.
 </description>
     <package_id>Rabbit.EdgeOfDescension</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -755,6 +778,7 @@ Adventure awaits. We at V.O.I.D. promise to look after you and your children bec
 Not feeling like being assimilated? Okay, how about becoming one of our honorary research subjects? Wherever you are, whatever you do, we will find you.
 </description>
     <package_id>RH2.Faction.VOID</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -781,6 +805,7 @@ Not feeling like being assimilated? Okay, how about becoming one of our honorary
     <name>Fireflies</name>
     <description>A simple, yet... heart warming, mod that adds fireflies to the Rim.</description>
     <package_id>Scurvyez.Fireflies</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -803,6 +828,7 @@ Not feeling like being assimilated? Okay, how about becoming one of our honorary
     <name>Shield Generators by Frontier Developments SK</name>
     <description>Build shields. Stop bullets, rockets, explosions, drop pods, meteorites, super space lasers, and more!</description>
     <package_id>frontierdevelopments.shields.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
     </supported_versions>
@@ -843,6 +869,7 @@ A semi transparent roofing. Comes in the sizes 5x5 and 3x3. [i][notification: Mo
 Feel free to leave a comment and please report back any occuring bugs. And finally: Have Fun.
     </description>
     <package_id>Mlie.FrontlineBunkers.SK</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -868,6 +895,7 @@ Feel free to leave a comment and please report back any occuring bugs. And final
         FOR HSK!!!
     </description>
     <package_id>Gloomy.DecorPack.SK</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -894,6 +922,7 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <name>Harvest Organs Post Mortem SK</name>
     <description>This mod allow organ harvest on dead bodies. This a new version which allows the player to harvest pawn-spesific organs. Happy harvest!</description>
     <package_id>Smuffle.HarvestOrgansPostMortem</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -916,6 +945,7 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <name>Maelstrom's Metals SK</name>
     <description>Adds a large number of metal alloys ranging from earlygame to specialized, incredibly powerful and expensive endgame materials.</description>
     <package_id>Soul.MaelstromsMetals.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -981,6 +1011,7 @@ A lot of them can also be used as pack animals for a caravan (with paraceratheri
 Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleura, titanis, titanoboa, megalania, dinornis, quinkana, megalochelys, palaeeudyptes, gigantophis, meganeura, and purussaurus do lay eggs. Sivatherium, macrauchenia, aurochs cows, and uintatherium are milkable - sivatherium's milk is very nutritious and quite valuable!
 </description>
     <package_id>Spino.Megafauna</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -996,6 +1027,7 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <name>Nerve and Gas Shells</name>
     <description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description>
     <package_id>BIGWIK.NerveGasShells.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
     </supported_versions>
@@ -1033,6 +1065,7 @@ Madeline, Gloomylynx, Farmradish, horsefry, Space_Engineer, SR0752, 며루치, �
 and Rimworld Korea Discord members.
 	</description>
     <package_id>AhnDemi.PanieltheAutomata.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1064,6 +1097,7 @@ and Rimworld Korea Discord members.
     <name>Primitive Storage</name>
     <description>An addition to LWM's Deep Storage. Primitive Storage adds several new structures for keeping your goods.</description>
     <package_id>PrimitiveStorage.velcroboy333</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1135,6 +1169,7 @@ and Rimworld Korea Discord members.
 
   </description>
     <package_id>RunneLatki.RabbieRaceMod.sk</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1179,6 +1214,7 @@ and Rimworld Korea Discord members.
     - Pacas (me), for HSK convertion
     </description>
     <package_id>FS.ReviaRace</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1201,6 +1237,7 @@ and Rimworld Korea Discord members.
     <name>Seventh Seraph Weapons SK</name>
     <description>This mod adds seventh seraph weapons from Destiny 2.</description>
     <package_id>Seventh.Seraph.Weapons.SK</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1224,6 +1261,7 @@ Conflicts
 - Multiplayer mod: You will not be able to actually load anything into the ship. It won't work. Sorry.
     </description>
     <package_id>smashphil.srtsexpanded</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1251,6 +1289,7 @@ Conflicts
     <description>Ever wanted to fly through Rimworld with style and practicality? Well helicopters are here to bring you just that, helicopters have always been the king when it comes to aeronautical utility, the ability for helicopters to land without a runway is incredibly useful, especially when secure spaces are of a premium due to pesky raiders trying to steal your tables, it also allows you to launch attack operations without needing an entire airfield to land on, which is great for retaliation and retaking your stolen tables.
 	</description>
     <package_id>ELIF.SRTS.Helicopters</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1272,6 +1311,7 @@ Conflicts
     <name>SRTS Expanded - The Crimson Fleet - HSK Edition</name>
     <description>An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose. Thats... pretty much it.</description>
     <package_id>Ravvy.SRTS.TCF.HSK</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1300,6 +1340,7 @@ and Mlie update
 https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
 </description>
     <package_id>pacas.teslacoil</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -1314,6 +1355,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <name>Utility Columns SK</name>
     <description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description>
     <package_id>nephlite.orbitaltradecolumn</package_id>
+    <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1330,6 +1372,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
 		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
 	</description>
     <package_id>pacas.patchescompilation.v1</package_id>
+    <last_commit_time>2025-12-20T17:18:32+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1351,6 +1394,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <name>Warhammer Skavens - HSK Patch</name>
     <description>The ratkins of the under-empire comes to Rimworld. The vile and diabolical skaven will stage attacks against your colony with slave rats, clan rats, engineer and seers. Wielding weapons like slingshots, crossbows, various melee weapons up to simple machine guns and poison weapons. Trade with the more "friendly" skaven trader clans that offers access to various traders.</description>
     <package_id>pacas.skaven.hsk</package_id>
+    <last_commit_time>2025-12-20T17:18:32+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
@@ -1376,6 +1420,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <name>Facial Animation HSK Patch</name>
     <description>Smile! Full supported race list can be found on github. Also use mod https://steamcommunity.com/sharedfiles/filedetails/?id=2950353635 if you have Biotech installed.</description>
     <package_id>pacas.faceanim.hsk</package_id>
+    <last_commit_time>2025-04-08T16:58:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1407,6 +1452,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <name>Pacas Upscaled Textures</name>
     <description>Upscale for everyone!</description>
     <package_id>pacas.textures.upscale.v2</package_id>
+    <last_commit_time>2025-11-25T17:14:25+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1422,6 +1468,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <name>Digital Storage Unit</name>
     <description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description>
     <package_id>Relvl.DigitalStorageUnit</package_id>
+    <last_commit_time>2025-08-09T07:46:25+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1450,6 +1497,7 @@ Allows you to sort the found apparel by a more accurate list of comparisons.
 
     </description>
     <package_id>io.github.Relvl.Rimworld.BestApparel</package_id>
+    <last_commit_time>2025-07-11T06:22:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1535,6 +1583,7 @@ RUS: Мод расширения расы Раткин. Эксклюзивно �
 
 	</description>
     <package_id>TabbyMackerel.RatkinExpendedSK</package_id>
+    <last_commit_time>2025-11-15T14:58:04+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -1563,6 +1612,7 @@ RUS: Мод расширения расы Раткин. Эксклюзивно �
     <name>[D] Arcane Technology</name>
     <description>Restrict weapon and armor usage until the technology has been researched.</description>
     <package_id>dame.arcanetechnology</package_id>
+    <last_commit_time>2024-11-18T15:17:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1630,6 +1680,7 @@ The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
 You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
 </description>
     <package_id>Garwel.Celsius.SK</package_id>
+    <last_commit_time>2026-01-26T15:41:49+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -1669,6 +1720,7 @@ Credits and Thanks to...
  - Marnador, for the RimWor(l)d font.
  - Tynan, for this great game!</description>
     <package_id>Ogliss.Mythos.DiseasesOverhauled</package_id>
+    <last_commit_time>2025-05-28T12:21:25+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1688,6 +1740,7 @@ Changes From Original:
 - Added Option to restrict [RH] V.O.I.D events to be Ultratech rather than always available regardless of tech level
 	</description>
     <package_id>dame.ignorance</package_id>
+    <last_commit_time>2024-11-18T21:43:18+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1881,6 +1934,7 @@ Erdnussbrot - German translation.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2195037369]Last updated 2022-12-14[/url]</description>
     <package_id>Mlie.MedicalSupplements</package_id>
+    <last_commit_time>2025-11-01T15:49:46+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -1917,6 +1971,7 @@ See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentati
 
   </description>
     <package_id>zacharyfoster.mineralscraft</package_id>
+    <last_commit_time>2025-01-16T22:31:46+00:00</last_commit_time>
     <supported_versions>
       <version>1.1</version>
       <version>1.2</version>
@@ -1951,6 +2006,7 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
 
   </description>
     <package_id>zacharyfoster.mineralsextra</package_id>
+    <last_commit_time>2025-08-04T11:31:37+00:00</last_commit_time>
     <supported_versions>
       <version>1.1</version>
       <version>1.2</version>
@@ -1977,6 +2033,7 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
 	Patches to make HSK races conform to Compatible Body 2 and use Paper Pattern for apparel. \nRecommend [NL] Custom Coordinate Offsets https://steamcommunity.com/sharedfiles/filedetails/?id=1909870211. \nRecommend UnderWhere https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563. \nRecommend USE Set Apparel Draw Order https://steamcommunity.com/sharedfiles/filedetails/?id=2828788563
 	</description>
     <package_id>TheLoneTec.PaperP.CB2.HSK</package_id>
+    <last_commit_time>2025-02-20T11:27:53+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -2028,6 +2085,7 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
     <name>Relation Based Trading</name>
     <description>Adjusts trader stock based on faction relations. Better relations unlock higher tech level items. \n Thanks to Sonalt and help from Lightwave.</description>
     <package_id>thelonetec.relationbasedtrading</package_id>
+    <last_commit_time>2025-10-16T18:17:50+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -2042,6 +2100,7 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
     <name>Rimputers</name>
     <description>Research is all about processing data now connect those research benches to computers throughout history and crunch those numbers.</description>
     <package_id>joeyjoejoeshabidoo.Rimputers</package_id>
+    <last_commit_time>2024-12-23T13:56:06+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -2073,6 +2132,7 @@ Now your beds will only provide full comfort if you add some mattress, pillows a
 But blankets, of course, can't help with the heat. For those playing on tropical climates, we included a tropical alternative to beds: hammocks! How come nobody thought of that before? These cheap hanging rigs may not be as comfortable as a full bed, but they do help cooling off. And being cheap and light, they can also be used as travel beds, just like bedrolls!
   </description>
     <package_id>JPT.SoftWarmBedsHSK</package_id>
+    <last_commit_time>2025-06-28T06:43:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -2098,6 +2158,7 @@ But blankets, of course, can't help with the heat. For those playing on tropical
 	A lot of HSK patches
 	</description>
     <package_id>TheLoneTec.TSAP</package_id>
+    <last_commit_time>2025-11-09T15:29:13+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -2127,6 +2188,7 @@ But blankets, of course, can't help with the heat. For those playing on tropical
 Water freezes and turns to ice with different depths, if you use Soil Relocation Framework you can dig it up and use it to cool rooms, too!
   </description>
     <package_id>UdderlyEvelyn.WaterFreezes</package_id>
+    <last_commit_time>2025-04-11T07:29:27+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -2184,6 +2246,7 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
 Ссылка на мод - https://top-mods.ru/mods/rimworld/graphics/33106-reskins-megaspider.html
   </description>
     <package_id>HSK.WatcherContent</package_id>
+    <last_commit_time>2025-11-30T08:25:32+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2216,6 +2279,7 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
   Version:0 «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
   </description>
     <package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id>
+    <last_commit_time>2025-12-19T19:26:27+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
       <version>1.5</version>
@@ -2234,6 +2298,7 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
 	Огромная благодарность Дон Чипотль за предоставление Dll файлы https://www.youtube.com/@don_chipotle.
 	</description>
     <package_id>HSK.Watcher.content.Fallout2</package_id>
+    <last_commit_time>2025-11-02T10:36:38+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2402,6 +2467,7 @@ CHANGE LOG  Update 1
 
 </description>
     <package_id>ViTech.MedievalOverhaul</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2421,6 +2487,7 @@ Some additions exhibit special qualities. Steel grating has an inherent bonus to
 Viles notes:
 Wood fence overwrites the new vanilla fence. Also changed some values here and there to work with my other mods.</description>
     <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -2494,6 +2561,7 @@ Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2045114229][img]https://img.shields.io/github/v/release/emipa606/SeasonalWeather?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
     <package_id>Mlie.SeasonalWeather</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -2532,6 +2600,7 @@ This is a fork and continuation of Open the Windows. The original mod was by jpt
 	
 Patched for Hardcore SK 1.5 by TheLoneTec and Vile Heathen with original textures by Vile Heathen.</description>
     <package_id>thewindows.sk.jptrrs.owlchemist.vile</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -2593,6 +2662,7 @@ Version 1.0
   
 </description>
     <package_id>ViTech.HCSKamusebouche</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2620,6 +2690,7 @@ This also utilizes Vile's Materials Science, to make better use of the variety o
 This mod is still in the early stages and there may be some typos and balancing that will need to be worked out. The spacer guns are still a WIP as well, and I may add some very minor "modularization" of my own, if I feel there are some places where certain gun qualities are missing.
 </description>
     <package_id>vitech.armory</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2728,6 +2799,7 @@ Some pretty drastic changes were made to some of the biome generation. It's impo
 
 </description>
     <package_id>xenomacabre.HSKBiomes</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2749,6 +2821,7 @@ Update 4.1 (Biomes FTGU support) - 1/17/2022
 	
   </description>
     <package_id>xenomacabre.HCSKwallsandfloorsreduxeno</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2871,6 +2944,7 @@ Hide defs are new, most leather defs are patched from existing defs. So if you a
 
 </description>
     <package_id>vitech.leathertanning</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2926,6 +3000,7 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
     
 	</description>
     <package_id>vitech.materialsscience</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3063,6 +3138,7 @@ A0.2
 -Fixed some textures
 -Improved labels for processing recipes</description>
     <package_id>vitech.metallurgy</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3130,6 +3206,7 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
 * Custom world map tile graphics for your biome!
   </description>
     <package_id>vileheathen.mountainsmeadows</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3155,6 +3232,7 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <name>Vile's Testing Grounds</name>
     <description>A place where I'm testing out new textures and tweaks before implementing them into my mods or core SK.</description>
     <package_id>vitech.tweaks</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3223,6 +3301,7 @@ Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe
 
 </description>
     <package_id>ViTech.HCSKWood</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3262,6 +3341,7 @@ Some other notable changes:
 
 </description>
     <package_id>vitech.visible</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3282,6 +3362,7 @@ Simple. When I play I like to make color-coordinated loadouts. But there aren't 
 
 That's all.</description>
     <package_id>vitech.extraflavor</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3332,6 +3413,7 @@ Moved the changelog to separated text file
 
 	</description>
     <package_id>XxNelsonxX.Parabellum</package_id>
+    <last_commit_time>2025-01-06T04:23:31+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -3392,6 +3474,7 @@ Moved the changelog to separated text file
 
 	</description>
     <package_id>XxNelsonxX.ParabellumCA</package_id>
+    <last_commit_time>2024-02-05T04:41:15+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
@@ -3436,6 +3519,7 @@ This is an extension of Parabellum Mod, the mod add any military hardware that I
 
 	</description>
     <package_id>XxNelsonxX.ParabellumWT</package_id>
+    <last_commit_time>2024-04-28T08:23:56+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
