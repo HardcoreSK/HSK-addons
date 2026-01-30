@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 import hashlib
 import requests
 from xml.dom import minidom
+from datetime import timezone
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -51,6 +52,8 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
         # Get branch SHA
         branch = repo.get_branch(default_branch)
         sha = branch.commit.sha
+        
+        last_commit_dt = branch.commit.commit.committer.date
         # Use Git Trees API
         api_url = f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/{sha}?recursive=1"
         headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -72,7 +75,19 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
                 name, description, package_id, supported_versions = 'N/A', 'N/A', 'N/A', []
             # Find preview image in about folder
             preview_image = find_preview_image(repo, about_folder_path)
-            about_info.append((repo.id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image, mod_dependencies))
+            about_info.append((
+                repo.id,
+                owner,
+                repo_name,
+                mod_root_path,
+                name,
+                description,
+                package_id,
+                supported_versions,
+                preview_image,
+                mod_dependencies,
+                last_commit_dt
+            ))
     except Exception as e:
         logger.error(f"Error accessing repository {repo.full_name}: {e}")
     return about_info
@@ -128,7 +143,19 @@ def generate_xml_string(info_list):
     )
     root = ET.Element('repositories')
 
-    for repo_id, owner, repo_name, mod_root_path, name, description, package_id, supported_versions, preview_image, mod_dependencies in sorted_info:
+    for (
+        repo_id,
+        owner,
+        repo_name,
+        mod_root_path,
+        name,
+        description,
+        package_id,
+        supported_versions,
+        preview_image,
+        mod_dependencies,
+        last_commit_dt
+    ) in sorted_info:
         repo_element = ET.SubElement(root, 'repository')
         ET.SubElement(repo_element, 'repo_id').text = str(repo_id)
         ET.SubElement(repo_element, 'owner').text = owner
@@ -137,6 +164,7 @@ def generate_xml_string(info_list):
         ET.SubElement(repo_element, 'name').text = name
         ET.SubElement(repo_element, 'description').text = description
         ET.SubElement(repo_element, 'package_id').text = package_id
+        ET.SubElement(repo_element, 'last_commit_time').text = last_commit_dt
         supported_versions_element = ET.SubElement(repo_element, 'supported_versions')
         for version in supported_versions:
             ET.SubElement(supported_versions_element, 'version').text = version
