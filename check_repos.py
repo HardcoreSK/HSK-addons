@@ -53,7 +53,7 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
         branch = repo.get_branch(default_branch)
         sha = branch.commit.sha
         
-        last_commit_dt = branch.commit.commit.committer.date
+        last_commit_dt = branch.commit.commit.committer.date.isoformat()
         # Use Git Trees API
         api_url = f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/{sha}?recursive=1"
         headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
