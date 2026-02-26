@@ -107,30 +107,6 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image>
   </repository>
   <repository>
-    <repo_id>643584152</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Craftable-Mech-Serum</repo_name>
-    <mod_root_path/>
-    <name>Craftable Serum HSK</name>
-    <description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description>
-    <package_id>Elldar.CraftableSerum</package_id>
-    <last_commit_time>2026-02-08T14:21:11+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Core SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/preview.png</preview_image>
-  </repository>
-  <repository>
     <repo_id>1138535497</repo_id>
     <owner>Elldar112</owner>
     <repo_name>Eccentric-Tech-Series-HSK</repo_name>
@@ -423,75 +399,6 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
       </dependency>
     </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>826999035</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-Even-More-Content</repo_name>
-    <mod_root_path>Pacas Even More Content</mod_root_path>
-    <name>Pacas Even More Content</name>
-    <description>Even more content, mostly focused on random ideas.
-        This mod adds:
-        - Kirin and Feenix hearts processing
-        - Elemental and bio weapons
-        - Elemental embrasures
-        - Elemental fuse
-        - Reinforced bridges
-        - New oil refiners
-        - Crafting fossils and crystals
-        - New rituals
-        - More tools
-        - More apparel
-        - Stupid jokes in descriptions
-
-        Больше контента, больше!
-        Этот мод добавляет:
-        - Обработка сердец Кирина и Феникса.
-        - Элементальное и био оружие
-        - Элементальные амбразуры
-        - Элементальный предохранитель
-        - Усиленные мосты
-        - Новые переработчики нефти
-        - Крафт окаменелостей и кристаллов
-        - Новые ритуалы
-        - Больше инструментов
-        - Больше одежды
-        - Глупые шутки в описаниях
-    </description>
-    <package_id>hmc.pacas.evenmorecontent</package_id>
-    <last_commit_time>2026-02-16T09:43:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>Imranfish.XMLExtensions</package_id>
-        <display_name>XML Extensions</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>ratys.rtfuse</package_id>
-        <display_name>RT Fuse SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Royalty</package_id>
-        <display_name>Royalty</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Ideology</package_id>
-        <display_name>Ideology</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Biotech</package_id>
-        <display_name>Biotech</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>Pacas Even More Content/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>511907965</repo_id>
