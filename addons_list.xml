@@ -223,6 +223,47 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>910775288</repo_id>
+    <owner>Elldar112</owner>
+    <repo_name>Oni-of-the-Rim-SK</repo_name>
+    <mod_root_path/>
+    <name>Oni of the Rim: Lite</name>
+    <description>The mysterious horned and feathered humanoid found on some rim worlds, Oni are often sought out by Glitterworlds for their beauty as a sort of exotic pet. Worse still some are kept as livestock for their feathers, pelts and horns, all having practical and decorative uses. Oni live in temperate areas and rarely employ clothing due to the uncomfortable sensation on their feathered bodies. Due to this, they are highly vulnerable to being set on fire.
+
+In comparison of base human stats, Oni are more attuned with nature and are more physically suited to a wider set of environments, and do not care about being nude or sleeping on the floor. They are more adaptable in unarmed combat, using their razor sharp nails to claw away at their target, and able to use their horn for impaling. All natural attacks can cause bleeding. In social fights, their damage is restrained so they don't cut off a limb or cause excessive hemorrhaging.
+With them being more focused on the physical and nature side, they have little trouble with grasping the scientific concepts and and precisions of construction and crafting. When building or fixing machinery, they can seemingly be a little bit clumsy, more likely to make small critical mistakes leading to failure.
+At least with crafting, they simply take little bit longer to not make such mistakes, although they have completely no issues with tailoring or artistic work.
+
+They got a tiny bit more difficulties in making safe meals, due to them perceiving food and ingredients a little different to us humans. They are more than happy casually eat things raw, including insect meat.
+
+This version of the mod does not have most of the Oni related items or tech, except for the horn related body parts and some Oni dust: Blessings.
+
+Requires Alien Framework V2.0 by Erdelf  https://steamcommunity.com/workshop/filedetails/?id=839005762
+
+Contributors:
+Ameiro - Original artist, concept and author of the animal mod "oni".
+MoriShep - Original author to convert the animal mod into a alien race mod.
+Lucky - Joined the team to work on the textures for a period of time.</description>
+    <package_id>morishep.tarojun.onioftherimlite</package_id>
+    <last_commit_time>2025-02-26T12:42:47+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.0</version>
+      <version>1.1</version>
+      <version>1.2</version>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>452043257</repo_id>
     <owner>Elldar112</owner>
     <repo_name>Simple-Storage-HSK</repo_name>
