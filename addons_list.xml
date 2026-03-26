@@ -1,298 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <repositories>
   <repository>
-    <repo_id>903699729</repo_id>
-    <owner>ArpoMo6</owner>
-    <repo_name>HMC-Ammunitions-disassemble-and-recycling</repo_name>
-    <mod_root_path>HMC Ammunitions disassemble and recycling</mod_root_path>
-    <name>HMC Ammunitions disassemble and recycling</name>
-    <description>
-(ENG)
-
-this mod do:
-- adds disassembly of ammunition, weapon components and turret crates to existing workbenches of the same name.
-
-(RUS)
-
-Этот мод:
-- добавляет разбор боеприпасов, оружейных компонентов и турельных деталей для существующих одноименных верстаков.
-	</description>
-    <package_id>arpomo6.hmc.adr</package_id>
-    <last_commit_time>2024-12-15T10:31:10+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>HMC Ammunitions disassemble and recycling/About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>314622204</repo_id>
-    <owner>ArpoMo6</owner>
-    <repo_name>HMC-project</repo_name>
-    <mod_root_path>HMC bizarre materials</mod_root_path>
-    <name>HMC bizarre materials</name>
-    <description>Version 0.21. Added few new materials and recipes.</description>
-    <package_id>arpomo6.hmc.bizmat</package_id>
-    <last_commit_time>2026-02-24T18:23:10+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>HMC bizarre materials/About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>314622204</repo_id>
-    <owner>ArpoMo6</owner>
-    <repo_name>HMC-project</repo_name>
-    <mod_root_path>HSK more content</mod_root_path>
-    <name>HSK more content</name>
-    <description>
-(ENG)
-Version 0.53.
-this mod do:
-- add new weapons and ammo (EMP-ammo included too!);
-- add a new traits (some of them may be dangerous!);
-- add ammo-unmaking (the game won't get any easier!);
-- add new dangerous factions (be ready!);
-- and more...
-P.S. This modification can cause a some butthurt, feelings of hatred, anger, or severe depression.
-It is strongly not recommended for particularly nervous or impressionable persons. Persons who do not accept gaming inequality in any of its manifestations, as well as for childrens, pregnant persons and retirees.
-
-Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons, Wons hair and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
-
-(RUS)
-Версия 0.53.
-Этот мод:
-- добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
-- добавляет новые черты характера (некоторые из них могут быть опасны!);
-- добавляет разбор боеприпасов (игра от этого легче не станет!);
-- добавляет новые опасные фракции (приготовьтесь!);
-- и ещё кое-что...
-P.S. Данная модификация может вызвать жжение в области заднего прохода, чувство ненависти, злости или вызвать сильную депрессию.
-Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
-
-Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons, Wons hair и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
-	</description>
-    <package_id>arpomo6.hmc.project</package_id>
-    <last_commit_time>2026-02-24T18:23:10+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>HSK more content/About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>908197639</repo_id>
-    <owner>ArpoMo6</owner>
-    <repo_name>Housekeeper-Assistance-Cat-HSK</repo_name>
-    <mod_root_path>Housekeeper Assistance Cat HSK</mod_root_path>
-    <name>HousekeeperAssistanceCat</name>
-    <description>
-Unofficial update for HousekeeperAssistanceCat mod by Edge Crescent. While using the same assets, background logic for cleaning tasks is fully reworked. Their ability to reproduce is disabled, so you can only tame or buy them (you can edit the mod's LifeStages.xml to re-enable it).
-
-This mod adds a new kind of animal - Housekeeper Cat. When Obedience is trained, they are able to do cleaning tasks. They are also eligible for hauling training. As a bonus, they can produce small amounts of quality wool.
-
-Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color generation (white, black, gray, red and brown).
-
-Неофициальное обновление мода HousekeeperAssistanceCat mod (автор Edge Crescent). Здесь должно быть описание, связанное с переделкой логики уборки, но качественно перевести я это не сумел. Возможность размножения выключена ориг. автором, поэтому котиков можно получить только купив или приручив их (размножение можно включить в папке с модом в файле LifeStages.xml).
-
-Этот мод добавляет новый вид животных – Housekeeper Cat. После обучения преданности, они получают возможность уборки. Они также могут быть обучены переноске (имейте в виду, что переноска имеет более высокий приоритет, чем уборка) и производят небольшое количество качественной шерсти в качестве маленького бонуса.
-
-Неофициальная адаптация модификации под сборку HardCore SK (автор ArpoMo6) с добавлением генерации окраски (белый, чёрный, серый, рыжий и бурый).
-	</description>
-    <package_id>Oblitus.HousekeeperAssistanceCat</package_id>
-    <last_commit_time>2024-12-25T12:22:00+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>643584152</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Craftable-Mech-Serum</repo_name>
-    <mod_root_path/>
-    <name>Craftable Serum HSK</name>
-    <description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description>
-    <package_id>Elldar.CraftableSerum</package_id>
-    <last_commit_time>2026-02-08T14:21:11+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Core SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>1138535497</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Eccentric-Tech-Series-HSK</repo_name>
-    <mod_root_path>Eccentric Tech - Advanced Shields SK</mod_root_path>
-    <name>Eccentric Tech - Advanced Shields HSK</name>
-    <description>Allows the creation of advanced shield belts. HSK Conversion by Elldar.</description>
-    <package_id>Aelanna.EccentricTech.AdvancedShields</package_id>
-    <last_commit_time>2026-02-23T22:20:31+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>Aelanna.EccentricTech.Core</package_id>
-        <display_name>Eccentric Tech - Core</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>Eccentric Tech - Advanced Shields SK/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>1138535497</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Eccentric-Tech-Series-HSK</repo_name>
-    <mod_root_path>Eccentric Tech - Core SK</mod_root_path>
-    <name>Eccentric Tech - Core HSK</name>
-    <description>Core mod for Eccentric Tech. Adds research, buildings, and materials required to produce advanced weapons, apparel, and gear.  HSK Conversion by Elldar.</description>
-    <package_id>Aelanna.EccentricTech.Core</package_id>
-    <last_commit_time>2026-02-23T22:20:31+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <preview_image>Eccentric Tech - Core SK/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>1138535497</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Eccentric-Tech-Series-HSK</repo_name>
-    <mod_root_path>Eccentric Tech - Defense Grid SK</mod_root_path>
-    <name>Eccentric Tech - Defense Grid HSK</name>
-    <description>Adds networked shield generators, laser-designated missile artillery batteries, and remote turret controllers for high-tech colony defense options.  HSK Conversion by Elldar.</description>
-    <package_id>Aelanna.EccentricTech.DefenseGrid</package_id>
-    <last_commit_time>2026-02-23T22:20:31+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Aelanna.EccentricTech.Core</package_id>
-        <display_name>Eccentric Tech - Core</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Royalty</package_id>
-        <display_name>Royalty</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>Eccentric Tech - Defense Grid SK/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>1146697695</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Neolithic-Fortifications-HSK</repo_name>
-    <mod_root_path/>
-    <name>Fortifications - Neolithic HSK</name>
-    <description>It has always been a problem to make their settlements secured since human existence, so this is the reason why people in each era have used their own wisdom to build various of fortifications.</description>
-    <package_id>Aoba.Fortress.Neolithic</package_id>
-    <last_commit_time>2026-02-25T16:03:47+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>910775288</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Oni-of-the-Rim-SK</repo_name>
-    <mod_root_path/>
-    <name>Oni of the Rim: Lite</name>
-    <description>The mysterious horned and feathered humanoid found on some rim worlds, Oni are often sought out by Glitterworlds for their beauty as a sort of exotic pet. Worse still some are kept as livestock for their feathers, pelts and horns, all having practical and decorative uses. Oni live in temperate areas and rarely employ clothing due to the uncomfortable sensation on their feathered bodies. Due to this, they are highly vulnerable to being set on fire.
-
-In comparison of base human stats, Oni are more attuned with nature and are more physically suited to a wider set of environments, and do not care about being nude or sleeping on the floor. They are more adaptable in unarmed combat, using their razor sharp nails to claw away at their target, and able to use their horn for impaling. All natural attacks can cause bleeding. In social fights, their damage is restrained so they don't cut off a limb or cause excessive hemorrhaging.
-With them being more focused on the physical and nature side, they have little trouble with grasping the scientific concepts and and precisions of construction and crafting. When building or fixing machinery, they can seemingly be a little bit clumsy, more likely to make small critical mistakes leading to failure.
-At least with crafting, they simply take little bit longer to not make such mistakes, although they have completely no issues with tailoring or artistic work.
-
-They got a tiny bit more difficulties in making safe meals, due to them perceiving food and ingredients a little different to us humans. They are more than happy casually eat things raw, including insect meat.
-
-This version of the mod does not have most of the Oni related items or tech, except for the horn related body parts and some Oni dust: Blessings.
-
-Requires Alien Framework V2.0 by Erdelf  https://steamcommunity.com/workshop/filedetails/?id=839005762
-
-Contributors:
-Ameiro - Original artist, concept and author of the animal mod "oni".
-MoriShep - Original author to convert the animal mod into a alien race mod.
-Lucky - Joined the team to work on the textures for a period of time.</description>
-    <package_id>morishep.tarojun.onioftherimlite</package_id>
-    <last_commit_time>2025-02-26T12:42:47+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.0</version>
-      <version>1.1</version>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>erdelf.HumanoidAlienRaces</package_id>
-        <display_name>Humanoid Alien Races</display_name>
-        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>452043257</repo_id>
-    <owner>Elldar112</owner>
-    <repo_name>Simple-Storage-HSK</repo_name>
-    <mod_root_path/>
-    <name>[JDS] Simple Storage HSK</name>
-    <description>
-Hate how your stockpile is overflowing of useless thing or just the fact it just a sore eye. I have a simply solutions by using my "Simply Storage"
-a compact way to storage all of your useless Junk that you don't need into my Storage contains, no more of that over size stockpile take away space 
-that you can use for more important things. Now you can have a compack base, Call 1-800-Simply-Storage.
-
-Important: Due to Deep Storage and Architect Sense conflict, You have to disable "Put all storage units here" in LWM's Deep Storage mod options and restart the game, opening Deep Storage options will break it again putting things inside and outside subcategories until next restart.
-
-[h1]Credits:[/h1]
-- lilwhitemouse for the awesome mod "LWM's Deep Storage"
-- JangoD'soul for the original Simple Storage mod
-
-Remake for HSK by Elldar
-		</description>
-    <package_id>JangoDsoul.SimpleStorage</package_id>
-    <last_commit_time>2025-04-17T15:14:06+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
     <repo_id>1060363443</repo_id>
     <owner>kasirii</owner>
     <repo_name>VanillaStorytellersExpanded-WinstonWave-HSK</repo_name>
@@ -938,20 +646,21 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Harvest Post Mortem/HarvestPostMortemSK</mod_root_path>
-    <name>Harvest Organs Post Mortem SK</name>
-    <description>This mod allow organ harvest on dead bodies. This a new version which allows the player to harvest pawn-spesific organs. Happy harvest!</description>
-    <package_id>Smuffle.HarvestOrgansPostMortem</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <mod_dependencies>
       <dependency>
-        <package_id>UnlimitedHugs.HugsLib</package_id>
-        <display_name>HugsLib</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/818773962</steam_workshop_url>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>TheLoneTec.TSAP</package_id>
+        <display_name>Tec's Assorted Patched</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>Harvest Post Mortem/HarvestPostMortemSK/About/Preview.png</preview_image>
@@ -961,15 +670,23 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Maelstroms Metals/Maelstroms Metals SK</mod_root_path>
-    <name>Maelstrom's Metals SK</name>
-    <description>Adds a large number of metal alloys ranging from earlygame to specialized, incredibly powerful and expensive endgame materials.</description>
-    <package_id>Soul.MaelstromsMetals.sk</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>TheLoneTec.TSAP</package_id>
+        <display_name>Tec's Assorted Patched</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Maelstroms Metals/Maelstroms Metals SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -977,65 +694,23 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Megafauna/Megafauna SK</mod_root_path>
-    <name>Megafauna</name>
-    <description>Description
-Thanks to the wonders of today's technology, the small group of scientists that was previously known for bringing the Megatherium-
-Uh, I mean, the Megasloth back to life, was able to make the Megafauna Project a reality! 
-This time around, they were able to recreate 38 different species of animals that used to inhabit planet Earth thousands to millions years ago. 
-...Was that a wise move? Who cares! Now we all can feast our eyes on those glorious beasts as they will slowly inevitably turn all the ecosystems we know upside-down!
-
-Features
-38 new species of animals, all able to spawn naturally in different biomes:
-- Arthropleura,
-- Doedicurus,
-- Daeodon,
-- Gigantopithecus,
-- Paraceratherium,
-- Titanis,
-- Titanoboa,
-- Woolly Mammoth,
-- Elasmotherium,
-- Smilodon,
-- Chalicotherium,
-- Megaloceros,
-- Procoptodon,
-- Megalania,
-- Gomphotaria,
-- Diprotodon,
-- Short-faced Bear,
-- Dinocrocuta,
-- Sivatherium,
-- Andrewsarchus,
-- Dinornis,
-- Macrauchenia,
-- Quinkana,
-- Deinotherium,
-- Aurochs,
-- Megalochelys,
-- Palaeeudyptes,
-- Josephoartigasia,
-- Gigantophis,
-- Meganeura,
-- Zygolophodon,
-- Platybelodon,
-- Purussaurus,
-- Uintatherium,
-- Pulmonoscorpius,
-- Dinopithecus,
-- Castoroides,
-- Enhydriodon.
-
-These animals are quite rare, and should be a good challenge to either tame or slay. 
-A lot of them can also be used as pack animals for a caravan (with paraceratherium being your new best caravan buddy!).
-Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleura, titanis, titanoboa, megalania, dinornis, quinkana, megalochelys, palaeeudyptes, gigantophis, meganeura, and purussaurus do lay eggs. Sivatherium, macrauchenia, aurochs cows, and uintatherium are milkable - sivatherium's milk is very nutritious and quite valuable!
-</description>
-    <package_id>Spino.Megafauna</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>TheLoneTec.TSAP</package_id>
+        <display_name>Tec's Assorted Patched</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Megafauna/Megafauna SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1043,13 +718,23 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK</mod_root_path>
-    <name>Nerve and Gas Shells</name>
-    <description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description>
-    <package_id>BIGWIK.NerveGasShells.sk</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-    </supported_versions>
+    <supported_versions/>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>TheLoneTec.TSAP</package_id>
+        <display_name>Tec's Assorted Patched</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1480,150 +1165,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <preview_image>Pacas Upscaled Textures Lite/About/Preview.png</preview_image>
   </repository>
   <repository>
-    <repo_id>698599038</repo_id>
-    <owner>Relvl</owner>
-    <repo_name>Rimworld-DigitalStorageUnit</repo_name>
-    <mod_root_path/>
-    <name>Digital Storage Unit</name>
-    <description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description>
-    <package_id>Relvl.DigitalStorageUnit</package_id>
-    <last_commit_time>2025-08-09T07:46:25+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>610478383</repo_id>
-    <owner>Relvl</owner>
-    <repo_name>Rimworld_BestApparel</repo_name>
-    <mod_root_path/>
-    <name>BestApparel</name>
-    <description>
-        
-A mod that will help you find the best apparel for your pawns!
-The mod adds an interface that allows you to find the apparel by the specified layers, slots and stats.
-Allows you to sort the found apparel by a more accurate list of comparisons.
-
-    </description>
-    <package_id>io.github.Relvl.Rimworld.BestApparel</package_id>
-    <last_commit_time>2025-07-11T06:22:16+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>1056945227</repo_id>
-    <owner>TabbyMackerel</owner>
-    <repo_name>RatkinRaceHSK-Expended</repo_name>
-    <mod_root_path/>
-    <name>Ratkin Expended HSK</name>
-    <description>
-KOR: 랫킨 종족 확장모드. 히드코어 SK 모드팩 전용. Vanilla Factions Expanded 모드 필수!
-
-{추가되는 확장 콘텐츠들 목록}
-- 세력: 반란군 세력을 추가합니다. 왕정 체제를 뒤엎고 평등하고 시민 중심의 사회를 세우려는 신체제 세력인 혁명군 세력과 함께 같은 목적을 가지고 있었지만 지금은 변질되면서 부패한 비윤리적인 군벌 세력이 추가됩니다.
-	
-{시나리오}
-1. 랫킨 왕국의 신분제로 인한 모순적인 전근대적인 사회에 환멸을 느낀 랫킨들이 반란의 가담한 시나리오가 추가됩니다. 랫킨 왕국 세력과의 관계가 영구적인 적대로 시작합니다.
-2. 랫킨 왕국에 대한 특수작전 임무가 하달되면서, 8명의 중무장한 랫킨 특수부대들이 왕정에 대한 사보타주를 하려는 시나리오가 추가됩니다. 무장 상태와 장비가 좋은 상태로 시작하면서, 시작 시 받는 물품과 완료된 무기 연구가 많이 해금된 채 시작해서 난이도가 쉽습니다.
-3. 랫킨 왕국과 공화국군(혁명군), 그리고 군벌 세력의 전투로 인하여 삶의 터전이 붕괴되면서 난민이 되어버린 랫킨들의 시점으로 시작하는 전쟁 상황 속 현실의 민간인처럼 시작하는 시나리오입니다. 높은 확률로 부정적 특성이 달린 채로 시작하며, 영양실조가 심한 상태로 시작될 수 있습니다.
-
-+ 일부 랫킨들은 잃을 것이 없어서 도적이 되어버렸으며, 랫킨 병사들 일부가 탈영하면서 해적질에 가담했다는 설정으로, 우주 해적 세력의 습격에서 등장할 수 있습니다.
-+ 랫킨 반란군 시나리오는 시작부터 랫킨 왕국과 영구적인 적대 상태로 시작합니다.(그래서 Vanilla Factions Expanded 모드가 필요한 이유입니다.) 난민 시나리오는 HSK more contents 모드가 있으면 추가적인 물품이 지급됩니다.
-
-{추가 예정}
-- 반란군(혁명군) 세력의 고도로 훈련된 "공수부대" 병과와 함께 최강 특수병종 "저거넛" 부대를 낙하기 습격으로 패치할 예정입니다.
-- 내전의 혼란을 피해서 도망치면서 새로운 터전을 민들고, 더 이상 내전에 휘말리는 것을 원하지 않으면서 평화롭게 살고 싶어하는 난민 출신 랫킨들의 연합체계인 "난민 연맹"을 추가할 예정입니다. 여러가지 상인 유형(유형별 원자재류, 식품, 유제품, 보존식품, 스캐빈저 등)이 개성넘치게 등장하도록 할 예정입니다.
-- 전용 백스토리도 추가하면서, 현실의 역겹고 참혹하며 끔찍한 세상을 간접적으로 비판하면서, 현실의 사회 고발과 풍자를 간접적으로 비판하는 배경으로 만들면서, 각종 여러가지 인간 군상들을 기반으로 한 백스토리들을 추가할 예정입니다.
-- Parabellum 모드가 있다면, 1차 세계대전의 스타일로 무장한 왕실군과 혁명군의 참호전 병과가 추가될 예정입니다. 이미 XML 파일로 만들었지만, 기관총을 든 랫킨 기관총 사수가 무게 문제로 인해서 여분의 탄약을 들고 오지 않는다는 단점이 있어서 보류중입니다......
-- 오디세이 DLC가 나오면 알 수 없는 세력이 고도로 훈련된 초능력자 랫킨과 메카나이터 랫킨에게 변방계 행성으로 훈련 목적 및 전투력을 측정한다는 명목으로 2명의 랫킨들을 변방계 행성으로 투입시키는 시나리오를 추가할 예정입니다.
-
-+ 그 외에 추가해야 할 것들이 많지만, 하고싶은 게 너무나도 많아서 개발에 차질이 생길 수 있는점을 양해바랍니다.....
-+ "하드코어 SK" 모드팩 전용으로 개발된 랫킨 종족 모드의 콘텐츠 확장모드입니다! 절대로 일반적인 림월드 모드에 추가하지 마세요!!!
-
-ENG: Ratkin race expansion mod. Exclusive to the Hardcore SK modpack. Requires Vanilla Factions Expanded mod!
-
-{List of Added Expansion Content}
-- Factions: The Rebel faction has been added. The Revolutionary Army aims to overthrow the monarchy and establish a new regime that fosters an egalitarian and citizen-centered society. The Warlords, while initially sharing the same goals as the Rebels, have now become corrupt and unethical.
-
-{Scenario}
-1. A new scenario has been added in which the Ratkin, disillusioned with the contradictory and pre-modern society of the Ratkin Kingdom and its class-based system, join a rebellion. Relations with the Ratkin Kingdom begin as a permanent state of hostility.
-2. A new scenario has been added in which eight heavily armed Ratkin Special Forces members engage in sabotage against the Kingdom, following a mission approved for special operations against the Ratkin Kingdom. They begin heavily armed and equipped with various starting supplies and weapon research, making the difficulty level easy.
-3. The story begins from the perspective of the Ratkins, who have become refugees after their homes were destroyed by fighting between the Ratkin Kingdom, the Republic Army (Revolutionary Army), and the warlords. They begin the scenario as if they were real civilians in a war situation. They are likely to start with negative traits and may suffer from severe malnutrition.
-
-+ Some Ratkins become bandits because they have nothing to lose, while others desert and join pirate groups, and they appear in space pirate raids.
-+ The Ratkin Rebels scenario begins with permanent hostility with the Ratkin Kingdom (and therefore requires the Vanilla Faction Expanded mod). The Refugee scenario grants additional supplies if you own the HSK more content mod.
-
-{to be added}
-- The highly trained "Paratrooper" unit of the rebels (revolutionary army) and the most powerful special forces unit, the "Juggernaut" unit, will be added, and additional patches will be made in the form of drop pod raids.
-We plan to add the "Refugee League," a loose coalition of refugee ratkins seeking to escape the chaos of the civil war and establish a new home, living a peaceful life without being caught up in the conflict. We also plan to add a variety of merchant types, each with their own unique characteristics, including raw materials, food, dairy, preserved food, and scavengers.
-- I plan to indirectly criticize the disgusting, cruel, and terrifying world of reality, satirize and criticize social criticism of society, and add backstories based on the diverse human groups in the world.
-- If you have the "Parabellum" mod, it will add a Pawnkinds for "WWI-style" trench warfare unit for the Kingdom Army and the  Revolutionary Army (Rebels) . The XML file has already been created, but the machine gun-armed Ratkin Machine Gunners have the disadvantage of being heavy and unable to carry additional ammunition. Development is currently on hold...
-- If the Odyssey DLC is compatible with the HSK modpack, we plan to add a scenario where two highly trained Psychic Ratkin and Mechanite Ratkin are sent to a RimWorld planet "to test and measure their survivability and combat prowess" by an unknown, secretive force of advanced technology and science that hides its identity.
-
-+ There are many other things that need to be added, but please understand that there may be delays in development because there are so many things I want to do.....
-+ This is a content expansion mod for the Ratkin race mod developed exclusively for the "Hardcore SK" modpack! Please do not add this to a Vanilla RimWorld mod!!!
-
-RUS: Мод расширения расы Раткин. Эксклюзивно для модпака Hardcore SK. Требуется мод Vanilla Factions Expanded!
-
-{Список добавленного контента}
-- Фракции: Добавлена ​​фракция «Повстанцы». Революционная армия стремится свергнуть монархию и установить новый режим, способствующий построению равноправного общества, ориентированного на граждан. «Военачальники», изначально разделявшие цели Повстанцев, теперь стали коррумпированными и безнравственными.
-
-{Сценарий}
-1. Добавлен новый сценарий, в котором Раткины, разочаровавшись в противоречивом и несовременном обществе Королевства Раткинов и его классовой системе, присоединяются к восстанию. Отношения с Королевством Раткинов изначально носят характер постоянной враждебности.
-2. Добавлен новый сценарий, в котором восемь до зубов вооруженных бойцов спецназа Раткин совершают диверсию против Королевства, следуя миссии, одобренной для специальных операций против Королевства Раткин. Они начинают игру с до зубов вооруженными бойцами, различными стартовыми припасами и оружием, что делает уровень сложности низким.
-3. История начинается с точки зрения Раткинов, ставших беженцами после того, как их дома были разрушены в результате столкновений между Королевством Раткинов, Революционной армией Республики и военачальниками. Они начинают сценарий как обычные мирные жители, участвующие в войне. Скорее всего, у них будут негативные черты характера, и они могут страдать от серьёзного недоедания.
-
-+ Некоторые Раткины становятся бандитами, потому что им нечего терять, в то время как другие дезертируют и присоединяются к пиратским группировкам, а затем участвуют в набегах космических пиратов.
-+ Сценарий «Повстанцы Раткина» начинается с постоянной вражды с Королевством Раткина (и, следовательно, требует мода «Vanilla Faction Expanded»). Сценарий «Беженец» даёт дополнительные ресурсы, если у вас установлен мод «HSK more content».
-
-{будет добавлено}
-- Будут добавлены высококвалифицированный отряд «Десантник» повстанцев (революционной армии) и мощнейший отряд спецназа «Джаггернаут», а также будут добавлены дополнительные обновления в виде рейдов с использованием десантных капсул.
-- Я планирую косвенно критиковать отвратительный, жестокий и ужасающий мир реальности, высмеивать и критиковать социальную критику общества, а также добавлять предыстории, основанные на различных человеческих группах в мире.
-- Если у вас установлен мод "Parabellum", он добавит Pawnkinds для позиционной армейской единицы в стиле Первой мировой войны для Королевской армии и Революционной армии (повстанцев). XML-файл уже создан, но пулемётчики Ratkin имеют недостаток: они тяжёлые и не могут нести дополнительный боезапас. Разработка в настоящее время приостановлена...
-- Если дополнение Odyssey будет совместимо с модпаком HSK, мы планируем добавить сценарий, в котором два высококвалифицированных Раткина-Психика и Раткина-Механита будут отправлены на планету RimWorld «для проверки и измерения их выживаемости и боевого мастерства» неизвестной, секретной силой с передовыми технологиями и наукой, которая скрывает свою личность.
-
-+ Есть еще много других вещей, которые нужно добавить, но, пожалуйста, поймите, что могут быть задержки в разработке, потому что есть так много вещей, которые я хочу сделать...
-+ Это мод, расширяющий контент для мода расы Раткин, разработанный эксклюзивно для модпака "Hardcore SK"! Пожалуйста, не добавляйте его в мод Vanilla RimWorld!!!
-
-
-	</description>
-    <package_id>TabbyMackerel.RatkinExpendedSK</package_id>
-    <last_commit_time>2026-02-27T13:05:34+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
-        <display_name>Vanilla Expanded Framework</display_name>
-        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Solaris.RatkinRaceMod</package_id>
-        <display_name>NewRatkinPlus</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
     <repo_id>599305260</repo_id>
     <owner>TheLoneTec</owner>
     <repo_name>Arcane-Technology-SK</repo_name>
@@ -1966,46 +1507,6 @@ Erdnussbrot - German translation.
       </dependency>
     </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>663548576</repo_id>
-    <owner>TheLoneTec</owner>
-    <repo_name>MineralsCraft_SK</repo_name>
-    <mod_root_path/>
-    <name>MineralsCraft_SK</name>
-    <description>
-
-For RimWorld Hardcore SK v1
-
-mod version 1.2
-
-&lt;size=24&gt;Description&lt;/size&gt;
-
-Must come after Minerals_SK in the loading order.
-
-This mod adds some weapons that use resources from the Minerals_SK Mod.
-It also adds resource minerals like obsidian and flint needed to build these weapons.
-
-See: https://github.com/zachary-foster/MineralsCraft_SK for detailed documentation.
-
-  </description>
-    <package_id>zacharyfoster.mineralscraft</package_id>
-    <last_commit_time>2025-01-16T22:31:46+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.1</version>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>zacharyfoster.minerals</package_id>
-        <display_name>Minerals</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/Preview.jpg</preview_image>
   </repository>
   <repository>
     <repo_id>704981284</repo_id>
@@ -2868,195 +2369,20 @@ Update 4.1 (Biomes FTGU support) - 1/17/2022
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Hell Bent for Leather Tanning</mod_root_path>
-    <name>Vile's Hell Bent for Leather Tanning</name>
-    <description>
-=====================================
-VILE'S HELL BENT FOR LEATHER Tanning 
-V.0.3
-AUG.16.2022
-=====================================
-
-Hell Bent for Leather Tanning is another supplement to Vile's overhaul system which adds, uhhhh, leather tanning. 
-
-This is currently in early alpha, and I have very limited time for testing so I'm humbly relying on help for feedback and bug reports. So, um, take that as both a disclaimer and a plead. I will try to make updates daily. Thanks in advance!
-
-Some feedback I would appreciate:
-	- Missing/wrong textures (note that the leather colors will likelye change)
-	- Missing or broken recipes
-	- Balance issues with recipes and materials
-	- Elements that just don't seem "fun"
-	- Content you want to see
-	- Any other bugs or things that don't seem right
-	
-Notes for fellow modders and patchers at the end of this doc!
-
-=====================================
-QUICK GUIDE / WHAT'S NEW
-=====================================
-
-Hides and Skins: When you butcher an animal, you now get hides, skins and furs instead of leather. This makes the production chain more challenging, but it also gives you options and new materials and colors to play with. 
-
-Once you get going, you'll have a choice once you're ready to tan your hides. You can produce full-grain leathers, which uses the entire thickness, showing the true grain of the skin. It's the superior option. Because blemishes of the hide's surface must be cut off, there is wasted product in the form of strips, which can later be made into poor-quality bonded leather. Your other option is to split the hide. This will give you an unfinished "top-grain" leather where the blemishes are sanded off so you get more leather for your dollar. That's not all - you also get the split leather, or the flesh-side of the leather. This is suede. It kinda sucks but it breathes nicely and can made into "genuine leather". The top-grains leathers can also be dyed and processed into embossed finished leather, nubuck, and upholstry leather. There are also ways to produce ultra-grade leathers using products harvested from Feenix, Kirins, Thrumbos and similar animals.
-
-ROTTING AND CURING: Raw skins and hides will eventually rot unless you cure them or freeze them. There are two ways to cure hides:
-
-- Drying Rack: Small skins can be air dried, but thicker hides must be cured with salt or ash. Takes over a day.
-
-- Brining Station: Soak skins and	 hides in brine. Uses salt as fuel, and can be done quiclkly be a colonist.
-
-- Freezing: Just throw it in a freezer.
-
-LEATHER TANNING: Hides and skins must be tanned to become useable leather.
-
-- Brain Tanning: A traditional method using animal innards and smoking at a campfire. Produces only buckskin. Neolithic Tech.
-
-- Vegetable Tanning: A method that uses tannins from tree bark to tan the hide. Can take over a day.
-
-- tree bark is now produced when cutting wood.
-
-- Chrome Tanning: A method of tanning that uses chromium. Fast and done in large batches, but long exposure to the tanning drum can cause serious heath effects.
-
-=====================================
-LLEATHER GRADES (and their bet uses)
-=====================================
-FULL-GRAIN LEATHER - Premium leather. Uses the whole hide, with wasted strips leftover.
-	Breathable Leather 
-	Exotic Leather
-	Heavy Leather 
-	Durable Leather	
-	Stock Leather	
-	Light Leather
-	Soft Leather
-	Sterile Leather
-	Warm Fur
-	Rugged Fur
-	Heavy Fur
-	Fine Fur
-	
-TOP-GRAIN LEATHERS - Instead of using the full grain, the leather can be split. The top part can be processed later into more useful leathers and dyed various colors.
-	Unfinished Leather	
-	Finished Leather
-	Nubuck
-	Upholstry Leather
-	
-SPLIT LEATHERS et al - The flesh side of the split. Not as good quality as the top grain.
-	Suede 
-	Genuine Leather
-	Bonded Leather(made from leftover leather strips)
-	
-ULTRA-GRADE LEATHER - Large beasts like Feenix and Thrumbo drop resources when butchered that can be mixed with leathers to produce superior leathers.
-	Ventan Leather (compare to Feenix Leather)
-	Thermatan Leather (compare to Kirin leather)
-	Armatan Leather (best for armor)
-	Hygieiatan Leather (best for hospitals)
-	
-Hard Leather Materials: New and revised materials that can be used in place of metal in certain armor recipes and clothing.
-	Rawhide
-	Cuir Bouilli (aka boiled leather)
-	Chitin
-	Dragon Scales (from wyvern, kirin, feenix)
-
-=====================================
-MODDING / PATCHING NOTES:
-=====================================
-Hide defs are new, most leather defs are patched from existing defs. So if you add another mod which adds new pawns, you will need to change the "leatherType" to one of the new hide defs. Furthermore, you'll want to reduce the "leatherAmount" by 1/5th since tanning multiplies the ingredients by 5-ish. 
-
-</description>
-    <package_id>vitech.leathertanning</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>Vile's Hell Bent for Leather Tanning/About/Preview.jpg</preview_image>
-  </repository>
-  <repository>
-    <repo_id>406405970</repo_id>
-    <owner>xenomacabre</owner>
-    <repo_name>VilesMods</repo_name>
-    <mod_root_path>Vile's Materials Science</mod_root_path>
-    <name>Vile's Materials Science</name>
-    <description>Version 0.1
-This is the final major part of the Vile's series of overhaul mods for Hardcore SK. It finishes what Metallurgy and Pre-Industrial Overhaul started, namely, adding realism, complixity, and streamlines and rebalances materials while making it a bit more intuitive. Unlike Metallurgy though, it doesn't add a lot more steps in the production chain. Here's a rundown of the overhaul:
-        
-    CHANGES and ADDITIONS:
-    - New Ore Refining system. "Iron Ore", "Tin Ore" replaced with "Magnetite" and "Cassiterite" etc. These are refined to their base elements at the Metal Extraction Plant. Inspired by Angel's Factorio mod.
-        - With improved techology and the Electrolytic Refinery, more and new base metals can be extracted from the ores at the expense of work speed and electrical power.
-    - Labels and descriptions are improved to make finding materials and knowing which ones to use easier.
-    - Most materials revised, with many added ones, including alloys, plastics, textiles, etc.
-    - A revised materials tier system: Tiers are divided by tech level, but each material within each tier does something it excels at over the others. Suggested uses are easily laid out in the descriptions.
-    - Revised recipes for items and buildings, to utilize the new materials and add realism.
-    - Rimefeller overhaul, with an expanded polymer industry. 
-        - Petrochemical byproducts include ethylene, benzene, petroleum coke, etc. 
-        - Instead of only "plastic" you have PVC, polycarbonate, fiberglass, aerographene, and more.
-    - A few intermediate materials are replaced with things that make more sense. No more "compound paste" and "paraffins". Now we have "epoxy resin" and "teflon".
-    - Added a new "chemistry station" for new chemicals such as lye, chlorine, etc.
-    - Plant wax replaces paraffins as a fuel for candles.
-    - Coin minting added. Refining galena ore gives you "pure silver".
-    - IMPORTANT! The electrylytic refinery must be linked (near) to the metal extraction plant to refine ores, and the chemistry station must be linked to the loom to make advanced textiles. Note that these recipes don't appear in the wikirim. Looking into it.
-    - And of course, tons of new and revised textures.
-
-    ROADMAP:
-    - Cool spreasheets and stuff because those are fun.
-    - Nucleosynthesis Converter recipes.
-    - Make stuff masks for some MS building textures.
-    - Add 2 new concrete types.
-    - Update mineral/rock textures.
-    - Insulation Support for Celcius mod.
-    - New refinery building textures.
-    - Integrate new glass types with Windows.
-    - Revamp late-game power generation. Perhaps add geothermal drilling.
-    - Rimatomics defense materials.
-    - Various buildings and recipes as I come across them, or are brought to my attention.
-    - HSK currently doens't work well with the “heat” damage type. This will improve as we go into 1.4.
-    
-    Many of my other mods are updated to work with this, so make sure to get the latest of those.
-    
-	Requires Community framework. A copy is included, but also available on steam workshop or github https://github.com/ISOR3X/communityframework.
-
-	I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
-	http://patreon.com/vileheathen  
-	Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage.
-    
-	</description>
-    <package_id>vitech.materialsscience</package_id>
-    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <mod_dependencies>
       <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>zacharyfoster.minerals</package_id>
-        <display_name>Minerals</display_name>
+        <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+        <display_name>HSK Fences and Floors: Vile's Patch</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
       <dependency>
-        <package_id>dubwise.dubsbadhygiene</package_id>
-        <display_name>Dubs' Bad Hygiene</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>skyarkhangel.survivaltoolslite</package_id>
-        <display_name>Survival Tools Lite</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>dubwise.rimatomics</package_id>
-        <display_name>Rimatomics</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>vitech.metallurgy</package_id>
-        <display_name>Vile's Metallurgy</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>vitech.leathertanning</package_id>
-        <display_name>Vile's Hell Bent for Leather Tanning</display_name>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
       <dependency>
@@ -3064,14 +2390,33 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
         <display_name>Wood You Please</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
+    </mod_dependencies>
+    <preview_image>Vile's Hell Bent for Leather Tanning/About/Preview.jpg</preview_image>
+  </repository>
+  <repository>
+    <repo_id>406405970</repo_id>
+    <owner>xenomacabre</owner>
+    <repo_name>VilesMods</repo_name>
+    <mod_root_path>Vile's Materials Science</mod_root_path>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
+    <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
+    <supported_versions/>
+    <mod_dependencies>
       <dependency>
-        <package_id>Dubwise.Rimefeller</package_id>
-        <display_name>Rimefeller</display_name>
+        <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+        <display_name>HSK Fences and Floors: Vile's Patch</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
       <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Core SK</display_name>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
@@ -3082,89 +2427,15 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Metallurgy</mod_root_path>
-    <name>Vile's Metallurgy</name>
-    <description>
-Welcome to the foundry! Please report bugs and feedback to Vile Heathen on the HSK discord. Much appreciated!	
-
-I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
-http://patreon.com/vileheathen
-
-Update A0.3
--Updated for 1.3
--Lead smelting now produces 15 instead of 10. Quick fix until the upcoming Ores and Minerals update. For now, set up a mining camp if your map lacks lead.
--Added mod dependencies. Consider using Realistic Terraforming to get peat, clay, etc quicker. I've not tested this without it.
--Making Rimatomics a dependancy. There's an assembly in there that allows the water wheel to use any large water body, not just rivers.
--Fixed some typos etc.
-	
-INTRODUCTION	
-This could also be called 'Pre-Industrial Part II: Metallurgical Overhaul'. It's part of an ongoing project of mine to add some more complex mechanics to HSK that are both realistic and historically accurate, but in a manner that makes it fun, immersive, and hopefully intuitive.
-
-That said, this is the first part of a materials overhaul, with focus on early-game metallurgy and steel-making. Below is a quick summary of how it works. There is more detailed information in the descriptions of the buildings and resources, and a wiki/guide is underway.
-	
-NEOLITHIC
-A new fire pit is added which separates non-food recipes from the campfire, and adds a few more, mainly for dealing with smelting metals of antiquity such as bronze and silver.
-	
-CERAMIC KILN
-The kiln now acts like the fermenter buildings in that you load it with stuff, and then wait several days or hours instead of standing there watching it. It's in the "processing" submenu and you'll make things such as:
-		Bricks
-		Charcoal
-		Coke (metallurgical coal that is further processed)
-		Flux powder (used in ceramics and metallurgy)
-		Wootz Steel
-		Clay pots
-	
-WOOTZ STEEL
-Commonly referred to as "Damascus Steel" because a lot of wootz steel was imported to Damascus, it's a fragile, but ultra-hard steel best used for cutlery and sharp weapons.
-
-POTTERY STATION
-There is a new pottery station for making clay pots for food storage. They can be glazed with a variety of materals to increase beauty and make it seal better for improved food preservation. Vanilla pots can still be made out of metal, but they're more expensive and inferior to glazed pottery. Clay pots must be fired in the kiln, and then used as an ingredient much like how a crate is used to make a turret.
-
-BLOOMERY and WROUGHT IRON / FORGED STEEL
-The earlist technology for smelting iron. Ore is smelted into an "iron bloom", which then must be hammered into wrought iron at smithy forge (or finery forge). It's a long process with low payout, but you'll eventually run out of tin or copper for producing bronze so you'll want to start making wrought iron. Like you learned in history class. The wrought iron can further be carburized into weld-forged steel, your first type of proper steel. Contrary to popular belief, however, wrought iron can still be used to make effective weapons and armor — in this mod it is considered that these wrought iron implements are "case hardened", or tempered to strengthen the outer surface of the iron into a thin layer of steel.
-
-BOG IRON from PEAT
-Small pellets of iron can often be found in peat bogs. You can extract bog iron from peat at machining tables for a never-ending supply of iron. Mining is still the most efficient way to getting it though.
-
-BLAST FURNACE AND PIG IRON
-The blast furnace replaces the vanilla furnace. It makes iron ore into pig iron instead (a crude high-carbon form of iron which is worthless on its own). The pig must be processed at a finery into wrought iron and is much faster and more efficient than processing bloom. Pig iron can also be refined into cast iron at a foundry.
-
-FINERY FORGE / WATER WHEEL
-The finery forge is like a smithy forge except it has a heavy mechanical trip-hammer required for smashing the carbon out of pig iron to turn it into wrought iron (or welded steel). It can be operated by hand, but it's best powered by a water wheel. It's smart to build by a FLOWING RIVER if you can, otherwise you may want to rush the foundry and puddling tech.
-
-STAMP MILL / WATER WHEEL
-Another way to take advantage of the water wheel is with the stamp mill. It can be used for smashing grain, but also making gunpowder and crushing stone into rubble or sand.
-
-FOUNDRY, CASTING
-The foundry is dual purpose: It can be used for casting, which is a method of producing items quickly and in large batches. It's limited to certain types of tools, components and ammunition, and the castable metals are also very limited. It can also be used for processing certain metals and alloys, notably cast iron, and turning pig iron into wrought iron through what is called "puddling" - a method which is much more efficient than through the finery. It can also be used to produce crucible steel. More on that next.
-
-CEMENTATION FURNACE and BLISTER STEEL / CRUCIBLE STEEL
-This building works much like the kiln. Fill it with wrought iron and a source of carbon and wait several days. The iron becomes what's known as "blister steel", which is not homogenous and is useless on its own. It can be processed at a smithy or finery to produce "sheer steel", which resembles forge-welded steel, and for purposes of simplification, we'll just call it that. The ultimate, purest form of steel produced before the second industrial revolution, however is *Crucible Steel*. This is made by simply melting down the blister steel at the foundry once the tech is unlocked. It requires both coke and flux. 
-
-STEAM ENGINE
-The blowing engine is an automated bellows which speeds up the blast furnace and foundry operation.
-
-PIPES
-Water pipes are now divided into two types: aqueducts and, well, pipes. The former are made like how you're used to making them, and the latter require "plumbing components", which can be made at a forge or cast at the foundry. They're much stronger and easier to install.
-
-WEAPONS AND TOOLS
-A new CHEF KNIFE is added. Unlike the dagger and regular knife, the material used to make them can imply further bonuses. The *ULFBERT* and RIMASCUS SCIMITAR are two new swords that require wootz steel to make. An armor-piercing LUCERNE HAMMER replaces the royalty warhammer, and the royalty axe is removed and replaced with a QUARTERSTAFF, which is good for takedowns and less-lethal stick fighting.
-		
-Previous Updates: 
-
-A0.2
--Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
--Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
--Fixed some textures
--Improved labels for processing recipes</description>
-    <package_id>vitech.metallurgy</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <mod_dependencies>
       <dependency>
-        <package_id>ViTech.MedievalOverhaul</package_id>
-        <display_name>HMC Vile's Pre-Industrial</display_name>
+        <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+        <display_name>HSK Fences and Floors: Vile's Patch</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
       <dependency>
@@ -3173,28 +2444,8 @@ A0.2
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
       <dependency>
-        <package_id>skyarkhangel.realisticterraform</package_id>
-        <display_name>HMC Realistic Terraforming</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>zacharyfoster.minerals</package_id>
-        <display_name>Minerals</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>dubwise.dubsbadhygiene</package_id>
-        <display_name>Dubs' Bad Hygiene</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>skyarkhangel.survivaltoolslite</package_id>
-        <display_name>Survival Tools Lite</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>dubwise.rimatomics</package_id>
-        <display_name>Rimatomics</display_name>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
@@ -3205,39 +2456,25 @@ A0.2
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Mountains and Meadows</mod_root_path>
-    <name>Vile's Mountains and Meadows</name>
-    <description>
-Adds three biomes: 
-Prairie (a temperate grassland)
-Montane Forest (a boreal forest variation, less dense, may contain lakes)
-Montane Birch Grasslands (a cold grassland)
-Adds back Cloudberries, and a new flower, bluebells.
-
-
-Uses Odeum's Biomes Kit (details below) 
-
-BiomesKit is a framework for the placement of biomes on the world map at worldgen. Previously, modders needed to utilize C# to add new biomes to rimworld. With BiomesKit, placement of a biome can be controlled with XML tags in the BiomeDef itself.
-
-With BiomesKit as a dependency, you too can make your own biomes mod with minimal hassle! Features of BiomesKit includes but are not limited to:
-* Spawning biomes based on factors like elevation, rainfall, hilliness and more!
-* Restricting your biome to spawn only on specific vanilla biomes, or even biomes from other mods!
-* Changing the hilliness of a tile to a specific level, or even randomizing it!
-* Custom world map tile graphics for your biome!
-  </description>
-    <package_id>vileheathen.mountainsmeadows</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <mod_dependencies>
       <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+        <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+        <display_name>HSK Fences and Floors: Vile's Patch</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
       <dependency>
-        <package_id>xenomacabre.HSKBiomes</package_id>
-        <display_name>Vile's Biomes: From The Ground Up</display_name>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
@@ -3248,13 +2485,28 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Testing Ground</mod_root_path>
-    <name>Vile's Testing Grounds</name>
-    <description>A place where I'm testing out new textures and tweaks before implementing them into my mods or core SK.</description>
-    <package_id>vitech.tweaks</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
+        <display_name>HSK Fences and Floors: Vile's Patch</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
@@ -3386,176 +2638,5 @@ That's all.</description>
       <version>1.5</version>
     </supported_versions>
     <preview_image>N/A</preview_image>
-  </repository>
-  <repository>
-    <repo_id>385012822</repo_id>
-    <owner>Xx-Nelson-xX</owner>
-    <repo_name>Parabellum</repo_name>
-    <mod_root_path>Parabellum</mod_root_path>
-    <name>Parabellum</name>
-    <description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-+New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
-
-The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
-
-Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
-
-Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
-
-Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
-
-Moved the changelog to separated text file
-
-
-[RUS - переводчик]
-
-		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
-
-		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
-		
-
-+ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
-
-Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
-
-Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
-
-Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
-
-О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
-
-
-Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
-
-	</description>
-    <package_id>XxNelsonxX.Parabellum</package_id>
-    <last_commit_time>2025-01-06T04:23:31+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>Parabellum/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>710623550</repo_id>
-    <owner>Xx-Nelson-xX</owner>
-    <repo_name>Parabellum-Combined-Arms</repo_name>
-    <mod_root_path>Parabellum Combined Arms</mod_root_path>
-    <name>Parabellum Combined Arms</name>
-    <description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-+New Research and small compatibility patch with "Vile's Pre-Industrial" and "HSK More Content" mod
-
-The mod adds weapon, ammo, explosives, turrets, and the new update add more of them, including new balance, new research, new patches for HSK More Content and Vile's Mod(Pre-Industrial to be exact)
-
-Stuff to add combat variety and now included a chronological like progression research like how Vile did for Pre-Industrial, the mod focus on stuffs after Pre-Industrial  mostly, for now
-
-Any issue report it to me or pin me in Discord Server or in my mod Thread, I pass most of my time in the English server, any suggestion, feedback and bug report is always welcome!(I really need those), thanks for using my mod
-
-Sorry that I don't speak russian, also I am not a native English speaker, but I do speak English, Spanish and Chinese, so you are free to correct any typo I made and anyone is free to translate my mod to any other language if you want.
-
-Moved the changelog to separated text file
-
-
-[RUS - переводчик]
-
-		  Теперь поддержка русского перевода благодаря г-ну Винни Пух 
-
-		Si vis pacem, para bellum - Если хочешь мира, готовься к войне
-		
-
-+ Новое исследование и небольшой патч совместимости с модами "Vile's Pre-Industrial" и "HSK More Content"
-
-Основной целью этого мода было добавить больше оружия для базового HSK, на данный момент
-
-Мод добавляет оружие, боеприпасы, взрывчатку, турели, а новое обновление добавляет их больше, включая новый баланс, новые исследования, новые патчи для HSK More Content и Vile's Mod (точнее доиндустриальный)
-
-Материал для добавления разнообразия боя и теперь включает в себя хронологическое исследование прогресса.
-
-О любой проблеме сообщите мне или закрепите меня на сервере Discord или в моей ветке мода, я провожу большую часть своего времени на английском сервере, любые предложения, отзывы и отчеты об ошибках всегда приветствуются! (Мне они действительно нужны), спасибо за использование моего мода
-
-
-Извините, мне трудно переводить журнал изменений, но я постараюсь предоставить его.
-
-	</description>
-    <package_id>XxNelsonxX.ParabellumCA</package_id>
-    <last_commit_time>2024-02-05T04:41:15+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>SmashPhil.VehicleFramework</package_id>
-        <display_name>Vehicle Framework</display_name>
-        <steam_workshop_url/>
-      </dependency>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>XxNelsonxX.Parabellum</package_id>
-        <display_name>Parabellum</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>Parabellum Combined Arms/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>469523213</repo_id>
-    <owner>Xx-Nelson-xX</owner>
-    <repo_name>Parabellum-War-Trophy</repo_name>
-    <mod_root_path>Parabellum War Trophy</mod_root_path>
-    <name>Parabellum War Trophy</name>
-    <description>
-
-		Si vis pacem, para bellum - If you want peace, prepare for war
-
-This is an extension of Parabellum Mod, the mod add any military hardware that I find fun/interesting to play with, can be something to explore CE limits or something that add challenge and variety for HSK combat.
-
-[RUS - переводчик]
-
-		Si vis Pacem, para bellum - Хочешь мира, готовься к войне
-
-Это расширение мода Parabellum, мод добавляет любую военную технику, с которой мне весело/интересно играть, может быть чем-то, чтобы исследовать ограничения CE или что-то, что добавляет сложности и разнообразия в бою HSK.
-
-Этот перевод не очень точен, извините
-
-	</description>
-    <package_id>XxNelsonxX.ParabellumWT</package_id>
-    <last_commit_time>2024-04-28T08:23:56+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>XxNelsonxX.Parabellum</package_id>
-        <display_name>Parabellum</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>Parabellum War Trophy/About/Preview.jpg</preview_image>
   </repository>
 </repositories>
