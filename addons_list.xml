@@ -514,25 +514,11 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Air Defence Systems/Air Defence Systems SK</mod_root_path>
-    <name>Air Defense Systems SK</name>
-    <description>A simple air defense systems mod. Originally made by AKreedz. Patched for you by Pacas :^) </description>
-    <package_id>akreedz346.antiairartillerycontinued.sk</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>UnlimitedHugs.HugsLib</package_id>
-        <display_name>HugsLib</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/818773962</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>Air Defence Systems/Air Defence Systems SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -977,65 +963,11 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Megafauna/Megafauna SK</mod_root_path>
-    <name>Megafauna</name>
-    <description>Description
-Thanks to the wonders of today's technology, the small group of scientists that was previously known for bringing the Megatherium-
-Uh, I mean, the Megasloth back to life, was able to make the Megafauna Project a reality! 
-This time around, they were able to recreate 38 different species of animals that used to inhabit planet Earth thousands to millions years ago. 
-...Was that a wise move? Who cares! Now we all can feast our eyes on those glorious beasts as they will slowly inevitably turn all the ecosystems we know upside-down!
-
-Features
-38 new species of animals, all able to spawn naturally in different biomes:
-- Arthropleura,
-- Doedicurus,
-- Daeodon,
-- Gigantopithecus,
-- Paraceratherium,
-- Titanis,
-- Titanoboa,
-- Woolly Mammoth,
-- Elasmotherium,
-- Smilodon,
-- Chalicotherium,
-- Megaloceros,
-- Procoptodon,
-- Megalania,
-- Gomphotaria,
-- Diprotodon,
-- Short-faced Bear,
-- Dinocrocuta,
-- Sivatherium,
-- Andrewsarchus,
-- Dinornis,
-- Macrauchenia,
-- Quinkana,
-- Deinotherium,
-- Aurochs,
-- Megalochelys,
-- Palaeeudyptes,
-- Josephoartigasia,
-- Gigantophis,
-- Meganeura,
-- Zygolophodon,
-- Platybelodon,
-- Purussaurus,
-- Uintatherium,
-- Pulmonoscorpius,
-- Dinopithecus,
-- Castoroides,
-- Enhydriodon.
-
-These animals are quite rare, and should be a good challenge to either tame or slay. 
-A lot of them can also be used as pack animals for a caravan (with paraceratherium being your new best caravan buddy!).
-Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleura, titanis, titanoboa, megalania, dinornis, quinkana, megalochelys, palaeeudyptes, gigantophis, meganeura, and purussaurus do lay eggs. Sivatherium, macrauchenia, aurochs cows, and uintatherium are milkable - sivatherium's milk is very nutritious and quite valuable!
-</description>
-    <package_id>Spino.Megafauna</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-01-09T01:33:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>Megafauna/Megafauna SK/About/Preview.png</preview_image>
   </repository>
   <repository>
