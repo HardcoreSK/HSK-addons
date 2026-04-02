@@ -2613,11 +2613,18 @@ Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile Version - The Windows</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>The Windows</name>
+    <description>
+This is a fork and continuation of Open the Windows. The original mod was by jptrrs, patched to 1.3 by MangoThunder, with seamless texture edits by Yap. All three have been rolled together along with a number of optimizations, updates and balances adjustments.
+	
+Patched for Hardcore SK 1.5 by TheLoneTec and Vile Heathen with original textures by Vile Heathen.</description>
+    <package_id>thewindows.sk.jptrrs.owlchemist.vile</package_id>
     <last_commit_time>2025-12-12T20:13:51+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <mod_dependencies>
       <dependency>
         <package_id>brrainz.harmony</package_id>
@@ -2625,13 +2632,8 @@ Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
         <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
       <dependency>
-        <package_id>xenomacabre.HSKBiomes</package_id>
-        <display_name>Vile's Biomes: From The Ground Up</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>vileheathen.mountainsmeadows</package_id>
-        <display_name>Vile's Mountains and Meadows</display_name>
+        <package_id>vitech.materialsscience</package_id>
+        <display_name>Vile's Materials Science</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
