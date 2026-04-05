@@ -1699,7 +1699,7 @@ The best option is to use Github: https://github.com/GarwelGarwel/Celsius/issues
 You may also leave comments on the Steam page. If you are reporting a bug, make sure to enable Debug Logging in the settings and attach the Player.log file.
 </description>
     <package_id>Garwel.Celsius.SK</package_id>
-    <last_commit_time>2026-01-26T15:41:49+00:00</last_commit_time>
+    <last_commit_time>2026-04-05T21:20:19+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
