@@ -320,6 +320,34 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1206949755</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKFoodTracker</repo_name>
+    <mod_root_path/>
+    <name>HSKFoodTracker</name>
+    <description>
+[English]
+Shows a food supply widget on screen — how many days of food remain. Calculates per-pawn consumption (genes, traits, race). Click for detailed breakdown of meals vs raw food.
+
+[Russian]
+Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
+	</description>
+    <package_id>linya.hskfoodtracker</package_id>
+    <last_commit_time>2026-04-10T12:26:05+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
     <repo_id>610143261</repo_id>
     <owner>masakitenchi</owner>
     <repo_name>Masakis-HSK-Patch</repo_name>
