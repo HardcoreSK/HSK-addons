@@ -2514,7 +2514,7 @@ CHANGE LOG  Update 1
 
 </description>
     <package_id>ViTech.MedievalOverhaul</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2534,7 +2534,7 @@ Some additions exhibit special qualities. Steel grating has an inherent bonus to
 Viles notes:
 Wood fence overwrites the new vanilla fence. Also changed some values here and there to work with my other mods.</description>
     <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -2608,7 +2608,7 @@ Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2045114229][img]https://img.shields.io/github/v/release/emipa606/SeasonalWeather?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
     <package_id>Mlie.SeasonalWeather</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -2647,7 +2647,7 @@ This is a fork and continuation of Open the Windows. The original mod was by jpt
 	
 Patched for Hardcore SK 1.5 by TheLoneTec and Vile Heathen with original textures by Vile Heathen.</description>
     <package_id>thewindows.sk.jptrrs.owlchemist.vile</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.3</version>
       <version>1.4</version>
@@ -2709,7 +2709,7 @@ Version 1.0
   
 </description>
     <package_id>ViTech.HCSKamusebouche</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2737,7 +2737,7 @@ This also utilizes Vile's Materials Science, to make better use of the variety o
 This mod is still in the early stages and there may be some typos and balancing that will need to be worked out. The spacer guns are still a WIP as well, and I may add some very minor "modularization" of my own, if I feel there are some places where certain gun qualities are missing.
 </description>
     <package_id>vitech.armory</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2846,7 +2846,7 @@ Some pretty drastic changes were made to some of the biome generation. It's impo
 
 </description>
     <package_id>xenomacabre.HSKBiomes</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2868,7 +2868,7 @@ Update 4.1 (Biomes FTGU support) - 1/17/2022
 	
   </description>
     <package_id>xenomacabre.HCSKwallsandfloorsreduxeno</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2991,7 +2991,7 @@ Hide defs are new, most leather defs are patched from existing defs. So if you a
 
 </description>
     <package_id>vitech.leathertanning</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3047,7 +3047,7 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
     
 	</description>
     <package_id>vitech.materialsscience</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3185,7 +3185,7 @@ A0.2
 -Fixed some textures
 -Improved labels for processing recipes</description>
     <package_id>vitech.metallurgy</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3253,7 +3253,7 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
 * Custom world map tile graphics for your biome!
   </description>
     <package_id>vileheathen.mountainsmeadows</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3279,7 +3279,7 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <name>Vile's Sow Farm Sow Good</name>
     <description>lorem ipsum</description>
     <package_id>vitech.farmingoverhaul</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3305,7 +3305,7 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <name>Vile's Testing Grounds</name>
     <description>A place where I'm testing out new textures and tweaks before implementing them into my mods or core SK.</description>
     <package_id>vitech.tweaks</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3374,7 +3374,7 @@ Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe
 
 </description>
     <package_id>ViTech.HCSKWood</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3414,7 +3414,7 @@ Some other notable changes:
 
 </description>
     <package_id>vitech.visible</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3431,7 +3431,7 @@ A halfway house for textures.
 
 </description>
     <package_id>vitech.coretexturereplacement</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -3452,7 +3452,7 @@ Simple. When I play I like to make color-coordinated loadouts. But there aren't 
 
 That's all.</description>
     <package_id>vitech.extraflavor</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-04-11T01:27:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
