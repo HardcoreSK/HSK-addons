@@ -333,7 +333,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
 	</description>
     <package_id>linya.hskfoodtracker</package_id>
-    <last_commit_time>2026-04-12T10:14:35+00:00</last_commit_time>
+    <last_commit_time>2026-04-19T08:43:38+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -345,7 +345,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
-    <preview_image>N/A</preview_image>
+    <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>610143261</repo_id>
