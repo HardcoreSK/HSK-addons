@@ -320,6 +320,34 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1206999173</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKDietTracker</repo_name>
+    <mod_root_path/>
+    <name>HSKDietTracker</name>
+    <description>
+[English]
+7-day food variety tracker. Colonists remember what they ate and want diverse food. Variety boosts mood (+6), monotony penalizes heavily (up to -16). New colonists get a 3-day grace period. Required variety scales with tech level and biome.
+
+[Russian]
+Трекер разнообразия еды за 7 дней. Колонисты запоминают что ели и хотят разнообразную еду. Разнообразие повышает настроение (+6), однообразие сильно ухудшает (до -16). Новые колонисты получают 3 дня адаптации. Требуемое разнообразие зависит от уровня технологий и биома.
+	</description>
+    <package_id>linya.hskdiettracker</package_id>
+    <last_commit_time>2026-04-19T09:54:50+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>1206949755</repo_id>
     <owner>linyaDev</owner>
     <repo_name>HSKFoodTracker</repo_name>
