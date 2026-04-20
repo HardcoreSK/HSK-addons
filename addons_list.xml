@@ -107,6 +107,558 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1212140625</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Mod-Fixes-Pack</repo_name>
+    <mod_root_path/>
+    <name>Mod Fixes Pack</name>
+    <description>A consolidated patch pack for large RimWorld mods. Each fix only activates if its target mod is loaded — safe to install even if you don't have all the patched mods. More fixes will be added over time.
+
+CURRENT FIXES:
+
+--- Dynamic Diplomacy (Continued) ---
+
+- Terrain validation: rejects battle tiles and conquest targets on problematic terrain. Retries with better tiles before giving up. Works alongside Geological Landforms. Rejects:
+  - Impassable mountains (vanilla mountain tiles)
+  - Extreme cliffs from Geological Landforms
+  - Cave topology
+  - Ocean/water-covered tiles
+  - Extreme temperature biomes (below -20°C or above 50°C) — covers Alpha Biomes, HMC Biomes, Vile's Biomes, etc. where pawns can't survive long enough to resolve a battle
+
+- Shambler/infection deadlock: when pawns switch factions mid-battle (e.g., get infected and become shamblers), they're now cleaned from the battle faction lists so DD's win check works correctly. Prevents battle maps from staying open forever.
+
+- Hard timeout failsafe: if a battle runs past 7 game days without ending, force it to end via DD's timeout mechanism.
+
+- HSK-tuned event rates: reduces DD event frequency from vanilla pace (3-5 conquests per 60 days) to HSK pace (1-2 conquests per 90 days). Matches the slower HSK progression curve. Per-event changes:
+  - NPC_Conquest: 3-5 per 60d with 0.5d spacing → 1-2 per 90d with 20d spacing
+  - NPC_DiploChange: 2-4 per 60d with 5d spacing → 1-2 per 60d with 15d spacing
+  - NPC_Expansion: 1-2 per 60d with 15d spacing → 1 per 90d with 30d spacing
+  - NPC_Convert: 1-2 per 120d with 30d spacing → 1 per 180d with 60d spacing
+
+--- Geological Landforms ---
+
+- Shared terrain utility used by DD fixes. Checks tile topology (CliffAllSides, CliffValley, etc.) to avoid problematic battle maps.
+
+--- Real Ruins ---
+
+NEW MOD FIX: Real Ruins
+- World-tile relocation: POI icons moved off Mountainous/Impassable tiles via 10-ring BFS search for a valid neighbor. No more Factory/Military Base/Camp icons stuck in mountains.
+- Local-map Scatter relocation: ruin blueprints that would overlap thick-roof rock / natural stone are relocated to cleaner cells on the map (30-candidate search). Covers all 13 POI types, background scatter, medium/large/POI gen steps.
+- Effect: every Real Ruins icon on your world map is reachable from the map edge without having to mine through a mountain.
+
+HSK-style tuning (auto-applied when both Real Ruins AND HSK are loaded — more hostiles, harder to get stuff):
+- hostileChance: 10% → 35% (ruins are actual threats, not free loot stops)
+- trapChance: 0.1% → 0.4% (4x more traps)
+- forceMultiplier: 1.0 → 1.5 (hostile forces 50% stronger)
+- scavengingMultiplier: 1.0 → 1.75 (most valuable items stripped before you arrive)
+- itemCostLimit: 1000 → 400 silver (no premium loot)
+- ruinsCostCap: 1 billion → 300k silver (no jackpot mega-bases)
+- abandonedLocations: 20% → 50% (more truly abandoned POIs)
+- deteriorationMultiplier: left at 0.0 — integrity falloff already damages edges naturally; double-penalty would make leftovers useless
+
+Tuning only activates if HSK is detected. Non-HSK modpacks keep Real Ruins vanilla defaults.
+
+--- MultiLang Colorful Traits ---
+
+NEW MOD FIX: MultiLang Colorful Traits auto-extend
+- MultiLang Colorful Traits colors traits by QUALITY (Unique / Good / Neutral / Bad / Terrible) using hand-curated XML lists for Core, HSK, RJW, AlienRaces, and CE. Any trait not on those lists stays uncolored — and its own "Dump" workflow requires manual XML editing per mod.
+- This fix runs after MultiLang, inspects every TraitDef in the modlist, skips degrees MultiLang already colored (manual classification always wins), and auto-classifies the rest into MultiLang's 5 tiers using an identical color palette so everything looks visually consistent.
+- Classification is mechanical: it scores each degree from skillGains, statOffsets/Factors, the parent TraitDef's disabledWorkTypes/Tags, random/forced mental states, hunger rate, pain modifiers, and required work tags.
+- 8-tier classification using all the colors defined in MultiLang's ColorBase.xml:
+  * Legendary (score &gt;= +7): pure bright green #00FF00 — exceptional positive
+  * Good (+3 to +6): muted green #9AB973 — solid positive
+  * Neutral (-2 to +2): plain white (label left untouched — reduces visual noise so only meaningful traits stand out)
+  * Bad (-3 to -4): salmon orange #FF9966 — noticeable downside
+  * Terrible (-5 to -6): red #ED2939 — serious downside
+  * Nightmare (&lt;= -7): pure red #FF0000 — worst of the worst
+  * Unique (strongly flavored mechanic, e.g. large psychic sensitivity swing): blue #0000FF
+  * Restrictive (disables work types/tags, or has required work tags): purple #9370DB — shape-defining trait regardless of score
+- Restrictive and Unique take priority over the score-based tiers so build-shaping and quirk mechanics are always visible at a glance.
+- Log example: [Mod Fixes Pack] MultiLang: auto-classified traits (Good:60, Neutral:55, Bad:40, Terrible:20, Unique:10, skipped 185 already-colored).
+
+Net effect: before the fix, ~30% of HSK modpack traits are colored (MultiLang's hard-coded lists). After, ~100% of traits are colored. MultiLang's hand-tuning is preserved on traits it knows; we just fill the gaps.
+
+Auto-disables if MultiLang Colorful Traits isn't loaded.
+
+--- KCSG Symbol Fixes (catch-all) ---
+
+NEW MOD FIX: KCSG SymbolDef catch-all
+- KCSG (Kubabara's Custom Structure Generation, inside Vanilla Expanded Framework) logs "mod X contains N missing symbols" on boot when StructureLayoutDefs reference symbol names that nobody defined — causing gaps in enemy base furniture population.
+- This fix ships 1613 auto-generated KCSG.SymbolDefs covering every symbol referenced in StructureLayoutDefs across the modlist that lacks a matching SymbolDef elsewhere. Since KCSG reads SymbolDefs globally, one file covers all mods.
+- Measured drops in boot-log missing-symbol count (verified in-game):
+  * Vanilla Base Generation Expanded: 765 → 5   (-99.3%)
+  * VFE Deserters (HSK):                283 → 1   (-99.6%)
+  * Ancient Mining Industry:             89 → 1   (-98.9%)
+  * Alpha Memes:                         33 → 0
+  * Alpha Genes:                         28 → 0
+  * VFE Empire:                          11 → 0
+  * VFE Insectoids 2 (HSK):               3 → 0
+  TOTAL: ~1200 missing symbols → 7 (99.4% reduction).
+- Categories covered: stuff-variant furniture (Bed_Steel_East, Fence_BlocksMarble, Throne_BlocksGranite_South), rotational items (Dresser_Steel_East, ShelfSmall_BlocksLimestone_North), Imperial decor, drapes, steles, urns, sarcophagi, plants, filth, VFEPD_* props, and ~473 bare ThingDef wrappers. 1140 stuff+rotation variants + 473 bare = 1613 total.
+- Harmless when a target mod is disabled — unused SymbolDefs never get queried, no errors. Zero measurable boot-time cost (~30-80ms XML parse).
+
+COMPATIBILITY:
+- All fixes are conditional — inactive if the target mod isn't loaded
+- Zero overhead if a mod is missing
+- Safe to install on any save
+- Works with HSK (Hardcore SK) and vanilla
+
+All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug console.
+    </description>
+    <package_id>CarbineAction.ModFixes</package_id>
+    <last_commit_time>2026-04-19T06:27:00+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1212140625</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Mod-Fixes-Pack</repo_name>
+    <mod_root_path/>
+    <name>Mod Fixes Pack</name>
+    <description>A consolidated patch pack for large RimWorld mods. Each fix only activates if its target mod is loaded — safe to install even if you don't have all the patched mods. More fixes will be added over time.
+
+CURRENT FIXES:
+
+--- Dynamic Diplomacy (Continued) ---
+
+- Terrain validation: rejects battle tiles and conquest targets on problematic terrain. Retries with better tiles before giving up. Works alongside Geological Landforms. Rejects:
+  - Impassable mountains (vanilla mountain tiles)
+  - Extreme cliffs from Geological Landforms
+  - Cave topology
+  - Ocean/water-covered tiles
+  - Extreme temperature biomes (below -20°C or above 50°C) — covers Alpha Biomes, HMC Biomes, Vile's Biomes, etc. where pawns can't survive long enough to resolve a battle
+
+- Shambler/infection deadlock: when pawns switch factions mid-battle (e.g., get infected and become shamblers), they're now cleaned from the battle faction lists so DD's win check works correctly. Prevents battle maps from staying open forever.
+
+- Hard timeout failsafe: if a battle runs past 7 game days without ending, force it to end via DD's timeout mechanism.
+
+- HSK-tuned event rates: reduces DD event frequency from vanilla pace (3-5 conquests per 60 days) to HSK pace (1-2 conquests per 90 days). Matches the slower HSK progression curve. Per-event changes:
+  - NPC_Conquest: 3-5 per 60d with 0.5d spacing → 1-2 per 90d with 20d spacing
+  - NPC_DiploChange: 2-4 per 60d with 5d spacing → 1-2 per 60d with 15d spacing
+  - NPC_Expansion: 1-2 per 60d with 15d spacing → 1 per 90d with 30d spacing
+  - NPC_Convert: 1-2 per 120d with 30d spacing → 1 per 180d with 60d spacing
+
+--- Geological Landforms ---
+
+- Shared terrain utility used by DD fixes. Checks tile topology (CliffAllSides, CliffValley, etc.) to avoid problematic battle maps.
+
+--- Real Ruins ---
+
+NEW MOD FIX: Real Ruins
+- World-tile relocation: POI icons moved off Mountainous/Impassable tiles via 10-ring BFS search for a valid neighbor. No more Factory/Military Base/Camp icons stuck in mountains.
+- Local-map Scatter relocation: ruin blueprints that would overlap thick-roof rock / natural stone are relocated to cleaner cells on the map (30-candidate search). Covers all 13 POI types, background scatter, medium/large/POI gen steps.
+- Effect: every Real Ruins icon on your world map is reachable from the map edge without having to mine through a mountain.
+
+HSK-style tuning (auto-applied when both Real Ruins AND HSK are loaded — more hostiles, harder to get stuff):
+- hostileChance: 10% → 35% (ruins are actual threats, not free loot stops)
+- trapChance: 0.1% → 0.4% (4x more traps)
+- forceMultiplier: 1.0 → 1.5 (hostile forces 50% stronger)
+- scavengingMultiplier: 1.0 → 1.75 (most valuable items stripped before you arrive)
+- itemCostLimit: 1000 → 400 silver (no premium loot)
+- ruinsCostCap: 1 billion → 300k silver (no jackpot mega-bases)
+- abandonedLocations: 20% → 50% (more truly abandoned POIs)
+- deteriorationMultiplier: left at 0.0 — integrity falloff already damages edges naturally; double-penalty would make leftovers useless
+
+Tuning only activates if HSK is detected. Non-HSK modpacks keep Real Ruins vanilla defaults.
+
+--- MultiLang Colorful Traits ---
+
+NEW MOD FIX: MultiLang Colorful Traits auto-extend
+- MultiLang Colorful Traits colors traits by QUALITY (Unique / Good / Neutral / Bad / Terrible) using hand-curated XML lists for Core, HSK, RJW, AlienRaces, and CE. Any trait not on those lists stays uncolored — and its own "Dump" workflow requires manual XML editing per mod.
+- This fix runs after MultiLang, inspects every TraitDef in the modlist, skips degrees MultiLang already colored (manual classification always wins), and auto-classifies the rest into MultiLang's 5 tiers using an identical color palette so everything looks visually consistent.
+- Classification is mechanical: it scores each degree from skillGains, statOffsets/Factors, the parent TraitDef's disabledWorkTypes/Tags, random/forced mental states, hunger rate, pain modifiers, and required work tags.
+- 8-tier classification using all the colors defined in MultiLang's ColorBase.xml:
+  * Legendary (score &gt;= +7): pure bright green #00FF00 — exceptional positive
+  * Good (+3 to +6): muted green #9AB973 — solid positive
+  * Neutral (-2 to +2): plain white (label left untouched — reduces visual noise so only meaningful traits stand out)
+  * Bad (-3 to -4): salmon orange #FF9966 — noticeable downside
+  * Terrible (-5 to -6): red #ED2939 — serious downside
+  * Nightmare (&lt;= -7): pure red #FF0000 — worst of the worst
+  * Unique (strongly flavored mechanic, e.g. large psychic sensitivity swing): blue #0000FF
+  * Restrictive (disables work types/tags, or has required work tags): purple #9370DB — shape-defining trait regardless of score
+- Restrictive and Unique take priority over the score-based tiers so build-shaping and quirk mechanics are always visible at a glance.
+- Log example: [Mod Fixes Pack] MultiLang: auto-classified traits (Good:60, Neutral:55, Bad:40, Terrible:20, Unique:10, skipped 185 already-colored).
+
+Net effect: before the fix, ~30% of HSK modpack traits are colored (MultiLang's hard-coded lists). After, ~100% of traits are colored. MultiLang's hand-tuning is preserved on traits it knows; we just fill the gaps.
+
+Auto-disables if MultiLang Colorful Traits isn't loaded.
+
+--- KCSG Symbol Fixes (catch-all) ---
+
+NEW MOD FIX: KCSG SymbolDef catch-all
+- KCSG (Kubabara's Custom Structure Generation, inside Vanilla Expanded Framework) logs "mod X contains N missing symbols" on boot when StructureLayoutDefs reference symbol names that nobody defined — causing gaps in enemy base furniture population.
+- This fix ships 1613 auto-generated KCSG.SymbolDefs covering every symbol referenced in StructureLayoutDefs across the modlist that lacks a matching SymbolDef elsewhere. Since KCSG reads SymbolDefs globally, one file covers all mods.
+- Measured drops in boot-log missing-symbol count (verified in-game):
+  * Vanilla Base Generation Expanded: 765 → 5   (-99.3%)
+  * VFE Deserters (HSK):                283 → 1   (-99.6%)
+  * Ancient Mining Industry:             89 → 1   (-98.9%)
+  * Alpha Memes:                         33 → 0
+  * Alpha Genes:                         28 → 0
+  * VFE Empire:                          11 → 0
+  * VFE Insectoids 2 (HSK):               3 → 0
+  TOTAL: ~1200 missing symbols → 7 (99.4% reduction).
+- Categories covered: stuff-variant furniture (Bed_Steel_East, Fence_BlocksMarble, Throne_BlocksGranite_South), rotational items (Dresser_Steel_East, ShelfSmall_BlocksLimestone_North), Imperial decor, drapes, steles, urns, sarcophagi, plants, filth, VFEPD_* props, and ~473 bare ThingDef wrappers. 1140 stuff+rotation variants + 473 bare = 1613 total.
+- Harmless when a target mod is disabled — unused SymbolDefs never get queried, no errors. Zero measurable boot-time cost (~30-80ms XML parse).
+
+COMPATIBILITY:
+- All fixes are conditional — inactive if the target mod isn't loaded
+- Zero overhead if a mod is missing
+- Safe to install on any save
+- Works with HSK (Hardcore SK) and vanilla
+
+All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug console.
+    </description>
+    <package_id>CarbineAction.ModFixes</package_id>
+    <last_commit_time>2026-04-19T06:27:00+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1214758653</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Deserters</repo_name>
+    <mod_root_path/>
+    <name>VFE Deserters (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Deserters, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and research tree, while preserving the full Deserter gameplay loop (contraband, visibility system, quests, scenarios).
+
+--- HSK-NATIVE CONVERSIONS ---
+
+WEAPONS:
+- Charge Cycler: now crafts at MechWeaponCraftingWorkTable, Charge_weapons_E research, Crafting 16, 35000 work. Ingredients: Charged_Component, Weapon_Parts, ComponentUltra, FerrosiliconAlloy, USLDBar, Plastic. Thump shot ammo swapped to AmmoSet_40x46mmGrenade (HSK-native, no VFE Empire dep).
+- Fletchling: crafts at MechWeaponCraftingWorkTable, Charge_weapons_D research, Crafting 14, 27000 work. HSK-tier spacer materials.
+
+BELTS:
+- Deserter Declassifier: HSK-hardcore recipe. TableElectronics, Charge_weapons_D research, Crafting 13, 20000 work. Electronics, ComponentSpacer, Hexcell, FerrosiliconAlloy, Plastic on StrongMetallic stuff base.
+- Bomb Pack + Invisibility Engulfer: remain quest-drop-only (not player-craftable in HSK balance). Enemies still use them in scenarios.
+
+MORTAR SHELLS (Shrapnel, AP, Cluster):
+- TableMachining, Crafting 8, 1500 work each. HSK-native materials (Steel, Mechanism, Weapon_Parts, ComponentIndustrial).
+
+FLAGSHIP CHUNK SALVAGE:
+- Deconstruct yields upgraded to HSK-thematic: Plasteel x20, ComponentSpacer x3, Steel x30. Matches Imperial flagship spacer-tech salvage.
+
+--- DISABLED PLAYER CONTENT ---
+
+Removed from player architect menu (enemy base generation still uses them):
+- 3 Deserters turrets (Kontarion, Palintone, Onager) — HSK has rich turret roster
+- 10 IED traps — HSK has its own complete IED lineup
+- 3 ammo boxes — paired with disabled turrets, no purpose
+
+Striker Turret kept as-is (quest-only, not buildable by player in vanilla either).
+
+--- KCSG SYMBOL FIXES ---
+
+KCSG missing-symbol patches for this mod's layouts (Aerodrone Stations, Safehavens, Zeus Cannon Complex, Imperial Plots, etc.) are now shipped via HSK Mod Fixes Pack as a catch-all covering every KCSG-using mod on the modlist. No per-mod SymbolDef file needed here — enable Mod Fixes Pack alongside this mod.
+
+--- PRESERVED GAMEPLAY ---
+
+ALL core Deserter mechanics unchanged: Visibility system, Contraband, Intel currency, Deserter cells, Aerodrones, quest scripts, scenarios, factions. Supply/Biosecured crates, Deserter Shuttle, Burnout Intel Scraper, Surveillance Pillars — all preserved.
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Royalty DLC, and VFE Empire (for Imperial content).
+CE's built-in Deserters patches load automatically via its ModPatches folder.
+
+For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
+    <last_commit_time>2026-04-19T18:58:12+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VFE.Empire</package_id>
+        <display_name>Vanilla Factions Expanded - Empire</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1214784572</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Insectoid2</repo_name>
+    <mod_root_path/>
+    <name>VFE Insectoids 2 (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Insectoids 2, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. This patch version rebalances ingredients to HSK's refined-metal economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+THUMPERS (boss-summoning devices) — all 5 Thumpers upgraded from base Steel+ComponentIndustrial to HSK hardcore pricing with Mechanism + ComponentSpacer + InsectJelly ingredients. Justifies their power as endgame boss summons.
+
+SHIP DEBRIS (InfestedShipChunk/Part/Module) — Steel refs swapped to SteelBar (HSK refined metal) with 1:5 scaling since HSK "Steel" is raw iron ore, SteelBar is refined.
+
+INSECTJELLY BUILDINGS — costs adjusted where appropriate to fit HSK's gated-crafting economy.
+
+--- PRESERVED ---
+
+Full Insectoid gameplay:
+- 25 insect races (Empress, Queen, Titantick, Teramantis, Gigamite, Silverfish, etc.)
+- Custom architect tab (VFEI2_Insectoids) with all hive buildings
+- Research tree (Insectoid-specific projects)
+- Pherocore extraction + 5 species-specific hives
+- Quest scripts, scenarios, faction content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\) bundled and gated by IfModActive="CETeam.CombatExtended" in LoadFolders.xml. Covers:
+- All 25 race CE stats (armor, health, attack)
+- Building CE stats (walls, pods)
+- Insect leather CE stats
+- Ability damage defs
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
+    <last_commit_time>2026-04-19T03:31:56+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1215219503</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Mechanoids</repo_name>
+    <mod_root_path/>
+    <name>VFE Mechanoids (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Mechanoids, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, Kentington, Sarg Bjornson, erdelf, Kikohi, Chowder, Taranchuk, and ISOREX. This patch version rebalances player-facing content to fit HSK's spacer-tier economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+MATERIALS — Steel → SteelBar 1:5 conversion across ~55 references (HSK's "Steel" defName is raw iron ore; SteelBar is refined steel for crafting).
+
+TURRETS — 4 auto-turrets (AutoChargeBlaster, AutoChargeLance, AutoInfernoCannon, AutoMortar) get Mechanism ingredient gating. Stats + costs use HSK spacer-tier materials (Plasteel + ComponentSpacer + VFE_ComponentMechanoid).
+
+LONG RANGE MISSILE LAUNCHER — kept at HSK-compliant spacer ingredients (already uses Plasteel + ComponentSpacer).
+
+MECHANITE ARMOR — HSK-native recipe: 70 Cloth + SteelBar 10 + Plasteel 20 + ComponentSpacer 1 (UnderArmor), equivalent for pants.
+
+WORKTOMAKE — 2x scaling on crafted buildings to match HSK's slower pace.
+
+RESEARCH — VFE research gated behind HSK's Fabrication/AdvancedFabrication progression.
+
+--- DISABLED PLAYER CONTENT ---
+
+21 player-buildable buildings removed from architect menu where they overlap with HSK's existing mods. Enemy raids + quest content preserved (the ThingDefs still exist, just hidden from player build UI).
+
+Electronics Fabrication (3):
+- Steel extractor (HSK has Electric Smelter)
+- Component assembler (HSK has Fabrication Bench)
+- Advanced assembler (HSK has spacer-tier Fabrication)
+
+Masonry + Metallics (3):
+- Automatic drill (HSK has Deep Drill)
+- Masonry saw (HSK has Stonecutter's Table)
+- Plasteel forge (HSK has Plasteel recipe at Smithy)
+
+Munitions + Armament (3):
+- Artillery foundry (HSK has shell crafting at TableMachining)
+- Chemfuel clarifier (HSK has Biofuel Refinery)
+- Mechanized weaponsmith (HSK has weapon benches)
+
+Medicinal (3):
+- Drug powderizer, Medicine granulator, Neutroamine infuser (HSK has Drug Lab)
+
+Provisions (2):
+- Conveyor oven (HSK has stoves), Meat grinder (HSK has butcher table)
+
+Wearables (2):
+- Auto loom (HSK has Tailoring Bench), Synthread synthesizer (HSK has recipe)
+
+Mech Stations (4):
+- Autocleaner, Autohauler, Autominer, Autobuilder (HSK has haplo.miscellaneous.robots.hsk)
+
+Missile Launcher (1):
+- VFE_LongRangeMissileLauncher (HSK has its own artillery/rocket systems)
+
+Production Infrastructure (3):
+- Factory Hopper, Versatile Assembler, Textile Recycler
+  (HSK has its own stockpile/hopper system, fabrication benches, and tailoring)
+
+Utility (3):
+- Autocrane, Liquid freezer, Construction lamp (HSK equivalents exist)
+
+--- PRESERVED GAMEPLAY ---
+
+- Mechanoid faction + enemy raids (full roster)
+- All combat mech charging stations (Combat, Pyro, Raider, Riot, Turret mobile, Strider)
+- Unique features: Autoharvester, Autosower, Textile recycler, Mechanite LF reinforcer, Blight auto repeller, AutoMedic, Autobroadcaster, Supercomputer (research automation), Indoctrination Pod
+- Factory system infrastructure: Factory hopper, Versatile assembler
+- Mechanite armor (under armor + pants)
+- VFE_ComponentMechanoid resource + research tree
+- Ship landing events, quest scripts, custom scenarios
+- KCSG enemy base generation (broadcasting stations, factories, structures)
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Mechanoids\) bundled and gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers:
+- 3 new CE bullet defs (VFE_Bullet_5x35mmHyper, ChargeRailgun_CE, TeslaProjectileCE)
+- Turret CE stats (Building_TurretGunCE conversion)
+- Mech weapons CE ballistics (advanced mechanoid guns)
+- Mech race CE stats (armor, health, attack for Advanced + Ancient mechs)
+- Mechanite apparel CE stats (Bulk, WornBulk, armor ratings)
+- Pawnkind CE loadouts (mech pawnkinds)
+- Scenario CE compatibility
+- CombinationDef CE patches for factory-produced ammo/weapons
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
+    <last_commit_time>2026-04-19T19:48:39+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1214985440</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Pirates</repo_name>
+    <mod_root_path/>
+    <name>VFE Pirates (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Pirates, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, Sarg Bjornson, erdelf, Roolo, Smash Phil, Taranchuk, xrushha, Kikohi, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+WARCASKETS — spacer-tier armor progression rebalanced to HSK crafting (spacer research, ComponentSpacer + Plasteel + StrongMetallic + Kevlar ingredients, TableMachining / MechWeaponCraftingWorkTable).
+
+WARCASKET WEAPONS — 9 warcasket-only guns (Autorifle, UraniumSlugRifle, Slugthrower, Minigun, GrenadeLauncher, HeavyFlamer, ChargeLance, HandheldCannon, ChargeBlaster) routed to MechWeaponCraftingWorkTable at Charge_weapons_D/E research with HSK spacer-tier ingredients.
+
+RUM + DRUGS — HSK-tighter pricing to match the modpack's gated crafting economy.
+
+--- DISABLED PLAYER CONTENT ---
+
+Removed from player architect menu (enemy base generation + raids still use them):
+- Cannon (VFEP_Turret_Cannon) — HSK has rich medieval-tier artillery
+- Field Gun (VFEP_Turret_FieldGun) — HSK has its own mortar/field-gun variants
+
+Projectile defs preserved (enemy artillery still works) — only player-buildable turret entries hidden.
+
+The Gauntlet Charge Cannon Ship Chunk (VFEP_ShipChunkGauntletTurret) is NOT disabled — it's an enemy-only event mechanic that pirates drop from orbit as ship debris. Not buildable by the player in vanilla; left fully intact so the pirate raid event continues to work.
+
+--- CE-GATED TWEAK ---
+
+Grappling Hook ability (VFEP_GrapplingHook) — stripped from Privateer Armor when Combat Extended is active. 20-cell teleport-through-walls interacts badly with CE's line-of-sight and movement systems. Privateer Armor remains fully craftable and functional; it just loses the grapple. Gated in Patches-CE/ so vanilla/non-CE installs are unaffected.
+
+--- PRESERVED GAMEPLAY ---
+
+Full pirate gameplay:
+- 3 factions (Pirates, Junkers, Pirate Mercenaries)
+- Hireables (mercenary contracts via comms console)
+- Warcasket system (chest/arm/head customization + abilities)
+- Ideology: Pirate meme with sea shanties + camaraderie precepts
+- Ethereal Skyfallers (raid drop-in)
+- Pirate-themed quests + scenarios
+- Custom mechanoid (Gauntlet-type)
+- Curses + pirate-specific ideology content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Pirates\) bundled and gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers:
+- 5 new CE ammo defs (WarBolter rockets, Slugthrower shells, Gauntlet turret ammo, Vikings + Bioferrite + Ammo Mods bridges)
+- All 9 warcasket weapons with full CE ballistics (Bulk, Ammo, ProjectileProperties_CE)
+- Warcasket apparel CE stats (Sharp/Blunt armor ratings, Bulk, WornBulk)
+- Gauntlet turret CE conversion (Building_TurretGunCE)
+- Cross-mod warcasket weapon addons (Vikings, Classical, Lightning, Quechua, Nitori, Bounty Hunters, Empire — only activate when those mods are loaded)
+- Mercenary + Junker pawnkind CE loadouts
+- Abilities, drugs, ideology precepts, scenarios — all CE-compatible
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with the original "OskarPotocki.VFE.Pirates" — enable this INSTEAD.
+Not compatible with: n7huntsman.combatshields (inherited incompatibility from base mod).</description>
+    <package_id>CarbineAction.HSK.VFE.Pirates</package_id>
+    <last_commit_time>2026-04-19T18:58:13+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>643584152</repo_id>
     <owner>Elldar112</owner>
     <repo_name>Craftable-Mech-Serum</repo_name>
