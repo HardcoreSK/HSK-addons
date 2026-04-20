@@ -220,119 +220,6 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
-    <repo_id>1212140625</repo_id>
-    <owner>carbineact1on</owner>
-    <repo_name>HSK-Mod-Fixes-Pack</repo_name>
-    <mod_root_path/>
-    <name>Mod Fixes Pack</name>
-    <description>A consolidated patch pack for large RimWorld mods. Each fix only activates if its target mod is loaded — safe to install even if you don't have all the patched mods. More fixes will be added over time.
-
-CURRENT FIXES:
-
---- Dynamic Diplomacy (Continued) ---
-
-- Terrain validation: rejects battle tiles and conquest targets on problematic terrain. Retries with better tiles before giving up. Works alongside Geological Landforms. Rejects:
-  - Impassable mountains (vanilla mountain tiles)
-  - Extreme cliffs from Geological Landforms
-  - Cave topology
-  - Ocean/water-covered tiles
-  - Extreme temperature biomes (below -20°C or above 50°C) — covers Alpha Biomes, HMC Biomes, Vile's Biomes, etc. where pawns can't survive long enough to resolve a battle
-
-- Shambler/infection deadlock: when pawns switch factions mid-battle (e.g., get infected and become shamblers), they're now cleaned from the battle faction lists so DD's win check works correctly. Prevents battle maps from staying open forever.
-
-- Hard timeout failsafe: if a battle runs past 7 game days without ending, force it to end via DD's timeout mechanism.
-
-- HSK-tuned event rates: reduces DD event frequency from vanilla pace (3-5 conquests per 60 days) to HSK pace (1-2 conquests per 90 days). Matches the slower HSK progression curve. Per-event changes:
-  - NPC_Conquest: 3-5 per 60d with 0.5d spacing → 1-2 per 90d with 20d spacing
-  - NPC_DiploChange: 2-4 per 60d with 5d spacing → 1-2 per 60d with 15d spacing
-  - NPC_Expansion: 1-2 per 60d with 15d spacing → 1 per 90d with 30d spacing
-  - NPC_Convert: 1-2 per 120d with 30d spacing → 1 per 180d with 60d spacing
-
---- Geological Landforms ---
-
-- Shared terrain utility used by DD fixes. Checks tile topology (CliffAllSides, CliffValley, etc.) to avoid problematic battle maps.
-
---- Real Ruins ---
-
-NEW MOD FIX: Real Ruins
-- World-tile relocation: POI icons moved off Mountainous/Impassable tiles via 10-ring BFS search for a valid neighbor. No more Factory/Military Base/Camp icons stuck in mountains.
-- Local-map Scatter relocation: ruin blueprints that would overlap thick-roof rock / natural stone are relocated to cleaner cells on the map (30-candidate search). Covers all 13 POI types, background scatter, medium/large/POI gen steps.
-- Effect: every Real Ruins icon on your world map is reachable from the map edge without having to mine through a mountain.
-
-HSK-style tuning (auto-applied when both Real Ruins AND HSK are loaded — more hostiles, harder to get stuff):
-- hostileChance: 10% → 35% (ruins are actual threats, not free loot stops)
-- trapChance: 0.1% → 0.4% (4x more traps)
-- forceMultiplier: 1.0 → 1.5 (hostile forces 50% stronger)
-- scavengingMultiplier: 1.0 → 1.75 (most valuable items stripped before you arrive)
-- itemCostLimit: 1000 → 400 silver (no premium loot)
-- ruinsCostCap: 1 billion → 300k silver (no jackpot mega-bases)
-- abandonedLocations: 20% → 50% (more truly abandoned POIs)
-- deteriorationMultiplier: left at 0.0 — integrity falloff already damages edges naturally; double-penalty would make leftovers useless
-
-Tuning only activates if HSK is detected. Non-HSK modpacks keep Real Ruins vanilla defaults.
-
---- MultiLang Colorful Traits ---
-
-NEW MOD FIX: MultiLang Colorful Traits auto-extend
-- MultiLang Colorful Traits colors traits by QUALITY (Unique / Good / Neutral / Bad / Terrible) using hand-curated XML lists for Core, HSK, RJW, AlienRaces, and CE. Any trait not on those lists stays uncolored — and its own "Dump" workflow requires manual XML editing per mod.
-- This fix runs after MultiLang, inspects every TraitDef in the modlist, skips degrees MultiLang already colored (manual classification always wins), and auto-classifies the rest into MultiLang's 5 tiers using an identical color palette so everything looks visually consistent.
-- Classification is mechanical: it scores each degree from skillGains, statOffsets/Factors, the parent TraitDef's disabledWorkTypes/Tags, random/forced mental states, hunger rate, pain modifiers, and required work tags.
-- 8-tier classification using all the colors defined in MultiLang's ColorBase.xml:
-  * Legendary (score &gt;= +7): pure bright green #00FF00 — exceptional positive
-  * Good (+3 to +6): muted green #9AB973 — solid positive
-  * Neutral (-2 to +2): plain white (label left untouched — reduces visual noise so only meaningful traits stand out)
-  * Bad (-3 to -4): salmon orange #FF9966 — noticeable downside
-  * Terrible (-5 to -6): red #ED2939 — serious downside
-  * Nightmare (&lt;= -7): pure red #FF0000 — worst of the worst
-  * Unique (strongly flavored mechanic, e.g. large psychic sensitivity swing): blue #0000FF
-  * Restrictive (disables work types/tags, or has required work tags): purple #9370DB — shape-defining trait regardless of score
-- Restrictive and Unique take priority over the score-based tiers so build-shaping and quirk mechanics are always visible at a glance.
-- Log example: [Mod Fixes Pack] MultiLang: auto-classified traits (Good:60, Neutral:55, Bad:40, Terrible:20, Unique:10, skipped 185 already-colored).
-
-Net effect: before the fix, ~30% of HSK modpack traits are colored (MultiLang's hard-coded lists). After, ~100% of traits are colored. MultiLang's hand-tuning is preserved on traits it knows; we just fill the gaps.
-
-Auto-disables if MultiLang Colorful Traits isn't loaded.
-
---- KCSG Symbol Fixes (catch-all) ---
-
-NEW MOD FIX: KCSG SymbolDef catch-all
-- KCSG (Kubabara's Custom Structure Generation, inside Vanilla Expanded Framework) logs "mod X contains N missing symbols" on boot when StructureLayoutDefs reference symbol names that nobody defined — causing gaps in enemy base furniture population.
-- This fix ships 1613 auto-generated KCSG.SymbolDefs covering every symbol referenced in StructureLayoutDefs across the modlist that lacks a matching SymbolDef elsewhere. Since KCSG reads SymbolDefs globally, one file covers all mods.
-- Measured drops in boot-log missing-symbol count (verified in-game):
-  * Vanilla Base Generation Expanded: 765 → 5   (-99.3%)
-  * VFE Deserters (HSK):                283 → 1   (-99.6%)
-  * Ancient Mining Industry:             89 → 1   (-98.9%)
-  * Alpha Memes:                         33 → 0
-  * Alpha Genes:                         28 → 0
-  * VFE Empire:                          11 → 0
-  * VFE Insectoids 2 (HSK):               3 → 0
-  TOTAL: ~1200 missing symbols → 7 (99.4% reduction).
-- Categories covered: stuff-variant furniture (Bed_Steel_East, Fence_BlocksMarble, Throne_BlocksGranite_South), rotational items (Dresser_Steel_East, ShelfSmall_BlocksLimestone_North), Imperial decor, drapes, steles, urns, sarcophagi, plants, filth, VFEPD_* props, and ~473 bare ThingDef wrappers. 1140 stuff+rotation variants + 473 bare = 1613 total.
-- Harmless when a target mod is disabled — unused SymbolDefs never get queried, no errors. Zero measurable boot-time cost (~30-80ms XML parse).
-
-COMPATIBILITY:
-- All fixes are conditional — inactive if the target mod isn't loaded
-- Zero overhead if a mod is missing
-- Safe to install on any save
-- Works with HSK (Hardcore SK) and vanilla
-
-All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug console.
-    </description>
-    <package_id>CarbineAction.ModFixes</package_id>
-    <last_commit_time>2026-04-19T06:27:00+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>N/A</preview_image>
-  </repository>
-  <repository>
     <repo_id>1214758653</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Deserters</repo_name>
@@ -755,6 +642,24 @@ Not compatible with: n7huntsman.combatshields (inherited incompatibility from ba
       </dependency>
     </mod_dependencies>
     <preview_image>Eccentric Tech - Defense Grid SK/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>880829733</repo_id>
+    <owner>Elldar112</owner>
+    <repo_name>Elldar-Tweaks</repo_name>
+    <mod_root_path>Elldar Patches</mod_root_path>
+    <name>Elldar's Patches Compilation</name>
+    <description>Collection of patches for various mods.</description>
+    <package_id>Elldar.tweaks</package_id>
+    <last_commit_time>2026-04-20T10:49:09+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.2</version>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <preview_image>Elldar Patches/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>1146697695</repo_id>
