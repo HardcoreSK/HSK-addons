@@ -649,9 +649,19 @@ Not compatible with: n7huntsman.combatshields (inherited incompatibility from ba
     <repo_name>Elldar-Tweaks</repo_name>
     <mod_root_path>Elldar Patches</mod_root_path>
     <name>Elldar's Patches Compilation</name>
-    <description>Collection of patches for various mods.</description>
+    <description>
+Various Patches for HSK.
+
+Mostly Architect Sense support and research changes, but some mods have been fully patched. Some patches are still WIP, more will come.
+
+Some of the mods I've patched didn't had their version tag updated, but they still work. To avoid wrong version warning I suggest using Mlie's No Version Warning mod.
+
+- Includes Bodyrestoration cycle from Nelson's old 1.3 patches.
+- Includes SmootherTerraforming by Pro_Triforcer, now fixed to work with Vile's Biome mods.
+- Includes presets for Show Me Your Hands for many modded weapons.
+	</description>
     <package_id>Elldar.tweaks</package_id>
-    <last_commit_time>2026-04-20T10:49:09+00:00</last_commit_time>
+    <last_commit_time>2026-04-20T12:35:07+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
