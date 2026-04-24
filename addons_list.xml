@@ -220,6 +220,477 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
+    <repo_id>1219814153</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-RH2-Collection</repo_name>
+    <mod_root_path>HSK-RH2-RimmuNation-Clothing</mod_root_path>
+    <name>[RH2] Rimmu-Nation² - Clothing</name>
+    <description>HSK/CE/Vile's conversion by CarbineAction. Balanced and converted to work with Hardcore SK, Combat Extended, and Vile's Materials Science. Self-contained — no manual edits needed. Drop in and play.
+
+Converted: 153 apparel (16 tops, 12 pants, 13 shells, 10 hats, 7 masks, 3 bandanas, 1 scarf, 5 eye/ear pro, 6 respirators, 20 webbing, 26 body armor, 26 helmets, 8 special sets, 31 backpacks)
+
+Changes:
+- 153 apparel items converted to HSK parent classes
+- Armor uses StrongMetallic stuff with HSK materials (Compaste, Kevlar, SyntheticFibers)
+- Clothing uses Fabric/Leathery stuff
+- CE apparel stats tuned to HSK values
+- Root Assemblies folder removed (Prepatcher compatibility)
+
+Credits:
+fiendakko - Apparel art
+Tittymcswaggy - Apparel art
+DanDMan68 - Apparel art
+JDS - Apparel art
+Odstriman - Apparel art
+Jecrell - Backpacks.dll C#
+Mehni - Backpacks.dll 1.2 update
+Taranchuk - Backpacks.dll 1.6 update
+
+Supporters:
+Sheriff
+Morphium
+
+Referenced Companies:
+5.11
+Flyye
+MIL-TEC
+Maxpedition
+Wasing
+Team Wendy
+TripleAughtDesign
+Vestguard</description>
+    <package_id>CP.RimmuNation.2.Clothing</package_id>
+    <last_commit_time>2026-04-24T08:45:04+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.2</version>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-RH2-RimmuNation-Clothing/About/preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219814153</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-RH2-Collection</repo_name>
+    <mod_root_path>HSK-RH2-RimmuNation-Weapons</mod_root_path>
+    <name>[RH2] Rimmu-Nation² - Weapons</name>
+    <description>Arm your community with the right tool for the right job.
+
+RIMMU-NATION
+Defending your rights
+
+Credits:
+Chicken Plucker - Weapon art
+Fiendakko - Weapon art
+TMC - Weapon art
+Erok - Weapon art
+Dandman68 - Weapon art
+qux - Troubleshooting
+Taranchuk - Update of the WeaponsExtension.dll which makes the Auger work
+Jecrell - Original WeaponsExtension.dll creator
+ThatCoolSnek - Weapons research fixes
+Samael - Rebalancing, CE patch (Now integrated into CE itself)
+Autumn Point Eclipse - CE patch (Now integrated into CE itself)
+</description>
+    <package_id>CP.RimmuNation.2.Weapons</package_id>
+    <last_commit_time>2026-04-24T08:45:04+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.4</version>
+      <version>1.3</version>
+      <version>1.2</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-RH2-RimmuNation-Weapons/About/preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219814153</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-RH2-Collection</repo_name>
+    <mod_root_path>HSK-RH2-UncleBorisFurniture</mod_root_path>
+    <name>[RH2] Uncle Boris' - Used Furniture</name>
+    <description>HSK/CE conversion by CarbineAction. Balanced and converted to work with Hardcore SK, Combat Extended, and Vile's Materials Science. Self-contained — no manual edits needed. Drop in and play.
+
+Removed/disabled (art doesn't match HSK aesthetic):
+- Beds: Barrack Bed, Officer Bed, Canvas Bed
+- Walls, doors, fences, embrasures
+- Brainwash chair (separate mod exists)
+- Footlocker, Military Crate Dresser, Wardrobe
+
+Changes:
+- All Steel replaced with HSK materials (Glass, Plastic, Electronics, RuggedMetallic)
+- Furniture, joy, lighting, and power stats rebalanced to HSK values
+- Research prerequisites matched to HSK tree
+- Items grouped into HSK ArchitectSense subcategories
+- Generator smoke effects via Simple FX Smoke (Flecker)
+- Mission board RansomDemand removed (faction NullRef bug)
+- Radio music volumes fixed (audio clipping)
+- 1.3, 1.4, 1.6 version folders removed (HSK uses 1.5 only)
+
+Credits:
+Taranchuk - C# coding
+SirLalaPyon - Building art
+DanDMan68 - Building art
+JDS - Building art
+Jecrell - C# coding
+Albion - C# coding
+</description>
+    <package_id>CP.Uncle.Boris.Used.Furniture</package_id>
+    <last_commit_time>2026-04-24T08:45:04+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-RH2-UncleBorisFurniture/About/preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219807364</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Collection</repo_name>
+    <mod_root_path>HSK-VFE-Deserters</mod_root_path>
+    <name>VFE Deserters (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Deserters, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and research tree, while preserving the full Deserter gameplay loop (contraband, visibility system, quests, scenarios).
+
+--- HSK-NATIVE CONVERSIONS ---
+
+WEAPONS:
+- Charge Cycler: now crafts at MechWeaponCraftingWorkTable, Charge_weapons_E research, Crafting 16, 35000 work. Ingredients: Charged_Component, Weapon_Parts, ComponentUltra, FerrosiliconAlloy, USLDBar, Plastic. Thump shot ammo swapped to AmmoSet_40x46mmGrenade (HSK-native, no VFE Empire dep).
+- Fletchling: crafts at MechWeaponCraftingWorkTable, Charge_weapons_D research, Crafting 14, 27000 work. HSK-tier spacer materials.
+
+BELTS:
+- Deserter Declassifier: HSK-hardcore recipe. TableElectronics, Charge_weapons_D research, Crafting 13, 20000 work. Electronics, ComponentSpacer, Hexcell, FerrosiliconAlloy, Plastic on StrongMetallic stuff base.
+- Bomb Pack + Invisibility Engulfer: remain quest-drop-only (not player-craftable in HSK balance). Enemies still use them in scenarios.
+
+MORTAR SHELLS (Shrapnel, AP, Cluster):
+- TableMachining, Crafting 8, 1500 work each. HSK-native materials (Steel, Mechanism, Weapon_Parts, ComponentIndustrial).
+
+FLAGSHIP CHUNK SALVAGE:
+- Deconstruct yields upgraded to HSK-thematic: Plasteel x20, ComponentSpacer x3, Steel x30. Matches Imperial flagship spacer-tech salvage.
+
+--- DISABLED PLAYER CONTENT ---
+
+Removed from player architect menu (enemy base generation still uses them):
+- 3 Deserters turrets (Kontarion, Palintone, Onager) — HSK has rich turret roster
+- 10 IED traps — HSK has its own complete IED lineup
+- 3 ammo boxes — paired with disabled turrets, no purpose
+
+Striker Turret kept as-is (quest-only, not buildable by player in vanilla either).
+
+--- KCSG SYMBOL FIXES ---
+
+KCSG missing-symbol patches for this mod's layouts (Aerodrone Stations, Safehavens, Zeus Cannon Complex, Imperial Plots, etc.) are now shipped via HSK Mod Fixes Pack as a catch-all covering every KCSG-using mod on the modlist. No per-mod SymbolDef file needed here — enable Mod Fixes Pack alongside this mod.
+
+--- PRESERVED GAMEPLAY ---
+
+ALL core Deserter mechanics unchanged: Visibility system, Contraband, Intel currency, Deserter cells, Aerodrones, quest scripts, scenarios, factions. Supply/Biosecured crates, Deserter Shuttle, Burnout Intel Scraper, Surveillance Pillars — all preserved.
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Royalty DLC, and VFE Empire (for Imperial content).
+CE's built-in Deserters patches load automatically via its ModPatches folder.
+
+For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
+    <last_commit_time>2026-04-24T09:05:19+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VFE.Empire</package_id>
+        <display_name>Vanilla Factions Expanded - Empire</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VFE-Deserters/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219807364</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Collection</repo_name>
+    <mod_root_path>HSK-VFE-Insectoid2</mod_root_path>
+    <name>VFE Insectoids 2 (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Insectoids 2, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. This patch version rebalances ingredients to HSK's refined-metal economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+THUMPERS (boss-summoning devices) — all 5 Thumpers upgraded from base Steel+ComponentIndustrial to HSK hardcore pricing with Mechanism + ComponentSpacer + InsectJelly ingredients. Justifies their power as endgame boss summons.
+
+SHIP DEBRIS (InfestedShipChunk/Part/Module) — Steel refs swapped to SteelBar (HSK refined metal) with 1:5 scaling since HSK "Steel" is raw iron ore, SteelBar is refined.
+
+INSECTJELLY BUILDINGS — costs adjusted where appropriate to fit HSK's gated-crafting economy.
+
+--- PRESERVED ---
+
+Full Insectoid gameplay:
+- 25 insect races (Empress, Queen, Titantick, Teramantis, Gigamite, Silverfish, etc.)
+- Custom architect tab (VFEI2_Insectoids) with all hive buildings
+- Research tree (Insectoid-specific projects)
+- Pherocore extraction + 5 species-specific hives
+- Quest scripts, scenarios, faction content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\) bundled and gated by IfModActive="CETeam.CombatExtended" in LoadFolders.xml. Covers:
+- All 25 race CE stats (armor, health, attack)
+- Building CE stats (walls, pods)
+- Insect leather CE stats
+- Ability damage defs
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
+    <last_commit_time>2026-04-24T09:05:19+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VFE-Insectoid2/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219807364</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Collection</repo_name>
+    <mod_root_path>HSK-VFE-Mechanoids</mod_root_path>
+    <name>VFE Mechanoids (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Mechanoids, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, Kentington, Sarg Bjornson, erdelf, Kikohi, Chowder, Taranchuk, and ISOREX. This patch version rebalances player-facing content to fit HSK's spacer-tier economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+MATERIALS — Steel → SteelBar 1:5 conversion across ~55 references (HSK's "Steel" defName is raw iron ore; SteelBar is refined steel for crafting).
+
+TURRETS — 4 auto-turrets (AutoChargeBlaster, AutoChargeLance, AutoInfernoCannon, AutoMortar) get Mechanism ingredient gating. Stats + costs use HSK spacer-tier materials (Plasteel + ComponentSpacer + VFE_ComponentMechanoid).
+
+LONG RANGE MISSILE LAUNCHER — kept at HSK-compliant spacer ingredients (already uses Plasteel + ComponentSpacer).
+
+MECHANITE ARMOR — HSK-native recipe: 70 Cloth + SteelBar 10 + Plasteel 20 + ComponentSpacer 1 (UnderArmor), equivalent for pants.
+
+WORKTOMAKE — 2x scaling on crafted buildings to match HSK's slower pace.
+
+RESEARCH — VFE research gated behind HSK's Fabrication/AdvancedFabrication progression.
+
+--- DISABLED PLAYER CONTENT ---
+
+21 player-buildable buildings removed from architect menu where they overlap with HSK's existing mods. Enemy raids + quest content preserved (the ThingDefs still exist, just hidden from player build UI).
+
+Electronics Fabrication (3):
+- Steel extractor (HSK has Electric Smelter)
+- Component assembler (HSK has Fabrication Bench)
+- Advanced assembler (HSK has spacer-tier Fabrication)
+
+Masonry + Metallics (3):
+- Automatic drill (HSK has Deep Drill)
+- Masonry saw (HSK has Stonecutter's Table)
+- Plasteel forge (HSK has Plasteel recipe at Smithy)
+
+Munitions + Armament (3):
+- Artillery foundry (HSK has shell crafting at TableMachining)
+- Chemfuel clarifier (HSK has Biofuel Refinery)
+- Mechanized weaponsmith (HSK has weapon benches)
+
+Medicinal (3):
+- Drug powderizer, Medicine granulator, Neutroamine infuser (HSK has Drug Lab)
+
+Provisions (2):
+- Conveyor oven (HSK has stoves), Meat grinder (HSK has butcher table)
+
+Wearables (2):
+- Auto loom (HSK has Tailoring Bench), Synthread synthesizer (HSK has recipe)
+
+Mech Stations (4):
+- Autocleaner, Autohauler, Autominer, Autobuilder (HSK has haplo.miscellaneous.robots.hsk)
+
+Missile Launcher (1):
+- VFE_LongRangeMissileLauncher (HSK has its own artillery/rocket systems)
+
+Production Infrastructure (3):
+- Factory Hopper, Versatile Assembler, Textile Recycler
+  (HSK has its own stockpile/hopper system, fabrication benches, and tailoring)
+
+Utility (3):
+- Autocrane, Liquid freezer, Construction lamp (HSK equivalents exist)
+
+--- PRESERVED GAMEPLAY ---
+
+- Mechanoid faction + enemy raids (full roster)
+- All combat mech charging stations (Combat, Pyro, Raider, Riot, Turret mobile, Strider)
+- Unique features: Autoharvester, Autosower, Textile recycler, Mechanite LF reinforcer, Blight auto repeller, AutoMedic, Autobroadcaster, Supercomputer (research automation), Indoctrination Pod
+- Factory system infrastructure: Factory hopper, Versatile assembler
+- Mechanite armor (under armor + pants)
+- VFE_ComponentMechanoid resource + research tree
+- Ship landing events, quest scripts, custom scenarios
+- KCSG enemy base generation (broadcasting stations, factories, structures)
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Mechanoids\) bundled and gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers:
+- 3 new CE bullet defs (VFE_Bullet_5x35mmHyper, ChargeRailgun_CE, TeslaProjectileCE)
+- Turret CE stats (Building_TurretGunCE conversion)
+- Mech weapons CE ballistics (advanced mechanoid guns)
+- Mech race CE stats (armor, health, attack for Advanced + Ancient mechs)
+- Mechanite apparel CE stats (Bulk, WornBulk, armor ratings)
+- Pawnkind CE loadouts (mech pawnkinds)
+- Scenario CE compatibility
+- CombinationDef CE patches for factory-produced ammo/weapons
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
+    <last_commit_time>2026-04-24T09:05:19+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VFE-Mechanoids/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219807364</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Collection</repo_name>
+    <mod_root_path>HSK-VFE-Pirates</mod_root_path>
+    <name>VFE Pirates (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Pirates, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, Sarg Bjornson, erdelf, Roolo, Smash Phil, Taranchuk, xrushha, Kikohi, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+WARCASKETS — spacer-tier armor progression rebalanced to HSK crafting (spacer research, ComponentSpacer + Plasteel + StrongMetallic + Kevlar ingredients, TableMachining / MechWeaponCraftingWorkTable).
+
+WARCASKET WEAPONS — 9 warcasket-only guns (Autorifle, UraniumSlugRifle, Slugthrower, Minigun, GrenadeLauncher, HeavyFlamer, ChargeLance, HandheldCannon, ChargeBlaster) routed to MechWeaponCraftingWorkTable at Charge_weapons_D/E research with HSK spacer-tier ingredients.
+
+RUM + DRUGS — HSK-tighter pricing to match the modpack's gated crafting economy.
+
+--- DISABLED PLAYER CONTENT ---
+
+Removed from player architect menu (enemy base generation + raids still use them):
+- Cannon (VFEP_Turret_Cannon) — HSK has rich medieval-tier artillery
+- Field Gun (VFEP_Turret_FieldGun) — HSK has its own mortar/field-gun variants
+
+Projectile defs preserved (enemy artillery still works) — only player-buildable turret entries hidden.
+
+The Gauntlet Charge Cannon Ship Chunk (VFEP_ShipChunkGauntletTurret) is NOT disabled — it's an enemy-only event mechanic that pirates drop from orbit as ship debris. Not buildable by the player in vanilla; left fully intact so the pirate raid event continues to work.
+
+--- CE-GATED TWEAK ---
+
+Grappling Hook ability (VFEP_GrapplingHook) — stripped from Privateer Armor when Combat Extended is active. 20-cell teleport-through-walls interacts badly with CE's line-of-sight and movement systems. Privateer Armor remains fully craftable and functional; it just loses the grapple. Gated in Patches-CE/ so vanilla/non-CE installs are unaffected.
+
+--- PRESERVED GAMEPLAY ---
+
+Full pirate gameplay:
+- 3 factions (Pirates, Junkers, Pirate Mercenaries)
+- Hireables (mercenary contracts via comms console)
+- Warcasket system (chest/arm/head customization + abilities)
+- Ideology: Pirate meme with sea shanties + camaraderie precepts
+- Ethereal Skyfallers (raid drop-in)
+- Pirate-themed quests + scenarios
+- Custom mechanoid (Gauntlet-type)
+- Curses + pirate-specific ideology content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Pirates\) bundled and gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers:
+- 5 new CE ammo defs (WarBolter rockets, Slugthrower shells, Gauntlet turret ammo, Vikings + Bioferrite + Ammo Mods bridges)
+- All 9 warcasket weapons with full CE ballistics (Bulk, Ammo, ProjectileProperties_CE)
+- Warcasket apparel CE stats (Sharp/Blunt armor ratings, Bulk, WornBulk)
+- Gauntlet turret CE conversion (Building_TurretGunCE)
+- Cross-mod warcasket weapon addons (Vikings, Classical, Lightning, Quechua, Nitori, Bounty Hunters, Empire — only activate when those mods are loaded)
+- Mercenary + Junker pawnkind CE loadouts
+- Abilities, drugs, ideology precepts, scenarios — all CE-compatible
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with the original "OskarPotocki.VFE.Pirates" — enable this INSTEAD.
+Not compatible with: n7huntsman.combatshields (inherited incompatibility from base mod).</description>
+    <package_id>CarbineAction.HSK.VFE.Pirates</package_id>
+    <last_commit_time>2026-04-24T09:05:19+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VFE-Pirates/About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>643584152</repo_id>
     <owner>Elldar112</owner>
     <repo_name>Craftable-Mech-Serum</repo_name>
