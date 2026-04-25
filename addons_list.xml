@@ -260,7 +260,7 @@ Team Wendy
 TripleAughtDesign
 Vestguard</description>
     <package_id>CP.RimmuNation.2.Clothing</package_id>
-    <last_commit_time>2026-04-25T08:35:33+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T09:11:41+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -302,7 +302,7 @@ Samael - Rebalancing, CE patch (Now integrated into CE itself)
 Autumn Point Eclipse - CE patch (Now integrated into CE itself)
 </description>
     <package_id>CP.RimmuNation.2.Weapons</package_id>
-    <last_commit_time>2026-04-25T08:35:33+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T09:11:41+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.4</version>
@@ -351,7 +351,7 @@ Jecrell - C# coding
 Albion - C# coding
 </description>
     <package_id>CP.Uncle.Boris.Used.Furniture</package_id>
-    <last_commit_time>2026-04-25T08:35:33+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T09:11:41+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -414,7 +414,7 @@ CE's built-in Deserters patches load automatically via its ModPatches folder.
 
 For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
-    <last_commit_time>2026-04-25T08:35:35+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T08:51:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -482,7 +482,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
-    <last_commit_time>2026-04-25T08:35:35+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T08:51:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -593,7 +593,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions 
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
-    <last_commit_time>2026-04-25T08:35:35+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T08:51:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -672,7 +672,7 @@ Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmo
 NOT compatible with the original "OskarPotocki.VFE.Pirates" — enable this INSTEAD.
 Not compatible with: n7huntsman.combatshields (inherited incompatibility from base mod).</description>
     <package_id>CarbineAction.HSK.VFE.Pirates</package_id>
-    <last_commit_time>2026-04-25T08:35:35+00:00</last_commit_time>
+    <last_commit_time>2026-04-25T08:51:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
