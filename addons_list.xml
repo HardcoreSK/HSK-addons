@@ -2059,7 +2059,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
 		Patches. Changes. Because posting an entire mod for the couple of fixes kinda sucks.
 	</description>
     <package_id>pacas.patchescompilation.v1</package_id>
-    <last_commit_time>2025-12-20T17:18:32+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T22:11:37+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -2081,7 +2081,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <name>Warhammer Skavens - HSK Patch</name>
     <description>The ratkins of the under-empire comes to Rimworld. The vile and diabolical skaven will stage attacks against your colony with slave rats, clan rats, engineer and seers. Wielding weapons like slingshots, crossbows, various melee weapons up to simple machine guns and poison weapons. Trade with the more "friendly" skaven trader clans that offers access to various traders.</description>
     <package_id>pacas.skaven.hsk</package_id>
-    <last_commit_time>2025-12-20T17:18:32+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T22:11:37+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
     </supported_versions>
