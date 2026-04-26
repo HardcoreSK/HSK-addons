@@ -206,7 +206,7 @@ COMPATIBILITY:
 All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug console.
     </description>
     <package_id>CarbineAction.ModFixes</package_id>
-    <last_commit_time>2026-04-24T08:14:31+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T20:08:27+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -414,7 +414,7 @@ CE's built-in Deserters patches load automatically via its ModPatches folder.
 
 For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
-    <last_commit_time>2026-04-26T19:32:44+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T20:01:28+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -482,7 +482,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
-    <last_commit_time>2026-04-26T19:32:44+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T20:01:28+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -593,7 +593,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions 
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
-    <last_commit_time>2026-04-26T19:32:44+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T20:01:28+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -672,7 +672,7 @@ Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmo
 NOT compatible with the original "OskarPotocki.VFE.Pirates" — enable this INSTEAD.
 Not compatible with: n7huntsman.combatshields (inherited incompatibility from base mod).</description>
     <package_id>CarbineAction.HSK.VFE.Pirates</package_id>
-    <last_commit_time>2026-04-26T19:32:44+00:00</last_commit_time>
+    <last_commit_time>2026-04-26T20:01:28+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
