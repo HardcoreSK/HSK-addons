@@ -368,6 +368,69 @@ Albion - C# coding
     <repo_id>1219807364</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
+    <mod_root_path>HSK-VFE-Ancients</mod_root_path>
+    <name>VFE Ancients (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Ancients, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, legodude17. This patch version rebalances ingredients to HSK's refined-metal economy, gates Ancient Soldier raids to late-game wealth thresholds, and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+INGREDIENTS — All raw &lt;Steel&gt; ingredient references (used as material costs in vault buildings, sentry guns, and ancient-tech recipes) have been swapped to &lt;SteelBar&gt; (HSK refined metal) with 1:5 scaling, since HSK's "Steel" is raw iron ore and SteelBar is the refined product. Plasteel, ComponentIndustrial, and ComponentSpacer references are preserved (HSK uses these names natively).
+
+RAID GATING — VFEA_AncientSoldiers faction has a raidCommonalityFromPointsCurve added that gates raid eligibility to 1500+ raid points (~80k wealth, mid-late game). Without this, ancient soldiers could be picked by the storyteller for early-game tribal raids despite being spacer-tier supersoldiers. Vault-spawned ancients (when the player breaks into a sealed vault) are unaffected — those use a separate spawn mechanism, not the raid system, so the player can still encounter them on demand.
+
+--- PRESERVED ---
+
+Full VFE Ancients gameplay:
+- Hidden + Sealed + Looted vault scattering on the world map
+- Ancient burst-signal interception quest line
+- Super-soldier nanite injection workshop with ability tree
+- Vault scenarios (start as a vault guard)
+- Custom faction soldiers, sentry guns, abilities, and lore content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Ancients\) bundled and gated by IfModActive="CETeam.CombatExtended" in LoadFolders.xml. Covers:
+- Symbol defs (custom gen)
+- CustomGenDefs vault layouts
+- Hediff-driven super-soldier ability stat patches
+- Ability damage / verb patches
+- Ancient soldier PawnKindDefs (CE armor/weapon/ammo loadouts)
+- Sentry gun ThingDef (CE turret stats + ammo)
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Ideology DLC.
+NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Ancients</package_id>
+    <last_commit_time>2026-04-29T12:38:54+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Ideology</package_id>
+        <display_name>Ideology</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VFE-Ancients/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1219807364</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Deserters</mod_root_path>
     <name>VFE Deserters (HSK/CE Patched)</name>
     <description>HSK/CE-patched version of Vanilla Factions Expanded - Deserters, tuned for the Hardcore SK modpack.
@@ -414,7 +477,7 @@ CE's built-in Deserters patches load automatically via its ModPatches folder.
 
 For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
-    <last_commit_time>2026-04-28T16:39:48+00:00</last_commit_time>
+    <last_commit_time>2026-04-29T12:38:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -482,7 +545,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
-    <last_commit_time>2026-04-28T16:39:48+00:00</last_commit_time>
+    <last_commit_time>2026-04-29T12:38:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -593,7 +656,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions 
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
-    <last_commit_time>2026-04-28T16:39:48+00:00</last_commit_time>
+    <last_commit_time>2026-04-29T12:38:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -672,7 +735,7 @@ Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmo
 NOT compatible with the original "OskarPotocki.VFE.Pirates" — enable this INSTEAD.
 Not compatible with: n7huntsman.combatshields (inherited incompatibility from base mod).</description>
     <package_id>CarbineAction.HSK.VFE.Pirates</package_id>
-    <last_commit_time>2026-04-28T16:39:48+00:00</last_commit_time>
+    <last_commit_time>2026-04-29T12:38:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
