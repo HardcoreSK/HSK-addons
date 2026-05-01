@@ -307,7 +307,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
-    <last_commit_time>2026-05-01T16:06:51+00:00</last_commit_time>
+    <last_commit_time>2026-05-01T22:26:41+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -869,46 +869,56 @@ Not compatible with: n7huntsman.combatshields (inherited incompatibility from ba
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Cryptoforge</mod_root_path>
-    <name>HSK Patch: VQE Cryptoforge</name>
-    <description>Hardcore SK + Combat Extended compatibility patch for Vanilla Quests Expanded — Cryptoforge.
+    <name>VQE Cryptoforge (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — Cryptoforge, tuned for the Hardcore SK modpack.
 
-This patch bundles the official upstream CE patch (PR #3780 by Airomeda, merged into CombatExtended-Continued 2025-04-25) so it works inside HSK's stripped CE redistribution, then layers HSK-native material swaps on top.
+This bundles the upstream VQE Cryptoforge mod content, the official upstream CE patch (PR #3780 by Airomeda), and HSK conventions all baked in. Do NOT enable the Steam Workshop version of VQE Cryptoforge alongside this — they would duplicate each other's defs.
 
-Bundled CE patches (covers crypto weapons, apparel, race, hediffs, sentry):
-  - VQEC_Things_Weapons.xml (Cryptobolter + Cryptoaxe CE conversion)
-  - VQEC_Apparel_Various.xml (4 crypto armor pieces, CE armor scale + Bulk)
-  - VQEC_Races_Animal_Insect.xml (cryptofused insectoid armor)
-  - VQEC_Things_Sentry.xml (ancient turret CE)
-  - VQEC_Hediffs_Global_Misc.xml
-  - VQEC_Ammo_Cryptoforge.xml (defines crypto bolt ammo + AmmoSet)
+Bundled CE patches (cryptofreeze mechanics preserved):
+- Crypto weapons (Cryptobolter + Cryptoaxe) — full CE conversion
+- Crypto armors (light / heavy + helmets) — HSK CE armor scale (Sharp 16-28, Blunt 36-60)
+- Cryptofused insectoid race — CE armor + body part scaling
+- Crypto bolt ammo + AmmoSet definitions
+- Ancient sentry turret CE conversion
 
-HSK overlay (this mod's contribution):
-  - Ammo recipe: Steel → SteelBar so HSK colonists craft from refined alloys
-  - Building costLists: Steel → SteelBar across 25 deconstructable structures
-    (cryptopods, production benches, turrets, ship debris, decorative)
-  - Cryptopod costLists: Uranium → DepletedUranium (HSK refined isotope)
+HSK overlay:
+- Crypto bolt ammo recipe: Steel → SteelBar
+- 25 deconstructable building costLists: Steel → SteelBar
+- 2 cryptopod costLists: Uranium → DepletedUranium
+- 6 craftable items (cryptoaxe, cryptobolter, 2 armors, 2 helmets): Gold → GoldBar
+- VQE_GoldPile loot building intentionally kept as raw Gold (ore-pile flavor)
+- Plasteel / ComponentSpacer / ComponentIndustrial left as-is (already HSK-native)
 
-Required: Vanilla Quests Expanded - Cryptoforge, Hardcore SK, Combat Extended.</description>
-    <package_id>CarbineAction.HSK.VQE.Cryptoforge.Compat</package_id>
-    <last_commit_time>2026-05-01T20:20:26+00:00</last_commit_time>
+Quest design preserved: Cryptobolter and Cryptoaxe stay locked to the AncientCryptoforge bench during the limited quest crafting window, exactly as upstream intended. HSKRNRouter intentionally does not move them.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk. CE patch by Airomeda. HSK/CE conversion by CarbineAction.
+
+Required: Hardcore SK, Combat Extended.</description>
+    <package_id>CarbineAction.HSK.VQE.Cryptoforge</package_id>
+    <last_commit_time>2026-05-01T22:01:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
-        <package_id>vanillaquestsexpanded.cryptoforge</package_id>
-        <display_name>Vanilla Quests Expanded - Cryptoforge</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>skyarkhangel.HSK</package_id>
         <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>CETeam.CombatExtended</package_id>
         <display_name>Combat Extended</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>HSK-VQE-Cryptoforge/About/Preview.png</preview_image>
@@ -918,40 +928,52 @@ Required: Vanilla Quests Expanded - Cryptoforge, Hardcore SK, Combat Extended.</
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Deadlife</mod_root_path>
-    <name>HSK Patch: VQE Deadlife</name>
-    <description>Hardcore SK compatibility patch for Vanilla Quests Expanded — Deadlife.
+    <name>VQE Deadlife (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — Deadlife, tuned for the Hardcore SK modpack.
 
-Brings VQE Deadlife structures and weapons into HSK conventions:
+This bundles the upstream VQE Deadlife mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VQE Deadlife alongside this — they would duplicate each other's defs.
 
+HSK/CE patches included:
 - Material swaps on deconstructable ancient structures so deconstruction returns HSK-native refined materials:
   * Steel → SteelBar (Open/Closed Deadlife caskets, Dormant/Ancient Military Turrets, Kino Screen, Kino Projector)
   * Uranium → DepletedUranium (Open/Closed Deadlife caskets)
+  * +ComponentIndustrial / +ComponentSpacer / +Plasteel layers added per HSK tech tier (industrial vs ultratech)
 
-- Combat Extended patches for the 4 ancient weapons (Autopistol, Machine Pistol, Pump Shotgun, LMG) so they fire correctly under HSK CE.
+- Combat Extended patches for the 4 ancient weapons (Autopistol, Machine Pistol, Pump Shotgun, LMG) so they fire correctly under HSK CE:
+  * 9×19mm Parabellum (Autopistol + Machine Pistol)
+  * 12 Gauge Buckshot (Pump Shotgun)
+  * 7.62×51mm NATO (LMG)
 
-No content additions or removals — purely an XML PatchOperation overlay on top of the upstream VQE Deadlife mod.
+- HSK CE armor rescale on the Military Coat (Sharp 8 / Blunt 4 + Bulk 4.0 / WornBulk 1.4).
 
-Required: Vanilla Quests Expanded - Deadlife, Hardcore SK, Combat Extended, Anomaly DLC.</description>
-    <package_id>CarbineAction.HSK.VQE.Deadlife.Compat</package_id>
-    <last_commit_time>2026-05-01T20:20:26+00:00</last_commit_time>
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Ferny. HSK/CE conversion by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
+    <package_id>CarbineAction.HSK.VQE.Deadlife</package_id>
+    <last_commit_time>2026-05-01T22:01:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
-        <package_id>vanillaquestsexpanded.deadlife</package_id>
-        <display_name>Vanilla Quests Expanded - Deadlife</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>skyarkhangel.HSK</package_id>
         <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>CETeam.CombatExtended</package_id>
         <display_name>Combat Extended</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>HSK-VQE-Deadlife/About/Preview.png</preview_image>
@@ -961,40 +983,47 @@ Required: Vanilla Quests Expanded - Deadlife, Hardcore SK, Combat Extended, Anom
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Generator</mod_root_path>
-    <name>HSK Patch: VQE Generator</name>
-    <description>Hardcore SK compatibility patch for Vanilla Quests Expanded — The Generator.
+    <name>VQE Generator (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — The Generator, tuned for the Hardcore SK modpack.
 
-Brings VQE Generator structures and apparel into HSK conventions:
+This bundles the upstream VQE Generator mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VQE Generator alongside this — they would duplicate each other's defs.
 
-- Material swaps on all ARC genetrons (Basic, Wood-fired ×4, Chemfuel ×4, Geothermal ×4, Nuclear ×4) and ruined ancient buildings so deconstruction returns HSK-native refined materials:
+HSK/CE patches included:
+- Material swaps on all 16 ARC genetrons (Basic, Wood-fired ×4, Chemfuel ×4, Geothermal ×4, Nuclear ×4) and 7 ruined ancient ARC structures so deconstruction returns HSK-native refined materials:
   * Steel → SteelBar
   * Uranium → DepletedUranium
+  * Gold → GoldBar (HSK refined alloy)
+- Plasteel / ComponentSpacer / ComponentIndustrial left as-is (already HSK-native)
+- HSK CE armor rescale on the Ancient Tight Parka (Sharp 8 / Blunt 4 + Bulk 4.0 / WornBulk 1.4).
 
-- Combat Extended rescale for the Ancient Tight Parka (Sharp / Blunt / Bulk / WornBulk) so it fits HSK CE armor math.
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Bread mo. HSK/CE conversion by CarbineAction.
 
-No content additions or removals — purely an XML PatchOperation overlay on top of the upstream VQE Generator mod.
-
-Required: Vanilla Quests Expanded - The Generator, Hardcore SK, Combat Extended.</description>
-    <package_id>CarbineAction.HSK.VQE.Generator.Compat</package_id>
-    <last_commit_time>2026-05-01T20:20:26+00:00</last_commit_time>
+Required: Hardcore SK, Combat Extended.</description>
+    <package_id>CarbineAction.HSK.VQE.Generator</package_id>
+    <last_commit_time>2026-05-01T22:01:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
-        <package_id>vanillaquestsexpanded.generator</package_id>
-        <display_name>Vanilla Quests Expanded - The Generator</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>skyarkhangel.HSK</package_id>
         <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>CETeam.CombatExtended</package_id>
         <display_name>Combat Extended</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>HSK-VQE-Generator/About/Preview.png</preview_image>
