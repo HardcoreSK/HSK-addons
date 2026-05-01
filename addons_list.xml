@@ -868,6 +868,55 @@ Not compatible with: n7huntsman.combatshields (inherited incompatibility from ba
     <repo_id>1226738266</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
+    <mod_root_path>HSK-VQE-Cryptoforge</mod_root_path>
+    <name>HSK Patch: VQE Cryptoforge</name>
+    <description>Hardcore SK + Combat Extended compatibility patch for Vanilla Quests Expanded — Cryptoforge.
+
+This patch bundles the official upstream CE patch (PR #3780 by Airomeda, merged into CombatExtended-Continued 2025-04-25) so it works inside HSK's stripped CE redistribution, then layers HSK-native material swaps on top.
+
+Bundled CE patches (covers crypto weapons, apparel, race, hediffs, sentry):
+  - VQEC_Things_Weapons.xml (Cryptobolter + Cryptoaxe CE conversion)
+  - VQEC_Apparel_Various.xml (4 crypto armor pieces, CE armor scale + Bulk)
+  - VQEC_Races_Animal_Insect.xml (cryptofused insectoid armor)
+  - VQEC_Things_Sentry.xml (ancient turret CE)
+  - VQEC_Hediffs_Global_Misc.xml
+  - VQEC_Ammo_Cryptoforge.xml (defines crypto bolt ammo + AmmoSet)
+
+HSK overlay (this mod's contribution):
+  - Ammo recipe: Steel → SteelBar so HSK colonists craft from refined alloys
+  - Building costLists: Steel → SteelBar across 25 deconstructable structures
+    (cryptopods, production benches, turrets, ship debris, decorative)
+  - Cryptopod costLists: Uranium → DepletedUranium (HSK refined isotope)
+
+Required: Vanilla Quests Expanded - Cryptoforge, Hardcore SK, Combat Extended.</description>
+    <package_id>CarbineAction.HSK.VQE.Cryptoforge.Compat</package_id>
+    <last_commit_time>2026-05-01T20:20:26+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>vanillaquestsexpanded.cryptoforge</package_id>
+        <display_name>Vanilla Quests Expanded - Cryptoforge</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VQE-Cryptoforge/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1226738266</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Deadlife</mod_root_path>
     <name>HSK Patch: VQE Deadlife</name>
     <description>Hardcore SK compatibility patch for Vanilla Quests Expanded — Deadlife.
@@ -884,7 +933,7 @@ No content additions or removals — purely an XML PatchOperation overlay on top
 
 Required: Vanilla Quests Expanded - Deadlife, Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <package_id>CarbineAction.HSK.VQE.Deadlife.Compat</package_id>
-    <last_commit_time>2026-05-01T20:04:58+00:00</last_commit_time>
+    <last_commit_time>2026-05-01T20:20:26+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -905,7 +954,7 @@ Required: Vanilla Quests Expanded - Deadlife, Hardcore SK, Combat Extended, Anom
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
-    <preview_image>N/A</preview_image>
+    <preview_image>HSK-VQE-Deadlife/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>1226738266</repo_id>
@@ -927,7 +976,7 @@ No content additions or removals — purely an XML PatchOperation overlay on top
 
 Required: Vanilla Quests Expanded - The Generator, Hardcore SK, Combat Extended.</description>
     <package_id>CarbineAction.HSK.VQE.Generator.Compat</package_id>
-    <last_commit_time>2026-05-01T20:04:58+00:00</last_commit_time>
+    <last_commit_time>2026-05-01T20:20:26+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -948,7 +997,7 @@ Required: Vanilla Quests Expanded - The Generator, Hardcore SK, Combat Extended.
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
-    <preview_image>N/A</preview_image>
+    <preview_image>HSK-VQE-Generator/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>643584152</repo_id>
