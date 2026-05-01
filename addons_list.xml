@@ -995,6 +995,52 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1225713359</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>CEQuickLoadout</repo_name>
+    <mod_root_path/>
+    <name>CE Quick Loadout</name>
+    <description>
+[English]
+Right-click items on the map to manage CE loadouts without opening the manager.
+
+Select an item on the map, right-click to see options:
+- Add to colonist — submenu with colonist list, hover to see current loadout
+- Add to existing loadout
+- Create new loadout — opens CE manager with the item
+
+Supports Combat Extended Extended Loadout (PersonalLoadout).
+
+[Russian]
+Правый клик по предметам на карте для управления CE лоадаутами без открытия менеджера.
+
+Выделите предмет на карте, правый клик — опции:
+- Добавить колонисту — подменю со списком колонистов, при наведении видно текущий лоадаут
+- Добавить в существующий лоадаут
+- Создать новый лоадаут — открывает менеджер CE с предметом
+
+Поддержка Combat Extended Extended Loadout (PersonalLoadout).
+    </description>
+    <package_id>linya.cequickloadout</package_id>
+    <last_commit_time>2026-04-30T16:44:48+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
     <repo_id>1206999173</repo_id>
     <owner>linyaDev</owner>
     <repo_name>HSKDietTracker</repo_name>
