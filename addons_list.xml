@@ -220,6 +220,117 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-Wolfein-Race</mod_root_path>
+    <name>Wolfein Race (HSK/CE Patched, All-in-One)</name>
+    <description>HSK/CE-patched all-in-one fork of the Wolfein Race mod.
+
+ABSORBED MODS (do not enable separately):
+  - Wolfein Race           (workshop 3473140562, MelonDove + Ancot)
+  - Wolfein Race Gene Patch (workshop 3473178683, Ancot)
+  - Wolfein CE Patches     (workshop 3485371294, leaople)
+
+All three are bundled. Disable the originals and enable this fork instead.
+
+--- HSK-NATIVE WEAPON RECIPES ---
+
+All 70 Wolfein weapons reworked to follow HSK's class-component pipeline:
+
+  HG (homemade + industrial)         + Pistol_Component + Weapon_Parts + Plastic
+  HG charge                          + Pistol_Component + Charged_Component + Weapon_Parts + Plastic
+  SMG industrial                     + SMG_Component + Weapon_Parts + Plastic
+  SMG charge                         + SMG_Component + Charged_Component + Weapon_Parts + Plastic
+  SG industrial                      + Shotgun_Component + Weapon_Parts + Plastic
+  SG charge                          + Shotgun_Component + Charged_Component + Weapon_Parts + Plastic
+  AR homemade                        + Rifle_Component + Weapon_Parts + Plastic
+  AR industrial                      + AdvRifle_Component + Weapon_Parts + Plastic
+  AR charge                          + AdvRifle_Component + Charged_Component + Weapon_Parts + Plastic
+  RF homemade                        + Rifle_Component + Weapon_Parts + Plastic
+  RF industrial                      + Sniper_Component + Weapon_Parts + Plastic
+  RF charge                          + AdvSniper_Component + Charged_Component + Weapon_Parts + Plastic
+  MG industrial                      + Heavy_Component + Weapon_Parts + Plastic
+  MG charge                          + Heavy_Component + Charged_Component + Weapon_Parts + Plastic
+  Launcher (Grenade/Missile)         + Launcher_Component + Weapon_Parts + Plastic
+  TaserGun (HG-class)                + Pistol_Component + Weapon_Parts + Plastic
+  Longbow                            + Weapon_Parts + Plastic
+  Grenades                           + Weapon_Parts + Plastic
+  Melee Tier I (Simple variants)     + Weapon_Parts
+  Melee Tier III (Heavy + AIPT)      + Weapon_Parts
+
+Wolfein_AlloyMaterials and ComponentIndustrial counts preserved as the racial prestige material — alloy is now an additive on top of the HSK component pipeline rather than a substitute.
+
+--- HSK-NATIVE APPAREL RECIPES ---
+
+~75 apparel items across 5 layers (OnSkin, OverHead, Shell, Sundry, Underwear) reworked:
+
+  Tactical/Military uniforms         + Plastic
+  Goggles + Helmets                  + Plastic + Electronics (goggles only)
+  Power Armor (all variants)         + Mechanism + Microchips (Imperial only)
+  GasMask                            + Plastic (filter)
+  ShieldBelt                         + Mechanism
+
+Wolfein_CompositeFabric preserved as the racial prestige textile.
+
+--- INGREDIENT SWAPS ---
+
+Raw &lt;Steel&gt; -&gt; refined &lt;SteelBar&gt; at 1:5 (HSK convention; Steel is iron ore, SteelBar is the smelted product). Raw &lt;Uranium&gt; -&gt; refined &lt;DepletedUranium&gt; at 1:1 (matches HSK's MakeDepletedUraniumAlloy 10:10 ratio).
+
+--- BENCH ROUTING ---
+
+  HG / SMG / SG               -&gt; HSK WeaponCraftingWorkTable
+  AR / RF / MG / Launcher     -&gt; HSK AdvWeaponCraftingWorkTable
+  Charge variants             -&gt; HSK AdvWeaponCraftingWorkTable
+  Melee weapons               -&gt; HSK ElectricSmithy
+  Apparel (tactical+)         -&gt; HSK ElectricTailoringBench
+  Apparel (basic civilian)    -&gt; HSK HandTailoringBench
+  Wolfein_AlloyMaterials      -&gt; HSK ElectricSmithy
+  Wolfein_CompositeFabric     -&gt; HSK ElectricTailoringBench
+
+Wolfein's own crafting bench (Wolfein_TableMachining) is hidden from the architect menu.
+
+--- BUNDLED CE PATCHES ---
+
+leaople's Wolfein CE Patches (workshop 3485371294) bundled into Patches-CE/, gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers 70+ apparel + weapon CE adjustments + 1 grenade ammo def.
+
+--- BUNDLED GENE PATCH ---
+
+Ancot's Wolfein Race Gene Patch (workshop 3473178683) bundled into 1.5/Defs/GeneDefs/ + XenotypeDefs/ + Patches/. Adds Wolfein-specific genes and the Wolfein xenotype, integrated with vanilla Biotech.
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, Humanoid Alien Races, Biotech DLC.
+
+NOT compatible with:
+  - MelonDove.WolfeinRace (original Wolfein Race) — disable, enable this instead
+  - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
+  - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
+    <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
+    <last_commit_time>2026-05-01T16:06:51+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>Biotech</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-Wolfein-Race/About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>1219814153</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-RH2-Collection</repo_name>
@@ -752,6 +863,92 @@ Not compatible with: n7huntsman.combatshields (inherited incompatibility from ba
       </dependency>
     </mod_dependencies>
     <preview_image>HSK-VFE-Pirates/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1226738266</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VQE-Collection</repo_name>
+    <mod_root_path>HSK-VQE-Deadlife</mod_root_path>
+    <name>HSK Patch: VQE Deadlife</name>
+    <description>Hardcore SK compatibility patch for Vanilla Quests Expanded — Deadlife.
+
+Brings VQE Deadlife structures and weapons into HSK conventions:
+
+- Material swaps on deconstructable ancient structures so deconstruction returns HSK-native refined materials:
+  * Steel → SteelBar (Open/Closed Deadlife caskets, Dormant/Ancient Military Turrets, Kino Screen, Kino Projector)
+  * Uranium → DepletedUranium (Open/Closed Deadlife caskets)
+
+- Combat Extended patches for the 4 ancient weapons (Autopistol, Machine Pistol, Pump Shotgun, LMG) so they fire correctly under HSK CE.
+
+No content additions or removals — purely an XML PatchOperation overlay on top of the upstream VQE Deadlife mod.
+
+Required: Vanilla Quests Expanded - Deadlife, Hardcore SK, Combat Extended, Anomaly DLC.</description>
+    <package_id>CarbineAction.HSK.VQE.Deadlife.Compat</package_id>
+    <last_commit_time>2026-05-01T20:04:58+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>vanillaquestsexpanded.deadlife</package_id>
+        <display_name>Vanilla Quests Expanded - Deadlife</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1226738266</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VQE-Collection</repo_name>
+    <mod_root_path>HSK-VQE-Generator</mod_root_path>
+    <name>HSK Patch: VQE Generator</name>
+    <description>Hardcore SK compatibility patch for Vanilla Quests Expanded — The Generator.
+
+Brings VQE Generator structures and apparel into HSK conventions:
+
+- Material swaps on all ARC genetrons (Basic, Wood-fired ×4, Chemfuel ×4, Geothermal ×4, Nuclear ×4) and ruined ancient buildings so deconstruction returns HSK-native refined materials:
+  * Steel → SteelBar
+  * Uranium → DepletedUranium
+
+- Combat Extended rescale for the Ancient Tight Parka (Sharp / Blunt / Bulk / WornBulk) so it fits HSK CE armor math.
+
+No content additions or removals — purely an XML PatchOperation overlay on top of the upstream VQE Generator mod.
+
+Required: Vanilla Quests Expanded - The Generator, Hardcore SK, Combat Extended.</description>
+    <package_id>CarbineAction.HSK.VQE.Generator.Compat</package_id>
+    <last_commit_time>2026-05-01T20:04:58+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>vanillaquestsexpanded.generator</package_id>
+        <display_name>Vanilla Quests Expanded - The Generator</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
   </repository>
   <repository>
     <repo_id>643584152</repo_id>
