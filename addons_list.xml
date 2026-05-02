@@ -223,6 +223,147 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <repo_id>1224832089</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Android</mod_root_path>
+    <name>VRE Android (HSK Patched)</name>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Android, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Android mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Android alongside this — they would duplicate each other's defs.
+
+HSK building rewrites (6 production/utility buildings):
+- All 6 buildings switched from fixed Steel/Gold to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
+- Added the HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) per building tier:
+  * VREA_AndroidStand — small storage furniture (minimal: stuff 50 + CompInd 1)
+  * VREA_AndroidPartWorkbench — industrial fabrication (CompInd 8 + ElecComp 2 + Mech 2 + Electronics 2)
+  * VREA_SubcorePolyanalyzer — ultratech analyzer (Plasteel 150 + CompSpacer 3 + ElecComp 2 + Microchips 2)
+  * VREA_AndroidCreationStation — high-tech assembler (CompInd 6 + CompSpacer 6 + ElecComp 3 + Microchips 3)
+  * VREA_AndroidBehavioristStation — software/programming bench (CompInd 4 + CompSpacer 4 + GoldBar 20 + ElecComp 2 + Microchips 2)
+  * VREA_NeutroCasket — neutroamine storage (CompInd 3 + ElecComp 1 + Mech 1)
+
+FULL HSK conversion on all 15 android body parts — rewritten to match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/BodyParts/. Android body parts are now PREMIUM endgame craftables using the same Hyperweave / CarbonAlloy / SyntheticFibers / Microchips / ComponentAdvanced / Biomatter / ArtificialBone / Paraffins / ReinforcedGlass profile that HSK bionic body parts use:
+
+- Heart-tier organs (Hyperweave-based): NeuroPump (BionicHeart), AirFilter (BionicLung), Neutrofilter (BionicKidney), MetabolismRegulator (BionicStomach + GoldBar)
+- Cybernetic top-tier (ArchotechHeart-style): Reactor (+DepletedUranium), ArtificialBrain
+- Sensory: OpticalUnit (BionicEye), AudioProcessor (BionicEar), ArtificialNose (simple bionic)
+- Skeletal/structural: ArtificialJaw (BionicJaw), ArtificialRibcage (BionicNeck-style), ArtificialSpine (BionicSpine + GoldBar)
+- Limbs: AndroidLeg (BionicLeg), AndroidFoot (BionicFoot), AndroidArm (BionicArm), AndroidHand (BionicHand)
+
+This makes building a full android a premium endgame project rather than a mid-game crafting goal — comparable to outfitting an entire colony with HSK bionic upgrades.
+
+No CE work needed — androids do not have natural melee weapons (their capability comes from installed bionic-class artificial body parts which are stat hediffs, not Verb-givers).
+
+Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
+    <package_id>CarbineAction.HSK.VRE.Android</package_id>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Android/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Archon</mod_root_path>
+    <name>VRE Archon (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Archon, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Archon mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Archon alongside this — they would duplicate each other's defs.
+
+CE patches:
+- VREA_MeleeWeapon_ArchobladeBladelink (archotech psychic blade) — both tools converted to CombatExtended.ToolCE:
+  * handle (Blunt) — Sharp 0.3 / Blunt 3.0
+  * blade (VREA_Sear capacity, custom psychic-skip damage) — Sharp 3 / Blunt 5 (high AP for archotech weapon)
+  * Custom thingClass VREArchon.ArchoBlade preserved
+- VREA_Apparel_Archoplate (archotech psychic armor) rescaled to HSK CE archotech tier:
+  * Sharp 1.15 → 30, Blunt 0.60 → 25 (between marine 24 and power armor 40+)
+  * Heat 0.86 kept (already CE-compatible)
+  * Added Bulk 12 / WornBulk 4.5
+  * equippedStatOffsets preserved (PsychicSensitivity, PsychicEntropyMax, PsychicEntropyRecoveryRate)
+- VRE_Leatherskin gene (natural leathery skin) — Sharp 0.15 / Blunt 0.1 → HSK CE 5/5
+
+Psychic projectiles (PsychicThrow, PsychicWarp, PsychicLance) work under CE as-is — they use vanilla projectile properties with armorPenetrationBase already set, and are psycaster-cast (Verb_CastAbility) rather than weapon-fired, so no CE conversion needed.
+
+No HSK material conversion — Archon has no buildings, no recipes, no costLists. Archoplate and Archoblade are loot/quest-reward only.
+
+Faction raid gating:
+- VRE_Archons faction had earliestRaidDays:45 (good) but no raidCommonalityFromPointsCurve, so raids fired at full force after Day 45 regardless of colony wealth. ArchonWarrior combatPower is 450 (archotech-elite tier — vs vanilla pirate 110, centipede 480).
+- Added wealth-based ramp: 0 commonality below 2500 threat points, scaling to 1.0 at 5000+. Matches the HSK Wolfein MegaCorp gate pattern but with a higher threshold reflecting the even-more-elite archotech tier. Combined with the existing 45-day delay, players have time to prepare for archotech raids.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC, Royalty DLC.</description>
+    <package_id>CarbineAction.HSK.VRE.Archon</package_id>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>RimWorld - Royalty</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Archon/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Genie</mod_root_path>
     <name>VRE Genie (HSK/CE Patched)</name>
     <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Genie, tuned for the Hardcore SK modpack.
@@ -241,7 +382,7 @@ Original mod by Oskar Potocki and Sarg Bjornson. HSK antibiotics redirect by Pac
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Genie</package_id>
-    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -299,7 +440,7 @@ Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. CE patch basel
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Hussar</package_id>
-    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -336,6 +477,69 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
     <repo_id>1224832089</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Insector</mod_root_path>
+    <name>VRE Insector (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Insector, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Insector mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Insector alongside this — they would duplicate each other's defs.
+
+CE patches:
+- 4 insectoid melee hediffs converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration:
+  * VRE_InsectMandibles  — Cut, Sharp 0.5 / Blunt 2.0
+  * VRE_HornAttack       — Stab (megaspider horns), Sharp 0.4 / Blunt 2.5
+  * VRE_RipperBlades     — Cut (armor-rending blades), Sharp 0.7 / Blunt 1.5
+  * VRE_InsectRostrum    — Stab (cross-mod, only fires when VFE Insectoid 2 active), Sharp 0.6 / Blunt 2.0
+
+HSK CE armor rescale:
+- VRE_Insectskin gene (basic carapace) — Sharp 0.27 / Blunt 0.18 → Sharp 4 / Blunt 4 (HSK CE basic carapace tier, matches Saurid scaleskin)
+- VRE_MineralRichInsectskin hediff (cross-mod, 2 health stages) — rescaled from vanilla CE 0.48/0.26 → 6/4 (low health, cracked) and 0.9/0.52 → 12/8 (full health, between flak and marine)
+
+HSK material rebalance:
+- VRE_InfestedShipPart_Spawned — bumped to ~50% of HSK vanilla ShipChunk's deconstruct yield (was ~37%): SteelBar 30 + ComponentIndustrial 8 + Wire 8 + InsectJelly 5. Lore-friendly: still less salvageable than clean ship debris because of insectoid biomass takeover, but no longer 3x cheaper than what HSK colonies expect.
+
+No work needed for: AcidBurstSack/ChemfuelSacks (use AnimalBehaviours explosion comps that work under CE), Metapod cocoon mechanics, Insector psychic abilities.
+
+Original mod by Oskar Potocki, Taranchuk, Sarg Bjornson. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. VFE Insectoid 2 cross-mod patches (InsectRostrum, MineralRichInsectskin) only fire when that mod is active.</description>
+    <package_id>CarbineAction.HSK.VRE.Insector</package_id>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Insector/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Phytokin</mod_root_path>
     <name>VRE Phytokin (HSK/CE Patched)</name>
     <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Phytokin, tuned for the Hardcore SK modpack.
@@ -352,7 +556,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepar
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. CompanionDryad CE conversion only fires when Ideology DLC is active.</description>
     <package_id>CarbineAction.HSK.VRE.Phytokin</package_id>
-    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -395,10 +599,12 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
 
 This bundles the upstream VRE Sanguophage mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Sanguophage alongside this — they would duplicate each other's defs.
 
-HSK conversion:
-- 6 deathrest / hemogen buildings rebalanced to HSK refined alloys:
-  * Steel → SteelBar across InvocationMatrix, HemodynamicAccelerator, HemogenSolidifier, SmallHemogenAmplifier, SmallHemopump, and PsychofluidWell (Royalty)
-  * Gold → GoldBar on the InvocationMatrix
+HSK conversion (6 deathrest / hemogen buildings rewritten to match HSK Biotech building patterns from Core_SK/Biotech/Patches/ThingDefs_Buildings/Buildings_Deathrest.xml):
+- Switched from fixed Steel cost to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
+- Added the missing HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) so Sanguophage buildings cost similar to vanilla Biotech equivalents (Hemopump, HemogenAmplifier, DeathrestAccelerator, PsychofluidPump)
+- Added Rubber, Plastic, CarbonAlloy minor materials as appropriate per building tier
+- Kept HemogenPack as fuel cost (HSK Biotech convention)
+- VRE_InvocationMatrix keeps GoldBar 40 for ritual flavor
 
 CE patches:
 - VRESanguophage_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE with armor-penetration values (Sharp 0.65 / Blunt 2.0) that fit alongside the Saurid claws (Sharp 0.5) and other natural melee in this collection
@@ -409,7 +615,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Erin. HSK/CE conversion + bundling
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. PsychofluidWell building only loads when Royalty DLC is active.</description>
     <package_id>CarbineAction.HSK.VRE.Sanguophage</package_id>
-    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -462,7 +668,7 @@ Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE 
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Saurid</package_id>
-    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -494,6 +700,58 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
       </dependency>
     </mod_dependencies>
     <preview_image>HSK-VRE-Saurid/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Waster</mod_root_path>
+    <name>VRE Waster (HSK Patched)</name>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Waster, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Waster mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Waster alongside this — they would duplicate each other's defs.
+
+HSK building rewrite (1 building):
+- VRE_BurnBarrel rewritten with full HSK pattern: stuffCategories RuggedMetallic + costStuffCount 45 + ComponentIndustrial 1 (HSK convention for outdoor/weather-exposed metal fixtures, with a single fab component for the sealed combustion barrel — sits at the bottom of the pollution-tier compared to HSK's WastepackAtomizer high-tech atomizer)
+
+No CE work needed. Waster's 17 pollution-themed genes (ToxAbsorption, PollutionRage, PollutionRegeneration, PollutionCognition, PollutionSustenance, PollutionAccuracy, etc.) and 11 pollution stimulus hediffs are pure stat-based mechanics — no tools, verbs, armor offsets, weapons, or apparel. Combat strength comes from vanilla mechanics + pollution interactions, not custom melee.
+
+Original mod by Oskar Potocki, Sarg Bjornson. HSK patch and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>CarbineAction.HSK.VRE.Waster</package_id>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Waster/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>1224832089</repo_id>
@@ -583,7 +841,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
-    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:34:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1171,7 +1429,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk. CE patch by Airomeda. H
 
 Required: Hardcore SK, Combat Extended.</description>
     <package_id>CarbineAction.HSK.VQE.Cryptoforge</package_id>
-    <last_commit_time>2026-05-01T22:01:35+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:27:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1226,7 +1484,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Ferny. HSK/CE conversio
 
 Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <package_id>CarbineAction.HSK.VQE.Deadlife</package_id>
-    <last_commit_time>2026-05-01T22:01:35+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:27:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1276,7 +1534,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Bread mo. HSK/CE conver
 
 Required: Hardcore SK, Combat Extended.</description>
     <package_id>CarbineAction.HSK.VQE.Generator</package_id>
-    <last_commit_time>2026-05-01T22:01:35+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T12:27:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
