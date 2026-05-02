@@ -223,6 +223,282 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <repo_id>1224832089</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Genie</mod_root_path>
+    <name>VRE Genie (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Genie, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Genie mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Genie alongside this — they would duplicate each other's defs.
+
+HSK integration (adapted from Pacas Patches Compilation):
+- Removes the standalone VRE_Antibiotics drug item, ChemicalDef, NeedDef, Tolerance, and Addiction hediffs — these don't fit HSK's medical economy where MedicalDrink already serves the antibiotic role
+- Removes AddictionResistant_VRE_Antibiotics gene from the Genie xenotype (no longer needed since the drug is gone)
+- Patches HSK's MedicalDrink (Items_Meals_Medical.xml from Core_SK) to grant the VRE_AntibioticsHigh hediff via VanillaRacesExpandedGenies.IngestionOutcomeDoer_GiveHediff_Discriminating, so Genies drinking medicinal alcohol still get their immunity boost
+- Keeps the four high-tier antibiotics hediffs (VRE_AntibioticsHigh and the three weaker variants) so the discriminating outcome doer still has targets
+
+Genie has no CE-relevant content (no recipes with raw materials, no buildings, no weapons, no apparel, no tools/verbs). All 16+ Genie genes are pure stat factors — Curiosity, Hemophiliac, BlueBlood, ElongatedHead, AptitudePhenomenal, Immunity, Slow_Diseases, WoundHealing — none need armor or CE patches.
+
+Original mod by Oskar Potocki and Sarg Bjornson. HSK antibiotics redirect by Pacas. Bundling and HSK integration by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>CarbineAction.HSK.VRE.Genie</package_id>
+    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Genie/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Hussar</mod_root_path>
+    <name>VRE Hussar (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Hussar, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Hussar mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Hussar alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VREH_BulletproofSkin gene — natural kevlar-like armor rescaled to HSK CE values (Sharp 8 / Blunt 8, between flak and marine armor; Pacas's vanilla CE 5.0/5.0 was about half-flak under HSK CE math)
+- VREH_BlackListedWeapons — extended with 56 entries so the WeaponAptitude gene system doesn't roll silly aptitudes like "aptitude in Mech Heavy Laser" or "aptitude in WoodLog":
+  * Vanilla mech weapons (9, from Pacas) — Mech Blaster, Charge Lance, Inferno Cannon, etc.
+  * Non-weapon items (6, from Pacas) — WoodLog, Bamboo, Kindling, etc.
+  * Wolfein racial mech weapons (4, MayRequire-gated)
+  * VFE Pirates warcasket-only guns (15, MayRequire-gated) — humanoids can't equip these
+  * VFE Mechanoids mech weapons (22, MayRequire-gated)
+
+Hussar is content-light (no recipes, no buildings, no costLists, no weapons, no apparel of its own — Hussars use vanilla weapons via the WeaponAptitude gene system). All HSK material conventions are preserved by default since there's nothing to convert.
+
+Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>CarbineAction.HSK.VRE.Hussar</package_id>
+    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Hussar/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Phytokin</mod_root_path>
+    <name>VRE Phytokin (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Phytokin, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Phytokin mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Phytokin alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VRE_BarkSkin gene — natural bark armor rescaled to HSK CE values (Sharp 6 / Blunt 6, between bare skin and flak; Pacas's vanilla CE 3.5/3.5 was about a third of flak under HSK CE math)
+- VRE_CompanionDryad (Ideology DLC only) — full CE conversion with 4 ToolCE entries (left claw, right claw, bite with stun, head-blunt) and CombatExtended.RacePropertiesExtensionCE for proper Quadruped body shape; melee dodge/crit/parry stats added — preserves Pacas's calibrated values
+
+Phytokin has no recipes, no costLists with raw materials, no weapons, no apparel. The race ships as genes, hediffs, abilities, the Saplingchild tree (grown not built), Polux bush plant, and SapBlood filth — none need HSK material conversion or CE work beyond the two listed above.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. CompanionDryad CE conversion only fires when Ideology DLC is active.</description>
+    <package_id>CarbineAction.HSK.VRE.Phytokin</package_id>
+    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Phytokin/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Sanguophage</mod_root_path>
+    <name>VRE Sanguophage (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Sanguophage, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Sanguophage mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Sanguophage alongside this — they would duplicate each other's defs.
+
+HSK conversion:
+- 6 deathrest / hemogen buildings rebalanced to HSK refined alloys:
+  * Steel → SteelBar across InvocationMatrix, HemodynamicAccelerator, HemogenSolidifier, SmallHemogenAmplifier, SmallHemopump, and PsychofluidWell (Royalty)
+  * Gold → GoldBar on the InvocationMatrix
+
+CE patches:
+- VRESanguophage_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE with armor-penetration values (Sharp 0.65 / Blunt 2.0) that fit alongside the Saurid claws (Sharp 0.5) and other natural melee in this collection
+
+Sanguophage abilities (HeartCrush, Hemosmosis, ToxicCloud, ViscousGoo, AcidSpray, etc.) are psycaster-style and do not need CE projectile conversion. The VRE_Proj_Goo projectile already has armorPenetrationBase/stoppingPower set and works under CE as-is. HemogenPack food items have no costList to convert.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Erin. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. PsychofluidWell building only loads when Royalty DLC is active.</description>
+    <package_id>CarbineAction.HSK.VRE.Sanguophage</package_id>
+    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Sanguophage/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-VRE-Saurid</mod_root_path>
+    <name>VRE Saurid (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Saurid, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Saurid mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Saurid alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VRESaurids_ScaleSkin gene — natural scale armor rescaled to HSK CE values (Sharp 4 / Blunt 4, between bare skin and light flak; Pacas's vanilla CE values of 1.0/1.0 were functionally useless under HSK CE math)
+- VRESaurids_SauridClaws hediff — claws verb converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration
+
+Saurid is a content-light race (no recipes, no buildings, no costLists, no weapons, no apparel). All HSK material conventions are preserved by default since there's nothing to convert.
+
+Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>CarbineAction.HSK.VRE.Saurid</package_id>
+    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-VRE-Saurid/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-Wolfein-Race</mod_root_path>
     <name>Wolfein Race (HSK/CE Patched, All-in-One)</name>
     <description>HSK/CE-patched all-in-one fork of the Wolfein Race mod.
@@ -307,7 +583,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
-    <last_commit_time>2026-05-02T08:45:34+00:00</last_commit_time>
+    <last_commit_time>2026-05-02T11:34:39+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
