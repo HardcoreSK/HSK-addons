@@ -197,6 +197,31 @@ NEW MOD FIX: KCSG SymbolDef catch-all
 - Categories covered: stuff-variant furniture (Bed_Steel_East, Fence_BlocksMarble, Throne_BlocksGranite_South), rotational items (Dresser_Steel_East, ShelfSmall_BlocksLimestone_North), Imperial decor, drapes, steles, urns, sarcophagi, plants, filth, VFEPD_* props, and ~473 bare ThingDef wrappers. 1140 stuff+rotation variants + 473 bare = 1613 total.
 - Harmless when a target mod is disabled — unused SymbolDefs never get queried, no errors. Zero measurable boot-time cost (~30-80ms XML parse).
 
+--- Muzzle Flash compatibility (HSK / RH2 RN / Wolfein) ---
+
+NEW MOD FIX: Muzzle Flash for HSK weapon arsenal
+- Muzzle Flash by IssacZhuang ships pre-made compat patches for ~20 weapon mods (Core, CE, Rimsenal, VFE, Reinforced Mechanoids, etc.) but has NO patch for HSK Core_SK weapons or RH2 Rimmu-Nation² Weapons or HSK-Wolfein-Race weapons. So none of the HSK arsenal shows muzzle flashes when fired.
+- This fix auto-generates MuzzleFlashProps mod-extensions for 243 weapons across the three arsenals using tier-appropriate flash defs:
+  * Pistols: MF_StandardMuzzleFalshTwo (0.5 drawSize)
+  * SMGs: MF_StandardMuzzleFalshTwo (0.6)
+  * Shotguns: MF_StandardMuzzleFalshThree (0.9)
+  * Rifles / Carbines: MF_StandardMuzzleFalsh (0.8)
+  * Snipers / Bolt Action / DMR: MF_StandardMuzzleFalsh (0.9)
+  * LMGs / Heavy: MF_StandardMuzzleFalshThree (1.1)
+  * Launchers: MF_StandardMuzzleFalshThree (1.4)
+  * Charged / Plasma / Laser: MF_ChargedMuzzleFalsh (0.7-1.0)
+  * Mechanoid weapons: MF_StandardMuzzleFalsh (1.0)
+  * Turrets: MF_StandardMuzzleFalsh / Three sized for tier
+- Coverage (450 total):
+  * HSK Core_SK weapons: 104 (pistols, SMGs, shotguns, rifles, snipers, heavy, launchers, blasters, plasma, laser, railgun, mechanoid weapons, all turret guns)
+  * RH2 Rimmu-Nation² Weapons: 130 (handguns, SMGs, sharpshooters, MGs, launchers, rifles, shotguns, spacer chargeweapons)
+  * HSK-Wolfein-Race: 26 (pistols, SMGs, ARs, RFs, MGs, launchers, drone weapons)
+  * HSK-AncientUrbanRuins: 35 (pistols, SMGs, rifles, snipers, LMGs, top-tier bullpup)
+  * Parabellum: 150 (pistols, SMGs, shotguns, carbines, rifles, snipers, heavy, launchers, panzerfaust, plus 14 turret types: CQC, sentry, GrW, M2HB, MGs, mortar, nebelwerfer 21/32, RPzBT, SOFLAM, SPG-9, Wombat, XM-307)
+  * HSK-VQE-Deadlife: 5 (ancient autopistol, machine pistol, pump shotgun, LMG, military turret)
+- 94 HSK weapons use hand-tuned offsets pulled from aspen801's HSK-MuzzleFlash-compatibility-patch (https://github.com/aspen801/HSK-MuzzleFlash-compatibility-patch) — better visual alignment per-weapon. Remaining weapons use tier-based defaults (works correctly, may need minor offset hand-tune for individual sprites).
+- Wrapped in PatchOperationFindMod for IssacZhuang.MuzzleFlash so the entire patch is a no-op when Muzzle Flash isn't loaded — zero error spam, zero overhead.
+
 COMPATIBILITY:
 - All fixes are conditional — inactive if the target mod isn't loaded
 - Zero overhead if a mod is missing
@@ -206,7 +231,7 @@ COMPATIBILITY:
 All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug console.
     </description>
     <package_id>CarbineAction.ModFixes</package_id>
-    <last_commit_time>2026-05-03T04:57:08+00:00</last_commit_time>
+    <last_commit_time>2026-05-03T07:38:32+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
