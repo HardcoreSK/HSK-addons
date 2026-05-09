@@ -248,6 +248,83 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <repo_id>1224832089</repo_id>
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
+    <mod_root_path>HSK-Milira-Race</mod_root_path>
+    <name>Milira Race (HSK/CE Patched, All-in-One)</name>
+    <description>HSK/CE-patched all-in-one fork of the Milira Race mod.
+
+ABSORBED MODS (do not enable separately):
+  - Milira Race            (workshop 3256974620, Ancot)
+  - Milira Race Gene Patch (workshop 3257000248, Ancot)
+  - Milira CE Patch        (workshop 3410567648, pntfvur)
+
+All three are bundled. Disable the originals and enable this fork instead.
+
+--- HSK CONVERSIONS ---
+
+* All raw ore costs converted to HSK refined materials:
+  - Steel       -&gt; SteelBar
+  - Gold        -&gt; GoldBar
+  - Silver      -&gt; SilverBar
+  - Uranium     -&gt; DepletedUranium
+  - Plasteel    -&gt; Plasteel (HSK refined, kept as-is)
+
+* Weapon recipes follow HSK class-component pipeline where applicable:
+  - Pistol-tier  -&gt; Pistol_Component + Weapon_Parts + Plastic
+  - Rifle-tier   -&gt; AdvRifle_Component + Charged_Component + Weapon_Parts + Plastic
+  - Heavy-tier   -&gt; Heavy_Component + Charged_Component + Weapon_Parts + Plastic
+
+* Apparel rebalanced to HSK premium-craftable patterns where applicable.
+
+* CE patches load conditionally via Patches-CE/ when CE is active.
+
+* Biotech gene patch merged into 1.5/Mods/Biotech (only loads with Biotech DLC).
+
+Original mod by Ancot. CE patches by pntfvur. HSK conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Alien Races, Ancot Library.</description>
+    <package_id>CarbineAction.HSK.Milira.Race</package_id>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/839005762</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ancot.AncotLibrary</package_id>
+        <display_name>Ancot Library</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3173351313</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>HSK-Milira-Race/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1224832089</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Android</mod_root_path>
     <name>VRE Android (HSK Patched)</name>
     <description>HSK-patched standalone version of Vanilla Races Expanded — Android, tuned for the Hardcore SK modpack.
@@ -280,7 +357,7 @@ Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
     <package_id>CarbineAction.HSK.VRE.Android</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -347,7 +424,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC, Royalty DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Archon</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -407,7 +484,7 @@ Original mod by Oskar Potocki and Sarg Bjornson. HSK antibiotics redirect by Pac
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Genie</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -465,7 +542,7 @@ Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. CE patch basel
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Hussar</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -528,7 +605,7 @@ Original mod by Oskar Potocki, Taranchuk, Sarg Bjornson. HSK/CE conversion + bun
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. VFE Insectoid 2 cross-mod patches (InsectRostrum, MineralRichInsectskin) only fire when that mod is active.</description>
     <package_id>CarbineAction.HSK.VRE.Insector</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -581,7 +658,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepar
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. CompanionDryad CE conversion only fires when Ideology DLC is active.</description>
     <package_id>CarbineAction.HSK.VRE.Phytokin</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -640,7 +717,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Erin. HSK/CE conversion + bundling
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. PsychofluidWell building only loads when Royalty DLC is active.</description>
     <package_id>CarbineAction.HSK.VRE.Sanguophage</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -693,7 +770,7 @@ Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE 
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Saurid</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -745,7 +822,7 @@ Original mod by Oskar Potocki, Sarg Bjornson. HSK patch and bundling by CarbineA
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
     <package_id>CarbineAction.HSK.VRE.Waster</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -866,7 +943,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
-    <last_commit_time>2026-05-07T13:05:01+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:56:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -930,7 +1007,7 @@ Team Wendy
 TripleAughtDesign
 Vestguard</description>
     <package_id>CP.RimmuNation.2.Clothing</package_id>
-    <last_commit_time>2026-05-08T17:51:13+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:28:44+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -972,7 +1049,7 @@ Samael - Rebalancing, CE patch (Now integrated into CE itself)
 Autumn Point Eclipse - CE patch (Now integrated into CE itself)
 </description>
     <package_id>CP.RimmuNation.2.Weapons</package_id>
-    <last_commit_time>2026-05-08T17:51:13+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:28:44+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.4</version>
@@ -1021,7 +1098,7 @@ Jecrell - C# coding
 Albion - C# coding
 </description>
     <package_id>CP.Uncle.Boris.Used.Furniture</package_id>
-    <last_commit_time>2026-05-08T17:51:13+00:00</last_commit_time>
+    <last_commit_time>2026-05-09T13:28:44+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
