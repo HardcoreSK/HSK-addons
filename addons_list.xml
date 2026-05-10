@@ -1980,6 +1980,82 @@ Supports Combat Extended Extended Loadout (PersonalLoadout).
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1230262879</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKFaith</repo_name>
+    <mod_root_path/>
+    <name>HSK Faith</name>
+    <description>
+[English]
+Reworked faith system. Requires Ideology DLC.
+
+Each belief gets additional unique gameplay mechanics.
+Some beliefs received stat bonuses, starting items and research to be more playable.
+
+The main goal is to bring fun new gameplay (especially in early colony).
+You can now roleplay a colony of:
+- animal tamers who sic wild beasts on raiders
+- swift warriors who thrive in darkness but weaken in light
+- blind psionics who developed their powers through loss of sight
+- fast and agile nudists (nothing holds them back anymore)
+- gender or racial supremacy fanatics (time to show them their place)
+
+Features:
+- Belief balance reworked — powerful beliefs now require behavioral counterweights
+- New faith point system — the core mechanic of the mod
+- Unique gameplay mechanics for each belief (nudism, cannibalism, darkness, nature, bloodfeeding, and more)
+- Progress bars with seasonal rewards and penalties
+- Stat modifiers, hediffs, and starting bonuses tied to your ideology
+- Reworked certainty system — Pastor role and holidays are more impactful
+- Converting outsiders to your faith is harder
+- Reworked ideology development point system
+- Faith overview panel with progress tracking and event log
+
+---
+
+[Russian]
+Переработаная система веры. Требует DLC Ideology.
+
+Каждое убеждение получает дополнительную уникальную игровую механику.
+Некоторые убеждения получили бонусы к характеристикам, стартовые предметы и исследования, что бы быть более играбельными.
+
+Освновная цель мода, дать новый прикольный геймплей. (особенно на старте колонии).
+Вы теперь можете отыграть колонию:
+- через натравливание прирученных диких животных на рейдеров
+- быстрых войнов которые сильны в темноте , но слабеют на свету
+- слепых псиоников, развивщих свои способности благодар потери возможности видеть.
+- быстрые, но ловкие нудисты. (ничто больше не сковывает их движения)
+- фанатиков гендерного или расового превосходства (пора бы показать где этим мужланам место)
+
+
+Особенности:
+- Баланс убеждений переработан — мощные бонусы требуют компромиссов
+- Новая система очков веры — центральная механика мода
+- Уникальные игровые механики для каждого убеждения (нудизм, каннибализм, тьма, природа, кровопийство и др.)
+- Шкалы прогресса с сезонными наградами и штрафами
+- Модификаторы характеристик, хедиффы и стартовые бонусы, привязанные к идеологии
+- Переработана система уверенности в веру — роль пастора и праздники стали более значимыми
+- Обращение иноверцев в свою веру стала сложнее
+- Переработана система очков развития идеологии
+- Информационная панель с прогрессом веры и журналом событий
+
+	</description>
+    <package_id>linya.hskfaith</package_id>
+    <last_commit_time>2026-05-09T22:42:48+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>1206949755</repo_id>
     <owner>linyaDev</owner>
     <repo_name>HSKFoodTracker</repo_name>
