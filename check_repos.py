@@ -52,8 +52,6 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
         # Get branch SHA
         branch = repo.get_branch(default_branch)
         sha = branch.commit.sha
-        
-        last_commit_dt = branch.commit.commit.committer.date.isoformat()
         # Use Git Trees API
         api_url = f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/{sha}?recursive=1"
         headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -63,18 +61,22 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
         # Find all about.xml files
         about_xml_paths = [item['path'] for item in tree if item['type'] == 'blob' and item['path'].lower().endswith('about.xml')]
         for about_xml_path in about_xml_paths:
-            # About folder is the parent directory
             about_folder_path = '/'.join(about_xml_path.split('/')[:-1])
             mod_root_path = '/'.join(about_folder_path.split('/')[:-1])
-            # Get about.xml content
+            last_commit_dt = get_last_commit_dt_for_path(
+                repo,
+                default_branch,
+                mod_root_path
+            )
             try:
                 file_content = fetch_file_raw(owner, repo_name, default_branch, about_xml_path)
                 name, description, package_id, supported_versions, mod_dependencies = extract_info_from_xml(file_content)
             except Exception as e:
                 logger.error(f"Error reading/parsing {about_xml_path} in {repo.full_name}: {e}")
-                name, description, package_id, supported_versions = 'N/A', 'N/A', 'N/A', []
-            # Find preview image in about folder
+                name, description, package_id, supported_versions, mod_dependencies = 'N/A', 'N/A', 'N/A', [], []
+
             preview_image = find_preview_image(repo, about_folder_path)
+
             about_info.append((
                 repo.id,
                 owner,
@@ -91,6 +93,15 @@ def search_about_folder_and_extract_info(repo, owner, repo_name):
     except Exception as e:
         logger.error(f"Error accessing repository {repo.full_name}: {e}")
     return about_info
+
+def get_last_commit_dt_for_path(repo, branch_name, path):
+    commits = repo.get_commits(sha=branch_name, path=path)
+
+    try:
+        commit = commits[0]
+        return commit.commit.committer.date.isoformat()
+    except IndexError:
+        return None
 
 def extract_info_from_xml(content):
     try:
