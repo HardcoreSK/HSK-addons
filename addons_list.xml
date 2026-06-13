@@ -943,7 +943,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
-    <last_commit_time>2026-06-13T15:04:56+00:00</last_commit_time>
+    <last_commit_time>2026-06-13T19:57:01+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1531,7 +1531,7 @@ Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk. CE patch by Airomeda. H
 
 Required: Hardcore SK, Combat Extended.</description>
     <package_id>CarbineAction.HSK.VQE.Cryptoforge</package_id>
-    <last_commit_time>2026-06-12T09:48:18+00:00</last_commit_time>
+    <last_commit_time>2026-06-13T19:57:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
