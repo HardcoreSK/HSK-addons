@@ -1965,7 +1965,7 @@ Supports Combat Extended Extended Loadout (PersonalLoadout).
 Трекер разнообразия еды за 7 дней. Колонисты запоминают что ели и хотят разнообразную еду. Разнообразие повышает настроение (+6), однообразие сильно ухудшает (до -16). Новые колонисты получают 3 дня адаптации. Требуемое разнообразие зависит от уровня технологий и биома.
 	</description>
     <package_id>linya.hskdiettracker</package_id>
-    <last_commit_time>2026-05-30T20:00:15+00:00</last_commit_time>
+    <last_commit_time>2026-06-17T20:28:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
