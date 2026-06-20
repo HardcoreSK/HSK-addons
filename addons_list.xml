@@ -2084,6 +2084,49 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1254688409</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKWealthDelta</repo_name>
+    <mod_root_path/>
+    <name>HSKWealthDelta</name>
+    <description>
+[English]
+Colony wealth diary. Advanced colony wealth tracking mod.
+
+Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wanted to know exactly what junk you picked up — now you can.
+
+- Track wealth changes per day, quadrum, or year
+- 2 modes: view changes over the last N days, or between specific days
+- See which items, buildings, and pawns were added or removed
+- Categorized view, sortable columns, collapsible groups
+- Draggable wealth widget overlay
+
+[Russian]
+Ежедневник стоимости колонии. Прокачанный мод для подсчёта стоимости колонии.
+
+У вас же бывает такое, что вы чего-то налутали вчера и стоимость колонии выросла на огромное число? Всегда хотелось посмотреть какого мусора насобирал — теперь можно.
+
+- Отслеживание изменений богатства за день, квадрум или год
+- 2 режима: за N дней или между определёнными днями
+- Показывает какие предметы, здания и пешки появились или исчезли
+- Категории, сортировка, сворачиваемые группы
+- Перемещаемый виджет богатства
+	</description>
+    <package_id>linya.hskwealthdelta</package_id>
+    <last_commit_time>2026-06-19T19:55:38+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
     <repo_id>610143261</repo_id>
     <owner>masakitenchi</owner>
     <repo_name>Masakis-HSK-Patch</repo_name>
