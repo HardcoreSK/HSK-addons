@@ -33,7 +33,7 @@ this mod do:
     <name>HMC bizarre materials</name>
     <description>Version 0.21. Added few new materials and recipes.</description>
     <package_id>arpomo6.hmc.bizmat</package_id>
-    <last_commit_time>2025-08-16T16:39:18+00:00</last_commit_time>
+    <last_commit_time>2026-06-27T18:18:27+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -47,7 +47,7 @@ this mod do:
     <name>HSK more content</name>
     <description>
 (ENG)
-Version 0.53.
+Version 0.54.
 this mod do:
 - add new weapons and ammo (EMP-ammo included too!);
 - add a new traits (some of them may be dangerous!);
@@ -60,7 +60,7 @@ It is strongly not recommended for particularly nervous or impressionable person
 Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons, Wons hair and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
 
 (RUS)
-Версия 0.53.
+Версия 0.54.
 Этот мод:
 - добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
 - добавляет новые черты характера (некоторые из них могут быть опасны!);
@@ -73,7 +73,7 @@ P.S. Данная модификация может вызвать жжение 
 Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded, Horns and Ears and Things, DA Cosmetic Genes, Vanilla Animals Expanded, Cybernetic Warfare and Special Weapons, Wons hair и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
 	</description>
     <package_id>arpomo6.hmc.project</package_id>
-    <last_commit_time>2026-02-24T18:17:57+00:00</last_commit_time>
+    <last_commit_time>2026-06-28T11:13:40+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2069,7 +2069,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
 	</description>
     <package_id>linya.hskfoodtracker</package_id>
-    <last_commit_time>2026-05-30T20:00:16+00:00</last_commit_time>
+    <last_commit_time>2026-06-28T09:46:30+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
