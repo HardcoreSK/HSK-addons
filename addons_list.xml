@@ -1780,7 +1780,7 @@ Some of the mods I've patched didn't had their version tag updated, but they sti
 - Includes presets for Show Me Your Hands for many modded weapons.
 	</description>
     <package_id>Elldar.tweaks</package_id>
-    <last_commit_time>2026-06-25T16:01:51+00:00</last_commit_time>
+    <last_commit_time>2026-06-28T19:38:22+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
