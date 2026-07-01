@@ -4985,7 +4985,7 @@ A0.2
 -Fixed some textures
 -Improved labels for processing recipes</description>
     <package_id>vitech.metallurgy</package_id>
-    <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
+    <last_commit_time>2026-07-01T14:59:13+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -5105,7 +5105,7 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <name>Vile's Testing Grounds</name>
     <description>A place where I'm testing out new textures and tweaks before implementing them into my mods or core SK.</description>
     <package_id>vitech.tweaks</package_id>
-    <last_commit_time>2026-05-29T11:40:22+00:00</last_commit_time>
+    <last_commit_time>2026-07-01T14:59:13+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -5174,7 +5174,7 @@ Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe
 
 </description>
     <package_id>ViTech.HCSKWood</package_id>
-    <last_commit_time>2026-05-29T11:40:22+00:00</last_commit_time>
+    <last_commit_time>2026-07-01T14:59:13+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
