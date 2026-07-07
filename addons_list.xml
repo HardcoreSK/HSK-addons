@@ -5192,32 +5192,11 @@ Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Work Tab for Big Fonts</mod_root_path>
-    <name>Vile's Visible</name>
-    <description>
-=====================================
-VILE'S Work Tab for Big Fonts        
-=====================================
-This mod is a minor accessibility mod meant to make the microscopic work tab information easier to see. It is meant to work with the new Vile RimThemes.
-
-- Changes the labels of jobs in the work tab, so instead of Craft: "Do Bills at Neolithic Craft" (which appears as "Do Bills at Ne..." in larger fonts), it's shortened to just "Neolithic".
-- Work Types are now ALL CAPS so that they stand apart more from the work defs when you open the worktype to see the subjobs. 
-- Some things are moved around. If you don't want that, delete the "reorganized" folder in Patches, and "WorkTypes.xml" in Defs. 
-
-New WorkTypes:
-MISC - This is mostly unusued junk. Stuff that may be required by other mods to exist, but typically aren't used in modded HSK.
-PROCESSING - This is for mosly hauling jobs that are a bit more on the crafting side. Universal Fermenter jobs are moved here, which includes things like the drying rack, tanning vats, kiln, and cementation furnace.
-BIOTECH HAULING - Simply moves some stuff out of hauling into a new work type.
-
-Some other notable changes:
-- Refill Water and Refuel Refuelable Buildings (now called "Refuel") are moved to the BASIC worktype.
-- Neolithic Crafting is moved to the SMITHING worktype
-
-</description>
-    <package_id>vitech.visible</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2024-11-12T18:40:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
