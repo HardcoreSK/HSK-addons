@@ -1669,11 +1669,23 @@ Required: Hardcore SK, Combat Extended.</description>
     <owner>Elldar112</owner>
     <repo_name>Craftable-Mech-Serum</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Craftable Serum HSK</name>
+    <description>Adds expensive recipes to craft ressurector and healer mech in lategame.</description>
+    <package_id>Elldar.CraftableSerum</package_id>
     <last_commit_time>2026-02-08T14:21:11+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Core SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -2756,11 +2768,15 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Maelstroms Metals/Maelstroms Metals SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Maelstrom's Metals SK</name>
+    <description>Adds a large number of metal alloys ranging from earlygame to specialized, incredibly powerful and expensive endgame materials.</description>
+    <package_id>Soul.MaelstromsMetals.sk</package_id>
     <last_commit_time>2024-09-10T00:52:56+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Maelstroms Metals/Maelstroms Metals SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3296,11 +3312,22 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <owner>Relvl</owner>
     <repo_name>Rimworld-DigitalStorageUnit</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Digital Storage Unit</name>
+    <description>This mod adds a special storage that can contain a large number of items, as well as ports and access points "connected" to the storage through which pawns can place and pick up items. This storage consumes energy for each stored stack of items. In the lack of energy, items can still be removed, but it will not be possible to place new ones.\n\nThe mod is based on Project Ramfactory Revived, but most of the code concerning the DSU has been redesigned.\nBut in any case, let's say a huge thank you to those guys for their hard work and amazing mod!</description>
+    <package_id>Relvl.DigitalStorageUnit</package_id>
     <last_commit_time>2025-08-09T07:46:25+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3308,11 +3335,21 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <owner>Relvl</owner>
     <repo_name>Rimworld_BestApparel</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>BestApparel</name>
+    <description>
+        
+A mod that will help you find the best apparel for your pawns!
+The mod adds an interface that allows you to find the apparel by the specified layers, slots and stats.
+Allows you to sort the found apparel by a more accurate list of comparisons.
+
+    </description>
+    <package_id>io.github.Relvl.Rimworld.BestApparel</package_id>
     <last_commit_time>2025-07-11T06:22:16+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -4765,11 +4802,107 @@ Hide defs are new, most leather defs are patched from existing defs. So if you a
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Materials Science</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Materials Science</name>
+    <description>Version 0.1
+This is the final major part of the Vile's series of overhaul mods for Hardcore SK. It finishes what Metallurgy and Pre-Industrial Overhaul started, namely, adding realism, complixity, and streamlines and rebalances materials while making it a bit more intuitive. Unlike Metallurgy though, it doesn't add a lot more steps in the production chain. Here's a rundown of the overhaul:
+        
+    CHANGES and ADDITIONS:
+    - New Ore Refining system. "Iron Ore", "Tin Ore" replaced with "Magnetite" and "Cassiterite" etc. These are refined to their base elements at the Metal Extraction Plant. Inspired by Angel's Factorio mod.
+        - With improved techology and the Electrolytic Refinery, more and new base metals can be extracted from the ores at the expense of work speed and electrical power.
+    - Labels and descriptions are improved to make finding materials and knowing which ones to use easier.
+    - Most materials revised, with many added ones, including alloys, plastics, textiles, etc.
+    - A revised materials tier system: Tiers are divided by tech level, but each material within each tier does something it excels at over the others. Suggested uses are easily laid out in the descriptions.
+    - Revised recipes for items and buildings, to utilize the new materials and add realism.
+    - Rimefeller overhaul, with an expanded polymer industry. 
+        - Petrochemical byproducts include ethylene, benzene, petroleum coke, etc. 
+        - Instead of only "plastic" you have PVC, polycarbonate, fiberglass, aerographene, and more.
+    - A few intermediate materials are replaced with things that make more sense. No more "compound paste" and "paraffins". Now we have "epoxy resin" and "teflon".
+    - Added a new "chemistry station" for new chemicals such as lye, chlorine, etc.
+    - Plant wax replaces paraffins as a fuel for candles.
+    - Coin minting added. Refining galena ore gives you "pure silver".
+    - IMPORTANT! The electrylytic refinery must be linked (near) to the metal extraction plant to refine ores, and the chemistry station must be linked to the loom to make advanced textiles. Note that these recipes don't appear in the wikirim. Looking into it.
+    - And of course, tons of new and revised textures.
+
+    ROADMAP:
+    - Cool spreasheets and stuff because those are fun.
+    - Nucleosynthesis Converter recipes.
+    - Make stuff masks for some MS building textures.
+    - Add 2 new concrete types.
+    - Update mineral/rock textures.
+    - Insulation Support for Celcius mod.
+    - New refinery building textures.
+    - Integrate new glass types with Windows.
+    - Revamp late-game power generation. Perhaps add geothermal drilling.
+    - Rimatomics defense materials.
+    - Various buildings and recipes as I come across them, or are brought to my attention.
+    - HSK currently doens't work well with the “heat” damage type. This will improve as we go into 1.4.
+    
+    Many of my other mods are updated to work with this, so make sure to get the latest of those.
+    
+	Requires Community framework. A copy is included, but also available on steam workshop or github https://github.com/ISOR3X/communityframework.
+
+	I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+	http://patreon.com/vileheathen  
+	Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage.
+    
+	</description>
+    <package_id>vitech.materialsscience</package_id>
     <last_commit_time>2026-06-22T15:35:43+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>zacharyfoster.minerals</package_id>
+        <display_name>Minerals</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.dubsbadhygiene</package_id>
+        <display_name>Dubs' Bad Hygiene</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.survivaltoolslite</package_id>
+        <display_name>Survival Tools Lite</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.rimatomics</package_id>
+        <display_name>Rimatomics</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vitech.metallurgy</package_id>
+        <display_name>Vile's Metallurgy</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vitech.leathertanning</package_id>
+        <display_name>Vile's Hell Bent for Leather Tanning</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Wood You Please</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Dubwise.Rimefeller</package_id>
+        <display_name>Rimefeller</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Core SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Materials Science/About/Preview.jpg</preview_image>
   </repository>
   <repository>
