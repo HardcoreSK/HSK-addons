@@ -84,11 +84,26 @@ P.S. Данная модификация может вызвать жжение 
     <owner>ArpoMo6</owner>
     <repo_name>Housekeeper-Assistance-Cat-HSK</repo_name>
     <mod_root_path>Housekeeper Assistance Cat HSK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>HousekeeperAssistanceCat</name>
+    <description>
+Unofficial update for HousekeeperAssistanceCat mod by Edge Crescent. While using the same assets, background logic for cleaning tasks is fully reworked. Their ability to reproduce is disabled, so you can only tame or buy them (you can edit the mod's LifeStages.xml to re-enable it).
+
+This mod adds a new kind of animal - Housekeeper Cat. When Obedience is trained, they are able to do cleaning tasks. They are also eligible for hauling training. As a bonus, they can produce small amounts of quality wool.
+
+Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color generation (white, black, gray, red and brown).
+
+Неофициальное обновление мода HousekeeperAssistanceCat mod (автор Edge Crescent). Здесь должно быть описание, связанное с переделкой логики уборки, но качественно перевести я это не сумел. Возможность размножения выключена ориг. автором, поэтому котиков можно получить только купив или приручив их (размножение можно включить в папке с модом в файле LifeStages.xml).
+
+Этот мод добавляет новый вид животных – Housekeeper Cat. После обучения преданности, они получают возможность уборки. Они также могут быть обучены переноске (имейте в виду, что переноска имеет более высокий приоритет, чем уборка) и производят небольшое количество качественной шерсти в качестве маленького бонуса.
+
+Неофициальная адаптация модификации под сборку HardCore SK (автор ArpoMo6) с добавлением генерации окраски (белый, чёрный, серый, рыжий и бурый).
+	</description>
+    <package_id>Oblitus.HousekeeperAssistanceCat</package_id>
     <last_commit_time>2024-12-25T12:22:00+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -234,11 +249,76 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-Milira-Race</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Milira Race (HSK/CE Patched, All-in-One)</name>
+    <description>HSK/CE-patched all-in-one fork of the Milira Race mod.
+
+ABSORBED MODS (do not enable separately):
+  - Milira Race            (workshop 3256974620, Ancot)
+  - Milira Race Gene Patch (workshop 3257000248, Ancot)
+  - Milira CE Patch        (workshop 3410567648, pntfvur)
+
+All three are bundled. Disable the originals and enable this fork instead.
+
+--- HSK CONVERSIONS ---
+
+* All raw ore costs converted to HSK refined materials:
+  - Steel       -&gt; SteelBar
+  - Gold        -&gt; GoldBar
+  - Silver      -&gt; SilverBar
+  - Uranium     -&gt; DepletedUranium
+  - Plasteel    -&gt; Plasteel (HSK refined, kept as-is)
+
+* Weapon recipes follow HSK class-component pipeline where applicable:
+  - Pistol-tier  -&gt; Pistol_Component + Weapon_Parts + Plastic
+  - Rifle-tier   -&gt; AdvRifle_Component + Charged_Component + Weapon_Parts + Plastic
+  - Heavy-tier   -&gt; Heavy_Component + Charged_Component + Weapon_Parts + Plastic
+
+* Apparel rebalanced to HSK premium-craftable patterns where applicable.
+
+* CE patches load conditionally via Patches-CE/ when CE is active.
+
+* Biotech gene patch merged into 1.5/Mods/Biotech (only loads with Biotech DLC).
+
+Original mod by Ancot. CE patches by pntfvur. HSK conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Alien Races, Ancot Library.</description>
+    <package_id>CarbineAction.HSK.Milira.Race</package_id>
     <last_commit_time>2026-06-25T16:24:08+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/839005762</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ancot.AncotLibrary</package_id>
+        <display_name>Ancot Library</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3173351313</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-Milira-Race/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -675,11 +755,52 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Saurid</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Saurid (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Saurid, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Saurid mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Saurid alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VRESaurids_ScaleSkin gene — natural scale armor rescaled to HSK CE values (Sharp 4 / Blunt 4, between bare skin and light flak; Pacas's vanilla CE values of 1.0/1.0 were functionally useless under HSK CE math)
+- VRESaurids_SauridClaws hediff — claws verb converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration
+
+Saurid is a content-light race (no recipes, no buildings, no costLists, no weapons, no apparel). All HSK material conventions are preserved by default since there's nothing to convert.
+
+Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>CarbineAction.HSK.VRE.Saurid</package_id>
     <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Saurid/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -995,11 +1116,62 @@ Albion - C# coding
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Ancients</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VFE Ancients (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Ancients, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, legodude17. This patch version rebalances ingredients to HSK's refined-metal economy, gates Ancient Soldier raids to late-game wealth thresholds, and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+INGREDIENTS — All raw &lt;Steel&gt; ingredient references (used as material costs in vault buildings, sentry guns, and ancient-tech recipes) have been swapped to &lt;SteelBar&gt; (HSK refined metal) with 1:5 scaling, since HSK's "Steel" is raw iron ore and SteelBar is the refined product. Plasteel, ComponentIndustrial, and ComponentSpacer references are preserved (HSK uses these names natively).
+
+RAID GATING — VFEA_AncientSoldiers faction has a raidCommonalityFromPointsCurve added that gates raid eligibility to 1500+ raid points (~80k wealth, mid-late game). Without this, ancient soldiers could be picked by the storyteller for early-game tribal raids despite being spacer-tier supersoldiers. Vault-spawned ancients (when the player breaks into a sealed vault) are unaffected — those use a separate spawn mechanism, not the raid system, so the player can still encounter them on demand.
+
+--- PRESERVED ---
+
+Full VFE Ancients gameplay:
+- Hidden + Sealed + Looted vault scattering on the world map
+- Ancient burst-signal interception quest line
+- Super-soldier nanite injection workshop with ability tree
+- Vault scenarios (start as a vault guard)
+- Custom faction soldiers, sentry guns, abilities, and lore content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Ancients\) bundled and gated by IfModActive="CETeam.CombatExtended" in LoadFolders.xml. Covers:
+- Symbol defs (custom gen)
+- CustomGenDefs vault layouts
+- Hediff-driven super-soldier ability stat patches
+- Ability damage / verb patches
+- Ancient soldier PawnKindDefs (CE armor/weapon/ammo loadouts)
+- Sentry gun ThingDef (CE turret stats + ammo)
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Ideology DLC.
+NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Ancients</package_id>
     <last_commit_time>2026-06-13T14:33:09+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Ideology</package_id>
+        <display_name>Ideology</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VFE-Ancients/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1392,28 +1564,35 @@ Required: Hardcore SK, Combat Extended.</description>
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Deadlife</mod_root_path>
-    <name>VQE Deadlife (HSK/CE Patched)</name>
-    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — Deadlife, tuned for the Hardcore SK modpack.
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
+    <last_commit_time>2026-06-12T09:48:18+00:00</last_commit_time>
+    <supported_versions/>
+    <preview_image>HSK-VQE-Deadlife/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1226738266</repo_id>
+    <owner>carbineact1on</owner>
+    <repo_name>HSK-VQE-Collection</repo_name>
+    <mod_root_path>HSK-VQE-Generator</mod_root_path>
+    <name>VQE Generator (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — The Generator, tuned for the Hardcore SK modpack.
 
-This bundles the upstream VQE Deadlife mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VQE Deadlife alongside this — they would duplicate each other's defs.
+This bundles the upstream VQE Generator mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VQE Generator alongside this — they would duplicate each other's defs.
 
 HSK/CE patches included:
-- Material swaps on deconstructable ancient structures so deconstruction returns HSK-native refined materials:
-  * Steel → SteelBar (Open/Closed Deadlife caskets, Dormant/Ancient Military Turrets, Kino Screen, Kino Projector)
-  * Uranium → DepletedUranium (Open/Closed Deadlife caskets)
-  * +ComponentIndustrial / +ComponentSpacer / +Plasteel layers added per HSK tech tier (industrial vs ultratech)
+- Material swaps on all 16 ARC genetrons (Basic, Wood-fired ×4, Chemfuel ×4, Geothermal ×4, Nuclear ×4) and 7 ruined ancient ARC structures so deconstruction returns HSK-native refined materials:
+  * Steel → SteelBar
+  * Uranium → DepletedUranium
+  * Gold → GoldBar (HSK refined alloy)
+- Plasteel / ComponentSpacer / ComponentIndustrial left as-is (already HSK-native)
+- HSK CE armor rescale on the Ancient Tight Parka (Sharp 8 / Blunt 4 + Bulk 4.0 / WornBulk 1.4).
 
-- Combat Extended patches for the 4 ancient weapons (Autopistol, Machine Pistol, Pump Shotgun, LMG) so they fire correctly under HSK CE:
-  * 9×19mm Parabellum (Autopistol + Machine Pistol)
-  * 12 Gauge Buckshot (Pump Shotgun)
-  * 7.62×51mm NATO (LMG)
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Bread mo. HSK/CE conversion by CarbineAction.
 
-- HSK CE armor rescale on the Military Coat (Sharp 8 / Blunt 4 + Bulk 4.0 / WornBulk 1.4).
-
-Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Ferny. HSK/CE conversion by CarbineAction.
-
-Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
-    <package_id>CarbineAction.HSK.VQE.Deadlife</package_id>
+Required: Hardcore SK, Combat Extended.</description>
+    <package_id>CarbineAction.HSK.VQE.Generator</package_id>
     <last_commit_time>2026-06-12T09:48:18+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
@@ -1440,18 +1619,6 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
         <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
       </dependency>
     </mod_dependencies>
-    <preview_image>HSK-VQE-Deadlife/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>1226738266</repo_id>
-    <owner>carbineact1on</owner>
-    <repo_name>HSK-VQE-Collection</repo_name>
-    <mod_root_path>HSK-VQE-Generator</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
-    <last_commit_time>2026-06-12T09:48:18+00:00</last_commit_time>
-    <supported_versions/>
     <preview_image>HSK-VQE-Generator/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1495,11 +1662,16 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>Elldar112</owner>
     <repo_name>Eccentric-Tech-Series-HSK</repo_name>
     <mod_root_path>Eccentric Tech - Core SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Eccentric Tech - Core HSK</name>
+    <description>Core mod for Eccentric Tech. Adds research, buildings, and materials required to produce advanced weapons, apparel, and gear.  HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.Core</package_id>
     <last_commit_time>2026-02-23T22:11:10+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
     <preview_image>Eccentric Tech - Core SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1507,11 +1679,32 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>Elldar112</owner>
     <repo_name>Eccentric-Tech-Series-HSK</repo_name>
     <mod_root_path>Eccentric Tech - Defense Grid SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Eccentric Tech - Defense Grid HSK</name>
+    <description>Adds networked shield generators, laser-designated missile artillery batteries, and remote turret controllers for high-tech colony defense options.  HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.DefenseGrid</package_id>
     <last_commit_time>2026-02-23T22:20:31+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Aelanna.EccentricTech.Core</package_id>
+        <display_name>Eccentric Tech - Core</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Eccentric Tech - Defense Grid SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1519,11 +1712,27 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>Elldar112</owner>
     <repo_name>Elldar-Tweaks</repo_name>
     <mod_root_path>Elldar Patches</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Elldar's Patches Compilation</name>
+    <description>
+Various Patches for HSK.
+
+Mostly Architect Sense support and research changes, but some mods have been fully patched. Some patches are still WIP, more will come.
+
+Some of the mods I've patched didn't had their version tag updated, but they still work. To avoid wrong version warning I suggest using Mlie's No Version Warning mod.
+
+- Includes Bodyrestoration cycle from Nelson's old 1.3 patches.
+- Includes SmootherTerraforming by Pro_Triforcer, now fixed to work with Vile's Biome mods.
+- Includes presets for Show Me Your Hands for many modded weapons.
+	</description>
+    <package_id>Elldar.tweaks</package_id>
     <last_commit_time>2026-06-28T19:38:22+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.2</version>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
     <preview_image>Elldar Patches/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1619,11 +1828,26 @@ Remake for HSK by Elldar
     <owner>kasirii</owner>
     <repo_name>VanillaStorytellersExpanded-WinstonWave-HSK</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vanilla Storytellers Expanded - Winston Waves - HSK</name>
+    <description>Vanilla Storytellers Expanded - Winston Waves is a unique type of storyteller that introduces a brand new game mode called Wave Survival. Unlike Igor, and other raid-spawning storytellers, Winston Waves has a complex system of threat and reward that scales the more waves the player has survived.
+
+Push back the enemies to receive rewards. Expand your base using regular RimWorld mechanics, but be prepared that your actual game flow will be tested by constant raids that can only get harder! 
+
+Winston is a battle-hardened combat expert, and he believes that through combat, one can find themselves for who they really are. Every day you will be attacked by enemy waves increasing in size, but you will be rewarded for each victory.
+  
+  HSK conversion made by Kasiri.</description>
+    <package_id>VanillaStorytellersExpanded.WinstonWaveHSK</package_id>
     <last_commit_time>2026-02-16T21:23:41+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1705,11 +1929,75 @@ Supports Combat Extended Extended Loadout (PersonalLoadout).
     <owner>linyaDev</owner>
     <repo_name>HSKFaith</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>HMC Beliefs</name>
+    <description>
+[English]
+Reworked faith system. Requires Ideology DLC.
+
+Each belief gets additional unique gameplay mechanics.
+Some beliefs received stat bonuses, starting items and research to be more playable.
+
+The main goal is to bring fun new gameplay (especially in early colony).
+You can now roleplay a colony of:
+- animal tamers who sic wild beasts on raiders
+- swift warriors who thrive in darkness but weaken in light
+- blind psionics who developed their powers through loss of sight
+- fast and agile nudists (nothing holds them back anymore)
+- gender or racial supremacy fanatics (time to show them their place)
+
+Features:
+- Belief balance reworked — powerful beliefs now require behavioral counterweights
+- New faith point system — the core mechanic of the mod
+- Unique gameplay mechanics for each belief (nudism, cannibalism, darkness, nature, bloodfeeding, and more)
+- Progress bars with seasonal rewards and penalties
+- Stat modifiers, hediffs, and starting bonuses tied to your ideology
+- Reworked certainty system — Pastor role and holidays are more impactful
+- Converting outsiders to your faith is harder
+- Reworked ideology development point system
+- Faith overview panel with progress tracking and event log
+
+---
+
+[Russian]
+Переработаная система веры. Требует DLC Ideology.
+
+Каждое убеждение получает дополнительную уникальную игровую механику.
+Некоторые убеждения получили бонусы к характеристикам, стартовые предметы и исследования, что бы быть более играбельными.
+
+Освновная цель мода, дать новый прикольный геймплей. (особенно на старте колонии).
+Вы теперь можете отыграть колонию:
+- через натравливание прирученных диких животных на рейдеров
+- быстрых войнов которые сильны в темноте , но слабеют на свету
+- слепых псиоников, развивщих свои способности благодар потери возможности видеть.
+- быстрые, но ловкие нудисты. (ничто больше не сковывает их движения)
+- фанатиков гендерного или расового превосходства (пора бы показать где этим мужланам место)
+
+
+Особенности:
+- Баланс убеждений переработан — мощные бонусы требуют компромиссов
+- Новая система очков веры — центральная механика мода
+- Уникальные игровые механики для каждого убеждения (нудизм, каннибализм, тьма, природа, кровопийство и др.)
+- Шкалы прогресса с сезонными наградами и штрафами
+- Модификаторы характеристик, хедиффы и стартовые бонусы, привязанные к идеологии
+- Переработана система уверенности в веру — роль пастора и праздники стали более значимыми
+- Обращение иноверцев в свою веру стала сложнее
+- Переработана система очков развития идеологии
+- Информационная панель с прогрессом веры и журналом событий
+
+	</description>
+    <package_id>linya.hskfaith</package_id>
     <last_commit_time>2026-06-03T09:21:16+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2119,60 +2407,11 @@ Pacas (me) for doing a HSK convertion.
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Dinosauria/Dinosauria SK</mod_root_path>
-    <name>Dinosauria</name>
-    <description>Description
-What if we were to finally discover dinosaur DNA sequences, despite being incomplete, and fill the blanks with various genome sequences spliced from left and right, with a little bit of imagination to help guide us?
-
-Wonder no more! A group of Glitterworld scientists, having long abandoned the ideals to terraform the rimworlds with a purpose, went out of their ways to answer just that. With the mechanoids long having gone haywire with their terraforming projects, the dinosaurs created in labs were slowly introduced into fauna that should otherwise have resembled a 21st Century Earth, with little to no care as to their compatibility with existing wildlife and the forsaken rimworld colonists, the latter of which nobody seems to care about anyway.
-
-Dinosaurs
-32 new species of dinosaurs are introduced through this mod, all of which spawn in various different biomes:
-- Ankylosaurus,
-- Brachiosaurus,
-- Brontosaurus,
-- Utahraptor,
-- Gallimimus,
-- Iguanodon,
-- Pachycephalosaurus,
-- Parasaur,
-- Spinosaurus,
-- Stegosaurus,
-- Triceratops,
-- Tyrannosaurus Rex,
-- Velociraptor,
-- Carnotaurus,
-- Protoceratops,
-- Yutyrannus,
-- Corythosaurus,
-- Diplodocus,
-- Dryosaurus,
-- Baryonyx,
-- Dilophosaurus,
-- Compsognathus,
-- Therizinosaurus,
-- Minmi,
-- Gigantoraptor,
-- Dakotaraptor,
-- Deinocheirus,
-- Pteranodon,
-- Stygimoloch,
-- Quetzalcoatlus,
-- Magyarosaurus,
-- Allosaurus.
-
----
-
-Have a comment on balance, on the sprites, or have a bug to report? Make sure to deliver your request nicely, and you shall be heard. Don't forget that nobody is entitled to anything, and us modders do these for the community and we enjoy giving. If you wish to use any part of this mod and make your work public, please just drop me a line out of courtesy. So, just be nice, play nice.
-
-Happy colonizing!
-</description>
-    <package_id>spincrus.dinosauria</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2024-09-10T00:52:56+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>Dinosauria/Dinosauria SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2710,11 +2949,15 @@ and Rimworld Korea Discord members.
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Seven Seraph Weapons/Seventh Seraph Weapons</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Seventh Seraph Weapons SK</name>
+    <description>This mod adds seventh seraph weapons from Destiny 2.</description>
+    <package_id>Seventh.Seraph.Weapons.SK</package_id>
     <last_commit_time>2024-09-10T00:52:56+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Seven Seraph Weapons/Seventh Seraph Weapons/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2722,11 +2965,34 @@ and Rimworld Korea Discord members.
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Core</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>SRTS Expanded - HSK Edition</name>
+    <description>These are flying caravans, meant to load people and cargo and bring it somewhere else -- potentially a very long distance, and back again. These act like drop pods, but are not one use -- when you bring it back home you choose where to land and disembark.
+
+Great for hauling cargo, trading with factions, assaulting points of interest on your world map, and so much more. Acts as both a caravan and a drop pod.
+
+A few additional role-specific short range transport shuttles (or SRTS) so you really can fly across the whole world and back again. All ships require their own research project, and they're not cheap. All passengers heal, rest, and eat while on board all transport shuttles, but some shuttles are easier than others to rest in.
+
+Conflicts
+- Multiplayer mod: You will not be able to actually load anything into the ship. It won't work. Sorry.
+    </description>
+    <package_id>smashphil.srtsexpanded</package_id>
     <last_commit_time>2024-09-14T18:27:03+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Dubwise.Rimatomics</package_id>
+        <display_name>Rimatomics</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/1127530465</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - Core/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2801,14 +3067,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Utility Columns/Utility Columns SK</mod_root_path>
-    <name>Utility Columns SK</name>
-    <description>Adds several types of utility column. All columns hold up the roof, beware of possible roof collapse when moving.</description>
-    <package_id>nephlite.orbitaltradecolumn</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2024-11-10T01:51:19+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>Utility Columns/Utility Columns SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3171,11 +3434,26 @@ Credits and Thanks to...
     <owner>TheLoneTec</owner>
     <repo_name>Ignorance-is-Bliss-SK</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Ignorance Is Bliss 1.5</name>
+    <description>
+Grants control over the tech level of factions that will visit you (whether via raid or other event).
+
+Changes From Original:
+- Added Option to restrict [RH] V.O.I.D events to be Ultratech rather than always available regardless of tech level
+	</description>
+    <package_id>dame.ignorance</package_id>
     <last_commit_time>2024-11-18T21:43:18+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -3506,11 +3784,14 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
     <owner>TheLoneTec</owner>
     <repo_name>Relation-Based-Trading</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Relation Based Trading</name>
+    <description>Adjusts trader stock based on faction relations. Better relations unlock higher tech level items. \n Thanks to Sonalt and help from Lightwave.</description>
+    <package_id>thelonetec.relationbasedtrading</package_id>
     <last_commit_time>2025-10-16T18:17:50+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3546,27 +3827,11 @@ See: https://github.com/zachary-foster/MineralsExtra for detailed documentation.
     <owner>TheLoneTec</owner>
     <repo_name>Soft-Warm-Beds-HSK</repo_name>
     <mod_root_path/>
-    <name>[JPT] Soft Warm Beds HSK</name>
-    <description>
-Have you ever wondered why is it that we just need stone blocks or steel to build a bed, while wool and fur pile up on the warehouse, unused? Do you get a feeling it would be way more comfortable to lay down on something soft? And what if that cozy bed could also help with the freezing cold? Well, that's what this mod is all about!
-Now your beds will only provide full comfort if you add some mattress, pillows and a blanket - or a bedding set, to simplify - which can be made at your regular tailor bench or crafting spot. More than that: depending on what these are made of, your beds can get even more comfortable than the regular ones, affecting their effectiveness in providing rest as well. Also, the material insulation properties carries over to the bed, helping keep your pawns warm.
-But blankets, of course, can't help with the heat. For those playing on tropical climates, we included a tropical alternative to beds: hammocks! How come nobody thought of that before? These cheap hanging rigs may not be as comfortable as a full bed, but they do help cooling off. And being cheap and light, they can also be used as travel beds, just like bedrolls!
-  </description>
-    <package_id>JPT.SoftWarmBedsHSK</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-04-15T18:04:31+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>UnlimitedHugs.HugsLib</package_id>
-        <display_name>HugsLib</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/818773962</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3714,32 +3979,11 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
     <owner>Watcher011</owner>
     <repo_name>HSK.Watcher.content.Fallout2</repo_name>
     <mod_root_path/>
-    <name>HSK Watcher Fallout2</name>
-    <description>
-	Огромная благодарность Дон Чипотль за предоставление Dll файлы https://www.youtube.com/@don_chipotle.
-	</description>
-    <package_id>HSK.Watcher.content.Fallout2</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2025-11-02T10:36:38+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Anomaly</package_id>
-        <display_name>Anomaly</display_name>
-        <steam_workshop_url>https://store.steampowered.com/app/2380740</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>EBSG.Framework</package_id>
-        <display_name>EBSG Framework</display_name>
-        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=3112549163</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3899,11 +4143,20 @@ CHANGE LOG  Update 1
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile REQUISITE - SK_Fences and Floors</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VileRequisite-Fences And Floors by HSK</name>
+    <description>
+This mod adds 4 new styles of flooring and 4 fences (3 perimeter fences and a smaller defensive barrier). Fences are gathered into their own menu category and research requirements have been applied where appropriate. Plywood paneling and the simple wood fence are available from the beginning and are relatively simple to construct. Upon completing the Machining research requirement access to chainlink fencing, high security fencing, the security barrier, steel grate flooring, and metal panel flooring is made available. The last addition, sensor panel flooring, becomes constructable upon completing a new research project: "Reactive Flooring."
+
+Some additions exhibit special qualities. Steel grating has an inherent bonus to cleanliness due to most dust and detritus falling cleanly through the grate. Wood and chainlink fences can be fired through while providing a small amount of cover. The security barrier can be walked over (though with some difficulty), much like vanilla sandbags, but still provide good cover from incoming fire. Lastly, sensor panels include advanced electronics, sensors, and networking components within their design. They are expensive and difficult to construct but react to the presence of pedestrians moving overhead by optimizing their surface to the users stride resulting in a more pleasant walk.
+
+Viles notes:
+Wood fence overwrites the new vanilla fence. Also changed some values here and there to work with my other mods.</description>
+    <package_id>skyarkhangel.FencesAndFloorsVileUpdate</package_id>
     <last_commit_time>2025-02-14T20:53:08+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Vile REQUISITE - SK_Fences and Floors/About/Preview.PNG</preview_image>
   </repository>
   <repository>
@@ -4598,42 +4851,11 @@ A0.2
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Mountains and Meadows</mod_root_path>
-    <name>Vile's Mountains and Meadows</name>
-    <description>
-Adds three biomes: 
-Prairie (a temperate grassland)
-Montane Forest (a boreal forest variation, less dense, may contain lakes)
-Montane Birch Grasslands (a cold grassland)
-Adds back Cloudberries, and a new flower, bluebells.
-
-
-Uses Odeum's Biomes Kit (details below) 
-
-BiomesKit is a framework for the placement of biomes on the world map at worldgen. Previously, modders needed to utilize C# to add new biomes to rimworld. With BiomesKit, placement of a biome can be controlled with XML tags in the BiomeDef itself.
-
-With BiomesKit as a dependency, you too can make your own biomes mod with minimal hassle! Features of BiomesKit includes but are not limited to:
-* Spawning biomes based on factors like elevation, rainfall, hilliness and more!
-* Restricting your biome to spawn only on specific vanilla biomes, or even biomes from other mods!
-* Changing the hilliness of a tile to a specific level, or even randomizing it!
-* Custom world map tile graphics for your biome!
-  </description>
-    <package_id>vileheathen.mountainsmeadows</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-05-29T11:40:22+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>xenomacabre.HSKBiomes</package_id>
-        <display_name>Vile's Biomes: From The Ground Up</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>Vile's Mountains and Meadows/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -4790,11 +5012,16 @@ Some other notable changes:
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>VileCoreTextureReplacementR2</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Core Texture Replacement</name>
+    <description>
+A halfway house for textures.
+
+</description>
+    <package_id>vitech.coretexturereplacement</package_id>
     <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
@@ -4802,20 +5029,11 @@ Some other notable changes:
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>VilesExtraFlavor</mod_root_path>
-    <name>Vile's Extra Flavor</name>
-    <description>
-This is a simple mod that adds new versions of existing apparel, currently just medieval. The stats are identical, but the names are slightly different, such as "bonnet" and "bonnet, brimmed", and the textures are alterled slightly for flavor.
-
-"Why?" you ask. 
-
-Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
-
-That's all.</description>
-    <package_id>vitech.extraflavor</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2024-11-12T18:40:55+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
