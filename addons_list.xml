@@ -326,11 +326,68 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Ali
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Android</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Android (HSK Patched)</name>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Android, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Android mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Android alongside this — they would duplicate each other's defs.
+
+HSK building rewrites (6 production/utility buildings):
+- All 6 buildings switched from fixed Steel/Gold to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
+- Added the HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) per building tier:
+  * VREA_AndroidStand — small storage furniture (minimal: stuff 50 + CompInd 1)
+  * VREA_AndroidPartWorkbench — industrial fabrication (CompInd 8 + ElecComp 2 + Mech 2 + Electronics 2)
+  * VREA_SubcorePolyanalyzer — ultratech analyzer (Plasteel 150 + CompSpacer 3 + ElecComp 2 + Microchips 2)
+  * VREA_AndroidCreationStation — high-tech assembler (CompInd 6 + CompSpacer 6 + ElecComp 3 + Microchips 3)
+  * VREA_AndroidBehavioristStation — software/programming bench (CompInd 4 + CompSpacer 4 + GoldBar 20 + ElecComp 2 + Microchips 2)
+  * VREA_NeutroCasket — neutroamine storage (CompInd 3 + ElecComp 1 + Mech 1)
+
+FULL HSK conversion on all 15 android body parts — rewritten to match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/BodyParts/. Android body parts are now PREMIUM endgame craftables using the same Hyperweave / CarbonAlloy / SyntheticFibers / Microchips / ComponentAdvanced / Biomatter / ArtificialBone / Paraffins / ReinforcedGlass profile that HSK bionic body parts use:
+
+- Heart-tier organs (Hyperweave-based): NeuroPump (BionicHeart), AirFilter (BionicLung), Neutrofilter (BionicKidney), MetabolismRegulator (BionicStomach + GoldBar)
+- Cybernetic top-tier (ArchotechHeart-style): Reactor (+DepletedUranium), ArtificialBrain
+- Sensory: OpticalUnit (BionicEye), AudioProcessor (BionicEar), ArtificialNose (simple bionic)
+- Skeletal/structural: ArtificialJaw (BionicJaw), ArtificialRibcage (BionicNeck-style), ArtificialSpine (BionicSpine + GoldBar)
+- Limbs: AndroidLeg (BionicLeg), AndroidFoot (BionicFoot), AndroidArm (BionicArm), AndroidHand (BionicHand)
+
+This makes building a full android a premium endgame project rather than a mid-game crafting goal — comparable to outfitting an entire colony with HSK bionic upgrades.
+
+No CE work needed — androids do not have natural melee weapons (their capability comes from installed bionic-class artificial body parts which are stat hediffs, not Verb-givers).
+
+Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
+    <package_id>CarbineAction.HSK.VRE.Android</package_id>
     <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Android/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1507,11 +1564,54 @@ Required: Hardcore SK, Combat Extended.</description>
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Deadlife</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VQE Deadlife (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — Deadlife, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VQE Deadlife mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VQE Deadlife alongside this — they would duplicate each other's defs.
+
+HSK/CE patches included:
+- Material swaps on deconstructable ancient structures so deconstruction returns HSK-native refined materials:
+  * Steel → SteelBar (Open/Closed Deadlife caskets, Dormant/Ancient Military Turrets, Kino Screen, Kino Projector)
+  * Uranium → DepletedUranium (Open/Closed Deadlife caskets)
+  * +ComponentIndustrial / +ComponentSpacer / +Plasteel layers added per HSK tech tier (industrial vs ultratech)
+
+- Combat Extended patches for the 4 ancient weapons (Autopistol, Machine Pistol, Pump Shotgun, LMG) so they fire correctly under HSK CE:
+  * 9×19mm Parabellum (Autopistol + Machine Pistol)
+  * 12 Gauge Buckshot (Pump Shotgun)
+  * 7.62×51mm NATO (LMG)
+
+- HSK CE armor rescale on the Military Coat (Sharp 8 / Blunt 4 + Bulk 4.0 / WornBulk 1.4).
+
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Ferny. HSK/CE conversion by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
+    <package_id>CarbineAction.HSK.VQE.Deadlife</package_id>
     <last_commit_time>2026-06-12T09:48:18+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VQE-Deadlife/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2684,11 +2784,65 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Megafauna/Megafauna SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Megafauna</name>
+    <description>Description
+Thanks to the wonders of today's technology, the small group of scientists that was previously known for bringing the Megatherium-
+Uh, I mean, the Megasloth back to life, was able to make the Megafauna Project a reality! 
+This time around, they were able to recreate 38 different species of animals that used to inhabit planet Earth thousands to millions years ago. 
+...Was that a wise move? Who cares! Now we all can feast our eyes on those glorious beasts as they will slowly inevitably turn all the ecosystems we know upside-down!
+
+Features
+38 new species of animals, all able to spawn naturally in different biomes:
+- Arthropleura,
+- Doedicurus,
+- Daeodon,
+- Gigantopithecus,
+- Paraceratherium,
+- Titanis,
+- Titanoboa,
+- Woolly Mammoth,
+- Elasmotherium,
+- Smilodon,
+- Chalicotherium,
+- Megaloceros,
+- Procoptodon,
+- Megalania,
+- Gomphotaria,
+- Diprotodon,
+- Short-faced Bear,
+- Dinocrocuta,
+- Sivatherium,
+- Andrewsarchus,
+- Dinornis,
+- Macrauchenia,
+- Quinkana,
+- Deinotherium,
+- Aurochs,
+- Megalochelys,
+- Palaeeudyptes,
+- Josephoartigasia,
+- Gigantophis,
+- Meganeura,
+- Zygolophodon,
+- Platybelodon,
+- Purussaurus,
+- Uintatherium,
+- Pulmonoscorpius,
+- Dinopithecus,
+- Castoroides,
+- Enhydriodon.
+
+These animals are quite rare, and should be a good challenge to either tame or slay. 
+A lot of them can also be used as pack animals for a caravan (with paraceratherium being your new best caravan buddy!).
+Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleura, titanis, titanoboa, megalania, dinornis, quinkana, megalochelys, palaeeudyptes, gigantophis, meganeura, and purussaurus do lay eggs. Sivatherium, macrauchenia, aurochs cows, and uintatherium are milkable - sivatherium's milk is very nutritious and quite valuable!
+</description>
+    <package_id>Spino.Megafauna</package_id>
     <last_commit_time>2025-06-13T13:19:47+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Megafauna/Megafauna SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2696,11 +2850,13 @@ Feel free to leave a comment and please report back any occuring bugs. And final
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Nerve and Gas Shells</name>
+    <description>This mod adds two mortar shells. The nerve gas shell that slowly kills any pawns near the gas cloud, and the sleep gas shell, that reduces the pawns consciousness up to downing them.</description>
+    <package_id>BIGWIK.NerveGasShells.sk</package_id>
     <last_commit_time>2022-10-01T20:31:14+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+    </supported_versions>
     <preview_image>Nerve and Sleep Gas Shells/Nerve and Sleep Gas Shells SK/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -2801,11 +2957,78 @@ and Rimworld Korea Discord members.
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Rabbie Race/Rabbie SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Rabbie The Moonrabbit race</name>
+    <description>
+
+    Rabbie The MoonRabbit Race
+
+    As you can see in the night sky, the moon exists in the Rimworld. And there are residents in the moon.
+    Rabbbies are races that migrate from moon to moon beyond the universe.
+    With a brilliant brain and close to Glitterworlds technology, they are prospering all universe by building a giant arcology, the moon city.
+
+     +Rabbie is smart and smart, and stands out in intellectual activities like research + 
+     -But they're mentally unstable, so they have higher mentalbreak threshhold - 
+     -and are more severely affected by Psychic waves - 
+     +Due to the long history of war, combat skills have been developed, allowing fast shooting and more accuracy + 
+     +They have also developed the ability to safely treat and operate on injured people and to synth drugs + 
+     -However, because of their weak body structure, they are very vulnerable to melee combat. - 
+     -they have lower carrying capacity and the lower speed of mining - 
+
+      Planetarium  
+
+    Long ago, the ancestors of Rabbie who were migrating were captured by Transcendent Planet and genetically manipulated throughout the Spaceship, they got excellent intellectual abilities, but in the absence of a special substance called Planetarium, they became lunatic.
+
+    The only places where Rabbitish empires can migrate are rare planets that can harvest planetarium. It is mostly because of the Planetarium that the soldiers of the empire and the Dept.Energysupply staffs come down to the planet and cause friction with Planet's natives or civilizations.
+    Rabbies are also enjoying this material, commonly called  'Spice' . A refined Planetarium can also be consumed, but it will give you a richer scent when you drink it with tea or cocktails and keep your more mental clearer.
+    Rabbie, who has consumed planetarium for a long time, is said to have the ability to see a blurry but short future and have an amazing shooting ability.
+
+    You can also replenish Planetarium, at least in part, by ingesting Braincrystal-the nervous system in which planetarium is crystallized-which can be found when you open the head of a deceased Rabbie. It's a scary story.
+    Wherever Rabbies are, saving planetarium will be a top priority. Otherwise, you may have a terrible ending.
+
+      New faction, Rabbitish Empire  
+    The Rabbitish empire migrates to the moons of several planets for a long time to build a city, but because of its long distance, it cuts off from the empires of the previous universe and elects a new empress of the universe.
+    The Rabbitish empire's policy on the planet depends on Empress's thinking and the development of the moon city.
+    Rabbitish Soldiers and scientists on the planet are in duty of the enormous energy and planetarium needs of the moon city and its citizens.
+    They may be exclusive or hostile at first, but they will usually be indifferent if they feel not threatening to their work or if you are cooperative.
+
+    Make hostile impressions on them, or do not let your forces feel threats to them.
+    If your settlement is both, be careful! The Rabbitish Empire is a country with a lot of war experience. They have been at war with the inhabitants of various planets, and victory against many of civilizations. If they think you threaten the empire, you'll be attacked with advanced technology.
+    do not recommend shooting against them like line-infantry. because it's the beneficial combat of the Rabbitish Empire. They will be relatively weak before melee.
+    Their army consists of a field army of Rabbie citizens and a regular army descending in space with power armor.
+
+      Two Storytellers  
+    Cele Jackrabbit - Cele Jackrabbit is a senior officer in the Rabbitish Empire. Drink spice tea together in her flagship, and carefully listen to the War of the Rabbitish Empire and the history of blood (most events are replaced by raids, increasing in difficulty and preparing for war. )
+
+    Luna Jackrabbit - (Coming soon) Cele's sister, Luna, is Scientist of Dept.energysupply. She is working to cure the mental problems that Rabbie race has brought down from now on. she say quiet and clearly, but you will be listens to increasingly confusing and scary stories.
+
+      etc  
+     Various Pawn Customizing 
+     Various ability-enhancing clothing 
+     Over 120 backstories 
+
+    Rabbie race mod allows you to customize your pawn by combining different pretty outfits and colors.
+    Give your pawns a unique personality by mixing different face, ear shapes and hairstyles.
+    All Rabbie apparel also fit perfectly with vanilla outfits, with proper in-game balancing.
+
+    Rabbie race mod seeks to enrich the enjoyment of vanilla play.
+    Rabbie's equipment is expensive and requires a long time to craft, and you will still need vanilla weapons and equipment to survive.
+    Also, other clothing and equipment mods can be used naturally.
+
+  </description>
+    <package_id>RunneLatki.RabbieRaceMod.sk</package_id>
     <last_commit_time>2025-04-03T12:40:08+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races 2.0</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Rabbie Race/Rabbie SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -4853,11 +5076,25 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Sow Farm Sow Good</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Sow Farm Sow Good</name>
+    <description>lorem ipsum</description>
+    <package_id>vitech.farmingoverhaul</package_id>
     <last_commit_time>2026-05-29T11:40:22+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>xenomacabre.HSKBiomes</package_id>
+        <display_name>Vile's Biomes: From The Ground Up</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>ViTech.HCSKWood</package_id>
+        <display_name>Vile's Wood You Please</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
