@@ -1665,6 +1665,27 @@ Required: Hardcore SK, Combat Extended.</description>
     <preview_image>HSK-VQE-Generator/About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1299095241</repo_id>
+    <owner>Duncanois</owner>
+    <repo_name>HSK-More-injuries-Continued</repo_name>
+    <mod_root_path/>
+    <name>More Injuries (Continued)</name>
+    <description>The More Injuries mod aims to increase the simulation depth of RimWorld's medical system by adding a variety of new injuries, medical conditions, and treatment options, as well as simulating body part damage in more detail. Its goal is to make the medical system more challenging and interesting in some aspects, while also making it more realistic and immersive. A detailed mod settings menu is provided to allow players to customize many aspects of the mod to their liking.</description>
+    <package_id>Th3Fr3d.ExtendedInjuries</package_id>
+    <last_commit_time>2026-07-13T09:46:06+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>643584152</repo_id>
     <owner>Elldar112</owner>
     <repo_name>Craftable-Mech-Serum</repo_name>
