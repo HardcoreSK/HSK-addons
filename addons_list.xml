@@ -2105,6 +2105,34 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1254611622</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKMoreHardcore</repo_name>
+    <mod_root_path/>
+    <name>HSK More Hardcore</name>
+    <description>
+[English]
+Balance mod for Hardcore SK. Changes economy, loot, medicine, crafting and trading. Adds new mechanics and modifies existing ones to make survival harder and more meaningful.
+
+[Russian]
+Балансный мод для Hardcore SK. Изменяет экономику, лут, медицину, крафт и торговлю. Добавляет новые механики и изменяет существующие, чтобы выживание стало сложнее и осмысленнее.
+	</description>
+    <package_id>linya.hskmorehardcore</package_id>
+    <last_commit_time>2026-07-15T19:20:11+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
     <repo_id>1254688409</repo_id>
     <owner>linyaDev</owner>
     <repo_name>HSKWealthDelta</repo_name>
