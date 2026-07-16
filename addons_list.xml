@@ -689,7 +689,7 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
       </dependency>
     </mod_dependencies>
-    <preview_image>N/A</preview_image>
+    <preview_image>HSK-VRE-Phytokin/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>1224832089</repo_id>
