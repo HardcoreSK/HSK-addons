@@ -1954,7 +1954,7 @@ Supports Combat Extended Extended Loadout (PersonalLoadout).
 Поддержка Combat Extended Extended Loadout (PersonalLoadout).
     </description>
     <package_id>linya.cequickloadout</package_id>
-    <last_commit_time>2026-07-16T22:33:02+00:00</last_commit_time>
+    <last_commit_time>2026-07-19T22:34:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2118,7 +2118,7 @@ Balance mod for Hardcore SK. Changes economy, loot, medicine, crafting and tradi
 Балансный мод для Hardcore SK. Изменяет экономику, лут, медицину, крафт и торговлю. Добавляет новые механики и изменяет существующие, чтобы выживание стало сложнее и осмысленнее.
 	</description>
     <package_id>linya.hskmorehardcore</package_id>
-    <last_commit_time>2026-07-19T19:23:56+00:00</last_commit_time>
+    <last_commit_time>2026-07-19T22:08:27+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
