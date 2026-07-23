@@ -1986,10 +1986,9 @@ Supports Combat Extended Extended Loadout (PersonalLoadout).
 Трекер разнообразия еды за 7 дней. Колонисты запоминают что ели и хотят разнообразную еду. Разнообразие повышает настроение (+6), однообразие сильно ухудшает (до -16). Новые колонисты получают 3 дня адаптации. Требуемое разнообразие зависит от уровня технологий и биома.
 	</description>
     <package_id>linya.hskdiettracker</package_id>
-    <last_commit_time>2026-06-20T12:39:45+00:00</last_commit_time>
+    <last_commit_time>2026-07-23T22:59:37+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
-      <version>1.6</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -2194,7 +2193,7 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
 		- Seed please: show skill &amp; tech requirement on seed info tab;
 	</description>
     <package_id>regex.SKP</package_id>
-    <last_commit_time>2026-07-23T00:54:48+00:00</last_commit_time>
+    <last_commit_time>2026-07-23T23:34:59+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
