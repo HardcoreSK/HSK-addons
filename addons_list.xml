@@ -1970,7 +1970,7 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout).
 Поддержка Combat Extended ExtendedLoadout (PersonalLoadout).
     </description>
     <package_id>linya.cequickloadout</package_id>
-    <last_commit_time>2026-07-26T08:37:38+00:00</last_commit_time>
+    <last_commit_time>2026-07-26T22:26:39+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2077,7 +2077,7 @@ Features:
 
 	</description>
     <package_id>linya.hskfaith</package_id>
-    <last_commit_time>2026-07-25T20:36:43+00:00</last_commit_time>
+    <last_commit_time>2026-07-26T22:23:43+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
