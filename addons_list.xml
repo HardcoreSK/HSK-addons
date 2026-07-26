@@ -1934,27 +1934,43 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>CE Quick Loadout</name>
     <description>
 [English]
-Right-click items on the map to manage CE loadouts without opening the manager.
+Right-click items on the map to manage CE loadouts and outfits.
 
-Select an item on the map, right-click to see options:
-- Add to colonist — submenu with colonist list, hover to see current loadout
-- Add to existing loadout
-- Create new loadout — opens CE manager with the item
+Weapons/Tools:
+- Add/remove from loadout — by colonist (personal) or shared loadout
+- Create new loadout
+- Ammo info tooltip
+- Auto weapon upgrade — finds better quality weapons automatically
+- Loadout warnings — overlay when ammo is low or weapon/tool is missing
 
-Supports Combat Extended Extended Loadout (PersonalLoadout).
+Apparel:
+- Add/remove from outfit
+- Change colonist outfit, create new outfit
+- Outfit info tooltip
+- RPG Inventory integration — add/remove from outfit in inventory
+
+Supports Combat Extended ExtendedLoadout (PersonalLoadout).
 
 [Russian]
-Правый клик по предметам на карте для управления CE лоадаутами без открытия менеджера.
+Правый клик по предметам на карте для управления лоадаутами и гардеробами CE.
 
-Выделите предмет на карте, правый клик — опции:
-- Добавить колонисту — подменю со списком колонистов, при наведении видно текущий лоадаут
-- Добавить в существующий лоадаут
-- Создать новый лоадаут — открывает менеджер CE с предметом
+Оружие/Инструменты:
+- Добавить/удалить из лоадаута — колонисту (персональный) или общий
+- Создать новый лоадаут
+- Инфо о патронах
+- Автопоиск лучшего оружия
+- Предупреждения — если мало патронов или нет оружия/инструмента
 
-Поддержка Combat Extended Extended Loadout (PersonalLoadout).
+Одежда:
+- Добавить/удалить из гардероба
+- Сменить гардероб колонисту, создать новый гардероб
+- Инфо о гардеробе
+- Интеграция с RPG Inventory — добавить/удалить из гардероба в инвентаре
+
+Поддержка Combat Extended ExtendedLoadout (PersonalLoadout).
     </description>
     <package_id>linya.cequickloadout</package_id>
-    <last_commit_time>2026-07-25T17:31:10+00:00</last_commit_time>
+    <last_commit_time>2026-07-26T08:37:38+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
