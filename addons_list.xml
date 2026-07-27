@@ -250,7 +250,9 @@ All logs are prefixed with [Mod Fixes Pack] for easy filtering in the debug cons
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-Milira-Race</mod_root_path>
     <name>Milira Race (HSK/CE Patched, All-in-One)</name>
-    <description>HSK/CE-patched all-in-one fork of the Milira Race mod.
+    <description>IMPORTANT: this bundle uses the ORIGINAL mod's packageId so translations, animation mods and cross-mod patches detect it. Do NOT keep the Steam Workshop original installed alongside this, delete/unsubscribe it or the game reports a duplicate packageId error.
+
+HSK/CE-patched all-in-one fork of the Milira Race mod.
 
 ABSORBED MODS (do not enable separately):
   - Milira Race            (workshop 3256974620, Ancot)
@@ -282,8 +284,8 @@ All three are bundled. Disable the originals and enable this fork instead.
 Original mod by Ancot. CE patches by pntfvur. HSK conversion + bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Alien Races, Ancot Library.</description>
-    <package_id>CarbineAction.HSK.Milira.Race</package_id>
-    <last_commit_time>2026-06-25T16:24:08+00:00</last_commit_time>
+    <package_id>Ancot.MiliraRace</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -356,8 +358,8 @@ No CE work needed — androids do not have natural melee weapons (their capabili
 Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
-    <package_id>CarbineAction.HSK.VRE.Android</package_id>
-    <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.android</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -423,8 +425,8 @@ Faction raid gating:
 Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha. HSK/CE conversion + bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC, Royalty DLC.</description>
-    <package_id>CarbineAction.HSK.VRE.Archon</package_id>
-    <last_commit_time>2026-06-12T10:50:31+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.archon</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -483,8 +485,8 @@ Genie has no CE-relevant content (no recipes with raw materials, no buildings, n
 Original mod by Oskar Potocki and Sarg Bjornson. HSK antibiotics redirect by Pacas. Bundling and HSK integration by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
-    <package_id>CarbineAction.HSK.VRE.Genie</package_id>
-    <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.genie</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -541,8 +543,8 @@ Hussar is content-light (no recipes, no buildings, no costLists, no weapons, no 
 Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
-    <package_id>CarbineAction.HSK.VRE.Hussar</package_id>
-    <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.hussar</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -604,8 +606,8 @@ No work needed for: AcidBurstSack/ChemfuelSacks (use AnimalBehaviours explosion 
 Original mod by Oskar Potocki, Taranchuk, Sarg Bjornson. HSK/CE conversion + bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. VFE Insectoid 2 cross-mod patches (InsectRostrum, MineralRichInsectskin) only fire when that mod is active.</description>
-    <package_id>CarbineAction.HSK.VRE.Insector</package_id>
-    <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.insector</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -769,8 +771,8 @@ Saurid is a content-light race (no recipes, no buildings, no costLists, no weapo
 Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
-    <package_id>CarbineAction.HSK.VRE.Saurid</package_id>
-    <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.saurid</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -821,8 +823,8 @@ No CE work needed. Waster's 17 pollution-themed genes (ToxAbsorption, PollutionR
 Original mod by Oskar Potocki, Sarg Bjornson. HSK patch and bundling by CarbineAction.
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
-    <package_id>CarbineAction.HSK.VRE.Waster</package_id>
-    <last_commit_time>2026-06-12T09:48:09+00:00</last_commit_time>
+    <package_id>vanillaracesexpanded.waster</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -861,7 +863,9 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-Wolfein-Race</mod_root_path>
     <name>Wolfein Race (HSK/CE Patched, All-in-One)</name>
-    <description>HSK/CE-patched all-in-one fork of the Wolfein Race mod.
+    <description>IMPORTANT: this bundle uses the ORIGINAL mod's packageId so translations, animation mods and cross-mod patches detect it. Do NOT keep the Steam Workshop original installed alongside this, delete/unsubscribe it or the game reports a duplicate packageId error.
+
+HSK/CE-patched all-in-one fork of the Wolfein Race mod.
 
 ABSORBED MODS (do not enable separately):
   - Wolfein Race           (workshop 3473140562, MelonDove + Ancot)
@@ -942,8 +946,8 @@ NOT compatible with:
   - MelonDove.WolfeinRace (original Wolfein Race) — disable, enable this instead
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
-    <package_id>CarbineAction.HSK.Wolfein.Race</package_id>
-    <last_commit_time>2026-06-27T12:14:12+00:00</last_commit_time>
+    <package_id>MelonDove.WolfeinRace</package_id>
+    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
