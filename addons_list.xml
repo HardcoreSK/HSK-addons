@@ -947,7 +947,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>MelonDove.WolfeinRace</package_id>
-    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
+    <last_commit_time>2026-07-27T21:11:56+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1155,7 +1155,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions 
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Ideology DLC.
 NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Ancients</package_id>
-    <last_commit_time>2026-06-13T14:33:09+00:00</last_commit_time>
+    <last_commit_time>2026-07-27T21:21:01+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
