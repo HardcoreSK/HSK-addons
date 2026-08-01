@@ -285,7 +285,7 @@ Original mod by Ancot. CE patches by pntfvur. HSK conversion + bundling by Carbi
 
 Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Alien Races, Ancot Library.</description>
     <package_id>Ancot.MiliraRace</package_id>
-    <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
+    <last_commit_time>2026-08-01T11:12:18+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -947,7 +947,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>MelonDove.WolfeinRace</package_id>
-    <last_commit_time>2026-07-28T20:29:54+00:00</last_commit_time>
+    <last_commit_time>2026-08-01T11:12:18+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
