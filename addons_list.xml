@@ -947,7 +947,7 @@ NOT compatible with:
   - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
   - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
     <package_id>MelonDove.WolfeinRace</package_id>
-    <last_commit_time>2026-08-01T11:12:18+00:00</last_commit_time>
+    <last_commit_time>2026-08-05T14:34:04+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1296,7 +1296,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
-    <last_commit_time>2026-06-13T14:24:48+00:00</last_commit_time>
+    <last_commit_time>2026-08-05T14:40:40+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -1407,7 +1407,7 @@ Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions 
 Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
 NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
     <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
-    <last_commit_time>2026-08-01T11:08:07+00:00</last_commit_time>
+    <last_commit_time>2026-08-05T14:40:40+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
