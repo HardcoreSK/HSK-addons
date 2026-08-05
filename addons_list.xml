@@ -2616,22 +2616,6 @@ Happy colonizing!
     <repo_id>511907965</repo_id>
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
-    <mod_root_path>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls</mod_root_path>
-    <name>Eaves, Rafters and Mad Walls</name>
-    <description>Adds a self-destructing wall, burrowing wall, eaves, and rafters.</description>
-    <package_id>pacas.wallsandrafters.sk</package_id>
-    <last_commit_time>2025-03-27T13:00:56+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <preview_image>Eaves Rafters and Mad Walls/Eaves, Rafters and Mad Walls/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>511907965</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Edge of Descension Monoblades/Edge of Descension - Monoblades</mod_root_path>
     <name>Edge of Descension - Monoblades</name>
     <description>Descent into madness, crave violence and avenge yourself from your past mistakes.
@@ -3141,6 +3125,23 @@ and Rimworld Korea Discord members.
       </dependency>
     </mod_dependencies>
     <preview_image>Revia Race/Revia Race HSK/About/preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>511907965</repo_id>
+    <owner>pacas</owner>
+    <repo_name>Pacas-HSK-Patches</repo_name>
+    <mod_root_path>Roofs of the Rim/Roofs of the Rim</mod_root_path>
+    <name>Roofs of the Rim</name>
+    <description>Hey-hey people, eaves and rafters here.</description>
+    <package_id>pacas.wallsandrafters.sk</package_id>
+    <last_commit_time>2026-08-05T20:37:19+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <preview_image>Roofs of the Rim/Roofs of the Rim/About/Preview.png</preview_image>
   </repository>
   <repository>
     <repo_id>511907965</repo_id>
