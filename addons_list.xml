@@ -1823,7 +1823,7 @@ Some of the mods I've patched didn't had their version tag updated, but they sti
     <name>Fortifications - Neolithic HSK</name>
     <description>It has always been a problem to make their settlements secured since human existence, so this is the reason why people in each era have used their own wisdom to build various of fortifications.</description>
     <package_id>Aoba.Fortress.Neolithic</package_id>
-    <last_commit_time>2026-08-11T17:34:44+00:00</last_commit_time>
+    <last_commit_time>2026-08-12T08:41:13+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
