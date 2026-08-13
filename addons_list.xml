@@ -2137,7 +2137,7 @@ Balance mod for Hardcore SK. Changes economy, loot, medicine, crafting and tradi
 Балансный мод для Hardcore SK. Изменяет экономику, лут, медицину, крафт и торговлю. Добавляет новые механики и изменяет существующие, чтобы выживание стало сложнее и осмысленнее.
 	</description>
     <package_id>linya.hskmorehardcore</package_id>
-    <last_commit_time>2026-08-07T17:12:54+00:00</last_commit_time>
+    <last_commit_time>2026-08-09T12:01:56+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
@@ -2145,6 +2145,11 @@ Balance mod for Hardcore SK. Changes economy, loot, medicine, crafting and tradi
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
         <steam_workshop_url>N/A</steam_workshop_url>
       </dependency>
     </mod_dependencies>
