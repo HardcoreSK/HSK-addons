@@ -2100,7 +2100,7 @@ Features:
     <owner>linyaDev</owner>
     <repo_name>HSKFoodTracker</repo_name>
     <mod_root_path/>
-    <name>HSKFoodTracker</name>
+    <name>HSK Food Tracker</name>
     <description>
 [English]
 Shows a food supply widget on screen — how many days of food remain. Calculates per-pawn consumption (genes, traits, race). Click for detailed breakdown of meals vs raw food.
@@ -2109,7 +2109,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
 	</description>
     <package_id>linya.hskfoodtracker</package_id>
-    <last_commit_time>2026-06-28T09:46:30+00:00</last_commit_time>
+    <last_commit_time>2026-08-14T20:01:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -2137,7 +2137,7 @@ Balance mod for Hardcore SK. Changes economy, loot, medicine, crafting and tradi
 Балансный мод для Hardcore SK. Изменяет экономику, лут, медицину, крафт и торговлю. Добавляет новые механики и изменяет существующие, чтобы выживание стало сложнее и осмысленнее.
 	</description>
     <package_id>linya.hskmorehardcore</package_id>
-    <last_commit_time>2026-08-09T12:01:56+00:00</last_commit_time>
+    <last_commit_time>2026-08-14T19:36:48+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
     </supported_versions>
