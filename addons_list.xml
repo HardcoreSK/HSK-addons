@@ -2160,7 +2160,7 @@ Balance mod for Hardcore SK. Changes economy, loot, medicine, crafting and tradi
     <owner>linyaDev</owner>
     <repo_name>HSKWealthDelta</repo_name>
     <mod_root_path/>
-    <name>HSKWealthDelta</name>
+    <name>HSK Wealth Delta</name>
     <description>
 [English]
 Colony wealth diary. Advanced colony wealth tracking mod.
@@ -2178,16 +2178,17 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
 
 У вас же бывает такое, что вы чего-то налутали вчера и стоимость колонии выросла на огромное число? Всегда хотелось посмотреть какого мусора насобирал — теперь можно.
 
-- Отслеживание изменений богатства за день, квадрум или год
+- Отслеживание изменений богатства за день, квартал или год
 - 2 режима: за N дней или между определёнными днями
 - Показывает какие предметы, здания и пешки появились или исчезли
 - Категории, сортировка, сворачиваемые группы
 - Перемещаемый виджет богатства
 	</description>
     <package_id>linya.hskwealthdelta</package_id>
-    <last_commit_time>2026-07-27T17:45:01+00:00</last_commit_time>
+    <last_commit_time>2026-08-15T07:30:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
+      <version>1.6</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
