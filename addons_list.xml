@@ -469,11 +469,54 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC,
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Genie</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Genie (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Genie, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Genie mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Genie alongside this — they would duplicate each other's defs.
+
+HSK integration (adapted from Pacas Patches Compilation):
+- Removes the standalone VRE_Antibiotics drug item, ChemicalDef, NeedDef, Tolerance, and Addiction hediffs — these don't fit HSK's medical economy where MedicalDrink already serves the antibiotic role
+- Removes AddictionResistant_VRE_Antibiotics gene from the Genie xenotype (no longer needed since the drug is gone)
+- Patches HSK's MedicalDrink (Items_Meals_Medical.xml from Core_SK) to grant the VRE_AntibioticsHigh hediff via VanillaRacesExpandedGenies.IngestionOutcomeDoer_GiveHediff_Discriminating, so Genies drinking medicinal alcohol still get their immunity boost
+- Keeps the four high-tier antibiotics hediffs (VRE_AntibioticsHigh and the three weaker variants) so the discriminating outcome doer still has targets
+
+Genie has no CE-relevant content (no recipes with raw materials, no buildings, no weapons, no apparel, no tools/verbs). All 16+ Genie genes are pure stat factors — Curiosity, Hemophiliac, BlueBlood, ElongatedHead, AptitudePhenomenal, Immunity, Slow_Diseases, WoundHealing — none need armor or CE patches.
+
+Original mod by Oskar Potocki and Sarg Bjornson. HSK antibiotics redirect by Pacas. Bundling and HSK integration by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>vanillaracesexpanded.genie</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Genie/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -481,11 +524,57 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC,
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Hussar</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Hussar (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Hussar, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Hussar mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Hussar alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VREH_BulletproofSkin gene — natural kevlar-like armor rescaled to HSK CE values (Sharp 8 / Blunt 8, between flak and marine armor; Pacas's vanilla CE 5.0/5.0 was about half-flak under HSK CE math)
+- VREH_BlackListedWeapons — extended with 56 entries so the WeaponAptitude gene system doesn't roll silly aptitudes like "aptitude in Mech Heavy Laser" or "aptitude in WoodLog":
+  * Vanilla mech weapons (9, from Pacas) — Mech Blaster, Charge Lance, Inferno Cannon, etc.
+  * Non-weapon items (6, from Pacas) — WoodLog, Bamboo, Kindling, etc.
+  * Wolfein racial mech weapons (4, MayRequire-gated)
+  * VFE Pirates warcasket-only guns (15, MayRequire-gated) — humanoids can't equip these
+  * VFE Mechanoids mech weapons (22, MayRequire-gated)
+
+Hussar is content-light (no recipes, no buildings, no costLists, no weapons, no apparel of its own — Hussars use vanilla weapons via the WeaponAptitude gene system). All HSK material conventions are preserved by default since there's nothing to convert.
+
+Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>vanillaracesexpanded.hussar</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Hussar/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -493,11 +582,62 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC,
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Insector</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Insector (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Insector, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Insector mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Insector alongside this — they would duplicate each other's defs.
+
+CE patches:
+- 4 insectoid melee hediffs converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration:
+  * VRE_InsectMandibles  — Cut, Sharp 0.5 / Blunt 2.0
+  * VRE_HornAttack       — Stab (megaspider horns), Sharp 0.4 / Blunt 2.5
+  * VRE_RipperBlades     — Cut (armor-rending blades), Sharp 0.7 / Blunt 1.5
+  * VRE_InsectRostrum    — Stab (cross-mod, only fires when VFE Insectoid 2 active), Sharp 0.6 / Blunt 2.0
+
+HSK CE armor rescale:
+- VRE_Insectskin gene (basic carapace) — Sharp 0.27 / Blunt 0.18 → Sharp 4 / Blunt 4 (HSK CE basic carapace tier, matches Saurid scaleskin)
+- VRE_MineralRichInsectskin hediff (cross-mod, 2 health stages) — rescaled from vanilla CE 0.48/0.26 → 6/4 (low health, cracked) and 0.9/0.52 → 12/8 (full health, between flak and marine)
+
+HSK material rebalance:
+- VRE_InfestedShipPart_Spawned — bumped to ~50% of HSK vanilla ShipChunk's deconstruct yield (was ~37%): SteelBar 30 + ComponentIndustrial 8 + Wire 8 + InsectJelly 5. Lore-friendly: still less salvageable than clean ship debris because of insectoid biomass takeover, but no longer 3x cheaper than what HSK colonies expect.
+
+No work needed for: AcidBurstSack/ChemfuelSacks (use AnimalBehaviours explosion comps that work under CE), Metapod cocoon mechanics, Insector psychic abilities.
+
+Original mod by Oskar Potocki, Taranchuk, Sarg Bjornson. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. VFE Insectoid 2 cross-mod patches (InsectRostrum, MineralRichInsectskin) only fire when that mod is active.</description>
+    <package_id>vanillaracesexpanded.insector</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Insector/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1179,11 +1319,110 @@ NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTE
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Mechanoids</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VFE Mechanoids (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Mechanoids, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, Kentington, Sarg Bjornson, erdelf, Kikohi, Chowder, Taranchuk, and ISOREX. This patch version rebalances player-facing content to fit HSK's spacer-tier economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+MATERIALS — Steel → SteelBar 1:5 conversion across ~55 references (HSK's "Steel" defName is raw iron ore; SteelBar is refined steel for crafting).
+
+TURRETS — 4 auto-turrets (AutoChargeBlaster, AutoChargeLance, AutoInfernoCannon, AutoMortar) get Mechanism ingredient gating. Stats + costs use HSK spacer-tier materials (Plasteel + ComponentSpacer + VFE_ComponentMechanoid).
+
+LONG RANGE MISSILE LAUNCHER — kept at HSK-compliant spacer ingredients (already uses Plasteel + ComponentSpacer).
+
+MECHANITE ARMOR — HSK-native recipe: 70 Cloth + SteelBar 10 + Plasteel 20 + ComponentSpacer 1 (UnderArmor), equivalent for pants.
+
+WORKTOMAKE — 2x scaling on crafted buildings to match HSK's slower pace.
+
+RESEARCH — VFE research gated behind HSK's Fabrication/AdvancedFabrication progression.
+
+--- DISABLED PLAYER CONTENT ---
+
+21 player-buildable buildings removed from architect menu where they overlap with HSK's existing mods. Enemy raids + quest content preserved (the ThingDefs still exist, just hidden from player build UI).
+
+Electronics Fabrication (3):
+- Steel extractor (HSK has Electric Smelter)
+- Component assembler (HSK has Fabrication Bench)
+- Advanced assembler (HSK has spacer-tier Fabrication)
+
+Masonry + Metallics (3):
+- Automatic drill (HSK has Deep Drill)
+- Masonry saw (HSK has Stonecutter's Table)
+- Plasteel forge (HSK has Plasteel recipe at Smithy)
+
+Munitions + Armament (3):
+- Artillery foundry (HSK has shell crafting at TableMachining)
+- Chemfuel clarifier (HSK has Biofuel Refinery)
+- Mechanized weaponsmith (HSK has weapon benches)
+
+Medicinal (3):
+- Drug powderizer, Medicine granulator, Neutroamine infuser (HSK has Drug Lab)
+
+Provisions (2):
+- Conveyor oven (HSK has stoves), Meat grinder (HSK has butcher table)
+
+Wearables (2):
+- Auto loom (HSK has Tailoring Bench), Synthread synthesizer (HSK has recipe)
+
+Mech Stations (4):
+- Autocleaner, Autohauler, Autominer, Autobuilder (HSK has haplo.miscellaneous.robots.hsk)
+
+Missile Launcher (1):
+- VFE_LongRangeMissileLauncher (HSK has its own artillery/rocket systems)
+
+Production Infrastructure (3):
+- Factory Hopper, Versatile Assembler, Textile Recycler
+  (HSK has its own stockpile/hopper system, fabrication benches, and tailoring)
+
+Utility (3):
+- Autocrane, Liquid freezer, Construction lamp (HSK equivalents exist)
+
+--- PRESERVED GAMEPLAY ---
+
+- Mechanoid faction + enemy raids (full roster)
+- All combat mech charging stations (Combat, Pyro, Raider, Riot, Turret mobile, Strider)
+- Unique features: Autoharvester, Autosower, Textile recycler, Mechanite LF reinforcer, Blight auto repeller, AutoMedic, Autobroadcaster, Supercomputer (research automation), Indoctrination Pod
+- Factory system infrastructure: Factory hopper, Versatile assembler
+- Mechanite armor (under armor + pants)
+- VFE_ComponentMechanoid resource + research tree
+- Ship landing events, quest scripts, custom scenarios
+- KCSG enemy base generation (broadcasting stations, factories, structures)
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Mechanoids\) bundled and gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers:
+- 3 new CE bullet defs (VFE_Bullet_5x35mmHyper, ChargeRailgun_CE, TeslaProjectileCE)
+- Turret CE stats (Building_TurretGunCE conversion)
+- Mech weapons CE ballistics (advanced mechanoid guns)
+- Mech race CE stats (armor, health, attack for Advanced + Ancient mechs)
+- Mechanite apparel CE stats (Bulk, WornBulk, armor ratings)
+- Pawnkind CE loadouts (mech pawnkinds)
+- Scenario CE compatibility
+- CombinationDef CE patches for factory-produced ammo/weapons
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with original "OskarPotocki.VFE.Mechanoid" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Mechanoids</package_id>
     <last_commit_time>2026-08-05T14:40:40+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VFE-Mechanoids/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1384,11 +1623,49 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>carbineact1on</owner>
     <repo_name>HSK-VQE-Collection</repo_name>
     <mod_root_path>HSK-VQE-Generator</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VQE Generator (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Quests Expanded — The Generator, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VQE Generator mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VQE Generator alongside this — they would duplicate each other's defs.
+
+HSK/CE patches included:
+- Material swaps on all 16 ARC genetrons (Basic, Wood-fired ×4, Chemfuel ×4, Geothermal ×4, Nuclear ×4) and 7 ruined ancient ARC structures so deconstruction returns HSK-native refined materials:
+  * Steel → SteelBar
+  * Uranium → DepletedUranium
+  * Gold → GoldBar (HSK refined alloy)
+- Plasteel / ComponentSpacer / ComponentIndustrial left as-is (already HSK-native)
+- HSK CE armor rescale on the Ancient Tight Parka (Sharp 8 / Blunt 4 + Bulk 4.0 / WornBulk 1.4).
+
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Bread mo. HSK/CE conversion by CarbineAction.
+
+Required: Hardcore SK, Combat Extended.</description>
+    <package_id>CarbineAction.HSK.VQE.Generator</package_id>
     <last_commit_time>2026-06-12T09:48:18+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VQE-Generator/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1631,11 +1908,26 @@ Remake for HSK by Elldar
     <owner>kasirii</owner>
     <repo_name>VanillaStorytellersExpanded-WinstonWave-HSK</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vanilla Storytellers Expanded - Winston Waves - HSK</name>
+    <description>Vanilla Storytellers Expanded - Winston Waves is a unique type of storyteller that introduces a brand new game mode called Wave Survival. Unlike Igor, and other raid-spawning storytellers, Winston Waves has a complex system of threat and reward that scales the more waves the player has survived.
+
+Push back the enemies to receive rewards. Expand your base using regular RimWorld mechanics, but be prepared that your actual game flow will be tested by constant raids that can only get harder! 
+
+Winston is a battle-hardened combat expert, and he believes that through combat, one can find themselves for who they really are. Every day you will be attacked by enemy waves increasing in size, but you will be rewarded for each victory.
+  
+  HSK conversion made by Kasiri.</description>
+    <package_id>VanillaStorytellersExpanded.WinstonWaveHSK</package_id>
     <last_commit_time>2026-02-16T21:23:41+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2936,11 +3228,21 @@ Conflicts
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>SRTS Expanded - The Crimson Fleet - HSK Edition</name>
+    <description>An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose. Thats... pretty much it.</description>
+    <package_id>Ravvy.SRTS.TCF.HSK</package_id>
     <last_commit_time>2024-12-01T16:17:50+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>smashphil.srtsexpanded</package_id>
+        <display_name>SRTS Expanded</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2878587061</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet/About/preview.png</preview_image>
   </repository>
   <repository>
