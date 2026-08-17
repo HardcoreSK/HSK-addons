@@ -328,11 +328,68 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Ali
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Android</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Android (HSK Patched)</name>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Android, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Android mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Android alongside this — they would duplicate each other's defs.
+
+HSK building rewrites (6 production/utility buildings):
+- All 6 buildings switched from fixed Steel/Gold to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
+- Added the HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) per building tier:
+  * VREA_AndroidStand — small storage furniture (minimal: stuff 50 + CompInd 1)
+  * VREA_AndroidPartWorkbench — industrial fabrication (CompInd 8 + ElecComp 2 + Mech 2 + Electronics 2)
+  * VREA_SubcorePolyanalyzer — ultratech analyzer (Plasteel 150 + CompSpacer 3 + ElecComp 2 + Microchips 2)
+  * VREA_AndroidCreationStation — high-tech assembler (CompInd 6 + CompSpacer 6 + ElecComp 3 + Microchips 3)
+  * VREA_AndroidBehavioristStation — software/programming bench (CompInd 4 + CompSpacer 4 + GoldBar 20 + ElecComp 2 + Microchips 2)
+  * VREA_NeutroCasket — neutroamine storage (CompInd 3 + ElecComp 1 + Mech 1)
+
+FULL HSK conversion on all 15 android body parts — rewritten to match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/BodyParts/. Android body parts are now PREMIUM endgame craftables using the same Hyperweave / CarbonAlloy / SyntheticFibers / Microchips / ComponentAdvanced / Biomatter / ArtificialBone / Paraffins / ReinforcedGlass profile that HSK bionic body parts use:
+
+- Heart-tier organs (Hyperweave-based): NeuroPump (BionicHeart), AirFilter (BionicLung), Neutrofilter (BionicKidney), MetabolismRegulator (BionicStomach + GoldBar)
+- Cybernetic top-tier (ArchotechHeart-style): Reactor (+DepletedUranium), ArtificialBrain
+- Sensory: OpticalUnit (BionicEye), AudioProcessor (BionicEar), ArtificialNose (simple bionic)
+- Skeletal/structural: ArtificialJaw (BionicJaw), ArtificialRibcage (BionicNeck-style), ArtificialSpine (BionicSpine + GoldBar)
+- Limbs: AndroidLeg (BionicLeg), AndroidFoot (BionicFoot), AndroidArm (BionicArm), AndroidHand (BionicHand)
+
+This makes building a full android a premium endgame project rather than a mid-game crafting goal — comparable to outfitting an entire colony with HSK bionic upgrades.
+
+No CE work needed — androids do not have natural melee weapons (their capability comes from installed bionic-class artificial body parts which are stat hediffs, not Verb-givers).
+
+Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
+    <package_id>vanillaracesexpanded.android</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Android/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -340,11 +397,71 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Ali
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Archon</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Archon (HSK/CE Patched)</name>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Archon, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Archon mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Archon alongside this — they would duplicate each other's defs.
+
+CE patches:
+- VREA_MeleeWeapon_ArchobladeBladelink (archotech psychic blade) — both tools converted to CombatExtended.ToolCE:
+  * handle (Blunt) — Sharp 0.3 / Blunt 3.0
+  * blade (VREA_Sear capacity, custom psychic-skip damage) — Sharp 3 / Blunt 5 (high AP for archotech weapon)
+  * Custom thingClass VREArchon.ArchoBlade preserved
+- VREA_Apparel_Archoplate (archotech psychic armor) rescaled to HSK CE archotech tier:
+  * Sharp 1.15 → 30, Blunt 0.60 → 25 (between marine 24 and power armor 40+)
+  * Heat 0.86 kept (already CE-compatible)
+  * Added Bulk 12 / WornBulk 4.5
+  * equippedStatOffsets preserved (PsychicSensitivity, PsychicEntropyMax, PsychicEntropyRecoveryRate)
+- VRE_Leatherskin gene (natural leathery skin) — Sharp 0.15 / Blunt 0.1 → HSK CE 5/5
+
+Psychic projectiles (PsychicThrow, PsychicWarp, PsychicLance) work under CE as-is — they use vanilla projectile properties with armorPenetrationBase already set, and are psycaster-cast (Verb_CastAbility) rather than weapon-fired, so no CE conversion needed.
+
+No HSK material conversion — Archon has no buildings, no recipes, no costLists. Archoplate and Archoblade are loot/quest-reward only.
+
+Faction raid gating:
+- VRE_Archons faction had earliestRaidDays:45 (good) but no raidCommonalityFromPointsCurve, so raids fired at full force after Day 45 regardless of colony wealth. ArchonWarrior combatPower is 450 (archotech-elite tier — vs vanilla pirate 110, centipede 480).
+- Added wealth-based ramp: 0 commonality below 2500 threat points, scaling to 1.0 at 5000+. Matches the HSK Wolfein MegaCorp gate pattern but with a higher threshold reflecting the even-more-elite archotech tier. Combined with the existing 45-day delay, players have time to prepare for archotech raids.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC, Royalty DLC.</description>
+    <package_id>vanillaracesexpanded.archon</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>RimWorld - Royalty</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Archon/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -553,11 +670,51 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Waster</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VRE Waster (HSK Patched)</name>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Waster, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Waster mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Waster alongside this — they would duplicate each other's defs.
+
+HSK building rewrite (1 building):
+- VRE_BurnBarrel rewritten with full HSK pattern: stuffCategories RuggedMetallic + costStuffCount 45 + ComponentIndustrial 1 (HSK convention for outdoor/weather-exposed metal fixtures, with a single fab component for the sealed combustion barrel — sits at the bottom of the pollution-tier compared to HSK's WastepackAtomizer high-tech atomizer)
+
+No CE work needed. Waster's 17 pollution-themed genes (ToxAbsorption, PollutionRage, PollutionRegeneration, PollutionCognition, PollutionSustenance, PollutionAccuracy, etc.) and 11 pollution stimulus hediffs are pure stat-based mechanics — no tools, verbs, armor offsets, weapons, or apparel. Combat strength comes from vanilla mechanics + pollution interactions, not custom melee.
+
+Original mod by Oskar Potocki, Sarg Bjornson. HSK patch and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <package_id>vanillaracesexpanded.waster</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Biotech</package_id>
+        <display_name>RimWorld - Biotech</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VRE-Waster/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -736,11 +893,40 @@ Vestguard</description>
     <owner>carbineact1on</owner>
     <repo_name>HSK-RH2-Collection</repo_name>
     <mod_root_path>HSK-RH2-RimmuNation-Weapons</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>[RH2] Rimmu-Nation² - Weapons</name>
+    <description>Arm your community with the right tool for the right job.
+
+RIMMU-NATION
+Defending your rights
+
+Credits:
+Chicken Plucker - Weapon art
+Fiendakko - Weapon art
+TMC - Weapon art
+Erok - Weapon art
+Dandman68 - Weapon art
+qux - Troubleshooting
+Taranchuk - Update of the WeaponsExtension.dll which makes the Auger work
+Jecrell - Original WeaponsExtension.dll creator
+ThatCoolSnek - Weapons research fixes
+Samael - Rebalancing, CE patch (Now integrated into CE itself)
+Autumn Point Eclipse - CE patch (Now integrated into CE itself)
+</description>
+    <package_id>CP.RimmuNation.2.Weapons</package_id>
     <last_commit_time>2026-08-16T23:13:30+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.4</version>
+      <version>1.3</version>
+      <version>1.2</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-RH2-RimmuNation-Weapons/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -748,11 +934,45 @@ Vestguard</description>
     <owner>carbineact1on</owner>
     <repo_name>HSK-RH2-Collection</repo_name>
     <mod_root_path>HSK-RH2-UncleBorisFurniture</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>[RH2] Uncle Boris' - Used Furniture</name>
+    <description>HSK/CE conversion by CarbineAction. Balanced and converted to work with Hardcore SK, Combat Extended, and Vile's Materials Science. Self-contained — no manual edits needed. Drop in and play.
+
+Removed/disabled (art doesn't match HSK aesthetic):
+- Beds: Barrack Bed, Officer Bed, Canvas Bed
+- Walls, doors, fences, embrasures
+- Brainwash chair (separate mod exists)
+- Footlocker, Military Crate Dresser, Wardrobe
+
+Changes:
+- All Steel replaced with HSK materials (Glass, Plastic, Electronics, RuggedMetallic)
+- Furniture, joy, lighting, and power stats rebalanced to HSK values
+- Research prerequisites matched to HSK tree
+- Items grouped into HSK ArchitectSense subcategories
+- Generator smoke effects via Simple FX Smoke (Flecker)
+- Mission board RansomDemand removed (faction NullRef bug)
+- Radio music volumes fixed (audio clipping)
+- 1.3, 1.4, 1.6 version folders removed (HSK uses 1.5 only)
+
+Credits:
+Taranchuk - C# coding
+SirLalaPyon - Building art
+DanDMan68 - Building art
+JDS - Building art
+Jecrell - C# coding
+Albion - C# coding
+</description>
+    <package_id>CP.Uncle.Boris.Used.Furniture</package_id>
     <last_commit_time>2026-06-12T09:48:11+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-RH2-UncleBorisFurniture/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -823,11 +1043,77 @@ NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</de
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Deserters</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VFE Deserters (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Deserters, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and research tree, while preserving the full Deserter gameplay loop (contraband, visibility system, quests, scenarios).
+
+--- HSK-NATIVE CONVERSIONS ---
+
+WEAPONS:
+- Charge Cycler: now crafts at MechWeaponCraftingWorkTable, Charge_weapons_E research, Crafting 16, 35000 work. Ingredients: Charged_Component, Weapon_Parts, ComponentUltra, FerrosiliconAlloy, USLDBar, Plastic. Thump shot ammo swapped to AmmoSet_40x46mmGrenade (HSK-native, no VFE Empire dep).
+- Fletchling: crafts at MechWeaponCraftingWorkTable, Charge_weapons_D research, Crafting 14, 27000 work. HSK-tier spacer materials.
+
+BELTS:
+- Deserter Declassifier: HSK-hardcore recipe. TableElectronics, Charge_weapons_D research, Crafting 13, 20000 work. Electronics, ComponentSpacer, Hexcell, FerrosiliconAlloy, Plastic on StrongMetallic stuff base.
+- Bomb Pack + Invisibility Engulfer: remain quest-drop-only (not player-craftable in HSK balance). Enemies still use them in scenarios.
+
+MORTAR SHELLS (Shrapnel, AP, Cluster):
+- TableMachining, Crafting 8, 1500 work each. HSK-native materials (Steel, Mechanism, Weapon_Parts, ComponentIndustrial).
+
+FLAGSHIP CHUNK SALVAGE:
+- Deconstruct yields upgraded to HSK-thematic: Plasteel x20, ComponentSpacer x3, Steel x30. Matches Imperial flagship spacer-tech salvage.
+
+--- DISABLED PLAYER CONTENT ---
+
+Removed from player architect menu (enemy base generation still uses them):
+- 3 Deserters turrets (Kontarion, Palintone, Onager) — HSK has rich turret roster
+- 10 IED traps — HSK has its own complete IED lineup
+- 3 ammo boxes — paired with disabled turrets, no purpose
+
+Striker Turret kept as-is (quest-only, not buildable by player in vanilla either).
+
+--- KCSG SYMBOL FIXES ---
+
+KCSG missing-symbol patches for this mod's layouts (Aerodrone Stations, Safehavens, Zeus Cannon Complex, Imperial Plots, etc.) are now shipped via HSK Mod Fixes Pack as a catch-all covering every KCSG-using mod on the modlist. No per-mod SymbolDef file needed here — enable Mod Fixes Pack alongside this mod.
+
+--- PRESERVED GAMEPLAY ---
+
+ALL core Deserter mechanics unchanged: Visibility system, Contraband, Intel currency, Deserter cells, Aerodrones, quest scripts, scenarios, factions. Supply/Biosecured crates, Deserter Shuttle, Burnout Intel Scraper, Surveillance Pillars — all preserved.
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Royalty DLC, and VFE Empire (for Imperial content).
+CE's built-in Deserters patches load automatically via its ModPatches folder.
+
+For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
     <last_commit_time>2026-06-12T09:48:06+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VFE.Empire</package_id>
+        <display_name>Vanilla Factions Expanded - Empire</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VFE-Deserters/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -835,11 +1121,57 @@ NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</de
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Insectoid2</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VFE Insectoids 2 (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Insectoids 2, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. This patch version rebalances ingredients to HSK's refined-metal economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+THUMPERS (boss-summoning devices) — all 5 Thumpers upgraded from base Steel+ComponentIndustrial to HSK hardcore pricing with Mechanism + ComponentSpacer + InsectJelly ingredients. Justifies their power as endgame boss summons.
+
+SHIP DEBRIS (InfestedShipChunk/Part/Module) — Steel refs swapped to SteelBar (HSK refined metal) with 1:5 scaling since HSK "Steel" is raw iron ore, SteelBar is refined.
+
+INSECTJELLY BUILDINGS — costs adjusted where appropriate to fit HSK's gated-crafting economy.
+
+--- PRESERVED ---
+
+Full Insectoid gameplay:
+- 25 insect races (Empress, Queen, Titantick, Teramantis, Gigamite, Silverfish, etc.)
+- Custom architect tab (VFEI2_Insectoids) with all hive buildings
+- Research tree (Insectoid-specific projects)
+- Pherocore extraction + 5 species-specific hives
+- Quest scripts, scenarios, faction content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\VFE Insectoids 2\) bundled and gated by IfModActive="CETeam.CombatExtended" in LoadFolders.xml. Covers:
+- All 25 race CE stats (armor, health, attack)
+- Building CE stats (walls, pods)
+- Insect leather CE stats
+- Ability damage defs
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with original "OskarPotocki.VFE.Insectoid2" — enable this INSTEAD.</description>
+    <package_id>CarbineAction.HSK.VFE.Insectoid2</package_id>
     <last_commit_time>2026-08-05T14:40:40+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VFE-Insectoid2/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -859,11 +1191,78 @@ NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</de
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Pirates</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>VFE Pirates (HSK/CE Patched)</name>
+    <description>HSK/CE-patched version of Vanilla Factions Expanded - Pirates, tuned for the Hardcore SK modpack.
+
+Original mod by Oskar Potocki, Sarg Bjornson, erdelf, Roolo, Smash Phil, Taranchuk, xrushha, Kikohi, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and bundles the community-made CE compatibility patches.
+
+--- HSK-NATIVE TUNING ---
+
+WARCASKETS — spacer-tier armor progression rebalanced to HSK crafting (spacer research, ComponentSpacer + Plasteel + StrongMetallic + Kevlar ingredients, TableMachining / MechWeaponCraftingWorkTable).
+
+WARCASKET WEAPONS — 9 warcasket-only guns (Autorifle, UraniumSlugRifle, Slugthrower, Minigun, GrenadeLauncher, HeavyFlamer, ChargeLance, HandheldCannon, ChargeBlaster) routed to MechWeaponCraftingWorkTable at Charge_weapons_D/E research with HSK spacer-tier ingredients.
+
+RUM + DRUGS — HSK-tighter pricing to match the modpack's gated crafting economy.
+
+--- DISABLED PLAYER CONTENT ---
+
+Removed from player architect menu (enemy base generation + raids still use them):
+- Cannon (VFEP_Turret_Cannon) — HSK has rich medieval-tier artillery
+- Field Gun (VFEP_Turret_FieldGun) — HSK has its own mortar/field-gun variants
+
+Projectile defs preserved (enemy artillery still works) — only player-buildable turret entries hidden.
+
+The Gauntlet Charge Cannon Ship Chunk (VFEP_ShipChunkGauntletTurret) is NOT disabled — it's an enemy-only event mechanic that pirates drop from orbit as ship debris. Not buildable by the player in vanilla; left fully intact so the pirate raid event continues to work.
+
+--- CE-GATED TWEAK ---
+
+Grappling Hook ability (VFEP_GrapplingHook) — stripped from Privateer Armor when Combat Extended is active. 20-cell teleport-through-walls interacts badly with CE's line-of-sight and movement systems. Privateer Armor remains fully craftable and functional; it just loses the grapple. Gated in Patches-CE/ so vanilla/non-CE installs are unaffected.
+
+--- PRESERVED GAMEPLAY ---
+
+Full pirate gameplay:
+- 3 factions (Pirates, Junkers, Pirate Mercenaries)
+- Hireables (mercenary contracts via comms console)
+- Warcasket system (chest/arm/head customization + abilities)
+- Ideology: Pirate meme with sea shanties + camaraderie precepts
+- Ethereal Skyfallers (raid drop-in)
+- Pirate-themed quests + scenarios
+- Custom mechanoid (Gauntlet-type)
+- Curses + pirate-specific ideology content
+
+--- BUNDLED CE PATCHES ---
+
+Community-made HSK CE patches (originally at G:\HSK CE patches\Vanilla Factions Expanded - Pirates\) bundled and gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers:
+- 5 new CE ammo defs (WarBolter rockets, Slugthrower shells, Gauntlet turret ammo, Vikings + Bioferrite + Ammo Mods bridges)
+- All 9 warcasket weapons with full CE ballistics (Bulk, Ammo, ProjectileProperties_CE)
+- Warcasket apparel CE stats (Sharp/Blunt armor ratings, Bulk, WornBulk)
+- Gauntlet turret CE conversion (Building_TurretGunCE)
+- Cross-mod warcasket weapon addons (Vikings, Classical, Lightning, Quechua, Nitori, Bounty Hunters, Empire — only activate when those mods are loaded)
+- Mercenary + Junker pawnkind CE loadouts
+- Abilities, drugs, ideology precepts, scenarios — all CE-compatible
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework.
+NOT compatible with the original "OskarPotocki.VFE.Pirates" — enable this INSTEAD.
+Not compatible with: n7huntsman.combatshields (inherited incompatibility from base mod).</description>
+    <package_id>CarbineAction.HSK.VFE.Pirates</package_id>
     <last_commit_time>2026-06-12T09:48:06+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>HSK-VFE-Pirates/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -997,11 +1396,20 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>Duncanois</owner>
     <repo_name>HSK-More-injuries-Continued</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>More Injuries (Continued)</name>
+    <description>The More Injuries mod aims to increase the simulation depth of RimWorld's medical system by adding a variety of new injuries, medical conditions, and treatment options, as well as simulating body part damage in more detail. Its goal is to make the medical system more challenging and interesting in some aspects, while also making it more realistic and immersive. A detailed mod settings menu is provided to allow players to customize many aspects of the mod to their liking.</description>
+    <package_id>Th3Fr3d.ExtendedInjuries</package_id>
     <last_commit_time>2026-07-13T09:46:06+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1033,11 +1441,23 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>Elldar112</owner>
     <repo_name>Eccentric-Tech-Series-HSK</repo_name>
     <mod_root_path>Eccentric Tech - Advanced Shields SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Eccentric Tech - Advanced Shields HSK</name>
+    <description>Allows the creation of advanced shield belts. HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.AdvancedShields</package_id>
     <last_commit_time>2026-02-23T22:11:10+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Aelanna.EccentricTech.Core</package_id>
+        <display_name>Eccentric Tech - Core</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Eccentric Tech - Advanced Shields SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1062,11 +1482,32 @@ Required: Hardcore SK, Combat Extended, Anomaly DLC.</description>
     <owner>Elldar112</owner>
     <repo_name>Eccentric-Tech-Series-HSK</repo_name>
     <mod_root_path>Eccentric Tech - Defense Grid SK</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Eccentric Tech - Defense Grid HSK</name>
+    <description>Adds networked shield generators, laser-designated missile artillery batteries, and remote turret controllers for high-tech colony defense options.  HSK Conversion by Elldar.</description>
+    <package_id>Aelanna.EccentricTech.DefenseGrid</package_id>
     <last_commit_time>2026-02-23T22:20:31+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Aelanna.EccentricTech.Core</package_id>
+        <display_name>Eccentric Tech - Core</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2552623545</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Royalty</package_id>
+        <display_name>Royalty</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Eccentric Tech - Defense Grid SK/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1190,26 +1631,11 @@ Remake for HSK by Elldar
     <owner>kasirii</owner>
     <repo_name>VanillaStorytellersExpanded-WinstonWave-HSK</repo_name>
     <mod_root_path/>
-    <name>Vanilla Storytellers Expanded - Winston Waves - HSK</name>
-    <description>Vanilla Storytellers Expanded - Winston Waves is a unique type of storyteller that introduces a brand new game mode called Wave Survival. Unlike Igor, and other raid-spawning storytellers, Winston Waves has a complex system of threat and reward that scales the more waves the player has survived.
-
-Push back the enemies to receive rewards. Expand your base using regular RimWorld mechanics, but be prepared that your actual game flow will be tested by constant raids that can only get harder! 
-
-Winston is a battle-hardened combat expert, and he believes that through combat, one can find themselves for who they really are. Every day you will be attacked by enemy waves increasing in size, but you will be rewarded for each victory.
-  
-  HSK conversion made by Kasiri.</description>
-    <package_id>VanillaStorytellersExpanded.WinstonWaveHSK</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-02-16T21:23:41+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1728,11 +2154,27 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Alpha Biomes/Alpha Biomes</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Alpha Biomes</name>
+    <description>Adds multiple unique new biomes to Rimworld. Last full mod check: 10.09.2024</description>
+    <package_id>sarg.alphabiomes</package_id>
     <last_commit_time>2025-02-13T16:07:35+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
+        <display_name>Vanilla Expanded Framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Alpha Biomes/Alpha Biomes/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -1994,11 +2436,35 @@ Not feeling like being assimilated? Okay, how about becoming one of our honorary
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Frontline Bunkers/Frontline - Bunkers</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Frontline - Bunkers</name>
+    <description>
+This mod provides an additional way to fortify your Frontline with new bunker structures:
+General:
+- You need to do research in order to get these structures.
+- The bunkerroof is not a real roof as of terms of game mechanics, you still will have to build a room like in vanilla 
+
+Structures:
+Bunker wall:
+Slope walls are the foundation of your bunker. Needs A LOT of resources to build but can withstand even the hardest bombardement. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
+
+Bunker embrasure:
+Waist high walls grant your pawns a spot to use their own arms in combat and also provides some cover (70%) . Also in contrast to the ordinary sanbags, enemys can't climp over these structures. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
+
+Bunker door:
+A heavy door granting passage inside the bunker. It can only be opened manually. Holds of fire for a long time, but costs a lot of resources. Bombs harm it more than ordinary bullets. Takes a lot of time to be set up.
+
+Bunkerroof:
+A semi transparent roofing. Comes in the sizes 5x5 and 3x3. [i][notification: More sizes MIGHT come on demand, maybe start a discussion here.][/i]  Does not hold a roof by itself, it needs surroundings. Takes a lot of time to be set up.
+
+Feel free to leave a comment and please report back any occuring bugs. And finally: Have Fun.
+    </description>
+    <package_id>Mlie.FrontlineBunkers.SK</package_id>
     <last_commit_time>2024-09-10T00:52:56+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Frontline Bunkers/Frontline - Bunkers/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2162,11 +2628,55 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Paniel the Automata/Paniel the Automata</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Paniel the Automata</name>
+    <description>
+Paniel the Automata
+
+Humanoid alien race mod
+
+[Created by]
+
+Demi : planning, management, xml, etc.
+gguake : assemblies
+어리연 : pawn textures, apparel textures
+Nemonian : building textures, weapon textures, item textures
+Latki : thumbnail illustration
+
+[Special Thanks]
+
+erdelf : make Humanoid Alien Races 2.0 mod.
+goudaquiche : make MoHAR framework.
+Roo : helped a lot in making this mod.
+NukaFrog : provides useful assemblies.
+SutSutMan : provides useful assembly.
+ChJees : this mod inspired by Androids mod.
+Madeline, Gloomylynx, Farmradish, horsefry, Space_Engineer, SR0752, 며루치, 곤약쟁이(sinnamon).
+
+and Rimworld Korea Discord members.
+	</description>
+    <package_id>AhnDemi.PanieltheAutomata.sk</package_id>
     <last_commit_time>2024-02-14T10:39:06+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>erdelf.HumanoidAlienRaces</package_id>
+        <display_name>Humanoid Alien Races 2.0</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>goudaquiche.MoharFramework</package_id>
+        <display_name>MoHAR framework</display_name>
+        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Paniel the Automata/Paniel the Automata/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -2335,11 +2845,16 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Roofs of the Rim/Roofs of the Rim</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Roofs of the Rim</name>
+    <description>Hey-hey people, eaves and rafters here.</description>
+    <package_id>pacas.wallsandrafters.sk</package_id>
     <last_commit_time>2026-08-05T20:37:19+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
     <preview_image>Roofs of the Rim/Roofs of the Rim/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2347,11 +2862,15 @@ Wooly mammoth, elasmotherium, and josephoartigasia are shearable, and arthropleu
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>Seven Seraph Weapons/Seventh Seraph Weapons</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Seventh Seraph Weapons SK</name>
+    <description>This mod adds seventh seraph weapons from Destiny 2.</description>
+    <package_id>Seventh.Seraph.Weapons.SK</package_id>
     <last_commit_time>2024-09-10T00:52:56+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.3</version>
+      <version>1.4</version>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>Seven Seraph Weapons/Seventh Seraph Weapons/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2394,22 +2913,11 @@ Conflicts
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Helicopters</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>SRTS Expanded - Helicopters</name>
+    <description>Ever wanted to fly through Rimworld with style and practicality? Well helicopters are here to bring you just that, helicopters have always been the king when it comes to aeronautical utility, the ability for helicopters to land without a runway is incredibly useful, especially when secure spaces are of a premium due to pesky raiders trying to steal your tables, it also allows you to launch attack operations without needing an entire airfield to land on, which is great for retaliation and retaking your stolen tables.
+	</description>
+    <package_id>ELIF.SRTS.Helicopters</package_id>
     <last_commit_time>2024-10-02T11:05:28+00:00</last_commit_time>
-    <supported_versions/>
-    <preview_image>SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image>
-  </repository>
-  <repository>
-    <repo_id>511907965</repo_id>
-    <owner>pacas</owner>
-    <repo_name>Pacas-HSK-Patches</repo_name>
-    <mod_root_path>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet</mod_root_path>
-    <name>SRTS Expanded - The Crimson Fleet - HSK Edition</name>
-    <description>An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose. Thats... pretty much it.</description>
-    <package_id>Ravvy.SRTS.TCF.HSK</package_id>
-    <last_commit_time>2024-12-01T16:17:50+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -2418,9 +2926,21 @@ Conflicts
       <dependency>
         <package_id>smashphil.srtsexpanded</package_id>
         <display_name>SRTS Expanded</display_name>
-        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2878587061</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2878587061</steam_workshop_url>
       </dependency>
     </mod_dependencies>
+    <preview_image>SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image>
+  </repository>
+  <repository>
+    <repo_id>511907965</repo_id>
+    <owner>pacas</owner>
+    <repo_name>Pacas-HSK-Patches</repo_name>
+    <mod_root_path>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet</mod_root_path>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
+    <last_commit_time>2024-12-01T16:17:50+00:00</last_commit_time>
+    <supported_versions/>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - The Crimson Fleet/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -3299,11 +3819,72 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
     <owner>Watcher011</owner>
     <repo_name>HSK.Watcher.content</repo_name>
     <mod_root_path/>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>HSK Watcher Content</name>
+    <description>
+  Сборка состоит из модов :
+  
+  WatcherXI.GlowstoneLamp(добавляет светокаменные лампы и колоны)
+  WatcherXI.HSK.TrophiesAndHearts(добавляет торфеи из элитных животных и коврики из них)
+  WatcherXI.Walltextile(позволяет строить стены из кожи и ткани)
+  WatcherXI.HSK.cart(добавляет тележки как инструмент)
+  WatcherXI.HSK.Meal(добавляет рецепты новых блюд и способы приготовления)
+  WatcherXI.HSK.DorBomb(добавляет заминированную дверь)
+  WatcherXI.seaweed(добавляет сушенные водоросли , аквапонику)
+  WatcherXI.HSK.Flor(добавляет пол из янтаря и нефрита)
+  WatcherXI.HSK.Mine(переработка методики производства, и постройки мин)
+  WatcherXI.Statues(добавляет статую котика)
+  WatcherXI.HSK.alcohol(добавляет алкоголь в рецепты медицины)
+  WatcherXI.StorTox(добавляет хранилище мешков с токсичными отходами)
+  WatcherXI.HSK.Tea(добавляет сорта чая)
+  WatcherXI.YAdaritAndMetal(Ядарит и всё с ним связанное)
+  --------------------------
+ WatcherXI.GlowstoneLamp (adds glowstone lamps and columns)
+ WatcherXI.HSK.TrophiesAndHearts (adds elite animal trophies and winter mats)
+ WatcherXI.Walltextile (allows you to build walls from leather and fabric)
+ WatcherXI.HSK.cart (adds carts as a tool)
+ WatcherXI.HSK.Meal (adds recipes for new dishes and cooking methods)
+ WatcherXI.HSK.DorBomb (adds booby-trapped door)
+ WatcherXI.seaweed(adds dried seaweed, aquaponics)
+ WatcherXI.HSK.Flor(adds amber and jade flooring)
+ WatcherXI.HSK.Mine (reworking the production methods and construction of mines)
+ WatcherXI.Statues(adds a cat statue)
+ WatcherXI.HSK.alcohol (adds alcohol to medicine recipes)
+ WatcherXI.StorTox (adds toxic waste bag storage)
+ WatcherXI.HSK.Tea(adds tea varieties)
+ WatcherXI.YAdaritAndMetal(Yadarit and everything connected with it)
+  
+  Version: Eng/Ru «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
+  “If this modification accidentally damages or deletes data on your computer, shocks you, blows up your monitor in your face, sets your house on fire, kills you, replaces all the text you speak in online games with “oink”, makes everyone on the planet (and beyond) want to kill you, hack the nearest nuclear base and aim missiles at your home, change your bank balance to $0, ban you from all games, put your name on some killer's list, suck you into a computer and will play pinball with you (you as a ball), make a secret agency look for you, turn your room into a portal to Hell, gain intelligence and start killing everyone on the planet, whatever you want, don’t blame the author of this mod!( Yours sincerely, Watcher XI)" 
+  
+
+ license to use -  BSD (Berkeley Software Distribution) License.
+ 
+В сборке так же использовались текстуры мега паука из мода: Reskins_Megaspider
+Автор"PocToK"
+Ссылка на мод - https://top-mods.ru/mods/rimworld/graphics/33106-reskins-megaspider.html
+  </description>
+    <package_id>HSK.WatcherContent</package_id>
     <last_commit_time>2025-11-30T08:25:32+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>Ludeon.RimWorld.Anomaly</package_id>
+        <display_name>Anomaly</display_name>
+        <steam_workshop_url>https://store.steampowered.com/app/2380740</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Imranfish.XMLExtensions</package_id>
+        <display_name>XML Extensions</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>About/preview.png</preview_image>
   </repository>
   <repository>
@@ -4100,11 +4681,122 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Metallurgy</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Metallurgy</name>
+    <description>
+Welcome to the foundry! Please report bugs and feedback to Vile Heathen on the HSK discord. Much appreciated!	
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+
+Update A0.3
+-Updated for 1.3
+-Lead smelting now produces 15 instead of 10. Quick fix until the upcoming Ores and Minerals update. For now, set up a mining camp if your map lacks lead.
+-Added mod dependencies. Consider using Realistic Terraforming to get peat, clay, etc quicker. I've not tested this without it.
+-Making Rimatomics a dependancy. There's an assembly in there that allows the water wheel to use any large water body, not just rivers.
+-Fixed some typos etc.
+	
+INTRODUCTION	
+This could also be called 'Pre-Industrial Part II: Metallurgical Overhaul'. It's part of an ongoing project of mine to add some more complex mechanics to HSK that are both realistic and historically accurate, but in a manner that makes it fun, immersive, and hopefully intuitive.
+
+That said, this is the first part of a materials overhaul, with focus on early-game metallurgy and steel-making. Below is a quick summary of how it works. There is more detailed information in the descriptions of the buildings and resources, and a wiki/guide is underway.
+	
+NEOLITHIC
+A new fire pit is added which separates non-food recipes from the campfire, and adds a few more, mainly for dealing with smelting metals of antiquity such as bronze and silver.
+	
+CERAMIC KILN
+The kiln now acts like the fermenter buildings in that you load it with stuff, and then wait several days or hours instead of standing there watching it. It's in the "processing" submenu and you'll make things such as:
+		Bricks
+		Charcoal
+		Coke (metallurgical coal that is further processed)
+		Flux powder (used in ceramics and metallurgy)
+		Wootz Steel
+		Clay pots
+	
+WOOTZ STEEL
+Commonly referred to as "Damascus Steel" because a lot of wootz steel was imported to Damascus, it's a fragile, but ultra-hard steel best used for cutlery and sharp weapons.
+
+POTTERY STATION
+There is a new pottery station for making clay pots for food storage. They can be glazed with a variety of materals to increase beauty and make it seal better for improved food preservation. Vanilla pots can still be made out of metal, but they're more expensive and inferior to glazed pottery. Clay pots must be fired in the kiln, and then used as an ingredient much like how a crate is used to make a turret.
+
+BLOOMERY and WROUGHT IRON / FORGED STEEL
+The earlist technology for smelting iron. Ore is smelted into an "iron bloom", which then must be hammered into wrought iron at smithy forge (or finery forge). It's a long process with low payout, but you'll eventually run out of tin or copper for producing bronze so you'll want to start making wrought iron. Like you learned in history class. The wrought iron can further be carburized into weld-forged steel, your first type of proper steel. Contrary to popular belief, however, wrought iron can still be used to make effective weapons and armor — in this mod it is considered that these wrought iron implements are "case hardened", or tempered to strengthen the outer surface of the iron into a thin layer of steel.
+
+BOG IRON from PEAT
+Small pellets of iron can often be found in peat bogs. You can extract bog iron from peat at machining tables for a never-ending supply of iron. Mining is still the most efficient way to getting it though.
+
+BLAST FURNACE AND PIG IRON
+The blast furnace replaces the vanilla furnace. It makes iron ore into pig iron instead (a crude high-carbon form of iron which is worthless on its own). The pig must be processed at a finery into wrought iron and is much faster and more efficient than processing bloom. Pig iron can also be refined into cast iron at a foundry.
+
+FINERY FORGE / WATER WHEEL
+The finery forge is like a smithy forge except it has a heavy mechanical trip-hammer required for smashing the carbon out of pig iron to turn it into wrought iron (or welded steel). It can be operated by hand, but it's best powered by a water wheel. It's smart to build by a FLOWING RIVER if you can, otherwise you may want to rush the foundry and puddling tech.
+
+STAMP MILL / WATER WHEEL
+Another way to take advantage of the water wheel is with the stamp mill. It can be used for smashing grain, but also making gunpowder and crushing stone into rubble or sand.
+
+FOUNDRY, CASTING
+The foundry is dual purpose: It can be used for casting, which is a method of producing items quickly and in large batches. It's limited to certain types of tools, components and ammunition, and the castable metals are also very limited. It can also be used for processing certain metals and alloys, notably cast iron, and turning pig iron into wrought iron through what is called "puddling" - a method which is much more efficient than through the finery. It can also be used to produce crucible steel. More on that next.
+
+CEMENTATION FURNACE and BLISTER STEEL / CRUCIBLE STEEL
+This building works much like the kiln. Fill it with wrought iron and a source of carbon and wait several days. The iron becomes what's known as "blister steel", which is not homogenous and is useless on its own. It can be processed at a smithy or finery to produce "sheer steel", which resembles forge-welded steel, and for purposes of simplification, we'll just call it that. The ultimate, purest form of steel produced before the second industrial revolution, however is *Crucible Steel*. This is made by simply melting down the blister steel at the foundry once the tech is unlocked. It requires both coke and flux. 
+
+STEAM ENGINE
+The blowing engine is an automated bellows which speeds up the blast furnace and foundry operation.
+
+PIPES
+Water pipes are now divided into two types: aqueducts and, well, pipes. The former are made like how you're used to making them, and the latter require "plumbing components", which can be made at a forge or cast at the foundry. They're much stronger and easier to install.
+
+WEAPONS AND TOOLS
+A new CHEF KNIFE is added. Unlike the dagger and regular knife, the material used to make them can imply further bonuses. The *ULFBERT* and RIMASCUS SCIMITAR are two new swords that require wootz steel to make. An armor-piercing LUCERNE HAMMER replaces the royalty warhammer, and the royalty axe is removed and replaced with a QUARTERSTAFF, which is good for takedowns and less-lethal stick fighting.
+		
+Previous Updates: 
+
+A0.2
+-Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
+-Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
+-Fixed some textures
+-Improved labels for processing recipes</description>
+    <package_id>vitech.metallurgy</package_id>
     <last_commit_time>2026-07-01T14:59:13+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>ViTech.MedievalOverhaul</package_id>
+        <display_name>HMC Vile's Pre-Industrial</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.realisticterraform</package_id>
+        <display_name>HMC Realistic Terraforming</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>zacharyfoster.minerals</package_id>
+        <display_name>Minerals</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.dubsbadhygiene</package_id>
+        <display_name>Dubs' Bad Hygiene</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.survivaltoolslite</package_id>
+        <display_name>Survival Tools Lite</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>dubwise.rimatomics</package_id>
+        <display_name>Rimatomics</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Metallurgy/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -4195,11 +4887,75 @@ With BiomesKit as a dependency, you too can make your own biomes mod with minima
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>Vile's Wood You Please</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Wood You Please</name>
+    <description>
+Update 1.2 - 1/20/2020 - Added acacia wood.  
+Update 1.1: No major changes, but the new mod Biomes: From The Ground Up, is meant to pair well with this mod.	  
+	  
+HEY! You want some planks? Planks come from trees. There's lots of different kinds of trees. Planks can be made into all sorts of cool things. Can you? Didn't think so. This is hardcore SK. It's hardcore, like the heartwood of a tree. Show these trees the respect they deserve. Now stop complaining and drink your maple syrup.
+	    
+I've started a blog and patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+		
+Version A0.1  
+This is super flipping early alpha. It's a huge overhaul of logs and planks, so I'm not entirely sure how it will affect all other parts of the game or other mods yet. If anything seems weird, recipes broken, etc, please let me know on the HSK Discord.
+
+What does this mod change?
+Logs and planks are unique to their tree species and have color and specs rebalanced for realism and a more distinctive gameplay based on biome. 
+I highly recommend using this with the my new Hardcore Renovations mod which fully takes advantage of these new wood types in floors and walls.
+
+Basic info:  
+
+Felled trees now produce larger, but fewer logs (with Bamboo as the exception. It's not a tree anyway.), and can't be used as fuel except in advanced furnaces (TBD). A new woodsplitting spot (much like the butcher spot) allows colonists to split the logs into firewood which can be used for crafting redimentary things like arrows, clapboard floors and walls, as fuel, or can be further split into kindling for fueling torches, etc.
+
+I. Wood is now divided into three categories (in order of the janka scale of hardness):
+
+Softwoods:
+	  Cecropia
+	  Pine
+	  Willow
+	  Redwood
+	  Cypress
+	  Poplar
+Hardwoods:
+	  Maple
+	  Teak
+	  Birch
+	  Oak
+      Acacia
+	  Bamboo
+Ultra-hard:
+	  Drago
+	  Mangrove
+
+Softer woods tend to offer less HP, but are often easier to work with and the trees are easier to cut. Technically, some of the softwoods are actually hardwoods, but I'm basing this off their actual hardness, not official designations.
+Harder woods also produce more firewood since they can be chopped into smaller pieces.  
+	  
+II. Tree generation has changed.
+	  1. Growing time and harvest amount has been adjusted for realism and balance. 
+	  2. Most trees are now more likely to grow in groves. This means if you want to harvest a particular type of wood, you can target specific parts of the map to do so. Use the magnifying glass feature on the minimap or the Object Seeker to help find the groves.	  
+
+III. New Woodsplitting Spot is an ingredientless building for splitting logs into firewood and kindling early game. Obviously slower than the workbench.
+
+IV. Anywhere there was a vanilla wood log, there is now "firewood". Anywhere there was vanilla wood planks, there is now plywood. Plywood can be made out of scraps of logs or planks, much how patch leather is made. 
+	  
+Feedback is appreciated. Thanks!
+
+Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe work. Also, you can now build the woodcutting table out of planks if you wish, for increased workspeed.	  
+
+</description>
+    <package_id>ViTech.HCSKWood</package_id>
     <last_commit_time>2026-07-01T14:59:13+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
     <preview_image>Vile's Wood You Please/About/preview.png</preview_image>
   </repository>
   <repository>
@@ -4240,11 +4996,16 @@ Some other notable changes:
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>VileCoreTextureReplacementR2</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Core Texture Replacement</name>
+    <description>
+A halfway house for textures.
+
+</description>
+    <package_id>vitech.coretexturereplacement</package_id>
     <last_commit_time>2026-04-10T21:27:52+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
@@ -4252,11 +5013,20 @@ Some other notable changes:
     <owner>xenomacabre</owner>
     <repo_name>VilesMods</repo_name>
     <mod_root_path>VilesExtraFlavor</mod_root_path>
-    <name>N/A</name>
-    <description>N/A</description>
-    <package_id>N/A</package_id>
+    <name>Vile's Extra Flavor</name>
+    <description>
+This is a simple mod that adds new versions of existing apparel, currently just medieval. The stats are identical, but the names are slightly different, such as "bonnet" and "bonnet, brimmed", and the textures are alterled slightly for flavor.
+
+"Why?" you ask. 
+
+Simple. When I play I like to make color-coordinated loadouts. But there aren't enough apparel pieces to make that feasible, at least early game. So this way, I can dress my builders in orange leather tunics, and my farmers in green hemp tunics.
+
+That's all.</description>
+    <package_id>vitech.extraflavor</package_id>
     <last_commit_time>2024-11-12T18:40:55+00:00</last_commit_time>
-    <supported_versions/>
+    <supported_versions>
+      <version>1.5</version>
+    </supported_versions>
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
