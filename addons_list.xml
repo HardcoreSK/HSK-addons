@@ -4152,17 +4152,11 @@ But blankets, of course, can't help with the heat. For those playing on tropical
     <owner>TheLoneTec</owner>
     <repo_name>Water-Freezes</repo_name>
     <mod_root_path/>
-    <name>Water Freezes</name>
-    <description>
-Water freezes and turns to ice with different depths, if you use Soil Relocation Framework you can dig it up and use it to cool rooms, too!
-  </description>
-    <package_id>UdderlyEvelyn.WaterFreezes</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2025-04-11T07:29:27+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
