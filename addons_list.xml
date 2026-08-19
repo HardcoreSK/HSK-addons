@@ -2317,42 +2317,6 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
     <preview_image>HMC Nobility Expanded/About/Preview.png</preview_image>
   </repository>
   <repository>
-    <repo_id>777858707</repo_id>
-    <owner>pacas</owner>
-    <repo_name>HSK-SAR-Patch</repo_name>
-    <mod_root_path/>
-    <name>HSK-SAR Uncensored Patch</name>
-    <description>HSK patches for SAR Zero. Do not use with SAR Alien Textures.</description>
-    <package_id>OTYOTY.SizedApparel.hsk</package_id>
-    <last_commit_time>2025-04-22T14:43:36+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>otyoty.sizedapparel</package_id>
-        <display_name>Sized Apparel for RJW (SAR version)</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>rim.job.world</package_id>
-        <display_name>RimJobWorld</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>asmr.rjw.racesupport</package_id>
-        <display_name>RJW Race Support</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Imranfish.XMLExtensions</package_id>
-        <display_name>XML Extensions</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
-    <preview_image>About/Preview.png</preview_image>
-  </repository>
-  <repository>
     <repo_id>826999035</repo_id>
     <owner>pacas</owner>
     <repo_name>Pacas-Even-More-Content</repo_name>
