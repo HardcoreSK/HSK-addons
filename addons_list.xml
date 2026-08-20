@@ -328,68 +328,11 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Ali
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Android</mod_root_path>
-    <name>VRE Android (HSK Patched)</name>
-    <description>HSK-patched standalone version of Vanilla Races Expanded — Android, tuned for the Hardcore SK modpack.
-
-This bundles the upstream VRE Android mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Android alongside this — they would duplicate each other's defs.
-
-HSK building rewrites (6 production/utility buildings):
-- All 6 buildings switched from fixed Steel/Gold to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
-- Added the HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) per building tier:
-  * VREA_AndroidStand — small storage furniture (minimal: stuff 50 + CompInd 1)
-  * VREA_AndroidPartWorkbench — industrial fabrication (CompInd 8 + ElecComp 2 + Mech 2 + Electronics 2)
-  * VREA_SubcorePolyanalyzer — ultratech analyzer (Plasteel 150 + CompSpacer 3 + ElecComp 2 + Microchips 2)
-  * VREA_AndroidCreationStation — high-tech assembler (CompInd 6 + CompSpacer 6 + ElecComp 3 + Microchips 3)
-  * VREA_AndroidBehavioristStation — software/programming bench (CompInd 4 + CompSpacer 4 + GoldBar 20 + ElecComp 2 + Microchips 2)
-  * VREA_NeutroCasket — neutroamine storage (CompInd 3 + ElecComp 1 + Mech 1)
-
-FULL HSK conversion on all 15 android body parts — rewritten to match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/BodyParts/. Android body parts are now PREMIUM endgame craftables using the same Hyperweave / CarbonAlloy / SyntheticFibers / Microchips / ComponentAdvanced / Biomatter / ArtificialBone / Paraffins / ReinforcedGlass profile that HSK bionic body parts use:
-
-- Heart-tier organs (Hyperweave-based): NeuroPump (BionicHeart), AirFilter (BionicLung), Neutrofilter (BionicKidney), MetabolismRegulator (BionicStomach + GoldBar)
-- Cybernetic top-tier (ArchotechHeart-style): Reactor (+DepletedUranium), ArtificialBrain
-- Sensory: OpticalUnit (BionicEye), AudioProcessor (BionicEar), ArtificialNose (simple bionic)
-- Skeletal/structural: ArtificialJaw (BionicJaw), ArtificialRibcage (BionicNeck-style), ArtificialSpine (BionicSpine + GoldBar)
-- Limbs: AndroidLeg (BionicLeg), AndroidFoot (BionicFoot), AndroidArm (BionicArm), AndroidHand (BionicHand)
-
-This makes building a full android a premium endgame project rather than a mid-game crafting goal — comparable to outfitting an entire colony with HSK bionic upgrades.
-
-No CE work needed — androids do not have natural melee weapons (their capability comes from installed bionic-class artificial body parts which are stat hediffs, not Verb-givers).
-
-Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and bundling by CarbineAction.
-
-Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
-    <package_id>vanillaracesexpanded.android</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
-        <display_name>Vanilla Expanded Framework</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Biotech</package_id>
-        <display_name>RimWorld - Biotech</display_name>
-        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>CETeam.CombatExtended</package_id>
-        <display_name>Combat Extended</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>HSK-VRE-Android/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -757,52 +700,11 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
     <owner>carbineact1on</owner>
     <repo_name>HSK-Race-Collection</repo_name>
     <mod_root_path>HSK-VRE-Saurid</mod_root_path>
-    <name>VRE Saurid (HSK/CE Patched)</name>
-    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Saurid, tuned for the Hardcore SK modpack.
-
-This bundles the upstream VRE Saurid mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Saurid alongside this — they would duplicate each other's defs.
-
-Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
-- VRESaurids_ScaleSkin gene — natural scale armor rescaled to HSK CE values (Sharp 4 / Blunt 4, between bare skin and light flak; Pacas's vanilla CE values of 1.0/1.0 were functionally useless under HSK CE math)
-- VRESaurids_SauridClaws hediff — claws verb converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration
-
-Saurid is a content-light race (no recipes, no buildings, no costLists, no weapons, no apparel). All HSK material conventions are preserved by default since there's nothing to convert.
-
-Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
-
-Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
-    <package_id>vanillaracesexpanded.saurid</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-07-27T20:57:36+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
-        <display_name>Vanilla Expanded Framework</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2023507013</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Biotech</package_id>
-        <display_name>RimWorld - Biotech</display_name>
-        <steam_workshop_url>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>skyarkhangel.HSK</package_id>
-        <display_name>Hardcore SK</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2424766948</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>CETeam.CombatExtended</package_id>
-        <display_name>Combat Extended</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>HSK-VRE-Saurid/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1183,77 +1085,11 @@ NOT compatible with original "VanillaExpanded.VFEA" — enable this INSTEAD.</de
     <owner>carbineact1on</owner>
     <repo_name>HSK-VFE-Collection</repo_name>
     <mod_root_path>HSK-VFE-Deserters</mod_root_path>
-    <name>VFE Deserters (HSK/CE Patched)</name>
-    <description>HSK/CE-patched version of Vanilla Factions Expanded - Deserters, tuned for the Hardcore SK modpack.
-
-Original mod by Oskar Potocki, xrushha, and legodude17. This patch version rebalances the mod's player-facing content to fit HSK's spacer-tier economy and research tree, while preserving the full Deserter gameplay loop (contraband, visibility system, quests, scenarios).
-
---- HSK-NATIVE CONVERSIONS ---
-
-WEAPONS:
-- Charge Cycler: now crafts at MechWeaponCraftingWorkTable, Charge_weapons_E research, Crafting 16, 35000 work. Ingredients: Charged_Component, Weapon_Parts, ComponentUltra, FerrosiliconAlloy, USLDBar, Plastic. Thump shot ammo swapped to AmmoSet_40x46mmGrenade (HSK-native, no VFE Empire dep).
-- Fletchling: crafts at MechWeaponCraftingWorkTable, Charge_weapons_D research, Crafting 14, 27000 work. HSK-tier spacer materials.
-
-BELTS:
-- Deserter Declassifier: HSK-hardcore recipe. TableElectronics, Charge_weapons_D research, Crafting 13, 20000 work. Electronics, ComponentSpacer, Hexcell, FerrosiliconAlloy, Plastic on StrongMetallic stuff base.
-- Bomb Pack + Invisibility Engulfer: remain quest-drop-only (not player-craftable in HSK balance). Enemies still use them in scenarios.
-
-MORTAR SHELLS (Shrapnel, AP, Cluster):
-- TableMachining, Crafting 8, 1500 work each. HSK-native materials (Steel, Mechanism, Weapon_Parts, ComponentIndustrial).
-
-FLAGSHIP CHUNK SALVAGE:
-- Deconstruct yields upgraded to HSK-thematic: Plasteel x20, ComponentSpacer x3, Steel x30. Matches Imperial flagship spacer-tech salvage.
-
---- DISABLED PLAYER CONTENT ---
-
-Removed from player architect menu (enemy base generation still uses them):
-- 3 Deserters turrets (Kontarion, Palintone, Onager) — HSK has rich turret roster
-- 10 IED traps — HSK has its own complete IED lineup
-- 3 ammo boxes — paired with disabled turrets, no purpose
-
-Striker Turret kept as-is (quest-only, not buildable by player in vanilla either).
-
---- KCSG SYMBOL FIXES ---
-
-KCSG missing-symbol patches for this mod's layouts (Aerodrone Stations, Safehavens, Zeus Cannon Complex, Imperial Plots, etc.) are now shipped via HSK Mod Fixes Pack as a catch-all covering every KCSG-using mod on the modlist. No per-mod SymbolDef file needed here — enable Mod Fixes Pack alongside this mod.
-
---- PRESERVED GAMEPLAY ---
-
-ALL core Deserter mechanics unchanged: Visibility system, Contraband, Intel currency, Deserter cells, Aerodrones, quest scripts, scenarios, factions. Supply/Biosecured crates, Deserter Shuttle, Burnout Intel Scraper, Surveillance Pillars — all preserved.
-
---- COMPATIBILITY ---
-
-Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, VE Framework, Royalty DLC, and VFE Empire (for Imperial content).
-CE's built-in Deserters patches load automatically via its ModPatches folder.
-
-For HSK users — safe to install on any save. Not compatible with the original "Vanilla Factions Expanded - Deserters" mod; enable this INSTEAD.</description>
-    <package_id>CarbineAction.HSK.VFE.Deserters</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-06-12T09:48:06+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>brrainz.harmony</package_id>
-        <display_name>Harmony</display_name>
-        <steam_workshop_url>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>OskarPotocki.VanillaFactionsExpanded.Core</package_id>
-        <display_name>Vanilla Expanded Framework</display_name>
-        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>OskarPotocki.VFE.Empire</package_id>
-        <display_name>Vanilla Factions Expanded - Empire</display_name>
-        <steam_workshop_url>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Royalty</package_id>
-        <display_name>Royalty</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>HSK-VFE-Deserters/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -1792,27 +1628,11 @@ Required: Hardcore SK, Combat Extended.</description>
     <owner>Elldar112</owner>
     <repo_name>Elldar-Tweaks</repo_name>
     <mod_root_path>Elldar Patches</mod_root_path>
-    <name>Elldar's Patches Compilation</name>
-    <description>
-Various Patches for HSK.
-
-Mostly Architect Sense support and research changes, but some mods have been fully patched. Some patches are still WIP, more will come.
-
-Some of the mods I've patched didn't had their version tag updated, but they still work. To avoid wrong version warning I suggest using Mlie's No Version Warning mod.
-
-- Includes Bodyrestoration cycle from Nelson's old 1.3 patches.
-- Includes SmootherTerraforming by Pro_Triforcer, now fixed to work with Vile's Biome mods.
-- Includes presets for Show Me Your Hands for many modded weapons.
-	</description>
-    <package_id>Elldar.tweaks</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-06-28T19:38:22+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.2</version>
-      <version>1.3</version>
-      <version>1.4</version>
-      <version>1.5</version>
-      <version>1.6</version>
-    </supported_versions>
+    <supported_versions/>
     <preview_image>Elldar Patches/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -2357,68 +2177,11 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
     <owner>pacas</owner>
     <repo_name>Pacas-Even-More-Content</repo_name>
     <mod_root_path>Pacas Even More Content</mod_root_path>
-    <name>Pacas Even More Content</name>
-    <description>Even more content, mostly focused on random ideas.
-        This mod adds:
-        - Kirin and Feenix hearts processing
-        - Elemental and bio weapons
-        - Elemental embrasures
-        - Elemental fuse
-        - Reinforced bridges
-        - New oil refiners
-        - Crafting fossils and crystals
-        - New rituals
-        - More tools
-        - More apparel
-        - Stupid jokes in descriptions
-
-        Больше контента, больше!
-        Этот мод добавляет:
-        - Обработка сердец Кирина и Феникса.
-        - Элементальное и био оружие
-        - Элементальные амбразуры
-        - Элементальный предохранитель
-        - Усиленные мосты
-        - Новые переработчики нефти
-        - Крафт окаменелостей и кристаллов
-        - Новые ритуалы
-        - Больше инструментов
-        - Больше одежды
-        - Глупые шутки в описаниях
-    </description>
-    <package_id>hmc.pacas.evenmorecontent</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2026-02-16T09:43:51+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>Imranfish.XMLExtensions</package_id>
-        <display_name>XML Extensions</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2574315206</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>ratys.rtfuse</package_id>
-        <display_name>RT Fuse SK</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Royalty</package_id>
-        <display_name>Royalty</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Ideology</package_id>
-        <display_name>Ideology</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-      <dependency>
-        <package_id>Ludeon.RimWorld.Biotech</package_id>
-        <display_name>Biotech</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>Pacas Even More Content/About/Preview.png</preview_image>
   </repository>
   <repository>
@@ -3254,22 +3017,11 @@ Conflicts
     <owner>pacas</owner>
     <repo_name>Pacas-HSK-Patches</repo_name>
     <mod_root_path>SRTS Expanded plus addons/SRTS Expanded - Helicopters</mod_root_path>
-    <name>SRTS Expanded - Helicopters</name>
-    <description>Ever wanted to fly through Rimworld with style and practicality? Well helicopters are here to bring you just that, helicopters have always been the king when it comes to aeronautical utility, the ability for helicopters to land without a runway is incredibly useful, especially when secure spaces are of a premium due to pesky raiders trying to steal your tables, it also allows you to launch attack operations without needing an entire airfield to land on, which is great for retaliation and retaking your stolen tables.
-	</description>
-    <package_id>ELIF.SRTS.Helicopters</package_id>
+    <name>N/A</name>
+    <description>N/A</description>
+    <package_id>N/A</package_id>
     <last_commit_time>2024-10-02T11:05:28+00:00</last_commit_time>
-    <supported_versions>
-      <version>1.4</version>
-      <version>1.5</version>
-    </supported_versions>
-    <mod_dependencies>
-      <dependency>
-        <package_id>smashphil.srtsexpanded</package_id>
-        <display_name>SRTS Expanded</display_name>
-        <steam_workshop_url>steam://url/CommunityFilePage/2878587061</steam_workshop_url>
-      </dependency>
-    </mod_dependencies>
+    <supported_versions/>
     <preview_image>SRTS Expanded plus addons/SRTS Expanded - Helicopters/About/Preview.png</preview_image>
   </repository>
   <repository>
