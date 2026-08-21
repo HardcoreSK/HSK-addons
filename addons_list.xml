@@ -1938,7 +1938,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>HSK kebab limits</name>
     <description>Advanced storage stack limit controls for RimWorld HSK.</description>
     <package_id>kebabebak.hsk.kebab.limits</package_id>
-    <last_commit_time>2026-08-18T16:03:27+00:00</last_commit_time>
+    <last_commit_time>2026-08-21T04:38:11+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -1960,7 +1960,7 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <name>HSK kebab tweaks</name>
     <description>A bundle of features/patches/fixes from kebabebak for RimWorld HSK.</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-08-18T08:19:43+00:00</last_commit_time>
+    <last_commit_time>2026-08-21T04:47:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
