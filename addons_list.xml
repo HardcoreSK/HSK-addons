@@ -1959,9 +1959,27 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <repo_name>HSK-kebab-tweaks</repo_name>
     <mod_root_path/>
     <name>HSK kebab tweaks</name>
-    <description>A bundle of features/patches/fixes from kebabebak for RimWorld HSK.</description>
+    <description>Full support for the latest version of HSK 1.6 Alpha.
+  
+  A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
+  - Each feature can be turned off in mod settings
+  - Mute leftover messages, letters, and alerts you do not want
+  - Fixes for common HSK crashes and broken jobs
+  - Farmers cut trees in growing zones before sowing
+  - Idle colonists look for work less often, so the game stays smoother
+  and other...
+  
+  Полная поддержка последней версии HSK 1.6 Alpha.
+  
+  Сборник функций/патчей/исправлений от kebabebak для RimWorld HSK:
+  - Каждую функцию можно отключить в настройках мода
+  - Отключение ненужных сообщений, писем и оповещений
+  - Исправлены распространенные сбои HSK и неработающие задания
+  - Фермеры вырубают деревья в зонах выращивания перед посевом
+  - Колонисты в режиме ожидания реже ищут работу, что обеспечивает более плавную работу игры
+и другие...</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-08-21T04:47:33+00:00</last_commit_time>
+    <last_commit_time>2026-08-22T13:41:45+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
