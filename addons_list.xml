@@ -1997,9 +1997,11 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
   - Исправлены распространенные сбои HSK и неработающие задания
   - Фермеры вырубают деревья в зонах выращивания перед посевом
   - Колонисты в режиме ожидания реже ищут работу, что обеспечивает более плавную работу игры
-и другие...</description>
+  и другие...
+  
+  https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-08-22T13:41:45+00:00</last_commit_time>
+    <last_commit_time>2026-08-25T14:37:28+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
