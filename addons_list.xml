@@ -1980,9 +1980,9 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <repo_name>HSK-kebab-tweaks</repo_name>
     <mod_root_path/>
     <name>HSK kebab tweaks</name>
-    <description>Full support for the latest version of HSK 1.6 Alpha.
-  
-  A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
+    <description>Full support for the latest version of HSK 1.6 Alpha. Disabling this mod will not cause any problems to your save.
+
+A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   - Each feature can be turned off in mod settings
   - Mute leftover messages, letters, and alerts you do not want
   - Fixes for common HSK crashes and broken jobs
@@ -1990,9 +1990,9 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
   - Idle colonists look for work less often, so the game stays smoother
   and other...
   
-  Полная поддержка последней версии HSK 1.6 Alpha.
+Полная поддержка последней версии HSK 1.6 Alpha. Отключение этого мода не вызовет проблем с вашим сохранением.
   
-  Сборник функций/патчей/исправлений от kebabebak для RimWorld HSK:
+Сборник функций/патчей/исправлений от kebabebak для RimWorld HSK:
   - Каждую функцию можно отключить в настройках мода
   - Отключение ненужных сообщений, писем и оповещений
   - Исправлены распространенные сбои HSK и неработающие задания
@@ -2000,9 +2000,9 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
   - Колонисты в режиме ожидания реже ищут работу, что обеспечивает более плавную работу игры
   и другие...
   
-  https://github.com/kebabebak/HSK-kebab-tweaks</description>
+https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-08-25T14:37:28+00:00</last_commit_time>
+    <last_commit_time>2026-08-26T17:47:31+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
