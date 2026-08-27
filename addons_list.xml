@@ -1938,9 +1938,9 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
     <repo_name>HSK-kebab-limits</repo_name>
     <mod_root_path/>
     <name>HSK kebab limits</name>
-    <description>Full support for the latest version of HSK 1.6 Alpha.
+    <description>Full support for the latest version of HSK 1.6 Alpha. Disabling this mod will not cause any problems to your save.
   
-  Provides advanced item limits controls in storages:
+Provides advanced item limits controls in storages:
   - How many items a storage may hold
   - Different limits for one item or a category
   - Cap the whole storage or by amount of stacks
@@ -1948,9 +1948,9 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
   - Display only allowed or forbidden items in the storage list
   and other...
   
-  Полная поддержка последней версии HSK 1.6 Alpha.
+Полная поддержка последней версии HSK 1.6 Alpha. Отключение этого мода не вызовет проблем с вашим сохранением.
   
-  Предоставляет расширенные возможности управления предметами в складах:
+Предоставляет расширенные возможности управления предметами в складах:
   - Сколько предметов может вместить склад
   - Различные лимиты для предмета или категории
   - Ограничение всего склада или по количеству стаков
@@ -1958,9 +1958,9 @@ Winston is a battle-hardened combat expert, and he believes that through combat,
   - Отображение только разрешенных или запрещенных предметов в списке хранилища
   и другие...
   
-  https://github.com/kebabebak/HSK-kebab-limits</description>
+https://github.com/kebabebak/HSK-kebab-limits</description>
     <package_id>kebabebak.hsk.kebab.limits</package_id>
-    <last_commit_time>2026-08-24T11:22:30+00:00</last_commit_time>
+    <last_commit_time>2026-08-27T18:19:23+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
