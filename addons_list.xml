@@ -2304,13 +2304,14 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
 		QoL Features:
 		- Auto forbid rotted meat &amp; rotten mush outside home area;
 		- Set threshold for Deep Drill resources;
+		- Select sand or rubble as Deep Drill resources after research;
 		- Remove monument quest completely;
 		- ... and more!
 		Cross-mod Features:
 		- Seed please: show skill &amp; tech requirement on seed info tab;
 	</description>
     <package_id>regex.SKP</package_id>
-    <last_commit_time>2026-08-23T10:56:15+00:00</last_commit_time>
+    <last_commit_time>2026-08-27T23:48:33+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
