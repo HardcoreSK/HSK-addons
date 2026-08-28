@@ -1960,7 +1960,7 @@ Provides advanced item limits controls in storages:
   
 https://github.com/kebabebak/HSK-kebab-limits</description>
     <package_id>kebabebak.hsk.kebab.limits</package_id>
-    <last_commit_time>2026-08-27T18:19:23+00:00</last_commit_time>
+    <last_commit_time>2026-08-28T16:46:16+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
