@@ -2002,7 +2002,7 @@ A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   
 https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-08-28T20:52:30+00:00</last_commit_time>
+    <last_commit_time>2026-08-29T12:15:17+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -2201,7 +2201,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
 	</description>
     <package_id>linya.hskfoodtracker</package_id>
-    <last_commit_time>2026-08-14T20:01:33+00:00</last_commit_time>
+    <last_commit_time>2026-08-29T12:51:53+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -2277,7 +2277,7 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
 - Перемещаемый виджет богатства
 	</description>
     <package_id>linya.hskwealthdelta</package_id>
-    <last_commit_time>2026-08-15T07:30:16+00:00</last_commit_time>
+    <last_commit_time>2026-08-29T11:56:52+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
