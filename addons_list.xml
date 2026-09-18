@@ -655,6 +655,53 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1375603645</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKMoreBalanceQuests</repo_name>
+    <mod_root_path/>
+    <name>HSK More Balance: Quests</name>
+    <description>
+[English]
+Quest tuning for the Hardcore SK modlist.
+
+- Quests with mechanoids, turrets, condition causers and ancient complexes are not offered below the Industrial tech level (as calculated by Ignorance Is Bliss).
+- Quest factions (raid enemies, site owners, peace talks, shuttle crash attackers) must fit the Ignorance Is Bliss tech range.
+- Site guards and monument punishments never use mechanoids, turrets or condition causers below Industrial.
+- Weapons in quest item rewards are limited to exactly one tech level above the player.
+- Lodger count by tech level: Neolithic 1-2, Medieval 2-4, Industrial 4-6. Refugees and beggars are limited by colony size.
+- No duplicate guest or monument quests while one is already running.
+- Fewer wastepacks in the pollution dump quest, scaled by colony tech level.
+
+Adds only its own settings def (Defs/Misc/BalanceSettings.xml, thresholds are editable there): safe to add to or remove from an existing save.
+
+[Russian]
+Настройка квестов для сборки Hardcore SK.
+
+- Квесты с механоидами, турелями, генераторами условий и древними комплексами не выдаются ниже индустриального техуровня (по расчёту Ignorance Is Bliss).
+- Фракции в квестах (враги рейдов, владельцы площадок, переговоры, нападающие в квесте с шаттлом) должны проходить диапазон техуровня Ignorance Is Bliss.
+- В охране площадок и наказании за разрушение монумента ниже индустриального уровня не бывает механоидов, турелей и генераторов условий.
+- Оружие в предметных наградах — ровно на один техуровень выше игрока.
+- Число постояльцев по техуровню: неолит 1-2, средневековье 2-4, индустриальный 4-6. Беженцы и попрошайки ограничены размером колонии.
+- Повторные квесты на гостей и монумент не выдаются, пока идёт предыдущий.
+- Меньше мешков отходов в квесте на свалку, с учётом техуровня колонии.
+
+Из своих дефов только файл настроек (Defs/Misc/BalanceSettings.xml, пороги правятся там): мод можно безопасно ставить в текущее сохранение и убирать из него.
+	</description>
+    <package_id>linya.hskmorebalance.quests</package_id>
+    <last_commit_time>2026-09-18T09:31:17+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
     <repo_id>1254611622</repo_id>
     <owner>linyaDev</owner>
     <repo_name>HSKMoreHardcore</repo_name>
