@@ -659,11 +659,12 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
     <owner>linyaDev</owner>
     <repo_name>HSKMoreBalanceQuests</repo_name>
     <mod_root_path/>
-    <name>HSK More Balance: Quests</name>
+    <name>HSK More Balance: Quests and Events</name>
     <description>
 [English]
-Quest tuning for the Hardcore SK modlist.
+Quest and incident tuning for the Hardcore SK modlist. Both modules can be switched off separately in the mod settings.
 
+Quests:
 - Quests with mechanoids, turrets, condition causers and ancient complexes are not offered below the Industrial tech level (as calculated by Ignorance Is Bliss).
 - Quest factions (raid enemies, site owners, peace talks, shuttle crash attackers) must fit the Ignorance Is Bliss tech range.
 - Site guards and monument punishments never use mechanoids, turrets or condition causers below Industrial.
@@ -672,11 +673,18 @@ Quest tuning for the Hardcore SK modlist.
 - No duplicate guest or monument quests while one is already running.
 - Fewer wastepacks in the pollution dump quest, scaled by colony tech level.
 
-Adds only its own settings def (Defs/Misc/BalanceSettings.xml, thresholds are editable there): safe to add to or remove from an existing save.
+Incidents:
+- Incidents listed in the settings def are not fired below a minimum player tech level: endless night, ice age, mechanoid terraformer.
+- Creepjoiner variants (Anomaly) obey the same kind of gate: the lone genius does not show up below the Industrial level, other variants come instead.
+- Raid Extension surprise events (hostile caravan, lost raider, logging, poaching) pick factions inside the Ignorance Is Bliss tech range, including the case where the faction was set in advance.
+- Hospitality guests: a faction above the player's tech level does not visit, and one far below it does not either. Invitations from the comms console are not limited.
+
+Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/EventSettings.xml, all thresholds are editable there; the mod settings window only switches the two modules on and off): safe to add to or remove from an existing save.
 
 [Russian]
-Настройка квестов для сборки Hardcore SK.
+Настройка квестов и событий для сборки Hardcore SK. Оба модуля отключаются по отдельности в настройках мода.
 
+Квесты:
 - Квесты с механоидами, турелями, генераторами условий и древними комплексами не выдаются ниже индустриального техуровня (по расчёту Ignorance Is Bliss).
 - Фракции в квестах (враги рейдов, владельцы площадок, переговоры, нападающие в квесте с шаттлом) должны проходить диапазон техуровня Ignorance Is Bliss.
 - В охране площадок и наказании за разрушение монумента ниже индустриального уровня не бывает механоидов, турелей и генераторов условий.
@@ -685,10 +693,16 @@ Adds only its own settings def (Defs/Misc/BalanceSettings.xml, thresholds are ed
 - Повторные квесты на гостей и монумент не выдаются, пока идёт предыдущий.
 - Меньше мешков отходов в квесте на свалку, с учётом техуровня колонии.
 
-Из своих дефов только файл настроек (Defs/Misc/BalanceSettings.xml, пороги правятся там): мод можно безопасно ставить в текущее сохранение и убирать из него.
+События:
+- События из списка настроек не запускаются ниже заданного техуровня игрока: бесконечная ночь, ледниковый период, терраформер механоидов.
+- Варианты жуткого присоединившегося (Anomaly) гейтятся так же: одинокий гений не приходит ниже индустриального уровня, вместо него выбираются другие варианты.
+- Внезапные события Raid Extension (враждебный караван, заблудившийся рейдер, лесозаготовка, браконьеры) выбирают фракции внутри диапазона техуровня Ignorance Is Bliss, в том числе когда фракция задана заранее.
+- Гости Hospitality: фракция выше техуровня игрока не приходит, сильно ниже — тоже. Приглашение через консоль связи не ограничивается.
+
+Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-09-18T09:31:17+00:00</last_commit_time>
+    <last_commit_time>2026-09-18T13:11:34+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
