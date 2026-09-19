@@ -702,7 +702,7 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-09-18T13:11:34+00:00</last_commit_time>
+    <last_commit_time>2026-09-19T07:47:52+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
@@ -2792,7 +2792,7 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
   Version:0 «Если эта модификация случайно повредит или удалит данные на вашем компьютере, ударит вас током, взорвет ваш монитор прямо вам в лицо, подожжет ваш дом, убьет вас, заменит весь текст, произносимый вами в онлайн-играх, на "хрю", заставит всех на планете (и вне ее пределов) хотеть вас убить, взломает ближайшую ядерную базу и нацелит ракеты на ваш дом, поменяет ваш банковский баланс на $0, забанит вас во всех играх, вносит ваше имя в список какого-нибудь киллера, затянет вас в компьютер и будет играть с вами в пинбол (вы в качестве мяча), заставит секретное агентство разыскивать вас, превратит вашу комнату в портал в Ад, обретет разум и начнет убивать всех на планете, чего бы вы не хотели, не вините автора этого мода!(С уважением ваш Наблюдатель XI)»
   </description>
     <package_id>HSK.Watcher.content.New130mmRocketMissiles</package_id>
-    <last_commit_time>2025-12-19T19:26:27+00:00</last_commit_time>
+    <last_commit_time>2026-09-19T10:16:10+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
       <version>1.5</version>
