@@ -702,7 +702,7 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-09-19T07:47:52+00:00</last_commit_time>
+    <last_commit_time>2026-09-21T09:18:00+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
