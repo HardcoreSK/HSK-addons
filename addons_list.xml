@@ -672,7 +672,6 @@ Quests:
 - Lodger count by tech level: Neolithic 1-2, Medieval 2-4, Industrial 4-6. Refugees and beggars are limited by colony size.
 - No duplicate guest or monument quests while one is already running.
 - Fewer wastepacks in the pollution dump quest, scaled by colony tech level.
-- Incompatible with Simple Monument Quest. If it is enabled anyway, a monument quest rewards a single log or mindscrew.
 
 Incidents:
 - Incidents listed in the settings def are not fired below a minimum player tech level: endless night, ice age, mechanoid terraformer, defoliator and psychic emanator ship crashes.
@@ -693,7 +692,6 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 - Число постояльцев по техуровню: неолит 1-2, средневековье 2-4, индустриальный 4-6. Беженцы и попрошайки ограничены размером колонии.
 - Повторные квесты на гостей и монумент не выдаются, пока идёт предыдущий.
 - Меньше мешков отходов в квесте на свалку, с учётом техуровня колонии.
-- Несовместим с Simple Monument Quest. Если его всё же включили, за квест на монумент даётся одно бревно или один мозгорез.
 
 События:
 - События из списка настроек не запускаются ниже заданного техуровня игрока: бесконечная ночь, ледниковый период, терраформер механоидов, падение кораблей-дефолиатора и психоизлучателя.
@@ -704,7 +702,7 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-09-22T11:52:56+00:00</last_commit_time>
+    <last_commit_time>2026-09-24T15:17:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
