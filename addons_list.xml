@@ -671,7 +671,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 - Животные, доставшиеся даром, продаются дешевле: пришедшие по событию получают метку «Полудикое», прирученные вручную — «Приручённое».
 
 ТОРГОВЦЫ
-- Племенной военный торговец возит зажигательную смесь и прометеум, скупает патроны и любые луки — раньше эти добавки Combat Extended затирал пак, а луки не брал никто. Племенной оптовик тоже возит зажигательную смесь.
+- Племенной военный торговец возит FSX и прометеум, скупает патроны и любые луки — раньше эти добавки Combat Extended затирал пак, а луки не брал никто. Племенной оптовик тоже возит FSX.
 - Шаман привозит нейротренажёры навыков и пситренажёры.
 - Оптовики возят заметно больше железной руды и дерева, добавлены хладокамень и светокамень.
 - Торговец животными привозит разное сырое мясо и скупает любую еду.
@@ -679,8 +679,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 
 ГОСТИ
 - Гости несут с собой больше серебра, и тем больше, чем выше техуровень их фракции.
-- Гостям можно продать лук, арбалет и духовую трубку — раньше примитивную дальнобойку они не брали вовсе.
-- Медикаменты убраны из их торговли, а в подарках уходящих гостей остаётся только травяная медицина.
+- Гости покупают более разнообразные вещи: раньше примитивную дальнобойку они не брали вовсе.
 
 ЛУТ И ТРОФЕИ
 - Лут из упавших капсул переработан: теперь это находка для хозяйства — припасы, материалы и патроны, которые идут в дело сразу, а не корона из гаммы и ствол не по эпохе.
@@ -692,11 +691,8 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 
 КРАФТ И РЕСУРСЫ
 - Гильзы: огнестрельному патрону нужна гильза своего класса — пять классов, рецепт открывается тем же исследованием, что и прежняя оружейная деталь.
-- Разбор оружия зависит от состояния ствола: целый отдаёт часть деталей, потрёпанный — только металл.
-- Переработка Mend and Recycle возвращает малую долю металла, кожа превращается в лоскутную кожу, остальное — в лоскутную ткань.
+- Переработка Mend and Recycle возвращает обрезки: кожаная одежда даёт лоскутную кожу, остальная — лоскутную ткань.
 - Мяса с гуманоидов меньше, меньше кожи с рыбы, глубинные залежи беднее.
-- Нефтяные залежи не восстанавливаются: найденное месторождение выкачивается до дна и больше не наполняется само.
-- Лес не отрастает сам по себе: деревья возвращаются в разы реже, зато живут намного дольше — рубить приходится с оглядкой, но собственная посадка не пропадёт (сделано ради баланса, числа выверены в игре). Рекомендую начать партию в лесу и посмотреть самому: лес стал заметно комфортнее и приятнее в игре.
 - Лоскутная ткань — новый мусорный материал, тканевый аналог лоскутной кожи.
 
 РЕМОНТ И СТИРКА
@@ -708,7 +704,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 
 КАЧЕСТВО
 - У построек и мебели качества больше нет — ни ролла при постройке, ни влияния на красоту, комфорт и цену. Легендарный поддон больше не разгоняет стоимость колонии, а разница между кроватями снова держится на самих кроватях: следующий тир лучше предыдущего. Оружие и одежда не затронуты.
-- Бонусы одежды носителю — скорость, скорость работы, порог срыва — зависят от качества. В описании вещи появилась секция «Статы с учётом качества».
+- Бонусы одежды носителю — скорость, скорость работы, порог срыва — зависят от качества. В описании вещи появилась секция «Статы с учётом качества»: улучшение голубым, ухудшение красным.
 - Из плохих материалов вещи чаще выходят низкого качества — хуже всего лоскутная и человеческая кожа. Множитель виден в карточке материала и действует только на крафт игроком.
 
 ФРАКЦИИ И ИМПЕРИЯ
@@ -756,8 +752,7 @@ TRADERS
 
 GUESTS
 - Guests carry more silver, and the higher their faction's tech level, the more.
-- Guests will buy bows, crossbows and blowguns — primitive ranged weapons were unsellable before.
-- Medicine is removed from their trade, and departing guests only leave herbal medicine as gifts.
+- Guests buy a wider range of goods: primitive ranged weapons were unsellable before.
 
 LOOT
 - Drop pod loot is reworked: supplies, materials and ammo you can use right away instead of a glitterworld crown and a gun from the wrong era.
@@ -769,11 +764,8 @@ MEDICINE
 
 CRAFTING AND RESOURCES
 - Cartridge cases: every firearm round needs a case of its own class — five classes, unlocked by the same research as the weapon part it replaces.
-- Disassembling a gun depends on its condition: an intact one gives back some parts, a battered one only metal.
-- Mend and Recycle returns only a small share of the metal; leather becomes patchleather, everything else patchcloth.
+- Mend and Recycle returns scraps: leather apparel gives patchleather, everything else patchcloth.
 - Less meat from humanlikes, less leather from fish, poorer deep deposits.
-- Oil fields do not refill: a deposit you find is pumped dry for good.
-- The forest does not regrow on its own: trees come back far more rarely but live much longer — cut with care, and your own planting will not go to waste (a deliberate balance change, tuned in play). Try a forest start and see for yourself — the woods became much more comfortable to live in.
 - Patchcloth — a new scrap material, the cloth counterpart of patchleather.
 
 REPAIR AND WASHING
@@ -816,7 +808,7 @@ MEDIEVAL
 - Catapult: its stone balls got their own reinforced fragments instead of the shared ones, and they penetrate noticeably better.
 	</description>
     <package_id>linya.hskmorebalance.core</package_id>
-    <last_commit_time>2026-09-24T19:36:30+00:00</last_commit_time>
+    <last_commit_time>2026-09-25T08:24:14+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
