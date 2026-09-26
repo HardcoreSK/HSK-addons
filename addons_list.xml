@@ -808,7 +808,7 @@ MEDIEVAL
 - Catapult: its stone balls got their own reinforced fragments instead of the shared ones, and they penetrate noticeably better.
 	</description>
     <package_id>linya.hskmorebalance.core</package_id>
-    <last_commit_time>2026-09-25T08:24:14+00:00</last_commit_time>
+    <last_commit_time>2026-09-26T13:35:09+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
