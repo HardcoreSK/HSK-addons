@@ -808,7 +808,7 @@ MEDIEVAL
 - Catapult: its stone balls got their own reinforced fragments instead of the shared ones, and they penetrate noticeably better.
 	</description>
     <package_id>linya.hskmorebalance.core</package_id>
-    <last_commit_time>2026-09-26T13:35:09+00:00</last_commit_time>
+    <last_commit_time>2026-09-27T08:03:02+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
@@ -855,6 +855,7 @@ Incidents:
 - Creepjoiner variants (Anomaly) obey the same kind of gate: the lone genius does not show up below the Industrial level, other variants come instead.
 - Raid Extension surprise events (hostile caravan, lost raider, logging, poaching) pick factions inside the Ignorance Is Bliss tech range, including the case where the faction was set in advance.
 - Hospitality guests: a faction above the player's tech level does not visit, and one far below it does not either. Invitations from the comms console are not limited.
+- The Core_SK enemy ship landing picks its faction inside the Ignorance Is Bliss tech range; with no faction in range the event does not fire.
 
 Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/EventSettings.xml, all thresholds are editable there; the mod settings window only switches the two modules on and off): safe to add to or remove from an existing save.
 
@@ -875,11 +876,12 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 - Варианты жуткого присоединившегося (Anomaly) гейтятся так же: одинокий гений не приходит ниже индустриального уровня, вместо него выбираются другие варианты.
 - Внезапные события Raid Extension (враждебный караван, заблудившийся рейдер, лесозаготовка, браконьеры) выбирают фракции внутри диапазона техуровня Ignorance Is Bliss, в том числе когда фракция задана заранее.
 - Гости Hospitality: фракция выше техуровня игрока не приходит, сильно ниже — тоже. Приглашение через консоль связи не ограничивается.
+- Вражеский десант из Core_SK выбирает фракцию внутри диапазона техуровня Ignorance Is Bliss; если в диапазоне никого нет, событие не запускается.
 
 Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-09-24T15:17:03+00:00</last_commit_time>
+    <last_commit_time>2026-09-27T08:09:53+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
