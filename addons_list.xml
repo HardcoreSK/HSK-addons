@@ -467,43 +467,29 @@ https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <name>CE Quick Loadout</name>
     <description>
 [English]
-Right-click items on the map to manage CE loadouts and outfits.
+The best quality-of-life mod in its category. Manage loadouts, storage, diets and outfits in a couple of clicks.
 
-Weapons/Tools:
-- Add/remove from loadout — by colonist (personal) or shared loadout
-- Create new loadout
-- Ammo info tooltip
-- Auto weapon upgrade — finds better quality weapons automatically
-- Loadout warnings — overlay when ammo is low or weapon/tool is missing
+Select an item on the map, then right-click it — a menu opens that lets you quickly manage loadouts, outfits, diets and storage. Also works from RPG Inventory.
 
-Apparel:
-- Add/remove from outfit
-- Change colonist outfit, create new outfit
-- Outfit info tooltip
-- RPG Inventory integration — add/remove from outfit in inventory
+Additional features:
+- Colonists automatically upgrade their loadout weapons and tools when a better one is available on the map — by quality, or by a tool stat like mining speed (configurable in WeaponUpgradeRules.xml)
+- An overlay warns when a colonist is low on ammo or missing a weapon or tool from their loadout
 
-Supports Combat Extended ExtendedLoadout (PersonalLoadout).
+Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite.
 
 [Russian]
-Правый клик по предметам на карте для управления лоадаутами и гардеробами CE.
+Лучший мод в категории «повышение качества жизни». Позволяет в пару кликов управлять лоадаутами, складами, диетами и гардеробами.
 
-Оружие/Инструменты:
-- Добавить/удалить из лоадаута — колонисту (персональный) или общий
-- Создать новый лоадаут
-- Инфо о патронах
-- Автопоиск лучшего оружия
-- Предупреждения — если мало патронов или нет оружия/инструмента
+Выделите предмет на карте и кликните по нему правой кнопкой — откроется меню, через которое вы можете быстро управлять лоадаутами, гардеробами, диетами и складами. Работает и из RPG Inventory.
 
-Одежда:
-- Добавить/удалить из гардероба
-- Сменить гардероб колонисту, создать новый гардероб
-- Инфо о гардеробе
-- Интеграция с RPG Inventory — добавить/удалить из гардероба в инвентаре
+Дополнительные фичи:
+- Колонисты автоматически меняют оружие и инструменты из лоадаута на более подходящие, найденные на карте — по качеству или по стату инструмента, например скорости копания (настраивается в WeaponUpgradeRules.xml)
+- Оверлей предупреждает, когда у колониста мало патронов или не хватает оружия либо инструмента из лоадаута
 
-Поддержка Combat Extended ExtendedLoadout (PersonalLoadout).
+Поддержка Combat Extended ExtendedLoadout (PersonalLoadout) и SurvivalToolsLite.
     </description>
     <package_id>linya.cequickloadout</package_id>
-    <last_commit_time>2026-09-17T17:46:55+00:00</last_commit_time>
+    <last_commit_time>2026-09-28T14:26:07+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
