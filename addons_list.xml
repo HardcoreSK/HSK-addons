@@ -881,6 +881,55 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
     <preview_image>N/A</preview_image>
   </repository>
   <repository>
+    <repo_id>1388204585</repo_id>
+    <owner>linyaDev</owner>
+    <repo_name>HSKTPSBooster</repo_name>
+    <mod_root_path/>
+    <name>HSK TPS Booster</name>
+    <description>
+[English]
+Makes HSK run faster.
+
+- Higher TPS, especially in big colonies
+- Several bug fixes
+- A new interactive map mode
+
+Everything can be switched on and off in the mod settings.
+
+[Russian]
+Ускоряет работу HSK.
+
+- Выше TPS, особенно в больших колониях
+- Несколько исправлений ошибок
+- Новый интерактивный режим карты
+
+Всё включается и выключается в настройках мода.
+	</description>
+    <package_id>linya.hsktpsbooster</package_id>
+    <last_commit_time>2026-10-10T12:45:30+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>Taranchuk.PerformanceOptimizer</package_id>
+        <display_name>Performance Optimizer</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2664723367</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>vr.missilegirl</package_id>
+        <display_name>Missile Girl - Performance Mod</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3712928623</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
     <repo_id>1254688409</repo_id>
     <owner>linyaDev</owner>
     <repo_name>HSKWealthDelta</repo_name>
