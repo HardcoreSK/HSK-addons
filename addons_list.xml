@@ -889,7 +889,8 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
     <description>
 [English]
 Makes HSK run faster.
-
+But let's play until you get to the point where you notice lag, then install Performance Optimizer and Missile Girl, and if you still have lag, then use my mod. If you still have lag, post in the thread and attach a save.
+		
 - Higher TPS, especially in big colonies
 - Several bug fixes
 - A new interactive map mode
@@ -898,7 +899,9 @@ Everything can be switched on and off in the mod settings.
 
 [Russian]
 Ускоряет работу HSK.
+Но давайе вы вначале доиграте до лагов, потом поставите Performance Optimizer и Missile Girl и если все равно есть лаги , то уже мой мод. Если лаги все еще есть , пишите в тему  - прикрепрляйте сейв.
 
+		
 - Выше TPS, особенно в больших колониях
 - Несколько исправлений ошибок
 - Новый интерактивный режим карты
@@ -906,7 +909,7 @@ Everything can be switched on and off in the mod settings.
 Всё включается и выключается в настройках мода.
 	</description>
     <package_id>linya.hsktpsbooster</package_id>
-    <last_commit_time>2026-10-10T12:45:30+00:00</last_commit_time>
+    <last_commit_time>2026-10-11T08:03:39+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
