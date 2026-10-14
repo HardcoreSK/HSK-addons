@@ -201,7 +201,7 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <name>Eccentric Tech - Defense Grid HSK</name>
     <description>Adds networked shield generators, laser-designated missile artillery batteries, and remote turret controllers for high-tech colony defense options.  HSK Conversion by Elldar.</description>
     <package_id>Aelanna.EccentricTech.DefenseGrid</package_id>
-    <last_commit_time>2026-10-13T12:34:38+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T19:37:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
@@ -486,10 +486,11 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite
 Поддержка Combat Extended ExtendedLoadout (PersonalLoadout) и SurvivalToolsLite.
     </description>
     <package_id>linya.cequickloadout</package_id>
-    <last_commit_time>2026-09-28T14:26:07+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:11+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -519,10 +520,11 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite
 Трекер разнообразия еды за 7 дней. Колонисты запоминают что ели и хотят разнообразную еду. Разнообразие повышает настроение (+6), однообразие сильно ухудшает (до -16). Новые колонисты получают 3 дня адаптации. Требуемое разнообразие зависит от уровня технологий и биома.
 	</description>
     <package_id>linya.hskdiettracker</package_id>
-    <last_commit_time>2026-08-29T09:24:57+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:12+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -595,10 +597,11 @@ Features:
 
 	</description>
     <package_id>linya.hskfaith</package_id>
-    <last_commit_time>2026-10-14T13:31:01+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:12+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -623,10 +626,11 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
 	</description>
     <package_id>linya.hskfoodtracker</package_id>
-    <last_commit_time>2026-08-29T12:51:53+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:12+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -791,9 +795,10 @@ MEDIEVAL
 - Catapult: its stone balls got their own reinforced fragments instead of the shared ones, and they penetrate noticeably better.
 	</description>
     <package_id>linya.hskmorebalance.core</package_id>
-    <last_commit_time>2026-10-14T13:32:11+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:12+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -864,9 +869,10 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-10-02T18:29:41+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:12+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
@@ -959,10 +965,11 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
 - Перемещаемый виджет богатства
 	</description>
     <package_id>linya.hskwealthdelta</package_id>
-    <last_commit_time>2026-08-29T11:56:52+00:00</last_commit_time>
+    <last_commit_time>2026-10-14T16:53:13+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
+      <version>1.7</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
