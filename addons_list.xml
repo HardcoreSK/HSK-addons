@@ -244,7 +244,7 @@ Some of the mods I've patched didn't had their version tag updated, but they sti
 - Includes presets for Show Me Your Hands for many modded weapons.
 	</description>
     <package_id>Elldar.tweaks</package_id>
-    <last_commit_time>2026-06-28T19:38:22+00:00</last_commit_time>
+    <last_commit_time>2026-10-16T15:58:09+00:00</last_commit_time>
     <supported_versions>
       <version>1.2</version>
       <version>1.3</version>
@@ -1031,10 +1031,11 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
     Last 1.3 version - https://github.com/pacas/HMC-Nobility-Expanded/releases/tag/v0.15
     </description>
     <package_id>pacas.nobility.expanded</package_id>
-    <last_commit_time>2025-11-25T16:57:02+00:00</last_commit_time>
+    <last_commit_time>2026-10-16T18:25:54+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
+      <version>1.6</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
