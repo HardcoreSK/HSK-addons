@@ -441,7 +441,7 @@ A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   
 https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-10-16T06:09:35+00:00</last_commit_time>
+    <last_commit_time>2026-10-18T13:39:52+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -1122,10 +1122,11 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
         - Глупые шутки в описаниях
     </description>
     <package_id>hmc.pacas.evenmorecontent</package_id>
-    <last_commit_time>2026-02-16T09:43:51+00:00</last_commit_time>
+    <last_commit_time>2026-10-18T12:19:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.4</version>
       <version>1.5</version>
+      <version>1.6</version>
     </supported_versions>
     <mod_dependencies>
       <dependency>
