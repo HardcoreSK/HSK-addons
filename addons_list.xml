@@ -486,7 +486,7 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite
 Поддержка Combat Extended ExtendedLoadout (PersonalLoadout) и SurvivalToolsLite.
     </description>
     <package_id>linya.cequickloadout</package_id>
-    <last_commit_time>2026-10-16T00:59:01+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -496,7 +496,7 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>CETeam.CombatExtended</package_id>
@@ -520,7 +520,7 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite
 Трекер разнообразия еды за 7 дней. Колонисты запоминают что ели и хотят разнообразную еду. Разнообразие повышает настроение (+6), однообразие сильно ухудшает (до -16). Новые колонисты получают 3 дня адаптации. Требуемое разнообразие зависит от уровня технологий и биома.
 	</description>
     <package_id>linya.hskdiettracker</package_id>
-    <last_commit_time>2026-10-16T00:59:03+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -530,7 +530,7 @@ Supports Combat Extended ExtendedLoadout (PersonalLoadout) and SurvivalToolsLite
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
@@ -597,7 +597,7 @@ Features:
 
 	</description>
     <package_id>linya.hskfaith</package_id>
-    <last_commit_time>2026-10-23T09:11:22+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -607,7 +607,7 @@ Features:
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
@@ -626,7 +626,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 Показывает виджет запасов еды — на сколько дней хватит. Считает потребление каждой пешки (гены, трейты, раса). Клик для детальной информации по готовой и сырой еде.
 	</description>
     <package_id>linya.hskfoodtracker</package_id>
-    <last_commit_time>2026-10-16T00:59:22+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -636,7 +636,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>About/Preview.png</preview_image>
@@ -795,7 +795,7 @@ MEDIEVAL
 - Catapult: its stone balls got their own reinforced fragments instead of the shared ones, and they penetrate noticeably better.
 	</description>
     <package_id>linya.hskmorebalance.core</package_id>
-    <last_commit_time>2026-10-22T10:40:49+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
       <version>1.7</version>
@@ -804,7 +804,7 @@ MEDIEVAL
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
       <dependency>
         <package_id>skyarkhangel.HSK</package_id>
@@ -869,7 +869,7 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
 Из своих дефов только файлы настроек (Defs/Misc/BalanceSettings.xml и Defs/Misc/EventSettings.xml, все пороги правятся там; в окне настроек мода только две галки на модули): мод можно безопасно ставить в текущее сохранение и убирать из него.
 	</description>
     <package_id>linya.hskmorebalance.quests</package_id>
-    <last_commit_time>2026-10-20T14:01:44+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:04+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
       <version>1.7</version>
@@ -878,7 +878,7 @@ Adds only its own settings defs (Defs/Misc/BalanceSettings.xml and Defs/Misc/Eve
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>N/A</preview_image>
@@ -966,7 +966,7 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
 - Перемещаемый виджет богатства
 	</description>
     <package_id>linya.hskwealthdelta</package_id>
-    <last_commit_time>2026-10-16T01:54:08+00:00</last_commit_time>
+    <last_commit_time>2026-10-25T09:53:03+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
@@ -976,7 +976,7 @@ Ever looted a bunch of stuff and watched your colony wealth skyrocket? Always wa
       <dependency>
         <package_id>brrainz.harmony</package_id>
         <display_name>Harmony</display_name>
-        <steam_workshop_url>N/A</steam_workshop_url>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
       </dependency>
     </mod_dependencies>
     <preview_image>N/A</preview_image>
