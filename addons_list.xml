@@ -2902,6 +2902,29 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
     <preview_image>About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1423713173</repo_id>
+    <owner>Watcher011</owner>
+    <repo_name>HSK-Watcher-Dead-Space-Main-</repo_name>
+    <mod_root_path/>
+    <name>HSK Watcher Dead Space</name>
+    <description>
+ «За эту модификацию никто не несёт ответственности. Ни за повреждённые данные, ни за чёрную жидкость на стенах. Ни за голоса, что будут звать вас по имени в пустоте. Ни за то, что близкие перестанут быть собой, а вы — помнить, кем были. Автор уже мёртв. Его сигнал потерян. Мы все — часть одного организма.Маркер уже здесь. Наблюдатель XI. Последняя передача. Кислород: 2%.»
+  </description>
+    <package_id>HSK.Dead.Space</package_id>
+    <last_commit_time>2026-10-26T22:31:21+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>810505248</repo_id>
     <owner>Watcher011</owner>
     <repo_name>HSK.Watcher.content</repo_name>
