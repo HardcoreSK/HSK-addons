@@ -2920,7 +2920,7 @@ Water freezes and turns to ice with different depths, if you use Soil Relocation
  «За эту модификацию никто не несёт ответственности. Ни за повреждённые данные, ни за чёрную жидкость на стенах. Ни за голоса, что будут звать вас по имени в пустоте. Ни за то, что близкие перестанут быть собой, а вы — помнить, кем были. Автор уже мёртв. Его сигнал потерян. Мы все — часть одного организма.Маркер уже здесь. Наблюдатель XI. Последняя передача. Кислород: 2%.»
   </description>
     <package_id>HSK.Dead.Space</package_id>
-    <last_commit_time>2026-10-26T22:31:21+00:00</last_commit_time>
+    <last_commit_time>2026-10-29T22:02:26+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
