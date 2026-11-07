@@ -2175,6 +2175,27 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <preview_image>Pacas Upscaled Textures Lite/About/Preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1434508941</repo_id>
+    <owner>Reinerrr</owner>
+    <repo_name>Apparel-Stat-Priorities</repo_name>
+    <mod_root_path/>
+    <name>Apparel Stat Priorities</name>
+    <description>v 1.0.0\n\nПозволяет выставлять приоритетные характеристики одежды для пешек: они автоматически будут стараться надевать в первую очередь одежду, которая будет повышать параметры, указанные как приоритетные.\nAllows you to set priority apparel stats for pawns: they will automatically prioritize wearing apparel that increases the stats specified as priority.</description>
+    <package_id>Reiner.ApparelStatPriorities</package_id>
+    <last_commit_time>2026-11-05T21:55:23+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>698599038</repo_id>
     <owner>Relvl</owner>
     <repo_name>Rimworld-DigitalStorageUnit</repo_name>
