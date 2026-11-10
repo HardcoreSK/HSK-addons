@@ -2180,13 +2180,13 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2590690665
     <repo_name>Apparel-Stat-Priorities</repo_name>
     <mod_root_path/>
     <name>Apparel Stat Priorities</name>
-    <description>v 1.0.0
+    <description>v 1.0.1
 	
 Позволяет выставлять приоритетные характеристики одежды для пешек: они автоматически будут стараться надевать в первую очередь одежду, которая будет повышать параметры, указанные как приоритетные.
 	
 Allows you to set priority apparel stats for pawns: they will automatically prioritize wearing apparel that increases the stats specified as priority.</description>
     <package_id>Reiner.ApparelStatPriorities</package_id>
-    <last_commit_time>2026-11-08T03:33:28+00:00</last_commit_time>
+    <last_commit_time>2026-11-10T02:15:35+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
     </supported_versions>
