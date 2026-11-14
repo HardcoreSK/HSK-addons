@@ -108,6 +108,84 @@ Unofficial HardCore SK adaptation mod by ArpoMo6 with the addition of color gene
     <preview_image>Housekeeper Assistance Cat HSK/About/preview.png</preview_image>
   </repository>
   <repository>
+    <repo_id>1450887304</repo_id>
+    <owner>Blakil</owner>
+    <repo_name>HSK-Vehicles-Bridge</repo_name>
+    <mod_root_path>HSK_Vehicles_Bridge</mod_root_path>
+    <name>HSK Vehicles Bridge</name>
+    <description>Vanilla Vehicles Expanded and vehicle addons in the Hardcore SK economy, adapted to the HSK balance progression: vehicle parts, recipes, a research branch, interchangeable weapon modules, HSK ammo for stock turrets, vehicle armor rescaled to HSK ammo (RimWorld 1.5, 1.6). The combat part (CE armor, damage, turrets through CE) is in Vehicles CE Overhaul: it is required and goes above this mod in the list. With VehicleRaid Framework (1.6) it adds a ready preset: which factions bring which vehicles, the same as our own vehicle raids, with HSK prices.</description>
+    <package_id>blakil.hsk.vehiclesbridge</package_id>
+    <last_commit_time>2026-11-13T11:38:08+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>blakil.vehiclesceoverhaul</package_id>
+        <display_name>Vehicles CE Overhaul</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3836521434</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>skyarkhangel.HSK</package_id>
+        <display_name>Hardcore SK</display_name>
+        <steam_workshop_url>N/A</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>SmashPhil.VehicleFramework</package_id>
+        <display_name>Vehicle Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3014915404</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>OskarPotocki.VanillaVehiclesExpanded</package_id>
+        <display_name>Vanilla Vehicles Expanded</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3014906877</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>N/A</preview_image>
+  </repository>
+  <repository>
+    <repo_id>1450887304</repo_id>
+    <owner>Blakil</owner>
+    <repo_name>HSK-Vehicles-Bridge</repo_name>
+    <mod_root_path>Vehicles_CE_Overhaul</mod_root_path>
+    <name>Vehicles CE Overhaul</name>
+    <description>Combat Extended for Vehicle Framework vehicles (RimWorld 1.5, 1.6).
+
+- Armor: CE penetration (mm sharp / MPa blunt) against vehicle parts, cell by cell through the hull; armor plates wear down; hits from above for explosions over the vehicle. Vehicles without our data get armor by class automatically (armored car, carrier, light, medium and battle tank, aircraft).
+- Damage: parts, crew in their seats, exposed crew; a vehicle is knocked out by Vehicle Framework rules and destroyed once its systems are wrecked; crew inside are hurt by the blast.
+- Turrets: fire through CE with its ammo, reload and ammo selection, CE aiming (gunner skill, range estimation, leading, cover, weather), a "no friendly fire" toggle, active protection systems on armored vehicles.
+- Vehicle raids (simple, optional): raiders bring combat vehicles by raid points; vehicles take firing positions, keep up with their infantry, shell walls in the way, fall back when badly damaged. The group flees after heavy losses, crews abandon vehicles that can no longer move or fire, and colonists can capture empty enemy vehicles. Who brings which vehicles: Mod settings → Vehicles and factions in raids. Without a modpack preset nobody does at first; the button "All factions by tech level" gives every raiding faction vehicles of its tech level and below. For advanced vehicle raids use VehicleRaid Framework (or VVE Raid): with either of them our raids switch off by themselves.
+- Run-over damage by speed and mass, an info card with turret stats, the architect vehicle tab grouped by addon, Vehicle Framework fixes.
+- Addon data (loaded only when the addon is active): Vanilla Vehicles Expanded, Tier 3, Tier 3.9, XCOM Skyranger, Spacer Vehicles, Alpha Vehicles (Age of Sail, Neolithic), Astartes vehicles, GrimWorld.
+
+Settings: Options → Mod settings → Vehicles CE Overhaul.</description>
+    <package_id>blakil.vehiclesceoverhaul</package_id>
+    <last_commit_time>2026-11-13T11:38:08+00:00</last_commit_time>
+    <supported_versions>
+      <version>1.5</version>
+      <version>1.6</version>
+    </supported_versions>
+    <mod_dependencies>
+      <dependency>
+        <package_id>brrainz.harmony</package_id>
+        <display_name>Harmony</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2009463077</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>SmashPhil.VehicleFramework</package_id>
+        <display_name>Vehicle Framework</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/3014915404</steam_workshop_url>
+      </dependency>
+      <dependency>
+        <package_id>CETeam.CombatExtended</package_id>
+        <display_name>Combat Extended</display_name>
+        <steam_workshop_url>steam://url/CommunityFilePage/2890901044</steam_workshop_url>
+      </dependency>
+    </mod_dependencies>
+    <preview_image>Vehicles_CE_Overhaul/About/Preview.png</preview_image>
+  </repository>
+  <repository>
     <repo_id>1299095241</repo_id>
     <owner>Duncanois</owner>
     <repo_name>HSK-More-injuries-Continued</repo_name>
