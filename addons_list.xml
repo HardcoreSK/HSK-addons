@@ -513,7 +513,6 @@ A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   - Each feature can be turned off in mod settings
   - Mute leftover messages, letters, and alerts you do not want
   - Fixes for common HSK crashes and broken jobs
-  - Farmers cut trees in growing zones before sowing
   - Idle colonists look for work less often, so the game stays smoother
   and other...
   
@@ -523,13 +522,12 @@ A bundle of features/patches/fixes from kebabebak for RimWorld HSK:
   - Каждую функцию можно отключить в настройках мода
   - Отключение ненужных сообщений, писем и оповещений
   - Исправлены распространенные сбои HSK и неработающие задания
-  - Фермеры вырубают деревья в зонах выращивания перед посевом
   - Колонисты в режиме ожидания реже ищут работу, что обеспечивает более плавную работу игры
   и другие...
   
 https://github.com/kebabebak/HSK-kebab-tweaks</description>
     <package_id>kebabebak.hsk.kebab.tweaks</package_id>
-    <last_commit_time>2026-10-31T22:00:59+00:00</last_commit_time>
+    <last_commit_time>2026-11-20T12:40:45+00:00</last_commit_time>
     <supported_versions>
       <version>1.5</version>
       <version>1.6</version>
