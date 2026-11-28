@@ -748,7 +748,7 @@ Shows a food supply widget on screen — how many days of food remain. Calculate
 - Шаман привозит нейротренажёры навыков и пситренажёры.
 - Оптовики возят заметно больше железной руды и дерева, добавлены хладокамень и светокамень.
 - Торговец животными привозит разное сырое мясо и скупает любую еду.
-- Тепличный торговец SeedsPlease скупает семена намного дороже остальных.
+- Тепличные торговцы SeedsPlease (караван и орбитальный) убраны из пула торговцев.
 
 ГОСТИ
 - Гости несут с собой больше серебра, и тем больше, чем выше техуровень их фракции.
@@ -821,7 +821,7 @@ TRADERS
 - The shaman brings skill and psycast neurotrainers.
 - Bulk traders carry far more iron ore and wood, plus coldstone and glowstone.
 - The animal trader brings assorted raw meat and buys any food.
-- The SeedsPlease greenhouse trader buys seeds for far more than anyone else.
+- The SeedsPlease greenhouse traders (caravan and orbital) are removed from the trader pool.
 
 GUESTS
 - Guests carry more silver, and the higher their faction's tech level, the more.
@@ -881,7 +881,7 @@ MEDIEVAL
 - Catapult: its stone balls got their own reinforced fragments instead of the shared ones, and they penetrate noticeably better.
 	</description>
     <package_id>linya.hskmorebalance.core</package_id>
-    <last_commit_time>2026-11-16T17:49:07+00:00</last_commit_time>
+    <last_commit_time>2026-11-28T09:50:51+00:00</last_commit_time>
     <supported_versions>
       <version>1.6</version>
       <version>1.7</version>
